@@ -1,0 +1,476 @@
+[
+  {
+    "id": "NONE",
+    "name": "No Power",
+    "requiredLevel": 0,
+    "stage": "STARTER"
+  },
+  {
+    "id": "FORTUITOUS",
+    "name": "Fortuitous",
+    "requiredLevel": 0,
+    "stage": "STARTER",
+    "baseValues": {
+      "STRENGTH": 20.0,
+      "DEFENSE": 5.0,
+      "HEALTH": 10.0,
+      "CRIT_CHANCE": 45.0,
+      "CRIT_DAMAGE": 20.0
+    }
+  },
+  {
+    "id": "PRETTY",
+    "name": "Pretty",
+    "requiredLevel": 0,
+    "stage": "STARTER",
+    "baseValues": {
+      "STRENGTH": 20.0,
+      "DEFENSE": 5.0,
+      "WALK_SPEED": 5.0,
+      "HEALTH": 5.0,
+      "CRIT_CHANCE": 15.0,
+      "CRIT_DAMAGE": 20.0,
+      "INTELLIGENCE": 30.0
+    }
+  },
+  {
+    "id": "PROTECTED",
+    "name": "Protected",
+    "requiredLevel": 0,
+    "stage": "STARTER",
+    "baseValues": {
+      "STRENGTH": 10.0,
+      "DEFENSE": 45.0,
+      "HEALTH": 35.0,
+      "CRIT_CHANCE": 5.0,
+      "CRIT_DAMAGE": 5.0
+    }
+  },
+  {
+    "id": "SIMPLE",
+    "name": "Simple",
+    "requiredLevel": 0,
+    "stage": "STARTER",
+    "baseValues": {
+      "STRENGTH": 15.0,
+      "DEFENSE": 15.0,
+      "WALK_SPEED": 10.0,
+      "HEALTH": 15.0,
+      "CRIT_CHANCE": 15.0,
+      "CRIT_DAMAGE": 15.0,
+      "INTELLIGENCE": 15.0
+    }
+  },
+  {
+    "id": "WARRIOR",
+    "name": "Warrior",
+    "requiredLevel": 0,
+    "stage": "STARTER",
+    "baseValues": {
+      "STRENGTH": 35.0,
+      "DEFENSE": 5.0,
+      "HEALTH": 10.0,
+      "CRIT_CHANCE": 25.0,
+      "CRIT_DAMAGE": 25.0
+    }
+  },
+  {
+    "id": "COMMANDO",
+    "name": "Commando",
+    "requiredLevel": 0,
+    "stage": "INTERMEDIATE",
+    "baseValues": {
+      "STRENGTH": 35.0,
+      "DEFENSE": 10.0,
+      "HEALTH": 15.0,
+      "CRIT_CHANCE": 5.0,
+      "CRIT_DAMAGE": 35.0
+    }
+  },
+  {
+    "id": "DISCIPLINED",
+    "name": "Disciplined",
+    "requiredLevel": 0,
+    "stage": "INTERMEDIATE",
+    "baseValues": {
+      "STRENGTH": 30.0,
+      "DEFENSE": 10.0,
+      "HEALTH": 15.0,
+      "CRIT_CHANCE": 15.0,
+      "CRIT_DAMAGE": 30.0
+    }
+  },
+  {
+    "id": "INSPIRED",
+    "name": "Inspired",
+    "requiredLevel": 0,
+    "stage": "INTERMEDIATE",
+    "baseValues": {
+      "STRENGTH": 20.0,
+      "DEFENSE": 5.0,
+      "HEALTH": 5.0,
+      "CRIT_CHANCE": 10.0,
+      "CRIT_DAMAGE": 15.0,
+      "INTELLIGENCE": 45.0
+    }
+  },
+  {
+    "id": "OMINOUS",
+    "name": "Ominous",
+    "requiredLevel": 0,
+    "stage": "INTERMEDIATE",
+    "baseValues": {
+      "STRENGTH": 15.0,
+      "HEALTH": 15.0,
+      "CRIT_CHANCE": 15.0,
+      "CRIT_DAMAGE": 15.0,
+      "INTELLIGENCE": 12.0
+    }
+  },
+  {
+    "id": "PREPARED",
+    "name": "Prepared",
+    "requiredLevel": 0,
+    "stage": "INTERMEDIATE",
+    "baseValues": {
+      "STRENGTH": 8.0,
+      "DEFENSE": 47.0,
+      "HEALTH": 37.0,
+      "CRIT_CHANCE": 4.0,
+      "CRIT_DAMAGE": 4.0
+    }
+  },
+
+  {
+    "id": "SILKY",
+    "name": "Silky",
+    "stone": "LUXURIOUS_SPOOL",
+    "requiredLevel": 15,
+    "stage": "INTERMEDIATE",
+    "baseValues": {
+      "WALK_SPEED": 5.0,
+      "CRIT_DAMAGE": 95.0
+    },
+    "bonuses": {
+      "BONUS_ATTACK_SPEED": 5.0
+    }
+  },
+  {
+    "id": "SWEET",
+    "name": "Sweet",
+    "stone": "ROCK_CANDY",
+    "requiredLevel": 15,
+    "stage": "INTERMEDIATE",
+    "baseValues": {
+      "DEFENSE": 45.0,
+      "WALK_SPEED": 10.0,
+      "HEALTH": 45.0
+    },
+    "bonuses": {
+      "WALK_SPEED": 5.0
+    }
+  },
+  {
+    "id": "ADEPT",
+    "name": "Adept",
+    "stone": "END_STONE_SHULKER",
+    "requiredLevel": 20,
+    "stage": "ADVANCED",
+    "baseValues": {
+      "DEFENSE": 40.0,
+      "HEALTH": 50.0,
+      "INTELLIGENCE": 10.0
+    },
+    "bonuses": {
+      "HEALTH": 100.0,
+      "DEFENSE": 50.0
+    }
+  },
+  {
+    "id": "BLOODY",
+    "name": "Bloddy",
+    "stone": "BEATING_HEART",
+    "requiredLevel": 20,
+    "stage": "ADVANCED",
+    "baseValues": {
+      "STRENGTH": 45.0,
+      "CRIT_DAMAGE": 45.0,
+      "INTELLIGENCE": 10.0
+    },
+    "bonuses": {
+      "BONUS_ATTACK_SPEED": 10.0
+    }
+  },
+  {
+    "id": "FORCEFUL",
+    "name": "Forceful",
+    "stone": "ACACIA_BIRDHOUSE",
+    "requiredLevel": 20,
+    "stage": "ADVANCED",
+    "baseValues": {
+      "STRENGTH": 75.0,
+      "HEALTH": 5.0,
+      "CRIT_DAMAGE": 20.0
+    },
+    "bonuses": {
+      "FEROCITY": 4.0
+    }
+  },
+  {
+    "id": "ITCHY",
+    "name": "Itchy",
+    "stone": "FURBALL",
+    "requiredLevel": 20,
+    "stage": "ADVANCED",
+    "baseValues": {
+      "STRENGTH": 30.0,
+      "WALK_SPEED": 5.0,
+      "CRIT_DAMAGE": 35.0,
+      "BONUS_ATTACK_SPEED": 30.0
+    },
+    "bonuses": {
+      "STRENGTH": 15.0,
+      "CRIT_DAMAGE": 15.0
+    }
+  },
+  {
+    "id": "MYTHICAL",
+    "name": "Mythical",
+    "stone": "OBSIDIAN_TABLET",
+    "requiredLevel": 20,
+    "stage": "ADVANCED",
+    "baseValues": {
+      "STRENGTH": 17.0,
+      "DEFENSE": 17.0,
+      "WALK_SPEED": 8.0,
+      "HEALTH": 17.0,
+      "CRIT_CHANCE": 17.0,
+      "CRIT_DAMAGE": 17.0,
+      "INTELLIGENCE": 17.0
+    },
+    "bonuses": {
+      "STRENGTH": 40.0,
+      "HEALTH": 150.0
+    }
+  },
+  {
+    "id": "SHADED",
+    "name": "Shaded",
+    "stone": "DARK_ORB",
+    "requiredLevel": 20,
+    "stage": "ADVANCED",
+    "baseValues": {
+      "STRENGTH": 20.0,
+      "WALK_SPEED": 5.0,
+      "CRIT_DAMAGE": 75.0
+    },
+    "bonuses": {
+      "BONUS_ATTACK_SPEED": 3.0,
+      "FEROCITY": 3.0
+    }
+  },
+  {
+    "id": "SIGHTED",
+    "name": "Sighted",
+    "stone": "ENDER_MONOCLE",
+    "requiredLevel": 15,
+    "stage": "INTERMEDIATE",
+    "baseValues": {
+      "INTELLIGENCE": 100.0
+    },
+    "bonuses": {
+      "ABILITY_DAMAGE": 3.0
+    }
+  },
+  {
+    "id": "BIZARRE",
+    "name": "Bizarre",
+    "stone": "ECCENTRIC_PAINTING",
+    "requiredLevel": 25,
+    "stage": "MASTER",
+    "baseValues": {
+      "STRENGTH": -10.0,
+      "CRIT_DAMAGE": -10.0,
+      "INTELLIGENCE": 120.0
+    },
+    "bonuses": {
+      "ABILITY_DAMAGE": 5.0
+    }
+  },
+  {
+    "id": "DEMONIC",
+    "name": "Demonic",
+    "stone": "HORNS_OF_TORMENT",
+    "requiredLevel": 25,
+    "stage": "MASTER",
+    "baseValues": {
+      "STRENGTH": 23.0,
+      "INTELLIGENCE": 77.0
+    },
+    "bonuses": {
+      "CRIT_DAMAGE": 50.0
+    }
+  },
+  {
+    "id": "HURTFUL",
+    "name": "Hurtful",
+    "stone": "MAGMA_URCHIN",
+    "requiredLevel": 25,
+    "stage": "MASTER",
+    "baseValues": {
+      "STRENGTH": 20.0,
+      "CRIT_DAMAGE": 80.0
+    },
+    "bonuses": {
+      "BONUS_ATTACK_SPEED": 15.0
+    }
+  },
+  {
+    "id": "PLEASANT",
+    "name": "Pleasant",
+    "stone": "PRECIOUS_PEARL",
+    "requiredLevel": 25,
+    "stage": "MASTER",
+    "baseValues": {
+      "DEFENSE": 60.0,
+      "HEALTH": 40.0
+    },
+    "bonuses": {
+      "DEFENSE": 139.0,
+      "HEALTH": 130.0
+    }
+  },
+  {
+    "id": "SANGUISUGE",
+    "name": "Sanguisuge",
+    "stone": "DISPLACED_LEECH",
+    "requiredLevel": 10,
+    "stage": "STARTER",
+    "baseValues": {
+      "STRENGTH": 50.0,
+      "HEALTH": 15.0,
+      "CRIT_DAMAGE": 20.0,
+      "MENDING": 15.0
+    },
+    "bonuses": {
+      "INTELLIGENCE": 100.0
+    }
+  },
+  {
+    "id": "FROZEN",
+    "name": "Frozen",
+    "stone": "GLACITE_SHARD",
+    "requiredLevel": 20,
+    "stage": "ADVANCED",
+    "baseValues": {
+      "STRENGTH": 25.0,
+      "DEFENSE": 60.0,
+      "WALK_SPEED": -15.0,
+      "CRIT_DAMAGE": 50.0
+    },
+    "bonuses": {
+      "STRENGTH": 25.0,
+      "CRIT_DAMAGE": 25.0,
+      "TRUE_DEFENSE": 10.0
+    }
+  },
+  {
+    "id": "HEALTHY",
+    "name": "Healthy",
+    "stone": "VITAMIN_DEATH",
+    "requiredLevel": 30,
+    "stage": "GRANDIOSE",
+    "baseValues": {
+      "HEALTH": 100.0
+    },
+    "bonuses": {
+      "HEALTH": 200.0
+    }
+  },
+  {
+    "id": "SLENDER",
+    "name": "Slender",
+    "stone": "HAZMAT_ENDERMAN",
+    "requiredLevel": 30,
+    "stage": "GRANDIOSE",
+    "baseValues": {
+      "STRENGTH": 25.0,
+      "DEFENSE": 25.0,
+      "WALK_SPEED": 5.0,
+      "HEALTH": 25.0,
+      "CRIT_DAMAGE": 25.0,
+      "INTELLIGENCE": 25.0,
+      "BONUS_ATTACK_SPEED": 15.0
+    },
+    "bonuses": {
+      "STRENGTH": 50.0,
+      "DEFENSE": 100.0
+    }
+  },
+  {
+    "id": "STRONG",
+    "name": "Strong",
+    "stone": "MANDRAA",
+    "requiredLevel": 30,
+    "stage": "GRANDIOSE",
+    "baseValues": {
+      "STRENGTH": 50.0,
+      "CRIT_DAMAGE": 50.0
+    },
+    "bonuses": {
+      "STRENGTH": 25.0,
+      "CRIT_DAMAGE": 25.0
+    }
+  },
+  {
+    "id": "BUBBA",
+    "name": "Bubba",
+    "stone": "BUBBA_BLISTER",
+    "requiredLevel": 25,
+    "stage": "MASTER",
+    "baseValues": {
+      "STRENGTH": 25.0,
+      "DEFENSE": -40.0,
+      "HEALTH": 15.0,
+      "CRIT_CHANCE": 10.0,
+      "CRIT_DAMAGE": 45.0,
+      "BONUS_ATTACK_SPEED": 25.0,
+      "TRUE_DEFENSE": 20.0
+    },
+    "bonuses": {
+      "COMBAT_WISDOM": 2.0
+    }
+  },
+  {
+    "id": "CRUMBLY",
+    "name": "Crumbly",
+    "stone": "CHOCOLATE_CHIP",
+    "requiredLevel": 20,
+    "stage": "ADVANCED",
+    "baseValues": {
+      "HEALTH": 30.0,
+      "INTELLIGENCE": 15.0,
+      "TRUE_DEFENSE": 10.0,
+      "MENDING": 30.0,
+      "VITALITY": 30.0
+    },
+    "bonuses": {
+      "WALK_SPEED": 25.0
+    }
+  },
+  {
+    "id": "SCORCHING",
+    "name": "Scorching",
+    "stone": "SCORCHED_BOOKS",
+    "requiredLevel": 35,
+    "stage": "MARVELOUS",
+    "baseValues": {
+      "STRENGTH": 35.0,
+      "CRIT_DAMAGE": 40.0,
+      "BONUS_ATTACK_SPEED": 25.0
+    },
+    "bonuses": {
+      "FEROCITY": 7.0
+    }
+  }
+]

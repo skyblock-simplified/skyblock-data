@@ -1,0 +1,124 @@
+[
+  {
+    "id": "YOUR_ISLAND",
+    "name": "Your Island",
+    "region": "PRIVATE_ISLAND",
+    "format": "GREEN",
+    "ordinal": 0
+  },
+  {
+    "id": "HUB",
+    "name": "Hub",
+    "region": "HUB",
+    "format": "GREEN",
+    "ordinal": 1
+  },
+  {
+    "id": "THE_FARMING_ISLANDS",
+    "name": "The Farming Islands",
+    "region": "THE_FARMING_ISLANDS",
+    "format": "GREEN",
+    "ordinal": 2
+  },
+  {
+    "id": "GARDEN",
+    "name": "Garden",
+    "region": "THE_GARDEN",
+    "format": "GREEN",
+    "ordinal": 3
+  },
+  {
+    "id": "SPIDERS_DEN",
+    "name": "Spider's Den",
+    "region": "SPIDERS_DEN",
+    "format": "RED",
+    "ordinal": 4
+  },
+  {
+    "id": "THE_END",
+    "name": "The End",
+    "region": "THE_END",
+    "format": "LIGHT_PURPLE",
+    "ordinal": 5
+  },
+  {
+    "id": "CRIMSON_ISLE",
+    "name": "Crimson Isle",
+    "region": "CRIMSON_ISLE",
+    "format": "RED",
+    "ordinal": 6
+  },
+  {
+    "id": "DEEP_CAVERNS",
+    "name": "Deep Caverns",
+    "region": "DEEP_CAVERNS",
+    "format": "AQUA",
+    "ordinal": 9
+  },
+  {
+    "id": "DWARVEN_MINES",
+    "name": "Dwarven Mines",
+    "region": "DWARVEN_MINES",
+    "format": "DARK_GREEN",
+    "ordinal": 10
+  },
+  {
+    "id": "CRYSTAL_HOLLOWS",
+    "name": "Crystal Hollows",
+    "region": "CRYSTAL_HOLLOWS",
+    "format": "DARK_PURPLE",
+    "ordinal": 11
+  },
+  {
+    "id": "THE_PARK",
+    "name": "The Park",
+    "region": "THE_PARK",
+    "format": "DARK_AQUA",
+    "ordinal": 12
+  },
+  {
+    "id": "GALATEA",
+    "name": "Galatea",
+    "region": "GALATEA",
+    "format": "DARK_GREEN",
+    "ordinal": 13
+  },
+  {
+    "id": "SPOOKY_FESTIVAL",
+    "name": "Spooky Festival",
+    "format": "GOLD",
+    "ordinal": 14
+  },
+  {
+    "id": "THE_CATACOMBS",
+    "name": "The Catacombs",
+    "region": "THE_CATACOMBS",
+    "format": "RED",
+    "ordinal": 15
+  },
+  {
+    "id": "FISHING",
+    "name": "Fishing",
+    "format": "DARK_AQUA",
+    "ordinal": 19
+  },
+  {
+    "id": "MYTHOLOGICAL_CREATURES",
+    "name": "Mythological Creatures",
+    "format": "DARK_GREEN",
+    "ordinal": 20
+  },
+  {
+    "id": "JERRY",
+    "name": "Jerry",
+    "format": "GOLD",
+    "ordinal": 22
+  },
+  {
+    "id": "KUUDRA",
+    "name": "Kuudra",
+    "region": "KUUDRAS_HOLLOW",
+    "format": "RED",
+    "ordinal": 23
+  }
+]

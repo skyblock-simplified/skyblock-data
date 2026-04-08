@@ -1,0 +1,683 @@
+[
+  {
+    "id": "BLAZE",
+    "name": "Inferno Demonlord",
+    "description": "Even demons fear this incarnation of pure evil, constantly feeding on its burning desire for destruction.",
+    "maxLevel": 9,
+    "maxTier": 4,
+    "mobType": "INFERNAL",
+    "weightModifier": 0.0,
+    "weightDivider": 0,
+    "levels": [
+      {
+        "level": 1,
+        "totalExpRequired": 5,
+        "title": "Noob",
+        "unlocks": [
+          "+3 ❤ Health",
+          "Droplet Wisp Recipe",
+          "+15 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 2,
+        "totalExpRequired": 15,
+        "title": "Novice",
+        "unlocks": [
+          "+1 ❁ Strength",
+          "Molten Powder Recipe",
+          "Firedust Dagger Recipe",
+          "Twilight Dagger Recipe",
+          "+25 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 3,
+        "totalExpRequired": 200,
+        "title": "Skilled",
+        "unlocks": [
+          "+4 ❤ Health",
+          "Wisp Upgrade Stone (RARE) Recipe",
+          "Burstopper Talisman Recipe",
+          "Warning Flare Recipe",
+          "Inferno Minion Recipes",
+          "+35 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 4,
+        "totalExpRequired": 1000,
+        "title": "Destroyer",
+        "unlocks": [
+          "+1 ❂ True Defense",
+          "Kindlebane Dagger Recipe",
+          "Mawredge Dagger Recipe",
+          "Demonslayer Gauntlet Dagger Recipe",
+          "Teleporter Pill Recipe",
+          "Travel Scroll to the Smoldering Tomb Recipe",
+          "+50 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 5,
+        "totalExpRequired": 5000,
+        "title": "Bulldozer",
+        "unlocks": [
+          "+5 ❤ Health",
+          "Wisp Upgrade Stone (EPIC) Recipe",
+          "Destruction Cloak Recipe",
+          "Tactical Insertion Recipe",
+          "+75 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 6,
+        "totalExpRequired": 20000,
+        "title": "Savage",
+        "unlocks": [
+          "+2 ❁ Strength",
+          "Pyrochaos Dagger",
+          "Deathripper Dagger Recipe",
+          "Alert Flare Recipe",
+          "Blazetekk™ Ham Radio Recipe",
+          "+100 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 7,
+        "totalExpRequired": 100000,
+        "title": "Deathripper",
+        "unlocks": [
+          "+6 ❤ Health",
+          "Burstopper Artifact Recipe",
+          "Wisp Upgrade Stone (LEGENDARY) Recipe",
+          "Annihilation Cloak Recipe",
+          "SOS Flare Recipe",
+          "+125 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 8,
+        "totalExpRequired": 400000,
+        "title": "Necromancer",
+        "unlocks": [
+          "+2 ❂ True Defense",
+          "Zombie Brain Mixin in Bartender Shop",
+          "Perk: Gain +20% Pet XP from feeding Wisps with Gabagool",
+          "+150 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 9,
+        "totalExpRequired": 1000000,
+        "title": "Grim Reaper",
+        "unlocks": [
+          "+7 ❤ Health",
+          "Perk: Get a 10% discount on Inferno Fuel Blocks",
+          "+150 SkyBlock XP"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ENDERMAN",
+    "name": "Voidgloom Seraph",
+    "description": "If Necron is the right-hand of the Wither King, this dark demigod is the left-hand.",
+    "maxLevel": 9,
+    "maxTier": 4,
+    "mobType": "ENDER",
+    "weightModifier": 0.017,
+    "weightDivider": 1430,
+    "levels": [
+      {
+        "level": 1,
+        "totalExpRequired": 5,
+        "title": "Noob",
+        "unlocks": [
+          "+1 ❤ Health",
+          "Voidwalker Katana Recipe",
+          "+15 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 2,
+        "totalExpRequired": 15,
+        "title": "Novice",
+        "unlocks": [
+          "+1 ✎ Intelligence",
+          "Null Ovoid Recipe",
+          "Soulflow Pile Recipe",
+          "Lesser Soulflow Engine Recipe",
+          "Soulflow Recipe",
+          "+25 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 3,
+        "totalExpRequired": 200,
+        "title": "Skilled",
+        "unlocks": [
+          "+2 ❤ Health",
+          "Soul Esoward Recipe",
+          "Voidedge Katana Recipe",
+          "+35 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 4,
+        "totalExpRequired": 1000,
+        "title": "Destroyer",
+        "unlocks": [
+          "+2 ✎ Intelligence",
+          "Final Destination Helmet Recipe",
+          "Final Destination Chestplate Recipe",
+          "Final Destination Leggings Recipe",
+          "Final Destination Boots Recipe",
+          "Travel Scroll to the Void Sepulture Recipe",
+          "Voidling Minion Recipes",
+          "+50 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 5,
+        "totalExpRequired": 5000,
+        "title": "Bulldozer",
+        "unlocks": [
+          "+3 ❤ Health",
+          "Juju Shortbow Recipe",
+          "Soulflow Battery Recipe",
+          "Soulflow Engine Recipe",
+          "Vorpal Katana Recipe",
+          "Gloomlock Grimoire Recipe",
+          "+75 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 6,
+        "totalExpRequired": 20000,
+        "title": "Savage",
+        "unlocks": [
+          "+3 ✎ Intelligence",
+          "Gyrokinetic Wand",
+          "Aspect of the Void Recipe",
+          "Atomsplit Katana Recipe",
+          "Sinseeker Scythe Recipe",
+          "+100 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 7,
+        "totalExpRequired": 100000,
+        "title": "Voidwracker",
+        "unlocks": [
+          "+4 ❤ Health",
+          "Soulflow Supercell Recipe",
+          "Etherwarp Conduit Recipe",
+          "Ender Relic Recipe",
+          "Terminator Recipe",
+          "+125 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 8,
+        "totalExpRequired": 400000,
+        "title": "Tall Purple Hater",
+        "unlocks": [
+          "+4 ✎ Intelligence",
+          "Perk: +15% chance to find RNGesus enchants in Superpairs",
+          "End Portal Fumes Mixin in Bartender Shop",
+          "+150 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 9,
+        "totalExpRequired": 1000000,
+        "title": "Definition of End",
+        "unlocks": [
+          "+5 ❤ Health",
+          "Perk: +15% chance to find Elusive mobs",
+          "+150 SkyBlock XP"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SPIDER",
+    "name": "Tarantula Broodfather",
+    "description": "Monstrous Spider who poisons and devours its victims.",
+    "maxLevel": 9,
+    "maxTier": 5,
+    "mobType": "ARTHROPOD",
+    "weightModifier": 0.08,
+    "weightDivider": 2118,
+    "levels": [
+      {
+        "level": 1,
+        "totalExpRequired": 10,
+        "title": "Noob",
+        "unlocks": [
+          "+1 ☠ Crit Damage",
+          "Spider Ring Recipe",
+          "+15 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 2,
+        "totalExpRequired": 25,
+        "title": "Novice",
+        "unlocks": [
+          "+1 ☠ Crit Damage",
+          "Tarantula Silk Recipe",
+          "Recluse Fang Recipe",
+          "+25 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 3,
+        "totalExpRequired": 200,
+        "title": "Skilled",
+        "unlocks": [
+          "+1 ☠ Crit Damage",
+          "Medium Slayer Sack Recipe",
+          "+35 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 4,
+        "totalExpRequired": 1000,
+        "title": "Destroyer",
+        "unlocks": [
+          "+1 ☠ Crit Damage",
+          "Tarantula Helmet Recipe",
+          "Tarantula Chestplate Recipe",
+          "Tarantula Leggings Recipe",
+          "Tarantula Boots Recipe",
+          "+50 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 5,
+        "totalExpRequired": 5000,
+        "title": "Bulldozer",
+        "unlocks": [
+          "+2 ☠ Crit Damage",
+          "Tarantula Minion I",
+          "Scorpion Bow Recipe",
+          "Scorpion Foil Recipe",
+          "+75 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 6,
+        "totalExpRequired": 20000,
+        "title": "Savage",
+        "unlocks": [
+          "+2 ☠ Crit Damage",
+          "Flycatcher Recipe",
+          "Spider Artifact Recipe",
+          "Tarantula Fang Recipe",
+          "+100 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 7,
+        "totalExpRequired": 100000,
+        "title": "Pest Control Genius",
+        "unlocks": [
+          "+2 ☠ Crit Damage",
+          "Survivor Cube",
+          "Mosquito Shortbow Recipe",
+          "Mosquito Pet Recipe",
+          "Tarantula Ring Recipe",
+          "Primordial Helmet Recipe",
+          "Primordial Chestplate Recipe",
+          "Primordial Leggings Recipe",
+          "Primordial Boots Recipe",
+          "Shriveled Bracelet Recipe",
+          "+125 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 8,
+        "totalExpRequired": 400000,
+        "title": "Tarantula Exterminator",
+        "unlocks": [
+          "+3 ☠ Crit Damage",
+          "+10 ☯ Alchemy Wisdom",
+          "Sting Recipe",
+          "The Primordial Recipe",
+          "+150 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 9,
+        "totalExpRequired": 1000000,
+        "title": "Spider Annihilator",
+        "unlocks": [
+          "+3 ☠ Crit Damage",
+          "Tarantula Minion XII Upgrade Stone in Bartender Shop",
+          "+150 SkyBlock XP"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "VAMPIRE",
+    "name": "Riftstalker Bloodfiend",
+    "description": "A half-vampire, half-thrall immortal golem creation representing the multiverse coven in combat.",
+    "maxLevel": 5,
+    "maxTier": 5,
+    "mobType": "UNDEAD",
+    "weightModifier": 0.0,
+    "weightDivider": 0,
+    "levels": [
+      {
+        "level": 1,
+        "totalExpRequired": 20,
+        "title": "Noob",
+        "unlocks": [
+          "+20 ф Rift Time",
+          "Silver-Laced Karambit Recipe",
+          "Anti-Bite Scarf Recipe",
+          "Warm Wizard Face Recipe",
+          "Holy Ice Recipe",
+          "+15 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 2,
+        "totalExpRequired": 75,
+        "title": "Novice",
+        "unlocks": [
+          "+30 ф Rift Time",
+          "Steak Stake Recipe",
+          "Juicy Healing Melon Recipe",
+          "Maddox Badphone Recipe",
+          "+25 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 3,
+        "totalExpRequired": 240,
+        "title": "Alum",
+        "unlocks": [
+          "+45 ф Rift Time",
+          "Vampiric Timecharm Recipe",
+          "Bloodbadge Recipe",
+          "Leggings Of The Coven Recipe",
+          "Perma-Jelled Garlic-Flavored Re-Heat Gummy Polar Bear Recipe",
+          "+35 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 4,
+        "totalExpRequired": 840,
+        "title": "Heartpiercer",
+        "unlocks": [
+          "+60 ф Rift Time",
+          "Silver-Twist Karambit Recipe",
+          "Luscious Healing Melon Recipe",
+          "Anti-Bite Scarf Recipe",
+          "Warmer Wizard Face Recipe",
+          "Weirder Tuba Recipe",
+          "+50 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 5,
+        "totalExpRequired": 2400,
+        "title": "Lord of Night",
+        "unlocks": [
+          "+80 ф Rift Time",
+          "Live Sepulture Chestplate Recipe",
+          "Vampire Dentist Relic Recipe",
+          "+75 SkyBlock XP"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "WOLF",
+    "name": "Sven Packmaster",
+    "description": "Rabid Wolf genetically modified by a famous mad scientist. Eats bones and flesh.",
+    "maxLevel": 9,
+    "maxTier": 4,
+    "mobType": "ANIMAL",
+    "weightModifier": 0.015,
+    "weightDivider": 1962,
+    "levels": [
+      {
+        "level": 1,
+        "totalExpRequired": 10,
+        "title": "Noob",
+        "unlocks": [
+          "+1 ✦ Speed",
+          "Red Claw Talisman Recipe",
+          "+15 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 2,
+        "totalExpRequired": 30,
+        "title": "Novice",
+        "unlocks": [
+          "+2 ❤ Health",
+          "Radiant Power Orb Recipe",
+          "Golden Tooth Recipe",
+          "Large Slayer Sack Recipe",
+          "+25 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 3,
+        "totalExpRequired": 250,
+        "title": "Skilled",
+        "unlocks": [
+          "+1 ✦ Speed",
+          "Maddox Batphone Recipe",
+          "Shaman Sword Recipe",
+          "+35 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 4,
+        "totalExpRequired": 1500,
+        "title": "Destroyer",
+        "unlocks": [
+          "+2 ❤ Health",
+          "Mastiff Crown Recipe",
+          "Mastiff Chestplate Recipe",
+          "Mastiff Leggings Recipe",
+          "Mastiff Boots Recipe",
+          "+50 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 5,
+        "totalExpRequired": 5000,
+        "title": "Bulldozer",
+        "unlocks": [
+          "+1 ☠ Crit Damage",
+          "Red Claw Ring Recipe",
+          "Edible Mace Recipe",
+          "Weird Tuba Recipe",
+          "Red Claw Artifact Recipe",
+          "+75 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 6,
+        "totalExpRequired": 20000,
+        "title": "Savage",
+        "unlocks": [
+          "+3 ❤ Health",
+          "Mana Flux Power Orb Recipe",
+          "Pooch Sword Recipe",
+          "Helmet of the Pack Recipe",
+          "Chestplate of the Pack Recipe",
+          "Leggings of the Pack Recipe",
+          "Boots of the Pack Recipe",
+          "+100 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 7,
+        "totalExpRequired": 100000,
+        "title": "King Hunter",
+        "unlocks": [
+          "+2 ☠ Crit Damage",
+          "+125 SkyBlock XP",
+          "Hunter Talisman Recipe",
+          "Overflux Power Orb Recipe"
+        ]
+      },
+      {
+        "level": 8,
+        "totalExpRequired": 400000,
+        "title": "Pack Leader",
+        "unlocks": [
+          "+1 ✦ Speed",
+          "Perk: Lose 5% less coins on death",
+          "Hunter Ring Recipe",
+          "Plasmaflux Power Orb Recipe",
+          "Wolf Fur Mixin in Bartender Shop",
+          "+150 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 9,
+        "totalExpRequired": 1000000,
+        "title": "Alpha Wolf",
+        "unlocks": [
+          "+5 ❤ Health",
+          "+150 SkyBlock XP"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ZOMBIE",
+    "name": "Revenant Horror",
+    "description": "Abhorrent Zombie stuck between life and death for an eternity.",
+    "maxLevel": 9,
+    "maxTier": 5,
+    "mobType": "UNDEAD",
+    "weightModifier": 0.15,
+    "weightDivider": 2208,
+    "levels": [
+      {
+        "level": 1,
+        "totalExpRequired": 5,
+        "title": "Noob",
+        "unlocks": [
+          "+2 ❤ Health",
+          "Wand of Healing Recipe",
+          "+15 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 2,
+        "totalExpRequired": 15,
+        "title": "Novice",
+        "unlocks": [
+          "+2 ❤ Health",
+          "Zombie Ring Recipe",
+          "Revenant Viscera Recipe",
+          "+25 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 3,
+        "totalExpRequired": 200,
+        "title": "Skilled",
+        "unlocks": [
+          "+3 ❤ Health",
+          "Undead Catalyst",
+          "Revenant Falchion Recipe",
+          "Wand of Mending Recipe",
+          "Crystallized Heart Recipe",
+          "+35 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 4,
+        "totalExpRequired": 1000,
+        "title": "Destroyer",
+        "unlocks": [
+          "+3 ❤ Health",
+          "Revenant Boots Recipe",
+          "Revenant Leggings Recipe",
+          "Travel Scroll To Hub Crypts Recipe",
+          "+50 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 5,
+        "totalExpRequired": 5000,
+        "title": "Bulldozer",
+        "unlocks": [
+          "+4 ❤ Health",
+          "Revenant Minion I",
+          "Revenant Chestplate Recipe",
+          "Devour Ring Recipe",
+          "Voodoo Doll Recipe",
+          "Small Slayer Sack Recipe",
+          "+75 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 6,
+        "totalExpRequired": 20000,
+        "title": "Savage",
+        "unlocks": [
+          "+4 ❤ Health",
+          "Revenant Catalyst",
+          "Wand of Restoration Recipe",
+          "Revived Heart Recipe",
+          "Reaper Falchion Recipe",
+          "+100 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 7,
+        "totalExpRequired": 100000,
+        "title": "Deathripper",
+        "unlocks": [
+          "+5 ❤ Health",
+          "Zombie Artifact Recipe",
+          "Reaper Mask Recipe",
+          "Reaper Scythe Recipe",
+          "Wand of Atonement Recipe",
+          "Reaper Chestplate Recipe",
+          "Reaper Leggings Recipe",
+          "Reaper Boots Recipe",
+          "+125 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 8,
+        "totalExpRequired": 400000,
+        "title": "Necromancer",
+        "unlocks": [
+          "+5 ❤ Health",
+          "Reaper Orb Recipe",
+          "Halberd Of The Shredded Recipe",
+          "Warden Helmet Recipe",
+          "Zombie Brain Mixin in Bartender Shop",
+          "+150 SkyBlock XP"
+        ]
+      },
+      {
+        "level": 9,
+        "totalExpRequired": 1000000,
+        "title": "Grim Reaper",
+        "unlocks": [
+          "+6 ❤ Health",
+          "Reaper Gem",
+          "Revenant Minion XII Upgrade Stone in Bartender Shop",
+          "+150 SkyBlock XP"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,253 @@
+[
+  {
+    "id": "NONE",
+    "name": "None",
+    "type": "OTHER"
+  },
+  {
+    "id": "OTHER",
+    "name": "Other",
+    "type": "OTHER"
+  },
+  {
+    "id": "ACCESSORY",
+    "name": "Accessory",
+    "type": "OTHER"
+  },
+  {
+    "id": "PET_ITEM",
+    "name": "Pet Item",
+    "type": "OTHER"
+  },
+  {
+    "id": "REFORGE_STONE",
+    "name": "Reforge Stone",
+    "type": "OTHER"
+  },
+  {
+    "id": "TRAVEL_SCROLL",
+    "name": "Travel Scroll",
+    "type": "OTHER"
+  },
+
+  {
+    "id": "HELMET",
+    "name": "Helmet",
+    "type": "ARMOR"
+  },
+  {
+    "id": "CARNIVAL_MASK",
+    "name": "Carnival Mask",
+    "type": "ARMOR"
+  },
+  {
+    "id": "CHESTPLATE",
+    "name": "Chestplate",
+    "type": "ARMOR"
+  },
+  {
+    "id": "LEGGINGS",
+    "name": "Leggings",
+    "type": "ARMOR"
+  },
+  {
+    "id": "BOOTS",
+    "name": "Boots",
+    "type": "ARMOR"
+  },
+
+  {
+    "id": "COSMETIC",
+    "name": "Cosmetic",
+    "type": "COLLECTIBLE"
+  },
+  {
+    "id": "MEMENTO",
+    "name": "Memento",
+    "type": "COLLECTIBLE"
+  },
+
+  {
+    "id": "ARROW",
+    "name": "Arrow",
+    "type": "CONSUMABLE"
+  },
+  {
+    "id": "ARROW_POISON",
+    "name": "Arrow Poison",
+    "type": "CONSUMABLE"
+  },
+  {
+    "id": "BAIT",
+    "name": "Bait",
+    "type": "CONSUMABLE"
+  },
+  {
+    "id": "BOOSTER",
+    "name": "Booster",
+    "type": "CONSUMABLE"
+  },
+  {
+    "id": "SALT",
+    "name": "Salt",
+    "type": "CONSUMABLE"
+  },
+
+  {
+    "id": "NECKLACE",
+    "name": "Necklace",
+    "type": "EQUIPMENT"
+  },
+  {
+    "id": "CLOAK",
+    "name": "Cloak",
+    "type": "EQUIPMENT"
+  },
+  {
+    "id": "BELT",
+    "name": "Belt",
+    "type": "EQUIPMENT"
+  },
+  {
+    "id": "GLOVES",
+    "name": "Gloves",
+    "type": "EQUIPMENT"
+  },
+  {
+    "id": "BRACELET",
+    "name": "Bracelet",
+    "type": "EQUIPMENT"
+  },
+
+  {
+    "id": "AXE",
+    "name": "Axe",
+    "type": "TOOL"
+  },
+  {
+    "id": "CHISEL",
+    "name": "Chisel",
+    "type": "TOOL"
+  },
+  {
+    "id": "DEPLOYABLE",
+    "name": "Deployable",
+    "type": "TOOL"
+  },
+  {
+    "id": "DRILL",
+    "name": "Drill",
+    "type": "TOOL"
+  },
+  {
+    "id": "FISHING_NET",
+    "name": "Fishing Net",
+    "type": "TOOL"
+  },
+  {
+    "id": "HOE",
+    "name": "Hoe",
+    "type": "TOOL"
+  },
+  {
+    "id": "LASSO",
+    "name": "Lasso",
+    "type": "TOOL"
+  },
+  {
+    "id": "PICKAXE",
+    "name": "Pickaxe",
+    "type": "TOOL"
+  },
+  {
+    "id": "SHEARS",
+    "name": "Shears",
+    "type": "TOOL"
+  },
+  {
+    "id": "TRAP",
+    "name": "Trap",
+    "type": "TOOL"
+  },
+  {
+    "id": "VACUUM",
+    "name": "Vacuum",
+    "type": "TOOL"
+  },
+
+  {
+    "id": "BOW",
+    "name": "Bow",
+    "type": "WEAPON"
+  },
+  {
+    "id": "FISHING_ROD",
+    "name": "Fishing Rod",
+    "type": "WEAPON"
+  },
+  {
+    "id": "GAUNTLET",
+    "name": "Gauntlet",
+    "type": "WEAPON"
+  },
+  {
+    "id": "LONGSWORD",
+    "name": "Longsword",
+    "type": "WEAPON"
+  },
+  {
+    "id": "SWORD",
+    "name": "Sword",
+    "type": "WEAPON"
+  },
+  {
+    "id": "WAND",
+    "name": "Wand",
+    "type": "WEAPON"
+  },
+  {
+    "id": "CONSUMABLE",
+    "name": "Consumable",
+    "type": "CONSUMABLE"
+  },
+  {
+    "id": "DUNGEON_PASS",
+    "name": "Dungeon Pass",
+    "type": "CONSUMABLE"
+  },
+  {
+    "id": "FISHING_ROD_PART",
+    "name": "Fishing Rod Part",
+    "type": "OTHER"
+  },
+  {
+    "id": "GARDEN_CHIP",
+    "name": "Garden Chip",
+    "type": "OTHER"
+  },
+  {
+    "id": "MUTATION",
+    "name": "Mutation",
+    "type": "OTHER"
+  },
+  {
+    "id": "PORTAL",
+    "name": "Portal",
+    "type": "OTHER"
+  },
+  {
+    "id": "WATERING_CAN",
+    "name": "Watering Can",
+    "type": "TOOL"
+  },
+  {
+    "id": "SHOVEL",
+    "name": "Shovel",
+    "type": "TOOL"
+  },
+  {
+    "id": "SPADE",
+    "name": "Spade",
+    "type": "TOOL"
+  }
+]

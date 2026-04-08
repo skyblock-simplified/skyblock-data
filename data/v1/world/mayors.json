@@ -1,0 +1,559 @@
+[
+  {
+    "id": "SLAYER_CANDIDATE",
+    "name": "Aatrox",
+    "special": false,
+    "perks": [
+      {
+        "id": "SLAYER_XP_BUFF",
+        "name": "Slayer XP Buff",
+        "description": "Earn %{VALUE:SLAYER_XP} more Slayer XP.",
+        "stats": [
+          {
+            "id": "SLAYER_XP",
+            "precision": 0,
+            "type": "PERCENT",
+            "value": 25
+          }
+        ]
+      },
+      {
+        "id": "PATHFINDER",
+        "name": "Pathfinder",
+        "description": "Gain rare drops %{VALUE:RARE_DROPS} more often.",
+        "stats": [
+          {
+            "id": "RARE_DROPS",
+            "precision": 0,
+            "type": "PERCENT",
+            "value": 20
+          }
+        ]
+      },
+      {
+        "id": "SLASHED_PRICING",
+        "name": "SLASHED Pricing",
+        "description": "Starting slayer quests is half price.",
+        "stats": [
+          {
+            "id": "SLAYER_QUEST_COST",
+            "precision": 1,
+            "type": "MULTIPLY",
+            "value": -0.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MINING_CANDIDATE",
+    "name": "Cole",
+    "special": false,
+    "perks": [
+      {
+        "id": "MINING_FIESTA",
+        "name": "Mining Fiesta",
+        "description": "Schedules %{VALUE:MINING_FIESTA_COUNT} %{KEYWORD:MINING_FIESTA} events that last for %{VALUE:DURATION} SkyBlock Days each. Earn %{VALUE:MORE_DROPS} drops and extra %{KEYWORD:UNIQUE_LOOT}, including %{KEYWORD:REFINED_MINERALS} and %{KEYWORD:GLOSSY_GEMSTONES}.\nGrants %{VALUE:MINING_WISDOM} %{STAT:MINING_WISDOM} during the event which is only active on Public Islands.",
+        "stats": [
+          {
+            "id": "MINING_FIESTA_COUNT",
+            "precision": 0,
+            "type": "NONE",
+            "value": 5
+          },
+          {
+            "id": "DURATION",
+            "precision": 0,
+            "type": "NONE",
+            "value": 7
+          },
+          {
+            "id": "MORE_DROPS",
+            "precision": 0,
+            "type": "MULTIPLY",
+            "value": 2
+          },
+          {
+            "id": "MINING_WISDOM",
+            "precision": 0,
+            "type": "FLAT",
+            "value": 75
+          }
+        ]
+      },
+      {
+        "id": "MINING_XP_BUFF",
+        "name": "Mining XP Buff",
+        "description": "Earn %{VALUE:MINING_WISDOM} %{STAT:MINING_WISDOM} on public islands.",
+        "stats": [
+          {
+            "id": "MINING_WISDOM",
+            "precision": 0,
+            "type": "FLAT",
+            "value": 60
+          }
+        ]
+      },
+      {
+        "id": "MOLTEN_FORGE",
+        "name": "Molten Forge",
+        "description": "Decreases the time it takes to Forge items by %{VALUE:FORGE_TIME}.",
+        "stats": [
+          {
+            "id": "FORGE_TIME",
+            "precision": 0,
+            "type": "PERCENT",
+            "value": 25
+          }
+        ]
+      },
+      {
+        "id": "PROSPECTION",
+        "name": "Prospection",
+        "description": "Mining minions work %{VALUE:MINING_MINION_SPEED} faster.",
+        "stats": [
+          {
+            "id": "MINING_MINION_SPEED",
+            "precision": 0,
+            "type": "PERCENT",
+            "value": 25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PETS_CANDIDATE",
+    "name": "Diana",
+    "special": false,
+    "perks": [
+      {
+        "id": "PET_XP_BUFF",
+        "name": "Pet XP Buff",
+        "description": "Gain %{VALUE:PET_XP} more Pet XP.",
+        "stats": [
+          {
+            "id": "PET_XP",
+            "precision": 0,
+            "type": "PERCENT",
+            "value": 35
+          }
+        ]
+      },
+      {
+        "id": "LUCKY",
+        "name": "Lucky!",
+        "description": "Gain %{VALUE:PET_LUCK} %{STAT:PET_LUCK}.",
+        "stats": [
+          {
+            "id": "PET_LUCK",
+            "precision": 0,
+            "type": "FLAT",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "id": "MYTHOLOGICAL_RITUAL",
+        "name": "Mythological Ritual",
+        "description": "Mayor Diana will sell the Griffin Pet, which lets you find %{KEYWORD:MYTHOLOGICAL_CREATURE} and tons of %{KEYWORDS:UNIQUE_ITEMS}.",
+        "stats": []
+      },
+      {
+        "id": "SHARING_IS_CARING",
+        "name": "Sharing is Caring",
+        "description": "You can have up to %{VALUE:EXP_SHARE_COUNT} EXP Shared Pets active at once. Your EXP Share rate is increased by %{VALUE:EXP_SHARE_RATE}.",
+        "stats": [
+          {
+            "id": "EXP_SHARE_COUNT",
+            "precision": 0,
+            "type": "NONE",
+            "value": 3
+          },
+          {
+            "id": "EXP_SHARE_RATE",
+            "precision": 0,
+            "type": "PERCENT",
+            "value": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ECONOMIST_CANDIDATE",
+    "name": "Diaz",
+    "special": false,
+    "perks": [
+      {
+        "id": "LONG_TERM_INVESTMENT",
+        "name": "Long Term Investment",
+        "description": "The elected Minister will appear in the next Election with all of their available perks.",
+        "stats": []
+      },
+      {
+        "id": "SHOPPING_SPREE",
+        "name": "Shopping Spree",
+        "description": "Increase daily NPC limits by %{VALUE:NPC_LIMIT}.",
+        "stats": [
+          {
+            "id": "NPC_LIMIT",
+            "precision": 0,
+            "type": "MULTIPLY",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "id": "STOCK_EXCHANGE",
+        "name": "Stock Exchange",
+        "description": "Participate in the Stonks Auction for a chance to win Stock of Stonks! Trade them for %{KEYWORDS:EXTRAVAGANT_ITEM} at the Trade Center.",
+        "stats": []
+      },
+      {
+        "id": "VOLUME_TRADING",
+        "name": "Volume Trading",
+        "description": "Double the item quantity from Shen's Auction, Shen's Special, and Rift Shen's on the year Diaz is elected. Two additional Shen's Special auctions will be available for the duration of Diaz being elected as Mayor.",
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "FARMING_CANDIDATE",
+    "name": "Finnegan",
+    "special": false,
+    "perks": [
+      {
+        "id": "BLOOMING_BUSINESS",
+        "name": "Blooming Business",
+        "description": "Garden Visitors will give out Fine Flour and appear more often. Additional visitors may visit your Garden.\nHigh rarity Visitors are more likely to show up & will provide %{VALUE:MORE_COPPER} more Copper.",
+        "stats": [
+          {
+            "id": "MORE_COPPER",
+            "precision": 0,
+            "type": "PERCENT",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "id": "GOATED",
+        "name": "GOATed",
+        "description": "%{KEYWORD:JACOBS_CONTEST} brackets include up to %{VALUE:MORE_PLAYERS} more players each.",
+        "stats": [
+          {
+            "id": "MORE_PLAYERS",
+            "precision": 0,
+            "type": "PERCENT",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "id": "PELT_POCALYPSE",
+        "name": "Pelt-pocalypse",
+        "description": "Obtain %{VALUE:MORE_PELTS} more %{KEYWORDS:PELT} from Trevor in the %{ZONE:MUSHROOM_DESERT}, hunt a new Trapper Mob, and purchase items from a new Trapper Shop.",
+        "stats": [
+          {
+            "id": "MORE_PELTS",
+            "precision": 1,
+            "type": "MULTIPLY",
+            "value": 1.5
+          }
+        ]
+      },
+      {
+        "id": "PEST_ERADICATOR",
+        "name": "Pest Eradicator",
+        "description": "The duration of Pesthunter Phillip's %{STAT:FARMING_FORTUNE} bonus is now %{VALUE:DURATION} minutes.\nPests are now %{VALUE:SPAWN_CHANCE} more likely to spawn in sprayed plots.",
+        "stats": [
+          {
+            "id": "DURATION",
+            "precision": 0,
+            "type": "NONE",
+            "value": 60
+          },
+          {
+            "id": "SPAWN_CHANCE",
+            "precision": 0,
+            "type": "MULTIPLY",
+            "value": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EVENTS_CANDIDATE",
+    "name": "Foxy",
+    "special": false,
+    "perks": [
+      {
+        "id": "A_TIME_FOR_GIVING",
+        "name": "A Time for Giving",
+        "description": "Party Chests and Party Gifts can be obtained while this event is active.",
+        "stats": []
+      },
+      {
+        "id": "CHIVALROUS_CARNIVAL",
+        "name": "Chivalrous Carnival",
+        "description": "Schedules a Carnival in the Hub that is active throughout the entire year.",
+        "stats": []
+      },
+      {
+        "id": "EXTRA_EVENT",
+        "name": "Extra Event",
+        "description": "Schedules an extra %{FORMAT:GOLD}{EVENT_NAME} %{FORMAT:GRAY}event during the year.",
+        "stats": []
+      },
+      {
+        "id": "SWEET_BENEVOLENCE",
+        "name": "Sweet Benevolence",
+        "description": "Earn %{VALUE:MORE_STUFF} more Candy, Gifts and Chocolate from duplicate Rabbits during their respective events.",
+        "stats": [
+          {
+            "id": "MORE_STUFF",
+            "precision": 0,
+            "type": "PLUS_PERCENT",
+            "value": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FISHING_CANDIDATE",
+    "name": "Marina",
+    "special": false,
+    "perks": [
+      {
+        "id": "DOUBLE_TROUBLE",
+        "name": "Double Trouble",
+        "description": "For every %{VALUE:EVERY_SEA_CREATURE_CHANCE} %{STAT:SEA_CREATURE_CHANCE}, gain %{VALUE:GAIN_DOUBLE_HOOK_CHANCE} %{STAT:DOUBLE_HOOK_CHANCE}.",
+        "stats": [
+          {
+            "id": "EVERY_SEA_CREATURE_CHANCE",
+            "precision": 0,
+            "type": "FLAT",
+            "value": 1
+          },
+          {
+            "id": "DOUBLE_HOOK_CHANCE",
+            "precision": 1,
+            "type": "FLAT",
+            "value": 0.1
+          }
+        ]
+      },
+      {
+        "id": "FISHING_XP_BUFF",
+        "name": "Fishing XP Buff",
+        "description": "Gain %{VALUE:FISHING_WISDOM} %{STAT:FISHING_WISDOM} on public islands.",
+        "stats": [
+          {
+            "id": "FISHING_WISDOM",
+            "precision": 0,
+            "type": "FLAT",
+            "value": 50
+          }
+        ]
+      },
+      {
+        "id": "FISHING_FESTIVAL",
+        "name": "Fishing Festival",
+        "description": "Start a special fishing event during the first %{VALUE:DAYS} days of each month!\nFish and fight dangerous sharks and earn unique Shark loot.",
+        "stats": [
+          {
+            "id": "DAYS",
+            "precision": 0,
+            "type": "NONE",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "id": "LUCK_OF_THE_SEA",
+        "name": "Luck of the Sea 2.0",
+        "description": "Gain %{VALUE:SEA_CREATURE_CHANCE} %{STAT:SEA_CREATURE_CHANCE}.",
+        "stats": [
+          {
+            "id": "SEA_CREATURE_CHANCE",
+            "precision": 0,
+            "type": "FLAT",
+            "value": 15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "DUNGEONS_CANDIDATE",
+    "name": "Paul",
+    "special": false,
+    "perks": [
+      {
+        "id": "BENEDICTION",
+        "name": "Benediction",
+        "description": "Blessings are %{VALUE:BLESSING_SCALAR} stronger.",
+        "stats": [
+          {
+            "id": "BLESSING_SCALAR",
+            "precision": 0,
+            "type": "PERCENT",
+            "value": 25
+          }
+        ]
+      },
+      {
+        "id": "MARAUDER",
+        "name": "Marauder",
+        "description": "Dungeon reward chests are %{VALUE:CHEST_COST} cheaper.",
+        "stats": [
+          {
+            "id": "CHEST_COST",
+            "precision": 0,
+            "type": "PERCENT",
+            "value": 20
+          }
+        ]
+      },
+      {
+        "id": "EZPZ",
+        "name": "EZPZ",
+        "description": "Gain %{VALUE:BONUS_SCORE} bonus score on dungeon runs.",
+        "stats": [
+          {
+            "id": "BONUS_SCORE",
+            "precision": 0,
+            "type": "NONE",
+            "value": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "JERRY_CANDIDATE",
+    "name": "Jerry",
+    "special": true,
+    "perks": [
+      {
+        "id": "PERKPOCALYPSE",
+        "name": "Perkpocalypse",
+        "description": "Activate all perks of another Mayor every %{VALUE:ROTATION} SkyBlock days (6 hours).",
+        "stats": [
+          {
+            "id": "ROTATION",
+            "precision": 0,
+            "type": "NONE",
+            "value": 18
+          }
+        ]
+      },
+      {
+        "id": "STATSPOCALYPSE",
+        "name": "Statspocalypse",
+        "description": "Increases all %{STAT_CATEGORY:COMBAT} and %{STAT_CATEGORY:MISCELLANEOUS} stats by %{VALUE:STATS_BUFF}.",
+        "stats": [
+          {
+            "id": "STATS_BUFF",
+            "precision": 0,
+            "type": "PERCENT",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "id": "JERRYPOCALYPSE",
+        "name": "Jerrypocalypse",
+        "description": "Reveal Hidden Jerries from logging, farming, mining and killing mobs.",
+        "stats": []
+      }
+    ]
+  },
+  {
+    "id": "DERP_CANDIDATE",
+    "name": "Derpy",
+    "special": true,
+    "perks": [
+      {
+        "id": "QUAD_TAXES",
+        "name": "QUAD TAXES!!!",
+        "description": "Pay %{VALUE:TAX_AMOUNT} the normal amount of taxes!",
+        "stats": [
+          {
+            "id": "TAX_AMOUNT",
+            "precision": 0,
+            "type": "MULTIPLY",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "id": "TURBO_MINIONS",
+        "name": "TURBO MINIONS!!!",
+        "description": "Minions have double the output!",
+        "stats": [
+          {
+            "id": "DOUBLE_MINION_OUTPUT",
+            "precision": 0,
+            "type": "MULTIPLY",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "id": "DOUBLE_MOBS_HP",
+        "name": "DOUBLE MOBS HP!!!",
+        "description": "ALL monsters have double %{STAT:HEALTH}!",
+        "stats": [
+          {
+            "id": "MOB_HP",
+            "precision": 0,
+            "type": "MULTIPLY",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "id": "MOAR_SKILLZ",
+        "name": "MOAR SKILLZ!!!",
+        "description": "Gain %{VALUE:SKILL_EXP} more skill experience!",
+        "stats": [
+          {
+            "id": "SKILL_EXP",
+            "precision": 0,
+            "type": "MULTIPLY",
+            "value": 1.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SHADY_CANDIDATE",
+    "name": "Scorpius",
+    "special": true,
+    "perks": [
+      {
+        "id": "BRIBE",
+        "name": "Bribe",
+        "description": "If Scorpius wins and you voted for him, Mayor Scorpius will offer you %{KEYWORDS:COIN} as a token of gratitude.",
+        "stats": []
+      },
+      {
+        "id": "DARKER_AUCTIONS",
+        "name": "Darker Auctions",
+        "description": "Scorpius will intrude in Dark Auctions increasing the amount of rounds to %{VALUE:ROUNDS} and offering special items.",
+        "stats": [
+          {
+            "id": "ROUNDS",
+            "precision": 0,
+            "type": "NONE",
+            "value": 6
+          }
+        ]
+      }
+    ]
+  }
+]

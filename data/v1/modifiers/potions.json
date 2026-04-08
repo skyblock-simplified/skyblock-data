@@ -1,0 +1,1041 @@
+[
+  {
+    "key": "ABSORPTION",
+    "name": "Absorption",
+    "description": "Grants %{VALUE:ABSORPTION} of absorption.",
+    "buff": true,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "ABSORPTION",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 20,
+          "2": 40,
+          "3": 60,
+          "4": 80,
+          "5": 100,
+          "6": 150,
+          "7": 200,
+          "8": 300
+        }
+      }
+    ]
+  },
+  {
+    "key": "ADRENALINE",
+    "name": "Adrenaline",
+    "description": "Grants %{VALUE:ABSORPTION} of absorption and %{VALUE:WALK_SPEED} %{STAT:WALK_SPEED}.",
+    "buff": true,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "ABSORPTION",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 20,
+          "2": 40,
+          "3": 60,
+          "4": 80,
+          "5": 100,
+          "6": 150,
+          "7": 200,
+          "8": 300
+        }
+      },
+      {
+        "id": "WALK_SPEED",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25,
+          "6": 30,
+          "7": 35,
+          "8": 40
+        }
+      }
+    ]
+  },
+  {
+    "key": "AGILITY",
+    "name": "Agility",
+    "description": "Grants %{VALUE:WALK_SPEED} %{STAT:SPEED} and increases the chance for mob attacks to miss by %{VALUE:DODGE_CHANCE}.",
+    "buff": true,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "ABSORPTION",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 40
+        }
+      },
+      {
+        "id": "DODGE_CHANCE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 40
+        }
+      }
+    ]
+  },
+  {
+    "key": "ALCHEMY_XP_BOOST",
+    "name": "Alchemy XP Boost",
+    "description": "Gain %{VALUE:ALCHEMY_XP_BOOST} more Alchemy experience.",
+    "buff": true,
+    "brewable": false,
+    "stats": [
+      {
+        "id": "ALCHEMY_XP_BOOST",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 20
+        }
+      }
+    ]
+  },
+  {
+    "key": "ARCHERY",
+    "name": "Archery",
+    "description": "Increases bow damage by %{VALUE:BOW_DAMAGE}.",
+    "buff": true,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "BOW_DAMAGE",
+        "precision": 1,
+        "type": "PERCENT",
+        "values": {
+          "1": 12.5,
+          "2": 25.0,
+          "3": 50.0,
+          "4": 75.0
+        }
+      }
+    ]
+  },
+  {
+    "key": "BLINDNESS",
+    "name": "Blindness",
+    "description": "Blinds the affected player for %{VALUE:BLINDNESS}s.",
+    "buff": false,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "BLINDNESS",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3
+        }
+      }
+    ]
+  },
+  {
+    "key": "BURNING",
+    "name": "Burning",
+    "description": "Damaging enemies sets them on fire, dealing %{VALUE:DAMAGE_PER_SECOND} damage per second.",
+    "buff": true,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "DAMAGE_PER_SECOND",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 40
+        }
+      }
+    ]
+  },
+  {
+    "key": "COMBAT_XP_BOOST",
+    "name": "Combat XP Boost",
+    "description": "Gain %{VALUE:COMBAT_XP_BOOST} more Combat experience.",
+    "buff": true,
+    "brewable": false,
+    "stats": [
+      {
+        "id": "COMBAT_XP_BOOST",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 20
+        }
+      }
+    ]
+  },
+  {
+    "key": "CRITICAL",
+    "name": "Critical",
+    "description": "Grants %{VALUE:CRIT_CHANCE} %{STAT:CRIT_CHANCE}, %{VALUE:CRIT_DAMAGE} %{STAT:CRIT_DAMAGE} and %{VALUE:MAGIC_FIND_BREW} %{STAT:MAGIC_FIND}.",
+    "buff": true,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "CRIT_CHANCE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 10,
+          "2": 15,
+          "3": 20,
+          "4": 25
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 40
+        }
+      }
+    ]
+  },
+  {
+    "key": "DAMAGE",
+    "name": "Damage",
+    "description": "Instantly deals %{VALUE:INSTANT_HEALTH} damage.",
+    "buff": false,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "INSTANT_HEALTH",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": -5,
+          "2": -10,
+          "3": -15,
+          "4": -20,
+          "5": -25,
+          "6": -30,
+          "7": -40,
+          "8": -50
+        }
+      }
+    ]
+  },
+  {
+    "key": "DODGE",
+    "name": "Dodge",
+    "description": "Mob attacks have a %{VALUE:DODGE_CHANCE} chance to miss.",
+    "buff": true,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "DODGE_CHANCE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 40
+        }
+      }
+    ]
+  },
+  {
+    "key": "ENCHANTING_XP_BOOST",
+    "name": "Enchanting XP Boost",
+    "description": "Gain %{VALUE:ENCHANTING_XP_BOOST} more Enchanting experience.",
+    "buff": true,
+    "brewable": false,
+    "stats": [
+      {
+        "id": "ENCHANTING_XP_BOOST",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 20
+        }
+      }
+    ]
+  },
+  {
+    "key": "EXPERIENCE",
+    "name": "Experience",
+    "description": "Gain %{VALUE:EXPERIENCE_ORBS}, %{VALUE:COMBAT_XP_BONUS_BREW:PLUS:PERCENT} Combat XP and regenerate %{VALUE:HEALTH_PER_SECOND_BREW}%{SYMBOL:HEALTH} per second.",
+    "buff": true,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "EXPERIENCE_ORBS",
+        "precision": 0,
+        "type": "PLUS_PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20
+        }
+      }
+    ]
+  },
+  {
+    "key": "FARMING_XP_BOOST",
+    "name": "Farming XP Boost",
+    "description": "Gain %{VALUE:PERCENT} more Farming experience.",
+    "buff": true,
+    "brewable": false,
+    "stats": [
+      {
+        "id": "FARMING_XP_BOOST",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 20
+        }
+      }
+    ]
+  },
+  {
+    "key": "FIRE_RESISTANCE",
+    "name": "Fire Resistance",
+    "description": "Grants immunity to fire and lava.",
+    "buff": true,
+    "brewable": true
+  },
+  {
+    "key": "FISHING_XP_BOOST",
+    "name": "Fishing XP Boost",
+    "description": "Gain %{VALUE:PERCENT} more Fishing experience.",
+    "buff": true,
+    "brewable": false,
+    "stats": [
+      {
+        "id": "FISHING_XP_BOOST",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 20
+        }
+      }
+    ]
+  },
+  {
+    "key": "FORAGING_XP_BOOST",
+    "name": "Foraging XP Boost",
+    "description": "Gain %{VALUE:PERCENT} more Foraging experience.",
+    "buff": true,
+    "brewable": false,
+    "stats": [
+      {
+        "id": "FORAGING_XP_BOOST",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 20
+        }
+      }
+    ]
+  },
+  {
+    "key": "HASTE",
+    "name": "Haste",
+    "description": "Increases your mining speed by %{VALUE:MINING_SPEED}.",
+    "buff": true,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "MINING_SPEED",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 50,
+          "2": 100,
+          "3": 150,
+          "4": 200
+        }
+      }
+    ]
+  },
+  {
+    "key": "HEALING",
+    "name": "Healing",
+    "description": "Instantly heals you for %{VALUE:INSTANT_HEALTH} health.",
+    "buff": true,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "INSTANT_HEALTH",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 50,
+          "2": 100,
+          "3": 150,
+          "4": 200,
+          "5": 300,
+          "6": 400,
+          "7": 500
+        }
+      }
+    ]
+  },
+  {
+    "key": "INVISIBILITY",
+    "name": "Invisibility",
+    "description": "Grants invisibility from players and mobs.",
+    "buff": true,
+    "brewable": true
+  },
+  {
+    "key": "JERRY_CANDY",
+    "name": "Jerry Candy",
+    "description": "Increases a bunch of stats!",
+    "buff": true,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "HEALTH",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 100
+        }
+      },
+      {
+        "id": "STRENGTH",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 20
+        }
+      },
+      {
+        "id": "FEROCITY",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 2
+        }
+      },
+      {
+        "id": "INTELLIGENCE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 100
+        }
+      },
+      {
+        "id": "MAGIC_FIND",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 3
+        }
+      }
+    ]
+  },
+  {
+    "key": "JUMP_BOOST",
+    "name": "Jump Boost",
+    "description": "Increases your jump height by %{VALUE:JUMP_BOOST} blocks.",
+    "buff": true,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "JUMP_BOOST",
+        "precision": 1,
+        "type": "FLAT",
+        "values": {
+          "1": 1.9,
+          "2": 2.5,
+          "3": 3.2,
+          "4": 4.1
+        }
+      }
+    ]
+  },
+  {
+    "key": "KINGS_SCENT",
+    "name": "King's Scent",
+    "description": "Grants the stench of the Goblin King.",
+    "buff": true,
+    "brewable": false,
+    "stats": [
+      {
+        "id": "GOBLIN_KING_STENCH",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 1
+        }
+      }
+    ]
+  },
+  {
+    "key": "KNOCKBACK",
+    "name": "Knockback",
+    "description": "Damaging enemies deals more knockback.",
+    "buff": false,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "KNOCKBACK",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 20,
+          "2": 40,
+          "3": 60,
+          "4": 80
+        }
+      }
+    ]
+  },
+  {
+    "key": "MAGIC_FIND",
+    "name": "Magic Find",
+    "description": "Gain %{VALUE:MAGIC_FIND} chance to find rare items from monsters and bosses.",
+    "buff": true,
+    "brewable": false,
+    "stats": [
+      {
+        "id": "MAGIC_FIND",
+        "precision": 0,
+        "type": "PLUS_PERCENT",
+        "values": {
+          "1": 10,
+          "2": 25,
+          "3": 50,
+          "4": 75
+        }
+      }
+    ]
+  },
+  {
+    "key": "MANA",
+    "name": "Mana",
+    "description": "Grants %{VALUE:MANA_REGEN} mana per second.",
+    "buff": true,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "MANA_REGEN",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6,
+          "7": 7,
+          "8": 8
+        }
+      }
+    ]
+  },
+  {
+    "key": "MINING_XP_BOOST",
+    "name": "Mining XP Boost",
+    "description": "Gain %{VALUE:PERCENT} more Mining experience.",
+    "buff": true,
+    "brewable": false,
+    "stats": [
+      {
+        "id": "MINING_XP_BOOST",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 20
+        }
+      }
+    ]
+  },
+  {
+    "key": "MUSHED_GLOWY_TONIC",
+    "name": "Mushed Glowy Tonic",
+    "description": "Grants %{VALUE:PERCENT} %{STAT:FISHING_SPEED}.",
+    "buff": true,
+    "brewable": false,
+    "stats": [
+      {
+        "id": "FISHING_SPEED",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 30
+        }
+      }
+    ]
+  },
+  {
+    "key": "NIGHT_VISION",
+    "name": "Night Vision",
+    "description": "Grants greater visibility at night.",
+    "buff": true,
+    "brewable": true
+  },
+  {
+    "key": "PET_LUCK",
+    "name": "Pet Luck",
+    "description": "Gain %{VALUE:PET_LUCK} chance to find pets and craft higher tier pets.",
+    "buff": true,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "PET_LUCK",
+        "precision": 0,
+        "type": "PLUS_PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20
+        }
+      }
+    ]
+  },
+  {
+    "key": "POISON",
+    "name": "Poison",
+    "description": "Poisons the affected, dealing damage over time.",
+    "buff": false,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "DAMAGE_PER_SECOND",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 40,
+          "4": 60
+        }
+      }
+    ]
+  },
+  {
+    "key": "RABBIT",
+    "name": "Rabbit",
+    "description": "Grants Jump Boost III and %{VALUE:WALK_SPEED} %{STAT:WALK_SPEED}.",
+    "buff": true,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "WALK_SPEED",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 40,
+          "5": 50,
+          "6": 60
+        }
+      },
+      {
+        "id": "JUMP_BOOST_RABBIT",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 1,
+          "2": 1,
+          "3": 2,
+          "4": 2,
+          "5": 3,
+          "6": 3
+        }
+      }
+    ]
+  },
+  {
+    "key": "REGENERATION",
+    "name": "Regeneration",
+    "description": "Grants %{VALUE:HEALTH_REGEN} %{STAT:HEALTH_REGEN}.",
+    "buff": true,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "HEALTH_REGEN",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25,
+          "6": 30,
+          "7": 40,
+          "8": 50,
+          "9": 60
+        }
+      }
+    ]
+  },
+  {
+    "key": "RESISTANCE",
+    "name": "Resistance",
+    "description": "Increases %{STAT:DEFENSE} by %{VALUE:DEFENSE}.",
+    "buff": true,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "DEFENSE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 30,
+          "6": 40,
+          "7": 50,
+          "8": 60
+        }
+      }
+    ]
+  },
+  {
+    "key": "SLOWNESS",
+    "name": "Slowness",
+    "description": "Reduces %{STAT:WALK_SPEED}.",
+    "buff": false,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "WALK_SPEED",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": -5,
+          "2": -10,
+          "3": -15,
+          "4": -20,
+          "5": -25,
+          "6": -30,
+          "7": -35,
+          "8": -40
+        }
+      }
+    ]
+  },
+  {
+    "key": "SPEED",
+    "name": "Speed",
+    "description": "Grants %{VALUE:WALK_SPEED} %{STAT:WALK_SPEED}.",
+    "buff": true,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "WALK_SPEED",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25,
+          "6": 30,
+          "7": 35,
+          "8": 40
+        }
+      }
+    ]
+  },
+  {
+    "key": "SPELUNKER",
+    "name": "Spelunker",
+    "description": "Grants %{VALUE:MINING_FORTUNE} %{STAT:MINING_FORTUNE}.",
+    "buff": true,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "MINING_FORTUNE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25
+        }
+      }
+    ]
+  },
+  {
+    "key": "SPIRIT",
+    "name": "Spirit",
+    "description": "Grants %{VALUE:WALK_SPEED} %{STAT:WALK_SPEED} and %{VALUE:CRIT_DAMAGE} %{STAT:CRIT_DAMAGE}.",
+    "buff": true,
+    "brewable": false,
+    "stats": [
+      {
+        "id": "WALK_SPEED",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 40
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 40
+        }
+      }
+    ]
+  },
+  {
+    "key": "STAMINA",
+    "name": "Stamina",
+    "description": "Instantly heals you for %{VALUE:INSTANT_HEALTH} health and gives %{VALUE:MANA} %{STAT:MANA}.",
+    "buff": true,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "INSTANT_HEALTH",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 150,
+          "2": 215,
+          "3": 315,
+          "4": 515
+        }
+      },
+      {
+        "id": "MANA",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 50,
+          "2": 100,
+          "3": 150,
+          "4": 200
+        }
+      }
+    ]
+  },
+  {
+    "key": "STRENGTH",
+    "name": "Strength",
+    "description": "Increases %{STAT:STRENGTH} by %{VALUE:STRENGTH}.",
+    "buff": true,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "STRENGTH",
+        "precision": 1,
+        "type": "FLAT",
+        "values": {
+          "1": 5,
+          "2": 12.5,
+          "3": 20,
+          "4": 30,
+          "5": 40,
+          "6": 50,
+          "7": 60,
+          "8": 75
+        }
+      }
+    ]
+  },
+  {
+    "key": "STUN",
+    "name": "Stun",
+    "description": "When applied to yourself, your hits have a %{VALUE:STUN_CHANCE} chance to stun enemies for %{FORMAT:GREEN}1s%{FORMAT:GRAY}. When splashed, enemies are stunned for %{VALUE:STUN_DURATION}.",
+    "buff": true,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "STUN_CHANCE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 40
+        }
+      },
+      {
+        "id": "STUN_DURATION",
+        "precision": 2,
+        "type": "SECONDS",
+        "values": {
+          "1": 1.00,
+          "2": 1.25,
+          "3": 1.50,
+          "4": 1.75
+        }
+      }
+    ]
+  },
+  {
+    "key": "TRUE_RESISTANCE",
+    "name": "True Resistance",
+    "description": "Gain %{VALUE:TRUE_DEFENSE} %{STAT:TRUE_DEFENSE}.",
+    "buff": true,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "TRUE_DEFENSE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20
+        }
+      }
+    ]
+  },
+  {
+    "key": "VENOMOUS",
+    "name": "Venomous",
+    "description": "Grants a reduction in %{STAT:WALK_SPEED} and deals damage over time.",
+    "buff": false,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "WALK_SPEED",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": -5,
+          "2": -10,
+          "3": -15,
+          "4": -20
+        }
+      },
+      {
+        "id": "DAMAGE_PER_SECOND",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20
+        }
+      }
+    ]
+  },
+  {
+    "key": "WATER_BREATHING",
+    "name": "Water Breathing",
+    "description": "Grants a %{VALUE:WATER_BREATHING} chance of not taking drowning damage.",
+    "buff": true,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "WATER_BREATHING",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 15,
+          "2": 30,
+          "3": 45,
+          "4": 60,
+          "5": 80,
+          "6": 100
+        }
+      }
+    ]
+  },
+  {
+    "key": "WEAKNESS",
+    "name": "Weakness",
+    "description": "Reduces %{STAT:DAMAGE} when attacking enemies.",
+    "buff": false,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "DAMAGE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": -5,
+          "2": -10,
+          "3": -15,
+          "4": -20,
+          "5": -25,
+          "6": -30,
+          "7": -40,
+          "8": -50
+        }
+      }
+    ]
+  },
+  {
+    "key": "WOUNDED",
+    "name": "Wounded",
+    "description": "Reduces %{VALUE:HEALING} of healing.",
+    "buff": false,
+    "brewable": true,
+    "stats": [
+      {
+        "id": "HEALING",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 25,
+          "2": 50,
+          "3": 75,
+          "4": 100
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "HYMN_JOY",
+    "name": "Hymn to the Joy",
+    "difficulty": "EASY",
+    "intelligenceReward": 1
+  },
+  {
+    "id": "FRERE_JACQUES",
+    "name": "Frère Jacques",
+    "difficulty": "EASY",
+    "intelligenceReward": 1
+  },
+  {
+    "id": "AMAZING_GRACE",
+    "name": "Amazing Grace",
+    "difficulty": "EASY",
+    "intelligenceReward": 1
+  },
+  {
+    "id": "BRAHMS",
+    "name": "Brahm's Lullaby",
+    "difficulty": "HARD",
+    "intelligenceReward": 2
+  },
+  {
+    "id": "HAPPY_BIRTHDAY",
+    "name": "Happy Birthday to You",
+    "difficulty": "HARD",
+    "intelligenceReward": 2
+  },
+  {
+    "id": "GREENSLEEVES",
+    "name": "Greensleeves",
+    "difficulty": "HARD",
+    "intelligenceReward": 2
+  },
+  {
+    "id": "JEOPARDY",
+    "name": "Geothermy?",
+    "difficulty": "HARD",
+    "intelligenceReward": 3
+  },
+  {
+    "id": "MINUET",
+    "name": "Minuet",
+    "difficulty": "HARD",
+    "intelligenceReward": 3
+  },
+  {
+    "id": "JOY_TO_THE_WORLD",
+    "name": "Joy to the World",
+    "difficulty": "EXPERT",
+    "intelligenceReward": 3
+  },
+  {
+    "id": "PURE_IMAGINATION",
+    "name": "Godly Imagination",
+    "difficulty": "VIRTUOSO",
+    "intelligenceReward": 4
+  },
+  {
+    "id": "VIE_EN_ROSE",
+    "name": "La Vie en Rose",
+    "difficulty": "VIRTUOSO",
+    "intelligenceReward": 4
+  },
+  {
+    "id": "FIRE_AND_FLAMES",
+    "name": "Through the Campfire",
+    "difficulty": "PRODIGY",
+    "intelligenceReward": 0
+  },
+  {
+    "id": "PACHELBEL",
+    "name": "Pachelbel",
+    "difficulty": "PRODIGY",
+    "intelligenceReward": 1
+  }
+]

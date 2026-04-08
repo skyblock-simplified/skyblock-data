@@ -1,0 +1,786 @@
+[
+  {
+    "id": "DAMAGE",
+    "name": "Damage",
+    "symbol": "❁",
+    "format": "RED",
+    "category": "COMBAT",
+    "visible": false,
+    "base": 5,
+    "multiplicable": false
+  },
+  {
+    "id": "HEALTH",
+    "name": "Health",
+    "symbol": "❤",
+    "format": "RED",
+    "category": "COMBAT",
+    "visible": true,
+    "enrichment": 3.0,
+    "powerMultiplier": 1.4,
+    "tuningMultiplier": 5.0,
+    "base": 100,
+    "multiplicable": true
+  },
+  {
+    "id": "DEFENSE",
+    "name": "Defense",
+    "symbol": "❈",
+    "format": "GREEN",
+    "category": "COMBAT",
+    "visible": true,
+    "enrichment": 1.0,
+    "powerMultiplier": 1.0,
+    "tuningMultiplier": 1.0,
+    "multiplicable": true
+  },
+  {
+    "id": "TRUE_DEFENSE",
+    "name": "True Defense",
+    "symbol": "❂",
+    "format": "WHITE",
+    "category": "COMBAT",
+    "visible": true,
+    "powerMultiplier": 0.27,
+    "multiplicable": true
+  },
+  {
+    "id": "STRENGTH",
+    "name": "Strength",
+    "symbol": "❁",
+    "format": "RED",
+    "category": "COMBAT",
+    "visible": true,
+    "enrichment": 1.0,
+    "powerMultiplier": 1.0,
+    "tuningMultiplier": 1.0,
+    "multiplicable": true
+  },
+  {
+    "id": "CRIT_CHANCE",
+    "name": "Crit Chance",
+    "symbol": "☣",
+    "format": "BLUE",
+    "category": "COMBAT",
+    "visible": true,
+    "enrichment": 1.0,
+    "powerMultiplier": 0.4,
+    "tuningMultiplier": 0.2,
+    "base": 30,
+    "multiplicable": true
+  },
+  {
+    "id": "CRIT_DAMAGE",
+    "name": "Crit Damage",
+    "symbol": "☠",
+    "format": "BLUE",
+    "category": "COMBAT",
+    "visible": true,
+    "enrichment": 1.0,
+    "powerMultiplier": 1.0,
+    "tuningMultiplier": 1.0,
+    "base": 50,
+    "multiplicable": true
+  },
+  {
+    "id": "BONUS_ATTACK_SPEED",
+    "name": "Bonus Attack Speed",
+    "symbol": "⚔",
+    "format": "YELLOW",
+    "category": "COMBAT",
+    "visible": true,
+    "enrichment": 0.5,
+    "powerMultiplier": 0.3,
+    "tuningMultiplier": 0.3,
+    "multiplicable": false
+  },
+  {
+    "id": "FEROCITY",
+    "name": "Ferocity",
+    "symbol": "⫽",
+    "format": "RED",
+    "category": "COMBAT",
+    "visible": true,
+    "enrichment": 0.3,
+    "cap": 500,
+    "multiplicable": true
+  },
+  {
+    "id": "SWING_RANGE",
+    "name": "Swing Range",
+    "symbol": "ⓢ",
+    "format": "YELLOW",
+    "category": "COMBAT",
+    "visible": true,
+    "base": 3,
+    "multiplicable": false
+  },
+  {
+    "id": "INTELLIGENCE",
+    "name": "Intelligence",
+    "symbol": "✎",
+    "format": "AQUA",
+    "category": "COMBAT",
+    "visible": true,
+    "enrichment": 2.0,
+    "powerMultiplier": 1.5,
+    "tuningMultiplier": 2.0,
+    "multiplicable": true
+  },
+  {
+    "id": "MANA_REGEN",
+    "name": "Mana Regen",
+    "symbol": "⚡",
+    "format": "AQUA",
+    "category": "COMBAT",
+    "visible": false,
+    "multiplicable": false
+  },
+  {
+    "id": "ABILITY_DAMAGE",
+    "name": "Ability Damage",
+    "symbol": "๑",
+    "format": "RED",
+    "category": "COMBAT",
+    "visible": true,
+    "multiplicable": true
+  },
+  {
+    "id": "HEALTH_REGEN",
+    "name": "Health Regen",
+    "symbol": "❣",
+    "format": "RED",
+    "category": "COMBAT",
+    "visible": true,
+    "base": 100,
+    "multiplicable": false
+  },
+  {
+    "id": "VITALITY",
+    "name": "Vitality",
+    "symbol": "♨",
+    "format": "DARK_RED",
+    "category": "COMBAT",
+    "visible": true,
+    "powerMultiplier": 0.333,
+    "base": 100,
+    "multiplicable": false
+  },
+  {
+    "id": "MENDING",
+    "name": "Mending",
+    "symbol": "☄",
+    "format": "GREEN",
+    "category": "COMBAT",
+    "visible": true,
+    "powerMultiplier": 0.25,
+    "base": 100,
+    "multiplicable": false
+  },
+  {
+    "id": "BONUS_PEST_CHANCE",
+    "name": "Bonus Pest Chance",
+    "symbol": "ൠ",
+    "format": "DARK_GREEN",
+    "category": "FARMING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "FARMING_FORTUNE",
+    "name": "Farming Fortune",
+    "symbol": "☘",
+    "format": "GOLD",
+    "category": "FARMING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "WHEAT_FORTUNE",
+    "name": "Wheat Fortune",
+    "symbol": "☘",
+    "format": "GOLD",
+    "category": "FARMING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "CARROT_FORTUNE",
+    "name": "Carrot Fortune",
+    "symbol": "☘",
+    "format": "GOLD",
+    "category": "FARMING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "POTATO_FORTUNE",
+    "name": "Potato Fortune",
+    "symbol": "☘",
+    "format": "GOLD",
+    "category": "FARMING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "PUMPKIN_FORTUNE",
+    "name": "Pumpkin Fortune",
+    "symbol": "☘",
+    "format": "GOLD",
+    "category": "FARMING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "SUGAR_CANE_FORTUNE",
+    "name": "Sugar Cane Fortune",
+    "symbol": "☘",
+    "format": "GOLD",
+    "category": "FARMING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "MELON_SLICE_FORTUNE",
+    "name": "Melon Slice Fortune",
+    "symbol": "☘",
+    "format": "GOLD",
+    "category": "FARMING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "CACTUS_FORTUNE",
+    "name": "Cactus Fortune",
+    "symbol": "☘",
+    "format": "GOLD",
+    "category": "FARMING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "COCOA_BEANS_FORTUNE",
+    "name": "Cocoa Beans Fortune",
+    "symbol": "☘",
+    "format": "GOLD",
+    "category": "FARMING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "MUSHROOM_FORTUNE",
+    "name": "Mushroom Fortune",
+    "symbol": "☘",
+    "format": "GOLD",
+    "category": "FARMING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "NETHER_WART_FORTUNE",
+    "name": "Nether Wart Fortune",
+    "symbol": "☘",
+    "format": "GOLD",
+    "category": "FARMING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "FISHING_SPEED",
+    "name": "Fishing Speed",
+    "symbol": "☂",
+    "format": "AQUA",
+    "category": "FISHING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "SEA_CREATURE_CHANCE",
+    "name": "Sea Creature Chance",
+    "symbol": "α",
+    "format": "DARK_AQUA",
+    "category": "FISHING",
+    "visible": true,
+    "enrichment": 0.3,
+    "base": 20,
+    "multiplicable": true
+  },
+  {
+    "id": "DOUBLE_HOOK_CHANCE",
+    "name": "Double Hook Chance",
+    "symbol": "⚓",
+    "format": "BLUE",
+    "category": "FISHING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "TROPHY_FISH_CHANCE",
+    "name": "Trophy Fish Chance",
+    "symbol": "♔",
+    "format": "GOLD",
+    "category": "FISHING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "TREASURE_CHANCE",
+    "name": "Treasure Chance",
+    "symbol": "⛃",
+    "format": "GOLD",
+    "category": "FISHING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "BREAKING_POWER",
+    "name": "Breaking Power",
+    "symbol": "Ⓟ",
+    "format": "DARK_GREEN",
+    "category": "MINING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "MINING_SPEED",
+    "name": "Mining Speed",
+    "symbol": "⸕",
+    "format": "GOLD",
+    "category": "MINING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "MINING_SPREAD",
+    "name": "Mining Spread",
+    "symbol": "▚",
+    "format": "YELLOW",
+    "category": "MINING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "GEMSTONE_SPREAD",
+    "name": "Gemstone Spread",
+    "symbol": "▚",
+    "format": "YELLOW",
+    "category": "MINING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "PRISTINE",
+    "name": "Pristine",
+    "symbol": "✧",
+    "format": "DARK_PURPLE",
+    "category": "MINING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "MINING_FORTUNE",
+    "name": "Mining Fortune",
+    "symbol": "☘",
+    "format": "GOLD",
+    "category": "MINING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "ORE_FORTUNE",
+    "name": "Ore Fortune",
+    "symbol": "☘",
+    "format": "GOLD",
+    "category": "MINING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "BLOCK_FORTUNE",
+    "name": "Block Fortune",
+    "symbol": "☘",
+    "format": "GOLD",
+    "category": "MINING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "DWARVEN_METAL_FORTUNE",
+    "name": "Dwarven Metal Fortune",
+    "symbol": "☘",
+    "format": "GOLD",
+    "category": "MINING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "GEMSTONE_FORTUNE",
+    "name": "Gemstone Fortune",
+    "symbol": "☘",
+    "format": "GOLD",
+    "category": "MINING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "SWEEP",
+    "name": "Sweep",
+    "symbol": "∮",
+    "format": "DARK_GREEN",
+    "category": "FORAGING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "FORAGING_FORTUNE",
+    "name": "Foraging Fortune",
+    "symbol": "☘",
+    "format": "GOLD",
+    "category": "FORAGING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "FIG_FORTUNE",
+    "name": "Fig Fortune",
+    "symbol": "☘",
+    "format": "GOLD",
+    "category": "FORAGING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "MANGROVE_FORTUNE",
+    "name": "Mangrove Fortune",
+    "symbol": "☘",
+    "format": "GOLD",
+    "category": "FORAGING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "PULL",
+    "name": "Pull",
+    "symbol": "ᛷ",
+    "format": "AQUA",
+    "category": "HUNTING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "HUNTER_FORTUNE",
+    "name": "Hunter Fortune",
+    "symbol": "☘",
+    "format": "LIGHT_PURPLE",
+    "category": "HUNTING",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "COMBAT_WISDOM",
+    "name": "Combat Wisdom",
+    "symbol": "☯",
+    "format": "DARK_AQUA",
+    "category": "WISDOM",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "FARMING_WISDOM",
+    "name": "Foraging Wisdom",
+    "symbol": "☯",
+    "format": "DARK_AQUA",
+    "category": "WISDOM",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "FISHING_WISDOM",
+    "name": "",
+    "symbol": "☯",
+    "format": "DARK_AQUA",
+    "category": "WISDOM",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "MINING_WISDOM",
+    "name": "Mining Wisdom",
+    "symbol": "☯",
+    "format": "DARK_AQUA",
+    "category": "WISDOM",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "FORAGING_WISDOM",
+    "name": "Foraging Wisdom",
+    "symbol": "☯",
+    "format": "DARK_AQUA",
+    "category": "WISDOM",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "ENCHANTING_WISDOM",
+    "name": "Enchanting Wisdom",
+    "symbol": "☯",
+    "format": "DARK_AQUA",
+    "category": "WISDOM",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "ALCHEMY_WISDOM",
+    "name": "Alchemy Wisdom",
+    "symbol": "☯",
+    "format": "DARK_AQUA",
+    "category": "WISDOM",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "CARPENTRY_WISDOM",
+    "name": "Carpentry Wisdom",
+    "symbol": "☯",
+    "format": "DARK_AQUA",
+    "category": "WISDOM",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "RUNECRAFTING_WISDOM",
+    "name": "Runecrafting Wisdom",
+    "symbol": "☯",
+    "format": "DARK_AQUA",
+    "category": "WISDOM",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "TAMING_WISDOM",
+    "name": "Taming Wisdom",
+    "symbol": "☯",
+    "format": "DARK_AQUA",
+    "category": "WISDOM",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "SOCIAL_WISDOM",
+    "name": "Social Wisdom",
+    "symbol": "☯",
+    "format": "DARK_AQUA",
+    "category": "WISDOM",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "HUNTING_WISDOM",
+    "name": "Hunting Wisdom",
+    "symbol": "☯",
+    "format": "DARK_AQUA",
+    "category": "WISDOM",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "WALK_SPEED",
+    "name": "Speed",
+    "symbol": "✦",
+    "format": "WHITE",
+    "category": "MISCELLANEOUS",
+    "visible": true,
+    "enrichment": 1.0,
+    "powerMultiplier": 0.5,
+    "tuningMultiplier": 1.5,
+    "base": 100,
+    "cap": 400,
+    "multiplicable": true
+  },
+  {
+    "id": "MAGIC_FIND",
+    "name": "Magic Find",
+    "symbol": "✯",
+    "format": "AQUA",
+    "category": "MISCELLANEOUS",
+    "visible": true,
+    "enrichment": 0.5,
+    "multiplicable": true
+  },
+  {
+    "id": "PET_LUCK",
+    "name": "Pet Luck",
+    "symbol": "♣",
+    "format": "LIGHT_PURPLE",
+    "category": "MISCELLANEOUS",
+    "visible": true,
+    "multiplicable": true
+  },
+  {
+    "id": "HEAT_RESISTANCE",
+    "name": "Heat Resistance",
+    "symbol": "♨",
+    "format": "RED",
+    "category": "MISCELLANEOUS",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "COLD_RESISTANCE",
+    "name": "Cold Resistance",
+    "symbol": "❄",
+    "format": "AQUA",
+    "category": "MISCELLANEOUS",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "RESPIRATION",
+    "name": "Respiration",
+    "symbol": "⚶",
+    "format": "DARK_AQUA",
+    "category": "MISCELLANEOUS",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "PRESSURE_RESISTANCE",
+    "name": "Pressure Resistance",
+    "symbol": "❍",
+    "format": "BLUE",
+    "category": "MISCELLANEOUS",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "FEAR",
+    "name": "Fear",
+    "symbol": "☠",
+    "format": "DARK_PURPLE",
+    "category": "MISCELLANEOUS",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "ABSORPTION",
+    "name": "Absorption",
+    "symbol": "❤",
+    "format": "GOLD",
+    "category": "OTHER",
+    "visible": false,
+    "multiplicable": false
+  },
+  {
+    "id": "FUEL",
+    "name": "Fuel",
+    "symbol": "♢",
+    "format": "DARK_GREEN",
+    "category": "OTHER",
+    "visible": false,
+    "multiplicable": false
+  },
+  {
+    "id": "HEAT",
+    "name": "Heat",
+    "symbol": "♨",
+    "format": "RED",
+    "category": "OTHER",
+    "visible": false,
+    "multiplicable": false
+  },
+  {
+    "id": "COLD",
+    "name": "Cold",
+    "symbol": "❄",
+    "format": "AQUA",
+    "category": "OTHER",
+    "visible": false,
+    "multiplicable": false
+  },
+  {
+    "id": "MANA",
+    "name": "Mana",
+    "symbol": "✎",
+    "format": "AQUA",
+    "category": "OTHER",
+    "visible": false,
+    "multiplicable": false
+  },
+  {
+    "id": "OVERFLOW",
+    "name": "Overflow",
+    "symbol": "⸎",
+    "format": "DARK_AQUA",
+    "category": "OTHER",
+    "visible": false,
+    "multiplicable": false
+  },
+  {
+    "id": "RIFT_TIME",
+    "name": "Rift Time",
+    "symbol": "ф",
+    "format": "GREEN",
+    "category": "RIFT",
+    "visible": true,
+    "base": 480,
+    "multiplicable": false
+  },
+  {
+    "id": "RIFT_DAMAGE",
+    "name": "Rift Damage",
+    "symbol": "❁",
+    "format": "DARK_PURPLE",
+    "category": "RIFT",
+    "visible": true,
+    "base": 20,
+    "multiplicable": false
+  },
+  {
+    "id": "RIFT_SPEED",
+    "name": "Speed",
+    "symbol": "✦",
+    "format": "WHITE",
+    "category": "RIFT",
+    "visible": true,
+    "base": 100,
+    "multiplicable": false
+  },
+  {
+    "id": "RIFT_INTELLIGENCE",
+    "name": "Intelligence",
+    "symbol": "✎",
+    "format": "AQUA",
+    "category": "RIFT",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "RIFT_MAGIC_FIND",
+    "name": "Magic Find",
+    "symbol": "✯",
+    "format": "AQUA",
+    "category": "RIFT",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "RIFT_MANA_REGEN",
+    "name": "Mana Regen",
+    "symbol": "⚡",
+    "format": "AQUA",
+    "category": "RIFT",
+    "visible": true,
+    "multiplicable": false
+  },
+  {
+    "id": "RIFT_HEARTS",
+    "name": "Hearts",
+    "symbol": "❤",
+    "format": "RED",
+    "category": "RIFT",
+    "visible": true,
+    "base": 10,
+    "multiplicable": false
+  }
+]

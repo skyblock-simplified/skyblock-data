@@ -1,0 +1,72 @@
+name: Regenerate Index
+
+# Pull requests run the generator in --check mode: a PR whose data/v1/index.json
+# is out of sync with the tree fails the check, forcing the contributor to run
+# `python scripts/generate_index.py` locally and push the updated index as part
+# of their PR. The generated diff stays visible in review.
+#
+# Pushes to master run the generator in write mode and commit the refreshed
+# index back to master if it changed. This covers direct pushes and merged
+# squashes that did not carry a refreshed index.
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'data/v1/**'
+      - 'scripts/generate_index.py'
+      - '.github/workflows/regenerate-index.yml'
+  pull_request:
+    branches: [master]
+    paths:
+      - 'data/v1/**'
+      - 'scripts/generate_index.py'
+      - '.github/workflows/regenerate-index.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR head
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Verify index is in sync
+        run: python scripts/generate_index.py --check
+
+  regenerate:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Regenerate index
+        run: python scripts/generate_index.py
+
+      - name: Commit refreshed index if changed
+        run: |
+          if git diff --quiet data/v1/index.json; then
+            echo "index.json unchanged, nothing to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/v1/index.json
+          git commit -m "ci: regenerate data/v1/index.json"
+          git push

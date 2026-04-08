@@ -1,0 +1,706 @@
+[
+  {
+    "id": "ABIPHONE",
+    "name": "Abiphone",
+    "plural": "Abiphones",
+    "symbol": "✆",
+    "format": "AQUA"
+  },
+  {
+    "id": "ABYSSAL_ARMOR",
+    "name": "Abyssal Armor",
+    "plural": "Abyssal Armor",
+    "symbol": "",
+    "format": "GREEN"
+  },
+  {
+    "id": "ACCESSORY_BAG",
+    "name": "Accessory Bag",
+    "plural": "",
+    "symbol": "",
+    "format": "GREEN"
+  },
+  {
+    "id": "AUCTION_HOUSE",
+    "name": "Auction House",
+    "plural": "",
+    "symbol": "",
+    "format": "GOLD"
+  },
+  {
+    "id": "AUTOMATON",
+    "name": "Automaton",
+    "plural": "Automatons",
+    "symbol": "",
+    "format": "BLUE"
+  },
+  {
+    "id": "BINGO",
+    "name": "Bingo",
+    "plural": "Bingos",
+    "symbol": "ⓑ",
+    "format": "DARK_PURPLE"
+  },
+  {
+    "id": "CARNIVAL_MASK",
+    "name": "Carnival Mask",
+    "plural": "Carnival Masks",
+    "symbol": "",
+    "format": "YELLOW"
+  },
+  {
+    "id": "CATACOMB",
+    "name": "Catacomb",
+    "plural": "Catacombs",
+    "symbol": "",
+    "format": "RED"
+  },
+  {
+    "id": "CHEESE",
+    "name": "CHEESE",
+    "plural": "Cheeses",
+    "symbol": "",
+    "format": "YELLOW"
+  },
+  {
+    "id": "CHISEL",
+    "name": "Chisel",
+    "plural": "",
+    "symbol": "❥",
+    "format": "GOLD"
+  },
+  {
+    "id": "CHOCOLATE",
+    "name": "Chocolate",
+    "plural": "Chocolates",
+    "symbol": "",
+    "format": "GOLD"
+  },
+  {
+    "id": "CHOCOLATE_FACTORY",
+    "name": "Chocolate Factory",
+    "plural": "",
+    "symbol": "",
+    "format": "GOLD"
+  },
+  {
+    "id": "CHOCOLATE_RABBIT",
+    "name": "Chocolate Rabbit",
+    "plural": "Chocolate Rabbits",
+    "symbol": "",
+    "format": "GREEN"
+  },
+  {
+    "id": "CLASS",
+    "name": "Class",
+    "plural": "Classes",
+    "symbol": "",
+    "format": "DARK_AQUA"
+  },
+  {
+    "id": "CRUX_FORTUNE",
+    "name": "Crux Fortune",
+    "plural": "",
+    "symbol": "",
+    "format": "GOLD"
+  },
+  {
+    "id": "DIAMOND_GOBLIN",
+    "name": "Diamond Goblin",
+    "plural": "",
+    "symbol": "",
+    "format": "AQUA"
+  },
+  {
+    "id": "DIVER_ARMOR",
+    "name": "Diver Armor",
+    "plural": "Diver Armor",
+    "symbol": "",
+    "format": "GREEN"
+  },
+  {
+    "id": "DOT",
+    "name": "",
+    "plural": "",
+    "symbol": "•",
+    "format": "GRAY"
+  },
+  {
+    "id": "DRAGON",
+    "name": "Dragon",
+    "plural": "Dragons",
+    "symbol": "",
+    "format": "DARK_PURPLE"
+  },
+  {
+    "id": "ENDANGERED",
+    "name": "Endangered",
+    "plural": "",
+    "symbol": "",
+    "format": "DARK_PURPLE"
+  },
+  {
+    "id": "EGG",
+    "name": "Egg",
+    "plural": "Eggs",
+    "symbol": "",
+    "format": "WHITE"
+  },
+  {
+    "id": "ELUSIVE",
+    "name": "Elusive",
+    "plural": "",
+    "symbol": "",
+    "format": "GOLD"
+  },
+  {
+    "id": "EXP",
+    "name": "EXP",
+    "plural": "",
+    "symbol": "",
+    "format": "GREEN"
+  },
+  {
+    "id": "EXTRAVAGANT_ITEM",
+    "name": "extravagant item",
+    "plural": "extravagant items",
+    "symbol": "",
+    "format": "GOLD"
+  },
+  {
+    "id": "FIGHTING_BOOSTER",
+    "name": "Fighting Booster",
+    "plural": "Fighting Boosters",
+    "symbol": "४",
+    "format": "AQUA"
+  },
+  {
+    "id": "FIRE",
+    "name": "Fire",
+    "plural": "",
+    "symbol": "",
+    "format": "RED"
+  },
+  {
+    "id": "FISHING_FESTIVAL",
+    "name": "Fishing Festival",
+    "plural": "Fishing Festivals",
+    "symbol": "",
+    "format": "AQUA"
+  },
+  {
+    "id": "FORAGING_WISDOM_BOOSTER",
+    "name": "Foraging Wisdom Booster",
+    "plural": "Foraging Wisdom Boosters",
+    "symbol": "⸙",
+    "format": "AQUA"
+  },
+  {
+    "id": "FORAGING_FORTUNE_BOOSTER",
+    "name": "Foraging Fortune Booster",
+    "plural": "Foraging Fortune Boosters",
+    "symbol": "⎋",
+    "format": "AQUA"
+  },
+  {
+    "id": "FOREST",
+    "name": "Forest",
+    "symbol": "",
+    "format": "DARK_GREEN"
+  },
+  {
+    "id": "FRAGGED",
+    "name": "",
+    "symbol": "⚚",
+    "format": "GOLD"
+  },
+  {
+    "id": "FROZEN_CORPSE",
+    "name": "Frozen Corpse",
+    "plural": "Frozen Corpses",
+    "symbol": "",
+    "format": "AQUA"
+  },
+  {
+    "id": "GEMSTONE",
+    "name": "Gemstone",
+    "plural": "Gemstones",
+    "symbol": "",
+    "format": "LIGHT_PURPLE"
+  },
+  {
+    "id": "GEMSTONE_POWDER",
+    "name": "Gemstone Powder",
+    "plural": "Gemstone Powder",
+    "symbol": "᠅",
+    "format": "LIGHT_PURPLE"
+  },
+  {
+    "id": "GIFT_ATTACK",
+    "name": "Gift Attack",
+    "plural": "",
+    "symbol": "",
+    "format": "RED"
+  },
+  {
+    "id": "GLACITE_POWDER",
+    "name": "Glacite Powder",
+    "plural": "Glacite Powder",
+    "symbol": "᠅",
+    "format": "AQUA"
+  },
+  {
+    "id": "GLOBAL_FORTUNE",
+    "name": "Global Fortune",
+    "plural": "",
+    "symbol": "☘",
+    "format": "GOLD"
+  },
+  {
+    "id": "GLOSSY_GEMSTONES",
+    "name": "Glossy Gemstones",
+    "plural": "",
+    "symbol": "",
+    "format": ""
+  },
+  {
+    "id": "GOLDEN_GOBLIN",
+    "name": "Golden Goblin",
+    "plural": "",
+    "symbol": "",
+    "format": "GOLD"
+  },
+  {
+    "id": "GREAT_SPOOK_ARMOR",
+    "name": "Great Spook Armor",
+    "plural": "Great Spook Armor",
+    "symbol": "",
+    "format": "DARK_PURPLE"
+  },
+  {
+    "id": "HABANERO",
+    "name": "",
+    "symbol": "ℏ",
+    "format": "DARK_GRAY"
+  },
+  {
+    "id": "HAM_RADIO",
+    "name": "Blazetekk™ Ham Radio",
+    "plural": "",
+    "symbol": "",
+    "format": "GOLD"
+  },
+  {
+    "id": "HEART_OF_THE_MOUNTAIN",
+    "name": "Heart of the Mountain",
+    "plural": "",
+    "symbol": "",
+    "format": "DARK_PURPLE"
+  },
+  {
+    "id": "HOTSPOT_SEA_CREATURE",
+    "name": "Hotspot Sea Creature",
+    "plural": "Hotspot Sea Creatures",
+    "symbol": "",
+    "format": "LIGHT_PURPLE"
+  },
+  {
+    "id": "JACOBS_CONTEST",
+    "name": "Jacob's Farming Contest",
+    "plural": "Jacob's Farming Contests",
+    "symbol": "",
+    "format": "YELLOW"
+  },
+  {
+    "id": "KUUDRA_BOSS_FIGHT",
+    "name": "Kuudra Boss Fight",
+    "plural": "",
+    "symbol": "",
+    "format": "RED"
+  },
+  {
+    "id": "KUUDRA_TOKEN",
+    "name": "Token",
+    "plural": "Tokens",
+    "symbol": "",
+    "format": "DARK_PURPLE"
+  },
+  {
+    "id": "KUUDRAS_MINION",
+    "name": "Kuudra's Minion",
+    "plural": "Kuudra's Minions",
+    "symbol": "",
+    "format": "RED"
+  },
+  {
+    "id": "LARVA_SILK",
+    "name": "Larva Silk",
+    "plural": "",
+    "symbol": "",
+    "format": "WHITE"
+  },
+  {
+    "id": "LAVA",
+    "name": "Lava",
+    "plural": "",
+    "symbol": "",
+    "format": "RED"
+  },
+  {
+    "id": "LUCK_BOOSTER",
+    "name": "Luck Booster",
+    "plural": "Luck Boosters",
+    "symbol": "ꆤ",
+    "format": "AQUA"
+  },
+  {
+    "id": "MAGICAL_POWER",
+    "name": "Magical Power",
+    "plural": "Magical Power",
+    "symbol": "",
+    "format": "GOLD"
+  },
+  {
+    "id": "MAGMA_LORD_ARMOR",
+    "name": "Magma Lord Armor",
+    "plural": "Magma Lord Armor",
+    "symbol": "",
+    "format": "GREEN"
+  },
+  {
+    "id": "MASTER_MODE",
+    "name": "Master Mode",
+    "plural": "",
+    "symbol": "",
+    "format": "RED"
+  },
+  {
+    "id": "MINING_FIESTA",
+    "name": "Mining Fiesta",
+    "plural": "",
+    "symbol": "",
+    "format": "GOLD"
+  },
+  {
+    "id": "MINING_ISLANDS",
+    "name": "Mining Islands",
+    "plural": "",
+    "symbol": "",
+    "format": "AQUA"
+  },
+  {
+    "id": "MITHRIL",
+    "name": "Mithril",
+    "plural": "Mithril",
+    "symbol": "",
+    "format": "DARK_GREEN"
+  },
+  {
+    "id": "MITHRIL_POWDER",
+    "name": "Mithril Powder",
+    "plural": "Mithril Power",
+    "symbol": "᠅",
+    "format": "DARK_GREEN"
+  },
+  {
+    "id": "MORPH",
+    "name": "Right-click your summoned pet to morph into it!",
+    "plural": "",
+    "symbol": "",
+    "format": "GRAY"
+  },
+  {
+    "id": "MYTHOLOGICAL_CREATURE",
+    "name": "Mythological Creature",
+    "plural": "Mythological Creatures",
+    "symbol": "",
+    "format": "DARK_GREEN"
+  },
+  {
+    "id": "NEW_YEAR_CAKE",
+    "name": "New Year Cake",
+    "plural": "New Year Cakes",
+    "symbol": "",
+    "format": "RED"
+  },
+  {
+    "id": "ORE",
+    "name": "Ore",
+    "plural": "Ores",
+    "symbol": "",
+    "format": "GOLD"
+  },
+  {
+    "id": "PELT",
+    "name": "Pelt",
+    "plural": "Pelts",
+    "symbol": "",
+    "format": "DARK_PURPLE"
+  },
+  {
+    "id": "POINTED_STAR",
+    "name": "",
+    "plural": "",
+    "symbol": "✧",
+    "format": "GRAY"
+  },
+  {
+    "id": "PRIMAL_FEAR",
+    "name": "Primal Fear",
+    "plural": "Primal Fears",
+    "symbol": "",
+    "format": "RED"
+  },
+  {
+    "id": "REKINDLED_EMBER_ARMOR",
+    "name": "Rekindled Ember Armor",
+    "plural": "Rekindled Ember Armor",
+    "symbol": "",
+    "format": "DARK_PURPLE"
+  },
+  {
+    "id": "RIDABLE",
+    "name": "Right-click your summoned pet to ride it!",
+    "plural": "",
+    "symbol": "",
+    "format": "GRAY"
+  },
+  {
+    "id": "REFINED_MINERALS",
+    "name": "Refined Minerals",
+    "plural": "",
+    "symbol": "",
+    "format": ""
+  },
+  {
+    "id": "RELIC",
+    "name": "Relic",
+    "plural": "Relics",
+    "symbol": "",
+    "format": "AQUA"
+  },
+  {
+    "id": "SCAVENGED_ITEM",
+    "name": "Scavenged Item",
+    "plural": "Scavenged Items",
+    "symbol": "",
+    "format": "RED"
+  },
+  {
+    "id": "SEA_CREATURE",
+    "name": "Sea Creature",
+    "plural": "Sea Creatures",
+    "symbol": "",
+    "format": "DARK_AQUA"
+  },
+  {
+    "id": "SHEN",
+    "name": "Shen",
+    "plural": "Shens",
+    "symbol": "",
+    "format": "GOLD"
+  },
+  {
+    "id": "SMOLDERING_POLARIZATION",
+    "name": "Smoldering Polarization",
+    "plural": "",
+    "symbol": "",
+    "format": "GREEN"
+  },
+  {
+    "id": "S_PLUS",
+    "name": "S+",
+    "plural": "",
+    "symbol": "",
+    "format": "AQUA"
+  },
+  {
+    "id": "SPOOKY",
+    "name": "Spooky",
+    "plural": "",
+    "symbol": "",
+    "format": "GOLD"
+  },
+  {
+    "id": "SPOOKY_FESTIVAL",
+    "name": "Spooky Festival",
+    "plural": "Spooky Festivals",
+    "symbol": "",
+    "format": "GOLD"
+  },
+  {
+    "id": "STAR",
+    "name": "",
+    "plural": "",
+    "symbol": "✪",
+    "format": "GOLD"
+  },
+  {
+    "id": "STARRED",
+    "name": "",
+    "plural": "",
+    "symbol": "⚚",
+    "format": "GOLD"
+  },
+  {
+    "id": "SWEEP_BOOSTER",
+    "name": "Sweep Booster",
+    "plural": "Sweep Boosters",
+    "symbol": "ꕮ",
+    "format": "AQUA"
+  },
+  {
+    "id": "SUPERPAIR",
+    "name": "Superpair",
+    "plural": "Superpairs",
+    "symbol": "",
+    "format": "LIGHT_PURPLE"
+  },
+  {
+    "id": "SUSPICIOUS_SCRAP",
+    "name": "Suspicious Scrap",
+    "plural": "Suspicious Scraps",
+    "symbol": "",
+    "format": "BLUE"
+  },
+  {
+    "id": "THUNDER_BOTTLE",
+    "name": "Thunder in a Bottle",
+    "plural": "",
+    "symbol": "",
+    "format": "YELLOW"
+  },
+  {
+    "id": "TICKER",
+    "name": "",
+    "plural": "",
+    "symbol": "ⓞ",
+    "format": "GRAY"
+  },
+  {
+    "id": "TRANSMISSION_ABILITY",
+    "name": "Transmission Ability",
+    "plural": "Transmission Abilities",
+    "symbol": "",
+    "format": "BLUE"
+  },
+  {
+    "id": "TREASURE",
+    "name": "Treasure",
+    "plural": "Treasures",
+    "symbol": "",
+    "format": "GOLD"
+  },
+  {
+    "id": "TREASURE_CHEST",
+    "name": "Treasure Chest",
+    "plural": "Treasure Chests",
+    "symbol": "",
+    "format": "YELLOW"
+  },
+  {
+    "id": "TREASURE_GREAT",
+    "name": "GREAT",
+    "plural": "",
+    "symbol": "",
+    "format": "GOLD"
+  },
+  {
+    "id": "TREASURE_OUTSTANDING",
+    "name": "OUTSTANDING",
+    "plural": "",
+    "symbol": "",
+    "format": "LIGHT_PURPLE"
+  },
+  {
+    "id": "TROPHY_FISH",
+    "name": "Trophy Fish",
+    "plural": "",
+    "symbol": "",
+    "format": "GOLD"
+  },
+  {
+    "id": "TROPHY_FISH_BRONZE",
+    "name": "Bronze Trophy Fish",
+    "plural": "",
+    "symbol": "",
+    "format": "DARK_GRAY"
+  },
+  {
+    "id": "TROPHY_FISH_DIAMOND",
+    "name": "Diamond Trophy Fish",
+    "plural": "",
+    "symbol": "",
+    "format": "AQUA"
+  },
+  {
+    "id": "TROPHY_FISH_GOLD",
+    "name": "Gold Trophy Fish",
+    "plural": "",
+    "symbol": "",
+    "format": "GOLD"
+  },
+  {
+    "id": "TROPHY_FISH_SILVER",
+    "name": "Silver Trophy Fish",
+    "plural": "",
+    "symbol": "",
+    "format": "GRAY"
+  },
+  {
+    "id": "UNIQUE_ITEM",
+    "name": "unique item",
+    "plural": "unique items",
+    "symbol": "",
+    "format": "YELLOW"
+  },
+  {
+    "id": "UNIQUE_LOOT",
+    "name": "unique loot",
+    "plural": "",
+    "symbol": "",
+    "format": "YELLOW"
+  },
+  {
+    "id": "WARDROBE",
+    "name": "Wardrobe",
+    "plural": "",
+    "symbol": "",
+    "format": "AQUA"
+  },
+  {
+    "id": "WATER",
+    "name": "Water",
+    "plural": "",
+    "symbol": "",
+    "format": "AQUA"
+  },
+  {
+    "id": "WISDOM",
+    "name": "Widom",
+    "plural": "",
+    "symbol": "",
+    "format": "DARK_AQUA"
+  },
+  {
+    "id": "WISH",
+    "name": "Wish",
+    "plural": "Wishes",
+    "symbol": "",
+    "format": "GREEN"
+  },
+  {
+    "id": "ZOMBIE_CHARGE",
+    "name": "",
+    "plural": "",
+    "symbol": "ⓩ",
+    "format": "YELLOW"
+  },
+  {
+    "id": "ZONE",
+    "name": "",
+    "plural": "",
+    "symbol": "⏣",
+    "format": "GRAY"
+  }
+]

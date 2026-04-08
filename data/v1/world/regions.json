@@ -1,0 +1,156 @@
+[
+  {
+    "id": "PRIVATE_ISLAND",
+    "name": "Private Island",
+    "format": "GREEN",
+    "gameType": "SKYBLOCK",
+    "mode": "DYNAMIC"
+  },
+  {
+    "id": "THE_GARDEN",
+    "name": "The Garden",
+    "format": "GREEN",
+    "gameType": "SKYBLOCK",
+    "mode": "GARDEN"
+  },
+  {
+    "id": "HUB",
+    "name": "Hub",
+    "format": "WHITE",
+    "gameType": "SKYBLOCK",
+    "mode": "HUB"
+  },
+  {
+    "id": "DARK_AUCTION",
+    "name": "Dark Auction",
+    "format": "DARK_PURPLE",
+    "gameType": "SKYBLOCK",
+    "mode": "DARK_AUCTION"
+  },
+  {
+    "id": "THE_PARK",
+    "name": "The Park",
+    "format": "AQUA",
+    "gameType": "SKYBLOCK",
+    "mode": "FORAGING_1"
+  },
+  {
+    "id": "GALATEA",
+    "name": "Galatea",
+    "format": "GREEN",
+    "gameType": "SKYBLOCK",
+    "mode": "FORAGING_2"
+  },
+  {
+    "id": "THE_FARMING_ISLANDS",
+    "name": "The Farming Islands",
+    "format": "GREEN",
+    "gameType": "SKYBLOCK",
+    "mode": "FARMING_1"
+  },
+  {
+    "id": "SPIDERS_DEN",
+    "name": "Spider's Den",
+    "format": "RED",
+    "gameType": "SKYBLOCK",
+    "mode": "COMBAT_1"
+  },
+  {
+    "id": "THE_END",
+    "name": "The End",
+    "format": "LIGHT_PURPLE",
+    "gameType": "SKYBLOCK",
+    "mode": "COMBAT_3"
+  },
+  {
+    "id": "CRIMSON_ISLE",
+    "name": "Crimson Isle",
+    "format": "RED",
+    "gameType": "SKYBLOCK",
+    "mode": "CRIMSON_ISLE"
+  },
+  {
+    "id": "KUUDRAS_HOLLOW",
+    "name": "Kuudra's Hollow",
+    "format": "RED",
+    "gameType": "SKYBLOCK",
+    "mode": "INSTANCED"
+  },
+  {
+    "id": "THE_CATACOMBS",
+    "name": "The Catacombs",
+    "format": "RED",
+    "gameType": "SKYBLOCK",
+    "mode": "DUNGEON"
+  },
+  {
+    "id": "GOLD_MINE",
+    "name": "Gold Mine",
+    "format": "GOLD",
+    "gameType": "SKYBLOCK",
+    "mode": "MINING_1"
+  },
+  {
+    "id": "DEEP_CAVERNS",
+    "name": "Deep Caverns",
+    "format": "AQUA",
+    "gameType": "SKYBLOCK",
+    "mode": "MINING_2"
+  },
+  {
+    "id": "DWARVEN_MINES",
+    "name": "Dwarven Mines",
+    "format": "DARK_GREEN",
+    "gameType": "SKYBLOCK",
+    "mode": "MINING_3"
+  },
+  {
+    "id": "CRYSTAL_HOLLOWS",
+    "name": "Crystal Hollows",
+    "format": "DARK_PURPLE",
+    "gameType": "SKYBLOCK",
+    "mode": "CRYSTAL_HOLLOWS"
+  },
+  {
+    "id": "BACKWATER_BAYOU",
+    "name": "Backwater Bayou",
+    "format": "GREEN",
+    "gameType": "SKYBLOCK",
+    "mode": "FISHING_1"
+  },
+  {
+    "id": "JERRYS_WORKSHOP",
+    "name": "Jerry's Workshop",
+    "format": "RED",
+    "gameType": "SKYBLOCK",
+    "mode": "WINTER"
+  },
+  {
+    "id": "THE_RIFT",
+    "name": "The Rift",
+    "format": "GREEN",
+    "gameType": "SKYBLOCK",
+    "mode": "RIFT"
+  },
+  {
+    "id": "DUNGEON_HUB",
+    "name": "Dungeon Hub",
+    "format": "RED",
+    "gameType": "SKYBLOCK",
+    "mode": "DUNGEON_HUB"
+  },
+  {
+    "id": "NETWORK_LOBBY",
+    "name": "Network Lobby",
+    "format": "AQUA",
+    "gameType": "MAIN",
+    "mode": "LOBBY"
+  },
+  {
+    "id": "PROTOTYPE_LOBBY",
+    "name": "Prototype Lobby",
+    "format": "AQUA",
+    "gameType": "PROTOTYPE",
+    "mode": "LOBBY"
+  }
+]

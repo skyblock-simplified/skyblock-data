@@ -1,0 +1,380 @@
+{
+  "commit_sha": null,
+  "count": 41,
+  "files": [
+    {
+      "bytes": 82265,
+      "category": "items",
+      "content_sha256": "eb2becf6c655d0d87fc65495adca4db401504d78bd94a65d97a1d619cbdf8bf3",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.Accessory",
+      "path": "data/v1/items/accessories.json",
+      "table_name": "accessories"
+    },
+    {
+      "bytes": 4929,
+      "category": "items",
+      "content_sha256": "e700a20ea53480aad7d29416c3d39e5e16f6c8ed0f3608b104591c1080bf97e2",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.BitsItem",
+      "path": "data/v1/items/bits_items.json",
+      "table_name": "bits_items"
+    },
+    {
+      "bytes": 3686,
+      "category": "items",
+      "content_sha256": "3a20e013084bfb0d4b0e663dafeec4e566a99fe9998d348238bdff2c4e2f6494",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.ItemCategory",
+      "path": "data/v1/items/item_categories.json",
+      "table_name": "item_categories"
+    },
+    {
+      "bytes": 7102271,
+      "category": "items",
+      "content_sha256": "5d441be58118ec179a412678a21858204b9213a27a57a5034d49fd05550bd1da",
+      "extra_bytes": 247,
+      "extra_path": "data/v1/items/items_extra.json",
+      "extra_sha256": "9f4951706115426b4b8fe8d2986f210cfd80c6cfd3f6221c2ca4e90e523c2800",
+      "has_extra": true,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.Item",
+      "path": "data/v1/items/items.json",
+      "table_name": "items"
+    },
+    {
+      "bytes": 3,
+      "category": "items",
+      "content_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.PetItem",
+      "path": "data/v1/items/pet_items.json",
+      "table_name": "pet_items"
+    },
+    {
+      "bytes": 2254,
+      "category": "mobs",
+      "content_sha256": "c9cc46a0c4d2b95af97ebaf30dbeb9de5a8d2987a14202a467a72d7b1eda0ee5",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.BestiaryCategory",
+      "path": "data/v1/mobs/bestiary_categories.json",
+      "table_name": "bestiary_categories"
+    },
+    {
+      "bytes": 92118,
+      "category": "mobs",
+      "content_sha256": "6f43ff1ffe2e4d43165b7e080c063e90f9cddbfb10e981eb5587d5fbd5450f9c",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.BestiaryFamily",
+      "path": "data/v1/mobs/bestiary_families.json",
+      "table_name": "bestiary_families"
+    },
+    {
+      "bytes": 769,
+      "category": "mobs",
+      "content_sha256": "52e667c776403834e2b9198875a17ede6743689d91c73417aa818b6eeeb6f53b",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.BestiarySubcategory",
+      "path": "data/v1/mobs/bestiary_subcategories.json",
+      "table_name": "bestiary_subcategories"
+    },
+    {
+      "bytes": 2277,
+      "category": "mobs",
+      "content_sha256": "7d3b91051eff71bccd83ff4926dda8b50ac58b7ffc583fbda7449b7c930ac0fc",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.MobType",
+      "path": "data/v1/mobs/mob_types.json",
+      "table_name": "mob_types"
+    },
+    {
+      "bytes": 3,
+      "category": "modifiers",
+      "content_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.BonusArmorSet",
+      "path": "data/v1/modifiers/bonus_armor_sets.json",
+      "table_name": "bonus_armor_sets"
+    },
+    {
+      "bytes": 3,
+      "category": "modifiers",
+      "content_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.BonusEnchantmentStat",
+      "path": "data/v1/modifiers/bonus_enchantment_stats.json",
+      "table_name": "bonus_enchantment_stats"
+    },
+    {
+      "bytes": 3,
+      "category": "modifiers",
+      "content_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.BonusItemRarity",
+      "path": "data/v1/modifiers/bonus_item_rarities.json",
+      "table_name": "bonus_item_rarities"
+    },
+    {
+      "bytes": 3,
+      "category": "modifiers",
+      "content_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.BonusItemStat",
+      "path": "data/v1/modifiers/bonus_item_stats.json",
+      "table_name": "bonus_item_stats"
+    },
+    {
+      "bytes": 3,
+      "category": "modifiers",
+      "content_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.BonusPetAbilityStat",
+      "path": "data/v1/modifiers/bonus_pet_ability_stats.json",
+      "table_name": "bonus_pet_ability_stats"
+    },
+    {
+      "bytes": 3,
+      "category": "modifiers",
+      "content_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.BonusReforgeStat",
+      "path": "data/v1/modifiers/bonus_reforge_stats.json",
+      "table_name": "bonus_reforge_stats"
+    },
+    {
+      "bytes": 4937,
+      "category": "modifiers",
+      "content_sha256": "84ad5657ac3f24cc375476a1c3f07bad2e976722692abc1ffa43739981aa86c8",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.Brew",
+      "path": "data/v1/modifiers/brews.json",
+      "table_name": "brews"
+    },
+    {
+      "bytes": 162916,
+      "category": "modifiers",
+      "content_sha256": "130708f5dba0b8f28b944061777a57bc67984b421848d23072eb53ca4dad3005",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.Enchantment",
+      "path": "data/v1/modifiers/enchantments.json",
+      "table_name": "enchantments"
+    },
+    {
+      "bytes": 12393,
+      "category": "modifiers",
+      "content_sha256": "6d4831f1c727bbd719b4c3cd130b07f7c040239f2b1759bf03a8d4ce1298a41b",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.Gemstone",
+      "path": "data/v1/modifiers/gemstones.json",
+      "table_name": "gemstones"
+    },
+    {
+      "bytes": 3,
+      "category": "modifiers",
+      "content_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.HotPotatoStat",
+      "path": "data/v1/modifiers/hot_potato_stats.json",
+      "table_name": "hot_potato_stats"
+    },
+    {
+      "bytes": 3,
+      "category": "modifiers",
+      "content_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.HotmPerk",
+      "path": "data/v1/modifiers/hotm_perks.json",
+      "table_name": "hotm_perks"
+    },
+    {
+      "bytes": 2415,
+      "category": "modifiers",
+      "content_sha256": "1aa715eca4d46029fabebc6dbccb2db28a9d1df3e93214df5dcace1c889baacd",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.Mixin",
+      "path": "data/v1/modifiers/mixins.json",
+      "table_name": "mixins"
+    },
+    {
+      "bytes": 2327,
+      "category": "modifiers",
+      "content_sha256": "03b73edf797ea61d3b51b2fd8d3e2d08fce78bb5b4ec1102d8f93fef2400ec07",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.PotionGroup",
+      "path": "data/v1/modifiers/potion_groups.json",
+      "table_name": "potion_groups"
+    },
+    {
+      "bytes": 20929,
+      "category": "modifiers",
+      "content_sha256": "a25d8a8d43a89436390d1edf5d6b4325ebaed00f3f05d7575676f2655bf2ca1e",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.Potion",
+      "path": "data/v1/modifiers/potions.json",
+      "table_name": "potions"
+    },
+    {
+      "bytes": 9169,
+      "category": "modifiers",
+      "content_sha256": "449d4b090741e3dd89a0dee2f8d49a0ee48dcccc98342ffdeea33b1dcfaded06",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.Power",
+      "path": "data/v1/modifiers/powers.json",
+      "table_name": "powers"
+    },
+    {
+      "bytes": 101732,
+      "category": "modifiers",
+      "content_sha256": "b6dae04d689bb6ce6702c750bdf599ef69f9a3d1845bf3483a30ebf501d0e469",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.Reforge",
+      "path": "data/v1/modifiers/reforges.json",
+      "table_name": "reforges"
+    },
+    {
+      "bytes": 103666,
+      "category": "modifiers",
+      "content_sha256": "b5d6189448c16354624928cc9d521ef73affa721934b5d7d14414f540c2f26dc",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.ShopPerk",
+      "path": "data/v1/modifiers/shop_perks.json",
+      "table_name": "shop_perks"
+    },
+    {
+      "bytes": 774,
+      "category": "modifiers",
+      "content_sha256": "1ea51c69a88e7bb07cce8dfbc9ed2b84bca2652cd4e9c4bf2db4b7abab867232",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.StatCategory",
+      "path": "data/v1/modifiers/stat_categories.json",
+      "table_name": "stat_categories"
+    },
+    {
+      "bytes": 16069,
+      "category": "modifiers",
+      "content_sha256": "94207a4ed71e0b0a5a99637f0ba7b5f105fcdb9431b221a562b7ccef6ce4a738",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.Stat",
+      "path": "data/v1/modifiers/stats.json",
+      "table_name": "stats"
+    },
+    {
+      "bytes": 163046,
+      "category": "player",
+      "content_sha256": "04eae29a10abb46f46508b419d55116d59d46bf23613e70eebc5f875b436cc3a",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.Collection",
+      "path": "data/v1/player/collections.json",
+      "table_name": "collections"
+    },
+    {
+      "bytes": 672,
+      "category": "player",
+      "content_sha256": "0400a55ad158f00fa25bbf980f1fe6c0ff00b5f22aa8b296c34a4e8e29c7b166",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.Essence",
+      "path": "data/v1/player/essences.json",
+      "table_name": "essences"
+    },
+    {
+      "bytes": 167612,
+      "category": "player",
+      "content_sha256": "0c23200cd44edb2686bef82cf039754bc2af9070c5a9413f97a76b423c88a2ca",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.Minion",
+      "path": "data/v1/player/minions.json",
+      "table_name": "minions"
+    },
+    {
+      "bytes": 333340,
+      "category": "player",
+      "content_sha256": "81bb4c89c726056d7fc03faa4cdadfc55c84be2b60d27e30572e9b257825eeef",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.Pet",
+      "path": "data/v1/player/pets.json",
+      "table_name": "pets"
+    },
+    {
+      "bytes": 171557,
+      "category": "player",
+      "content_sha256": "da3a3b385e9aed06ca1421e34bd29718122a29b318b6e0f6840e982ca848719c",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.Skill",
+      "path": "data/v1/player/skills.json",
+      "table_name": "skills"
+    },
+    {
+      "bytes": 17428,
+      "category": "player",
+      "content_sha256": "619713a74b04594603fe49603bc5c90cef0779bc75be5bd2f771d4d0a6c64cbe",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.Slayer",
+      "path": "data/v1/player/slayers.json",
+      "table_name": "slayers"
+    },
+    {
+      "bytes": 4,
+      "category": "world",
+      "content_sha256": "ace810d7e2cbb4f8c40ce09dc8e191ae466adb4e1a7d49c59f2215b411d38b05",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.FairySoul",
+      "path": "data/v1/world/fairy_souls.json",
+      "table_name": "fairy_souls"
+    },
+    {
+      "bytes": 12848,
+      "category": "world",
+      "content_sha256": "1df1b8192aa818285b233f036c73fd2540481243c7ee52d2c5103ed67967098e",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.Keyword",
+      "path": "data/v1/world/keywords.json",
+      "table_name": "keywords"
+    },
+    {
+      "bytes": 15142,
+      "category": "world",
+      "content_sha256": "99f019a63a8ce3ed60585ee9d9d6b8cc05bbb6c98b583319d95afb4c81d6a1e9",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.Mayor",
+      "path": "data/v1/world/mayors.json",
+      "table_name": "mayors"
+    },
+    {
+      "bytes": 1556,
+      "category": "world",
+      "content_sha256": "7e37229975fbb3adb90e60af6fa89fd341d4646a04cb4fac2f43e15b1484c5b8",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.MelodySong",
+      "path": "data/v1/world/melody_songs.json",
+      "table_name": "melody_songs"
+    },
+    {
+      "bytes": 3011,
+      "category": "world",
+      "content_sha256": "244516f65aab3124a3113cf5827f19aa6493adbefab6381cb7d37433a21bbc5d",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.Region",
+      "path": "data/v1/world/regions.json",
+      "table_name": "regions"
+    },
+    {
+      "bytes": 284,
+      "category": "world",
+      "content_sha256": "bbb3676c8483ed1393d9f2810e3bbe4d622adf3b5aee04adff8b951285bdebef",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.ZodiacEvent",
+      "path": "data/v1/world/zodiac_events.json",
+      "table_name": "zodiac_events"
+    },
+    {
+      "bytes": 31825,
+      "category": "world",
+      "content_sha256": "015f6af20988a139d3b7e5b745e76367d0f1fdc24e2cd7ddd733f2fc9ee2352d",
+      "has_extra": false,
+      "model_class": "dev.sbs.minecraftapi.persistence.model.Zone",
+      "path": "data/v1/world/zones.json",
+      "table_name": "zones"
+    }
+  ],
+  "generated_at": "2026-04-08T08:10:18Z",
+  "version": 1
+}

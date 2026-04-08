@@ -1,0 +1,121 @@
+[
+  {
+    "id": "DUNGEON_POTION_1",
+    "name": "Dungeon I Potion",
+    "potions": {
+      "REGENERATION": 1,
+      "STRENGTH": 3,
+      "CRITICAL": 1,
+      "SPEED": 1,
+      "RESISTANCE": 1
+    }
+  },
+  {
+    "id": "DUNGEON_POTION_2",
+    "name": "Dungeon II Potion",
+    "potions": {
+      "REGENERATION": 2,
+      "STRENGTH": 3,
+      "CRITICAL": 1,
+      "SPEED": 2,
+      "RESISTANCE": 2
+    }
+  },
+  {
+    "id": "DUNGEON_POTION_3",
+    "name": "Dungeon III Potion",
+    "potions": {
+      "REGENERATION": 3,
+      "STRENGTH": 3,
+      "CRITICAL": 2,
+      "SPEED": 2,
+      "RESISTANCE": 2
+    }
+  },
+  {
+    "id": "DUNGEON_POTION_4",
+    "name": "Dungeon IV Potion",
+    "potions": {
+      "REGENERATION": 3,
+      "STRENGTH": 4,
+      "CRITICAL": 2,
+      "SPEED": 2,
+      "RESISTANCE": 3,
+      "ARCHERY": 1
+    }
+  },
+  {
+    "id": "DUNGEON_POTION_5",
+    "name": "Dungeon V Potion",
+    "potions": {
+      "REGENERATION": 3,
+      "STRENGTH": 4,
+      "CRITICAL": 3,
+      "SPEED": 2,
+      "RESISTANCE": 4,
+      "ARCHERY": 2
+    }
+  },
+  {
+    "id": "DUNGEON_POTION_6",
+    "name": "Dungeon VI Potion",
+    "potions": {
+      "REGENERATION": 4,
+      "STRENGTH": 4,
+      "CRITICAL": 3,
+      "SPEED": 3,
+      "RESISTANCE": 4,
+      "ARCHERY": 3
+    }
+  },
+  {
+    "id": "DUNGEON_POTION_7",
+    "name": "Dungeon VII Potion",
+    "potions": {
+      "REGENERATION": 4,
+      "STRENGTH": 5,
+      "CRITICAL": 3,
+      "SPEED": 3,
+      "RESISTANCE": 5,
+      "ARCHERY": 3
+    }
+  },
+  {
+    "id": "GOD_POTION",
+    "name": "God Potion",
+    "potions": {
+      "ABSORPTION": 8,
+      "ADRENALINE": 8,
+      "AGILITY": 4,
+      "ALCHEMY_XP_BOOST": 3,
+      "ARCHERY": 4,
+      "BURNING": 4,
+      "COMBAT_XP_BOOST": 3,
+      "CRITICAL": 4,
+      "DODGE": 4,
+      "ENCHANTING_XP_BOOST": 3,
+      "EXPERIENCE": 4,
+      "FARMING_XP_BOOST": 3,
+      "FIRE_RESISTANCE": 1,
+      "FISHING_XP_BOOST": 3,
+      "FORAGING_XP_BOOST": 3,
+      "HASTE": 4,
+      "JERRY_CANDY": 1,
+      "JUMP_BOOST": 4,
+      "MAGIC_FIND": 4,
+      "MANA": 8,
+      "MINING_XP_BOOST": 3,
+      "NIGHT_VISION": 1,
+      "PET_LUCK": 4,
+      "RABBIT": 6,
+      "REGENERATION": 9,
+      "RESISTANCE": 8,
+      "SPEED": 8,
+      "SPIRIT": 4,
+      "STRENGTH": 8,
+      "STUN": 4,
+      "TRUE_RESISTANCE": 4,
+      "WATER_BREATHING": 6
+    }
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "id": "AIRBORNE",
+    "name": "Airborne",
+    "symbol": "✈",
+    "format": "GRAY"
+  },
+  {
+    "id": "ANIMAL",
+    "name": "Animal",
+    "symbol": "☮",
+    "format": "GREEN"
+  },
+  {
+    "id": "AQUATIC",
+    "name": "Aquatic",
+    "symbol": "⚓",
+    "format": "BLUE"
+  },
+  {
+    "id": "ARCANE",
+    "name": "Arcane",
+    "symbol": "♃",
+    "format": "DARK_PURPLE"
+  },
+  {
+    "id": "ARTHROPOD",
+    "name": "Arthropod",
+    "symbol": "Ж",
+    "format": "DARK_RED"
+  },
+  {
+    "id": "CONSTRUCT",
+    "name": "Construct",
+    "symbol": "⚙",
+    "format": "GRAY"
+  },
+  {
+    "id": "CUBIC",
+    "name": "Cubic",
+    "symbol": "⚂",
+    "format": "GREEN"
+  },
+  {
+    "id": "ELUSIVE",
+    "name": "Elusive",
+    "symbol": "♣",
+    "format": "LIGHT_PURPLE"
+  },
+  {
+    "id": "ENDER",
+    "name": "Ender",
+    "symbol": "⊙",
+    "format": "DARK_PURPLE"
+  },
+  {
+    "id": "FROZEN",
+    "name": "Frozen",
+    "symbol": "☃",
+    "format": "WHITE"
+  },
+  {
+    "id": "GLACIAL",
+    "name": "Glacial",
+    "symbol": "❄",
+    "format": "AQUA"
+  },
+  {
+    "id": "HUMANOID",
+    "name": "Humanoid",
+    "symbol": "✰",
+    "format": "YELLOW"
+  },
+  {
+    "id": "INFERNAL",
+    "name": "Infernal",
+    "symbol": "♨",
+    "format": "DARK_RED"
+  },
+  {
+    "id": "MAGMATIC",
+    "name": "Magmatic",
+    "symbol": "♆",
+    "format": "RED"
+  },
+  {
+    "id": "MYTHOLOGICAL",
+    "name": "Mythological",
+    "symbol": "✿",
+    "format": "DARK_GREEN"
+  },
+  {
+    "id": "PEST",
+    "name": "Pest",
+    "symbol": "ൠ",
+    "format": "DARK_GREEN"
+  },
+  {
+    "id": "SHIELDED",
+    "name": "Shielded",
+    "symbol": "⛨",
+    "format": "YELLOW"
+  },
+  {
+    "id": "SKELETAL",
+    "name": "Skeletal",
+    "symbol": "\uD83E\uDDB4",
+    "format": "WHITE"
+  },
+  {
+    "id": "SPOOKY",
+    "name": "Spooky",
+    "symbol": "☽",
+    "format": "GOLD"
+  },
+  {
+    "id": "SUBTERRANEAN",
+    "name": "Subterranean",
+    "symbol": "⛏",
+    "format": "GOLD"
+  },
+  {
+    "id": "UNDEAD",
+    "name": "Undead",
+    "symbol": "༕",
+    "format": "DARK_GREEN"
+  },
+  {
+    "id": "WITHER",
+    "name": "Wither",
+    "symbol": "☠",
+    "format": "DARK_GRAY"
+  },
+  {
+    "id": "WOODLAND",
+    "name": "Woodland",
+    "symbol": "⸙",
+    "format": "DARK_GREEN"
+  }
+]

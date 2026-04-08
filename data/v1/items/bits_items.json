@@ -1,0 +1,293 @@
+[
+  {
+    "id": "GOD_POTION_2",
+    "type": "CONSUMABLE",
+    "cost": 1500
+  },
+  {
+    "id": "KISMET_FEATHER",
+    "type": "CONSUMABLE",
+    "cost": 1350
+  },
+  {
+    "id": "KAT_FLOWER",
+    "type": "CONSUMABLE",
+    "cost": 500
+  },
+  {
+    "id": "KAT_BOUQUET",
+    "type": "CONSUMABLE",
+    "cost": 2500
+  },
+  {
+    "id": "HEAT_CORE",
+    "type": "UPGRADE",
+    "cost": 3000
+  },
+  {
+    "id": "HYPER_CATALYST_UPGRADE",
+    "type": "UPGRADE",
+    "cost": 300
+  },
+  {
+    "id": "ULTIMATE_CARROT_CANDY_UPGRADE",
+    "type": "UPGRADE",
+    "cost": 8000
+  },
+  {
+    "id": "COLOSSAL_EXP_BOTTLE_UPGRADE",
+    "type": "UPGRADE",
+    "cost": 1200
+  },
+  {
+    "id": "JUMBO_BACKPACK_UPGRADE",
+    "type": "UPGRADE",
+    "cost": 4000
+  },
+  {
+    "id": "MINION_STORAGE_EXPANDER",
+    "type": "UPGRADE",
+    "cost": 1500
+  },
+  {
+    "id": "MATRIARCH_PARFUM",
+    "type": "CONSUMABLE",
+    "cost": 1200
+  },
+  {
+    "id": "HOLOGRAM",
+    "type": "COSMETIC",
+    "cost": 2000
+  },
+  {
+    "id": "DITTO_BLOB",
+    "type": "COSMETIC",
+    "cost": 600
+  },
+  {
+    "id": "BUILDERS_WAND",
+    "type": "ITEM",
+    "cost": 12000
+  },
+  {
+    "id": "BLOCK_ZAPPER",
+    "type": "ITEM",
+    "cost": 5000
+  },
+  {
+    "id": "BITS_TALISMAN",
+    "type": "ACCESSORY",
+    "cost": 15000
+  },
+  {
+    "id": "ATTRIBUTE_SHARD",
+    "type": "ATTRIBUTE_SHARD",
+    "variants": [
+      {
+        "id": "BITBUG",
+        "cost": 5000
+      }
+    ]
+  },
+  {
+    "id": "POCKET_SACK_IN_A_SACK",
+    "type": "SACK",
+    "cost": 8000
+  },
+  {
+    "id": "LARGE_DUNGEON_SACK",
+    "type": "SACK",
+    "cost": 14000
+  },
+  {
+    "id": "RUNE_SACK",
+    "type": "SACK",
+    "cost": 14000
+  },
+  {
+    "id": "FLOWER_SACK",
+    "type": "SACK",
+    "cost": 14000
+  },
+  {
+    "id": "DWARVEN_MINES_SACK",
+    "type": "SACK",
+    "cost": 14000
+  },
+  {
+    "id": "CRYSTAL_HOLLOWS_SACK",
+    "type": "SACK",
+    "cost": 14000
+  },
+  {
+    "id": "PORTALIZER",
+    "type": "CONSUMABLE",
+    "cost": 4800
+  },
+  {
+    "id": "TRIO_CONTACTS_ADDON",
+    "type": "CONSUMABLE",
+    "cost": 6450
+  },
+  {
+    "id": "ABICASE",
+    "type": "ACCESSORY",
+    "variants": [
+      {
+        "id": "SUMSUNG_1",
+        "category": "SUMSUNG",
+        "cost": 15000
+      },
+      {
+        "id": "SUMSUNG_2",
+        "category": "SUMSUNG",
+        "cost": 25000
+      },
+      {
+        "id": "REZAR",
+        "category": "REZAR",
+        "cost": 26000
+      },
+      {
+        "id": "BLUE_RED",
+        "category": "BLUE",
+        "cost": 17000
+      },
+      {
+        "id": "BLUE_BLUE",
+        "category": "BLUE",
+        "cost": 17000
+      },
+      {
+        "id": "BLUE_GREEN",
+        "category": "BLUE",
+        "cost": 17000
+      },
+      {
+        "id": "BLUE_YELLOW",
+        "category": "BLUE",
+        "cost": 17000
+      },
+      {
+        "id": "BLUE_AQUA",
+        "category": "BLUE",
+        "cost": 17000
+      }
+    ]
+  },
+  {
+    "id": "AUTOPET_RULES_2",
+    "type": "CONSUMABLE",
+    "cost": 21000
+  },
+  {
+    "id": "DYE_PURE_BLACK",
+    "type": "DYE",
+    "cost": 250000
+  },
+  {
+    "id": "DYE_PURE_WHITE",
+    "type": "DYE",
+    "cost": 250000
+  },
+  {
+    "id": "INFERNO_FUEL_BLOCK",
+    "type": "CONSUMABLE",
+    "cost": 75,
+    "alternateCost": 56.25
+  },
+  {
+    "id": "ENCHANTED_BOOK",
+    "type": "ENCHANTED_BOOK",
+    "variants": [
+      {
+        "id": "EXPERTISE",
+        "cost": 4000
+      },
+      {
+        "id": "COMPACT",
+        "cost": 4000
+      },
+      {
+        "id": "CULTIVATING",
+        "cost": 4000
+      },
+      {
+        "id": "ABSORB",
+        "cost": 4000
+      },
+      {
+        "id": "CHAMPION",
+        "cost": 4000
+      },
+      {
+        "id": "HECATOMB",
+        "cost": 6000
+      },
+      {
+        "id": "TOXOPHILITE",
+        "cost": 4000
+      }
+    ]
+  },
+  {
+    "id": "TALISMAN_ENRICHMENT_WALK_SPEED",
+    "type": "ENRICHMENT",
+    "cost": 5000
+  },
+  {
+    "id": "TALISMAN_ENRICHMENT_INTELLIGENCE",
+    "type": "ENRICHMENT",
+    "cost": 5000
+  },
+  {
+    "id": "TALISMAN_ENRICHMENT_CRITICAL_DAMAGE",
+    "type": "ENRICHMENT",
+    "cost": 5000
+  },
+  {
+    "id": "TALISMAN_ENRICHMENT_CRITICAL_CHANCE",
+    "type": "ENRICHMENT",
+    "cost": 5000
+  },
+  {
+    "id": "TALISMAN_ENRICHMENT_STRENGTH",
+    "type": "ENRICHMENT",
+    "cost": 5000
+  },
+  {
+    "id": "TALISMAN_ENRICHMENT_DEFENSE",
+    "type": "ENRICHMENT",
+    "cost": 5000
+  },
+  {
+    "id": "TALISMAN_ENRICHMENT_HEALTH",
+    "type": "ENRICHMENT",
+    "cost": 5000
+  },
+  {
+    "id": "TALISMAN_ENRICHMENT_MAGIC_FIND",
+    "type": "ENRICHMENT",
+    "cost": 5000
+  },
+  {
+    "id": "TALISMAN_ENRICHMENT_FEROCITY",
+    "type": "ENRICHMENT",
+    "cost": 5000
+  },
+  {
+    "id": "TALISMAN_ENRICHMENT_SEA_CREATURE_CHANCE",
+    "type": "ENRICHMENT",
+    "cost": 5000
+  },
+  {
+    "id": "TALISMAN_ENRICHMENT_ATTACK_SPEED",
+    "type": "ENRICHMENT",
+    "cost": 5000
+  },
+  {
+    "id": "TALISMAN_ENRICHMENT_SWAPPER",
+    "type": "ENRICHMENT",
+    "cost": 200
+  }
+]

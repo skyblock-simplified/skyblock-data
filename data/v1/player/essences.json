@@ -1,0 +1,47 @@
+[
+  {
+    "id": "WITHER",
+    "name": "Wither",
+    "format": "DARK_GRAY"
+  },
+  {
+    "id": "SPIDER",
+    "name": "Spider",
+    "format": "DARK_RED"
+  },
+  {
+    "id": "UNDEAD",
+    "name": "Undead",
+    "format": "DARK_GREEN"
+  },
+  {
+    "id": "DRAGON",
+    "name": "Dragon",
+    "format": "LIGHT_PURPLE"
+  },
+  {
+    "id": "GOLD",
+    "name": "Gold",
+    "format": "GOLD"
+  },
+  {
+    "id": "DIAMOND",
+    "name": "Diamond",
+    "format": "AQUA"
+  },
+  {
+    "id": "ICE",
+    "name": "Ice",
+    "format": "AQUA"
+  },
+  {
+    "id": "CRIMSON",
+    "name": "Crimson",
+    "format": "RED"
+  },
+  {
+    "id": "FOREST",
+    "name": "FOREST",
+    "format": "DARK_GREEN"
+  }
+]

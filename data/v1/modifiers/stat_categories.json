@@ -1,0 +1,52 @@
+[
+  {
+    "id": "OTHER",
+    "name": "Other",
+    "format": "WHITE"
+  },
+  {
+    "id": "COMBAT",
+    "name": "Combat",
+    "format": "RED"
+  },
+  {
+    "id": "FARMING",
+    "name": "Farming",
+    "format": "DARK_GREEN"
+  },
+  {
+    "id": "FISHING",
+    "name": "Fishing",
+    "format": "AQUA"
+  },
+  {
+    "id": "FORAGING",
+    "name": "Foraging",
+    "format": "DARK_GREEN"
+  },
+  {
+    "id": "HUNTING",
+    "name": "Hunting",
+    "format": "YELLOW"
+  },
+  {
+    "id": "MINING",
+    "name": "Mining",
+    "format": "GOLD"
+  },
+  {
+    "id": "MISCELLANEOUS",
+    "name": "Miscellaneous",
+    "format": "LIGHT_PURPLE"
+  },
+  {
+    "id": "WISDOM",
+    "name": "Wisdom",
+    "format": "DARK_AQUA"
+  },
+  {
+    "id": "RIFT",
+    "name": "Rift",
+    "format": "DARK_PURPLE"
+  }
+]

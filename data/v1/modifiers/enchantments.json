@@ -1,0 +1,9216 @@
+[
+  {
+    "id": "ABSORB",
+    "name": "Absorb",
+    "description": "Grants %{VALUE:FORAGING_WISDOM} %{STAT:FORAGING_WISDOM} and %{VALUE:FORAGING_FORTUNE} %{STAT:FORAGING_FORTUNE}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "AXE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 2,
+        "cost": {}
+      },
+      {
+        "level": 3,
+        "cost": {}
+      },
+      {
+        "level": 4,
+        "cost": {}
+      },
+      {
+        "level": 5,
+        "cost": {}
+      },
+      {
+        "level": 6,
+        "cost": {}
+      },
+      {
+        "level": 7,
+        "cost": {}
+      },
+      {
+        "level": 8,
+        "cost": {}
+      },
+      {
+        "level": 9,
+        "cost": {}
+      },
+      {
+        "level": 10,
+        "cost": {}
+      }
+    ],
+    "stats": [
+      {
+        "id": "FORAGING_WISDOM",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6,
+          "7": 7,
+          "8": 8,
+          "9": 9,
+          "10": 10
+        }
+      },
+      {
+        "id": "FORAGING_FORTUNE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10,
+          "6": 12,
+          "7": 14,
+          "8": 16,
+          "9": 18,
+          "10": 20
+        }
+      }
+    ]
+  },
+  {
+    "id": "ANGLER",
+    "name": "Angler",
+    "description": "Grants %{VALUE:SEA_CREATURE_CHANCE} %{STAT:SEA_CREATURE_CHANCE}.",
+    "type": "NORMAL",
+    "requiredLevel": 4,
+    "categories": [
+      "FISHING_ROD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 75
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "SEA_CREATURE_CHANCE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "AQUA_AFFINITY",
+    "name": "Aqua Affinity",
+    "description": "Increases your underwater mining rate.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 15
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "DEFAULT",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "BANE_OF_ARTHROPODS",
+    "name": "Bane of Arthropods",
+    "description": "Increases damage dealt to %{MOB_TYPE:ARTHROPOD} mobs by %{VALUE:DAMAGE}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 15
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 7,
+        "cost": {
+          "experience": 0,
+          "item": "ENSNARED_SNAIL"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 30,
+          "6": 40,
+          "7": 50
+        }
+      }
+    ]
+  },
+  {
+    "id": "BIG_BRAIN",
+    "name": "Big Brain",
+    "description": "Grants %{VALUE:INTELLIGENCE} %{STAT:INTELLIGENCE}.",
+    "type": "NORMAL",
+    "requiredLevel": 21,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 60
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 80
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 100
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "INTELLIGENCE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 15,
+          "2": 20,
+          "3": 25
+        }
+      }
+    ]
+  },
+  {
+    "id": "BLAST_PROTECTION",
+    "name": "Blast Protection",
+    "description": "Grants %{VALUE:EXPLOSION_DEFENSE} %{STAT:DEFENSE} against explosions.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 15
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 7,
+        "cost": {
+          "experience": 200
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "EXPLOSION_DEFENSE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 30,
+          "2": 60,
+          "3": 90,
+          "4": 120,
+          "5": 150,
+          "6": 180,
+          "7": 210
+        }
+      }
+    ]
+  },
+  {
+    "id": "BLESSING",
+    "name": "Blessing",
+    "description": "Increases the chance for %{KEYWORD:TREASURE} catches to be %{KEYWORD:TREASURE_GREAT} or %{KEYWORD:TREASURE_OUSTANDING} by %{VALUE:CHANCE}.",
+    "type": "NORMAL",
+    "requiredLevel": 9,
+    "categories": [
+      "FISHING_ROD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 0
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "CHANCE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10,
+          "6": 12
+        }
+      }
+    ]
+  },
+  {
+    "id": "CASTER",
+    "name": "Caster",
+    "description": "%{VALUE:CHANCE} chance to not consume bait.",
+    "type": "NORMAL",
+    "requiredLevel": 15,
+    "categories": [
+      "FISHING_ROD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 75
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "CHANCE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25,
+          "6": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": "CAYENNE",
+    "name": "Cayenne",
+    "description": "Grants %{VALUE:HEALTH_SCALAR} %{STAT:HEALTH} and %{VALUE:TRUE_DEFENSE_SCALAR} %{STAT:TRUE_DEFENSE} per digit in your %{KEYWORD:MAGICAL_POWER}",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "NECKLACE",
+      "CLOAK",
+      "BELT",
+      "GLOVES",
+      "BRACELET"
+    ],
+    "levels": [
+      {
+        "level": 4,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 200
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "HEALTH_SCALAR",
+        "precision": 1,
+        "type": "FLAT",
+        "values": {
+          "4": 0.8,
+          "5": 1.0
+        }
+      },
+      {
+        "id": "TRUE_DEFENSE_SCALAR",
+        "precision": 1,
+        "type": "FLAT",
+        "values": {
+          "4": 0.4,
+          "5": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "CHAMPION",
+    "name": "Champion",
+    "description": "Gain %{VALUE:COMBAT_XP} extra Combat XP. The 2nd hit on a mob grants %{VALUE:COINS} & %{VALUE:XP_ORBS} exp orbs.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 2,
+        "cost": {}
+      },
+      {
+        "level": 3,
+        "cost": {}
+      },
+      {
+        "level": 4,
+        "cost": {}
+      },
+      {
+        "level": 5,
+        "cost": {}
+      },
+      {
+        "level": 6,
+        "cost": {}
+      },
+      {
+        "level": 7,
+        "cost": {}
+      },
+      {
+        "level": 8,
+        "cost": {}
+      },
+      {
+        "level": 9,
+        "cost": {}
+      },
+      {
+        "level": 10,
+        "cost": {}
+      }
+    ],
+    "stats": [
+      {
+        "id": "COMBAT_XP",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 3,
+          "2": 4,
+          "3": 4,
+          "4": 5,
+          "5": 6,
+          "6": 7,
+          "7": 8,
+          "8": 8,
+          "9": 9,
+          "10": 10
+        }
+      },
+      {
+        "id": "COINS",
+        "precision": 1,
+        "type": "COINS",
+        "values": {
+          "1": 1.4,
+          "2": 1.8,
+          "3": 2.2,
+          "4": 2.6,
+          "5": 3.0,
+          "6": 3.4,
+          "7": 3.8,
+          "8": 4.2,
+          "9": 4.6,
+          "10": 5.0
+        }
+      },
+      {
+        "id": "XP_ORBS",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 7,
+          "2": 9,
+          "3": 11,
+          "4": 13,
+          "5": 15,
+          "6": 17,
+          "7": 19,
+          "8": 21,
+          "9": 23,
+          "10": 25
+        }
+      }
+    ]
+  },
+  {
+    "id": "CHANCE",
+    "name": "Chance",
+    "description": "Increases the chance of a Monster dropping an item by %{VALUE:DROP_CHANCE}.",
+    "type": "NORMAL",
+    "requiredLevel": 11,
+    "categories": [
+      "BOW"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 15
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 45
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 200
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "DROP_CHANCE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 15,
+          "2": 30,
+          "3": 45,
+          "4": 60,
+          "5": 75,
+          "6": 6,
+          "7": 7
+        }
+      }
+    ]
+  },
+  {
+    "id": "CHARM",
+    "name": "Charm",
+    "description": "Increases the chance to receive higher-tiered Trophy Fish by %{VALUE:CHANCE}.",
+    "type": "NORMAL",
+    "requiredLevel": 25,
+    "categories": [
+      "FISHING_ROD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 0,
+          "item": "CHAIN_END_TIMES"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "CHANCE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10,
+          "6": 12
+        }
+      }
+    ]
+  },
+  {
+    "id": "CLEAVE",
+    "name": "Cleave",
+    "description": "Deals up to %{VALUE:MORE_DAMAGE} of your damage dealt to other monsters within %{VALUE:DISTANCE} blocks of the target.",
+    "type": "NORMAL",
+    "requiredLevel": 4,
+    "categories": [
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 200
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "MORE_DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25,
+          "6": 30
+        }
+      },
+      {
+        "id": "DISTANCE",
+        "precision": 1,
+        "type": "NONE",
+        "values": {
+          "1": 3.5,
+          "2": 4.0,
+          "3": 4.5,
+          "4": 5.0,
+          "5": 5.5,
+          "6": 6.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "COMPACT",
+    "name": "Compact",
+    "description": "Gain %{VALUE:MINING_WISDOM} %{STAT:MINING_WISDOM} and a %{VALUE:CHANCE} to drop an enchanted item.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "DRILL",
+      "GAUNTLET",
+      "PICKAXE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 2,
+        "cost": {}
+      },
+      {
+        "level": 3,
+        "cost": {}
+      },
+      {
+        "level": 4,
+        "cost": {}
+      },
+      {
+        "level": 5,
+        "cost": {}
+      },
+      {
+        "level": 6,
+        "cost": {}
+      },
+      {
+        "level": 7,
+        "cost": {}
+      },
+      {
+        "level": 8,
+        "cost": {}
+      },
+      {
+        "level": 9,
+        "cost": {}
+      },
+      {
+        "level": 10,
+        "cost": {}
+      }
+    ],
+    "stats": [
+      {
+        "id": "MINING_WISDOM",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6,
+          "7": 7,
+          "8": 8,
+          "9": 9,
+          "10": 10
+        }
+      },
+      {
+        "id": "CHANCE",
+        "precision": 2,
+        "type": "PERCENT",
+        "values": {
+          "1": 0.25,
+          "2": 0.27,
+          "3": 0.29,
+          "4": 0.31,
+          "5": 0.33,
+          "6": 0.36,
+          "7": 0.4,
+          "8": 0.44,
+          "9": 0.5,
+          "10": 0.57
+        }
+      }
+    ]
+  },
+  {
+    "id": "CORRUPTION",
+    "name": "Corruption",
+    "description": "Gain a %{VALUE:CHANCE} to spawn a Corrupted Sea Creature.",
+    "type": "NORMAL",
+    "requiredLevel": 25,
+    "categories": [
+      "FISHING_ROD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "CHANCE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "COUNTER_STRIKE",
+    "name": "Counter-Strike",
+    "description": "Gain %{VALUE:COUNTER_DEFENSE} %{STAT:DEFENSE} for %{VALUE:DURATION} on the first hit from an enemy.",
+    "type": "NORMAL",
+    "requiredLevel": 22,
+    "categories": [
+      "CHESTPLATE"
+    ],
+    "levels": [
+      {
+        "level": 3,
+        "cost": {
+          "experience": 60
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 80
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 100
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "COUNTER_DEFENSE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      },
+      {
+        "id": "DURATION",
+        "precision": 0,
+        "type": "SECONDS",
+        "values": {
+          "3": 7,
+          "4": 7,
+          "5": 7
+        }
+      }
+    ]
+  },
+  {
+    "id": "CRITICAL",
+    "name": "Critical",
+    "description": "Increases %{STAT:CRIT_DAMAGE} by %{VALUE:CRIT_DAMAGE}.",
+    "type": "NORMAL",
+    "requiredLevel": 9,
+    "categories": [
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 75
+        }
+      },
+      {
+        "level": 7,
+        "cost": {
+          "experience": 200
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "CRIT_DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 40,
+          "5": 50,
+          "6": 70,
+          "7": 100
+        }
+      }
+    ]
+  },
+  {
+    "id": "CUBISM",
+    "name": "Cubism",
+    "description": "Increases damage dealt to %{MOB_TYPE:CUBIC} mobs by %{VALUE:DAMAGE}.",
+    "type": "NORMAL",
+    "requiredLevel": 3,
+    "categories": [
+      "BOW",
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "mobTypes": [
+      "CUBIC"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 200
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 40,
+          "5": 60,
+          "6": 80
+        }
+      }
+    ]
+  },
+  {
+    "id": "CULTIVATING",
+    "name": "Cultivating",
+    "description": "Grants %{VALUE:FARMING_WISDOM} %{STAT:FARMING_WISDOM} and %{VALUE:FARMING_FORTUNE} %{STAT:FARMING_FORTUNE}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "AXE",
+      "HOE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 2,
+        "cost": {}
+      },
+      {
+        "level": 3,
+        "cost": {}
+      },
+      {
+        "level": 4,
+        "cost": {}
+      },
+      {
+        "level": 5,
+        "cost": {}
+      },
+      {
+        "level": 6,
+        "cost": {}
+      },
+      {
+        "level": 7,
+        "cost": {}
+      },
+      {
+        "level": 8,
+        "cost": {}
+      },
+      {
+        "level": 9,
+        "cost": {}
+      },
+      {
+        "level": 10,
+        "cost": {}
+      }
+    ],
+    "stats": [
+      {
+        "id": "FARMING_WISDOM",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6,
+          "7": 7,
+          "8": 8,
+          "9": 9,
+          "10": 10
+        }
+      },
+      {
+        "id": "FARMING_FORTUNE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10,
+          "6": 12,
+          "7": 14,
+          "8": 16,
+          "9": 18,
+          "10": 20
+        }
+      }
+    ]
+  },
+  {
+    "id": "DEDICATION",
+    "name": "Dedication",
+    "description": "Grants %{VALUE:FARMING_FORTUNE_SCALAR} %{STAT:FARMING_FORTUNE} for crops, multiplied by your %{ZONE:GARDEN} ",
+    "type": "NORMAL",
+    "requiredLevel": 12,
+    "categories": [
+      "AXE",
+      "HOE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 100
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "FARMING_FORTUNE_SCALAR",
+        "precision": 2,
+        "type": "PERCENT",
+        "values": {
+          "1": 0.5,
+          "2": 0.75,
+          "3": 1.0,
+          "4": 2.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "DELICATE",
+    "name": "Delicate",
+    "description": "Avoids breaking stems and baby crops.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "AXE",
+      "HOE"
+    ],
+    "levels": [
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      }
+    ],
+    "stats": []
+  },
+  {
+    "id": "DEPTH_STRIDER",
+    "name": "Depth Strider",
+    "description": "Reduces how much you are slowed in the water by %{VALUE:WATER_SPEED}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "WATER_SPEED",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 33,
+          "2": 67,
+          "3": 100
+        }
+      }
+    ]
+  },
+  {
+    "id": "DIVINE_GIFT",
+    "name": "Divine Gift",
+    "description": "Grants %{VALUE:MAGIC_FIND} %{STAT:MAGIC_FIND}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "BOW",
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 150
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "MAGIC_FIND",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "DRAGON_TRACER",
+    "name": "Dragon Tracer",
+    "description": "Arrows home towards dragons if they are within %{VALUE:DISTANCE} blocks.",
+    "type": "NORMAL",
+    "requiredLevel": 8,
+    "categories": [
+      "BOW"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "DRAIN",
+    "name": "Drain",
+    "description": "Heals for %{VALUE:HEAL} of your max health per %{VALUE:PER_CD} %{STAT:CRIT_DAMAGE} you deal per hit, up to %{VALUE:MAX_CD} %{STAT:CRIT_DAMAGE}.",
+    "type": "NORMAL",
+    "requiredLevel": 15,
+    "conflict": "STEAL",
+    "categories": [
+      "BOW",
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 200
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "HEAL",
+        "precision": 1,
+        "type": "PERCENT",
+        "values": {
+          "1": 0.2,
+          "2": 0.3,
+          "3": 0.4,
+          "4": 0.5,
+          "5": 0.6
+        }
+      },
+      {
+        "id": "PER_CD",
+        "precision": 1,
+        "type": "NONE",
+        "values": {
+          "1": 100,
+          "2": 100,
+          "3": 100,
+          "4": 100,
+          "5": 100
+        }
+      },
+      {
+        "id": "MAX_CD",
+        "precision": 1,
+        "type": "NONE",
+        "values": {
+          "1": 1000,
+          "2": 1000,
+          "3": 1000,
+          "4": 1000,
+          "5": 1000
+        }
+      }
+    ]
+  },
+  {
+    "id": "EFFICIENCY",
+    "name": "Efficiency",
+    "description": "Grants %{VALUE:MINING_SPEED} %{STAT:MINING_SPEED}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "AXE",
+      "DRILL",
+      "GAUNTLET",
+      "HOE",
+      "PICKAXE",
+      "SHOVEL"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 15
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "items": {
+            "SIL_EX": 1
+          }
+        }
+      },
+      {
+        "level": 7,
+        "cost": {
+          "items": {
+            "SIL_EX": 1
+          }
+        }
+      },
+      {
+        "level": 8,
+        "cost": {
+          "items": {
+            "SIL_EX": 1
+          }
+        }
+      },
+      {
+        "level": 9,
+        "cost": {
+          "items": {
+            "SIL_EX": 1
+          }
+        }
+      },
+      {
+        "level": 10,
+        "cost": {
+          "items": {
+            "SIL_EX": 1
+          }
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "MINING_SPEED",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 30,
+          "2": 50,
+          "3": 70,
+          "4": 90,
+          "5": 110,
+          "6": 130,
+          "7": 150,
+          "8": 170,
+          "9": 190,
+          "10": 210
+        }
+      }
+    ]
+  },
+  {
+    "id": "ENDER_SLAYER",
+    "name": "Ender Slayer",
+    "description": "Increases damage dealt to %{MOB_TYPE:ENDER} mobs by %{VALUE:DAMAGE}.",
+    "type": "NORMAL",
+    "requiredLevel": 11,
+    "categories": [
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "mobTypes": [
+      "ENDER"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 75
+        }
+      },
+      {
+        "level": 7,
+        "cost": {
+          "experience": 0,
+          "item": "ENDSTONE_IDOL"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 30,
+          "6": 40,
+          "7": 50
+        }
+      }
+    ]
+  },
+  {
+    "id": "EXECUTE",
+    "name": "Execute",
+    "description": "Increases damage dealt by %{VALUE:DAMAGE} for each percent of health missing on your target.",
+    "type": "NORMAL",
+    "requiredLevel": 15,
+    "conflict": "HEALTH_SCALE",
+    "categories": [
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 200
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "DAMAGE",
+        "precision": 1,
+        "type": "PERCENT",
+        "values": {
+          "1": 0.2,
+          "2": 0.4,
+          "3": 0.6,
+          "4": 0.8,
+          "5": 1.0,
+          "6": 1.25
+        }
+      }
+    ]
+  },
+  {
+    "id": "EXPERIENCE",
+    "name": "Experience",
+    "description": "Grants a %{VALUE:CHANCE} chance for mobs and ores to drop double experience.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "DRILL",
+      "GAUNTLET",
+      "LONGSWORD",
+      "PICKAXE",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 15
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 45
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 75
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 0
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "CHANCE",
+        "precision": 1,
+        "type": "PERCENT",
+        "values": {
+          "1": 12.5,
+          "2": 25.0,
+          "3": 37.5,
+          "4": 50.0,
+          "5": 62.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "EXPERTISE",
+    "name": "Expertise",
+    "description": "Grants %{VALUE:SEA_CREATURE_CHANCE} %{STAT:SEA_CREATURE_CHANCE} and %{VALUE:FISHING_WISDOM} %{STAT:FISHING_WISDOM} when killing Sea Creatures.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "FISHING_ROD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 2,
+        "cost": {}
+      },
+      {
+        "level": 3,
+        "cost": {}
+      },
+      {
+        "level": 4,
+        "cost": {}
+      },
+      {
+        "level": 5,
+        "cost": {}
+      },
+      {
+        "level": 6,
+        "cost": {}
+      },
+      {
+        "level": 7,
+        "cost": {}
+      },
+      {
+        "level": 8,
+        "cost": {}
+      },
+      {
+        "level": 9,
+        "cost": {}
+      },
+      {
+        "level": 10,
+        "cost": {}
+      }
+    ],
+    "stats": [
+      {
+        "id": "SEA_CREATURE_CHANCE",
+        "precision": 1,
+        "type": "FLAT",
+        "values": {
+          "1": 0.6,
+          "2": 1.2,
+          "3": 1.8,
+          "4": 2.4,
+          "5": 3.0,
+          "6": 3.6,
+          "7": 4.2,
+          "8": 4.8,
+          "9": 5.4,
+          "10": 6.0
+        }
+      },
+      {
+        "id": "FISHING_WISDOM",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10,
+          "6": 12,
+          "7": 14,
+          "8": 16,
+          "9": 18,
+          "10": 20
+        }
+      }
+    ]
+  },
+  {
+    "id": "FEATHER_FALLING",
+    "name": "Feather Falling",
+    "description": "Increases how high you can fall before taking fall damage by %{VALUE:FALL_DISTANCE} and reduces fall damage by %{VALUE:FALL_DAMAGE}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 15
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 60
+        }
+      },
+      {
+        "level": 7,
+        "cost": {
+          "experience": 80
+        }
+      },
+      {
+        "level": 8,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 9,
+        "cost": {
+          "experience": 120
+        }
+      },
+      {
+        "level": 10,
+        "cost": {
+          "experience": 140
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "FALL_DISTANCE",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6,
+          "7": 7,
+          "8": 8,
+          "9": 9,
+          "10": 10
+        }
+      },
+      {
+        "id": "FALL_DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25,
+          "6": 30,
+          "7": 35,
+          "8": 40,
+          "9": 45,
+          "10": 50
+        }
+      }
+    ]
+  },
+  {
+    "id": "FEROCIOUS_MANA",
+    "name": "Ferocious Mana",
+    "description": "Gain %{VALUE:MANA_STAT} of mana used near you as %{STAT:FEROCITY} for 10 seconds, capped at 50 %{STAT:FEROCITY}.",
+    "type": "NORMAL",
+    "requiredLevel": 22,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 45
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 60
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 75
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 90
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 180
+        }
+      },
+      {
+        "level": 7,
+        "cost": {
+          "experience": 240
+        }
+      },
+      {
+        "level": 8,
+        "cost": {
+          "experience": 300
+        }
+      },
+      {
+        "level": 9,
+        "cost": {
+          "experience": 360
+        }
+      },
+      {
+        "level": 10,
+        "cost": {
+          "experience": 420
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "MANA_STAT",
+        "precision": 1,
+        "type": "PERCENT",
+        "values": {
+          "1": 0.1,
+          "2": 0.1,
+          "3": 0.2,
+          "4": 0.2,
+          "5": 0.2,
+          "6": 0.3,
+          "7": 0.4,
+          "8": 0.4,
+          "9": 0.5,
+          "10": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "FIRE_ASPECT",
+    "name": "Fire Aspect",
+    "description": "Ignites your enemies for %{VALUE:DURATION}, dealing %{VALUE:FIRE_DAMAGE} of your damage per second.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 15
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 0
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "DURATION",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 3,
+          "2": 4,
+          "3": 4
+        }
+      },
+      {
+        "id": "FIRE_DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 3,
+          "2": 6,
+          "3": 9
+        }
+      }
+    ]
+  },
+  {
+    "id": "FIRE_PROTECTION",
+    "name": "Fire Protection",
+    "description": "Grants %{VALUE:FIRE_DEFENSE} %{STAT:TRUE_DEFENSE} against fire and lava.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 15
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 7,
+        "cost": {
+          "experience": 200
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "FIRE_DEFENSE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10,
+          "6": 12,
+          "7": 14
+        }
+      }
+    ]
+  },
+  {
+    "id": "FIRST_STRIKE",
+    "name": "First Strike",
+    "description": "Increases melee damage dealt by %{VALUE:DAMAGE} for the first hit on a mob.",
+    "type": "NORMAL",
+    "requiredLevel": 10,
+    "conflict": "STRIKE",
+    "categories": [
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 75
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 200
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 25,
+          "2": 50,
+          "3": 75,
+          "4": 100,
+          "5": 125
+        }
+      }
+    ]
+  },
+  {
+    "id": "FLAME",
+    "name": "Flame",
+    "description": "Arrows ignite your enemies for %{VALUE:DURATION}, dealing %{VALUE:FIRE_DAMAGE} of your damage per second.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "BOW"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 50
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "DURATION",
+        "precision": 1,
+        "type": "SECONDS",
+        "values": {
+          "1": 3.5,
+          "2": 4.0
+        }
+      },
+      {
+        "id": "FIRE_DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 3,
+          "2": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "FOREST_PLEDGE",
+    "name": "Forest Pledge",
+    "description": "Grants %{VALUE:FORAGING_FORTUNE} %{STAT:FORAGING_FORTUNE}.",
+    "type": "NORMAL",
+    "requiredLevel": 15,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "FORAGING_FORTUNE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "FORTUNE",
+    "name": "Fortune",
+    "description": "Grants %{VALUE:MINING_FORTUNE} %{STAT:MINING_FORTUNE}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "conflict": "TOUCH",
+    "categories": [
+      "DRILL",
+      "GAUNTLET",
+      "PICKAXE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 15
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 45
+        }
+      },
+      {
+        "level": 4,
+        "cost": {}
+      }
+    ],
+    "stats": [
+      {
+        "id": "MINING_FORTUNE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 45
+        }
+      }
+    ]
+  },
+  {
+    "id": "FRAIL",
+    "name": "Frail",
+    "description": "Sea Creatures start with %{VALUE:LESS_HEALTH} reduced health.",
+    "type": "NORMAL",
+    "requiredLevel": 14,
+    "categories": [
+      "FISHING_ROD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 75
+        }
+      },
+      {
+        "level": 7,
+        "cost": {
+          "experience": 0,
+          "item": "SEVERED_PINCER"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "LESS_HEALTH",
+        "precision": 1,
+        "type": "PERCENT",
+        "values": {
+          "1": 2.5,
+          "2": 5.0,
+          "3": 7.5,
+          "4": 10.0,
+          "5": 12.5,
+          "6": 15.0,
+          "7": 17.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "GIANT_KILLER",
+    "name": "Giant Killer",
+    "description": "Increases damage dealt by %{VALUE:SCALE_DAMAGE} for each percent of extra health that your target has above you up to %{VALUE:MAX_SCALAR}.",
+    "type": "NORMAL",
+    "requiredLevel": 8,
+    "conflict": "KILLER_SCALE",
+    "categories": [
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 7,
+        "cost": {
+          "experience": 200,
+          "item": ""
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "SCALE_DAMAGE",
+        "precision": 1,
+        "type": "PERCENT",
+        "values": {
+          "1": 0.1,
+          "2": 0.2,
+          "3": 0.3,
+          "4": 0.4,
+          "5": 0.6,
+          "6": 0.9,
+          "7": 1.2
+        }
+      },
+      {
+        "id": "MAX_SCALAR",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 30,
+          "6": 45,
+          "7": 65
+        }
+      }
+    ]
+  },
+  {
+    "id": "GRAVITY",
+    "name": "Gravity",
+    "description": "Increases damage dealt to %{MOB_TYPE:AIRBORNE} mobs by %{VALUE:DAMAGE}.",
+    "type": "NORMAL",
+    "requiredLevel": 8,
+    "categories": [
+      "BOW",
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "mobTypes": [
+      "AIRBORNE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 15
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 100
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 40,
+          "5": 60,
+          "6": 80
+        }
+      }
+    ]
+  },
+  {
+    "id": "GREEN_THUMB",
+    "name": "Green Thumb",
+    "description": "Grants %{VALUE:FARMING_FORTUNE} %{STAT:FARMING_FORTUNE} pet unique visitor served.",
+    "type": "NORMAL",
+    "requiredLevel": 24,
+    "categories": [
+      "NECKLACE",
+      "CLOAK",
+      "BELT",
+      "GLOVES",
+      "BRACELET"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 150
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 200
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 250
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "FARMING_FORTUNE",
+        "precision": 2,
+        "type": "FLAT",
+        "values": {
+          "1": 0.05,
+          "2": 0.1,
+          "3": 0.15,
+          "4": 0.2,
+          "5": 0.25
+        }
+      }
+    ]
+  },
+  {
+    "id": "GROWTH",
+    "name": "Growth",
+    "description": "Grants %{VALUE:HEALTH} %{STAT:HEALTH}.",
+    "type": "NORMAL",
+    "requiredLevel": 5,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 75
+        }
+      },
+      {
+        "level": 7,
+        "cost": {
+          "experience": 150
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "PROJECTILE_DEFENSE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 15,
+          "2": 30,
+          "3": 45,
+          "4": 60,
+          "5": 75,
+          "6": 90,
+          "7": 105
+        }
+      }
+    ]
+  },
+  {
+    "id": "HARDENED_MANA",
+    "name": "Hardened Mana",
+    "description": "Gain %{VALUE:MANA_STAT} of mana used near you as %{STAT:DEFENSE} for 10 seconds, capped at 400 %{STAT:DEFENSE}.",
+    "type": "NORMAL",
+    "requiredLevel": 22,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 45
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 60
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 75
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 90
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 180
+        }
+      },
+      {
+        "level": 7,
+        "cost": {
+          "experience": 240
+        }
+      },
+      {
+        "level": 8,
+        "cost": {
+          "experience": 300
+        }
+      },
+      {
+        "level": 9,
+        "cost": {
+          "experience": 360
+        }
+      },
+      {
+        "level": 10,
+        "cost": {
+          "experience": 420
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "MANA_STAT",
+        "precision": 1,
+        "type": "PERCENT",
+        "values": {
+          "1": 0.1,
+          "2": 0.2,
+          "3": 0.3,
+          "4": 0.4,
+          "5": 0.5,
+          "6": 0.6,
+          "7": 0.7,
+          "8": 0.8,
+          "9": 0.9,
+          "10": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "HARVESTING",
+    "name": "Harvesting",
+    "description": "Grants %{VALUE:FARMING_FORTUNE} %{STAT:FARMING_FORTUNE}.",
+    "type": "NORMAL",
+    "requiredLevel": 2,
+    "categories": [
+      "HOE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 5
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 15
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 0
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "FARMING_FORTUNE",
+        "precision": 1,
+        "type": "FLAT",
+        "values": {
+          "1": 12.5,
+          "2": 25.0,
+          "3": 37.5,
+          "4": 50.0,
+          "5": 62.5,
+          "6": 75.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "HECATOMB",
+    "name": "Hecatomb",
+    "description": "Gain %{VALUE:CATACOMBS_XP} %{KEYWORDS:CATACOMB} XP & %{VALUE:CLASS_XP} %{KEYWORD:CLASS} XP, doubled on %{KEYWORD:S_PLUS} runs.\nGrants %{VALUE:HEALTH}%{SYMBOL:HEALTH} per 10 %{KEYWORD:CATACOMBS} levels.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 2,
+        "cost": {}
+      },
+      {
+        "level": 3,
+        "cost": {}
+      },
+      {
+        "level": 4,
+        "cost": {}
+      },
+      {
+        "level": 5,
+        "cost": {}
+      },
+      {
+        "level": 6,
+        "cost": {}
+      },
+      {
+        "level": 7,
+        "cost": {}
+      },
+      {
+        "level": 8,
+        "cost": {}
+      },
+      {
+        "level": 9,
+        "cost": {}
+      },
+      {
+        "level": 10,
+        "cost": {}
+      }
+    ],
+    "stats": [
+      {
+        "id": "CATACOMBS_XP",
+        "precision": 2,
+        "type": "PERCENT",
+        "values": {
+          "1": 0.28,
+          "2": 0.36,
+          "3": 0.44,
+          "4": 0.52,
+          "5": 0.6,
+          "6": 0.68,
+          "7": 0.76,
+          "8": 0.84,
+          "9": 0.92,
+          "10": 1.0
+        }
+      },
+      {
+        "id": "CLASS_XP",
+        "precision": 2,
+        "type": "PERCENT",
+        "values": {
+          "1": 0.56,
+          "2": 0.72,
+          "3": 0.88,
+          "4": 1.04,
+          "5": 1.2,
+          "6": 1.36,
+          "7": 1.52,
+          "8": 1.68,
+          "9": 1.84,
+          "10": 2.0
+        }
+      },
+      {
+        "id": "HEALTH",
+        "precision": 1,
+        "type": "FLAT",
+        "values": {
+          "1": 2.6,
+          "2": 3.2,
+          "3": 3.8,
+          "4": 4.4,
+          "5": 5.0,
+          "6": 5.6,
+          "7": 6.2,
+          "8": 6.8,
+          "9": 7.4,
+          "10": 8.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ICE_COLD",
+    "name": "Ice Cold",
+    "description": "Grants %{VALUE:COLD_RESISTANCE} %{STAT:COLD_RESISTANCE}.",
+    "type": "NORMAL",
+    "requiredLevel": 30,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 27
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 41
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 55
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 68
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 82
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "COLD_RESISTANCE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "INFINITE_QUIVER",
+    "name": "Infinite Quiver",
+    "description": "Saves arrows %{VALUE:ARROW_SAVE} of the time when you fire your bow. Disabled while sneaking.",
+    "type": "NORMAL",
+    "requiredLevel": 2,
+    "categories": [
+      "BOW"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 15
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 60
+        }
+      },
+      {
+        "level": 7,
+        "cost": {
+          "experience": 80
+        }
+      },
+      {
+        "level": 8,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 9,
+        "cost": {
+          "experience": 120
+        }
+      },
+      {
+        "level": 10,
+        "cost": {
+          "experience": 140
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "ARROW_SAVE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 3,
+          "2": 6,
+          "3": 9,
+          "4": 12,
+          "5": 15,
+          "6": 18,
+          "7": 21,
+          "8": 24,
+          "9": 27,
+          "10": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": "IMPALING",
+    "name": "Impaling",
+    "description": "Increases damage dealt to %{MOB_TYPE:AQUATIC} mobs by %{VALUE:DAMAGE}.",
+    "type": "NORMAL",
+    "requiredLevel": 12,
+    "categories": [
+      "BOW",
+      "FISHING_ROD",
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "mobTypes": [
+      "AQUATIC"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 15
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 30
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": "KNOCKBACK",
+    "name": "Knockback",
+    "description": "Increases knockback by %{VALUE:DISTANCE} blocks.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 15
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 30
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "DISTANCE",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 3,
+          "2": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "LAPIDARY",
+    "name": "Lapidary",
+    "description": "Grants %{VALUE:GEMSTONE_FORTUNE} %{STAT:GEMSTONE_FORTUNE} and %{VALUE:GEMSTONE_MINING_SPEED} %{STAT:MINING_SPEED} while mining Gemstones.",
+    "type": "NORMAL",
+    "requiredLevel": 22,
+    "categories": [
+      "DRILL",
+      "GAUNTLET",
+      "PICKAXE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 150
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 200
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "GEMSTONE_FORTUNE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 40,
+          "5": 50
+        }
+      },
+      {
+        "id": "GEMSTONE_MINING_SPEED",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 20,
+          "2": 40,
+          "3": 60,
+          "4": 80,
+          "5": 100
+        }
+      }
+    ]
+  },
+  {
+    "id": "LETHALITY",
+    "name": "Lethality",
+    "description": "Reduces the %{STAT:DEFENSE} of your target by %{VALUE:REDUCED} for %{VALUE:DURATION} each time you hit them with melee. Stacks up to %{VALUE:MAX_STACKS} times.",
+    "type": "NORMAL",
+    "requiredLevel": 14,
+    "categories": [
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 200
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "REDUCED",
+        "precision": 1,
+        "type": "PERCENT",
+        "values": {
+          "1": 1.2,
+          "2": 2.4,
+          "3": 3.6,
+          "4": 4.8,
+          "5": 6.0,
+          "6": 9.0
+        }
+      },
+      {
+        "id": "DURATION",
+        "precision": 0,
+        "type": "SECONDS",
+        "values": {
+          "1": 4,
+          "2": 4,
+          "3": 4,
+          "4": 4,
+          "5": 4,
+          "6": 4
+        }
+      },
+      {
+        "id": "MAX_STACKS",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 4,
+          "2": 4,
+          "3": 4,
+          "4": 4,
+          "5": 4,
+          "6": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "LIFE_STEAL",
+    "name": "Life Steal",
+    "description": "Heals for %{VALUE:HEAL} of your max health each time you hit a mob.",
+    "type": "NORMAL",
+    "requiredLevel": 5,
+    "conflict": "STEAL",
+    "categories": [
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 200
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "HEAL",
+        "precision": 1,
+        "type": "PERCENT",
+        "values": {
+          "1": 0.5,
+          "2": 1.0,
+          "3": 1.5,
+          "4": 2.0,
+          "5": 2.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "LOOTING",
+    "name": "Looting",
+    "description": "Increases the chance of a Monster dropping an item by %{VALUE:DROP_CHANCE}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "FISHING_ROD",
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 15
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 45
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 200
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "DROP_CHANCE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 15,
+          "2": 30,
+          "3": 45,
+          "4": 60,
+          "5": 75
+        }
+      }
+    ]
+  },
+  {
+    "id": "LUCK",
+    "name": "Luck",
+    "description": "Increases the chance for Monsters to drop their armor by %{VALUE:CHANCE}.",
+    "type": "NORMAL",
+    "requiredLevel": 3,
+    "categories": [
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 75
+        }
+      },
+      {
+        "level": 7,
+        "cost": {
+          "experience": 200
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "CHANCE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25,
+          "6": 30,
+          "7": 35
+        }
+      }
+    ]
+  },
+  {
+    "id": "LUCK_OF_THE_SEA",
+    "name": "Luck of the Sea",
+    "description": "Grants %{VALUE:TREASURE_CHANCE} %{STAT:TREASURE_CHANCE}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "FISHING_ROD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 15
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 75
+        }
+      },
+      {
+        "level": 7,
+        "cost": {
+          "experience": 0,
+          "item": "GOLD_BOTTLE_CAP"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "TREASURE_CHANCE",
+        "precision": 1,
+        "type": "PERCENT",
+        "values": {
+          "1": 0.5,
+          "2": 1.0,
+          "3": 1.5,
+          "4": 2.0,
+          "5": 2.5,
+          "6": 3.0,
+          "7": 3.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "LURE",
+    "name": "Lure",
+    "description": "Shortens the maximum time it takes to catch something by %{VALUE:TIME_REDUCTION}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "FISHING_ROD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 15
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 50
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "TIME_REDUCTION",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25,
+          "6": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": "MANA_STEAL",
+    "name": "Mana Steal",
+    "description": "Regain %{VALUE:MANA} of your mana on hit.",
+    "type": "NORMAL",
+    "requiredLevel": 20,
+    "conflict": "STEAL",
+    "categories": [
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "MANA",
+        "precision": 2,
+        "type": "PERCENT",
+        "values": {
+          "1": 0.25,
+          "2": 0.5,
+          "3": 0.75
+        }
+      }
+    ]
+  },
+  {
+    "id": "MANA_VAMPIRE",
+    "name": "Mana Vampire",
+    "description": "Heal for %{VALUE:MANA_STAT} of mana used near you.",
+    "type": "NORMAL",
+    "requiredLevel": 22,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 45
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 60
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 75
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 90
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 180
+        }
+      },
+      {
+        "level": 7,
+        "cost": {
+          "experience": 240
+        }
+      },
+      {
+        "level": 8,
+        "cost": {
+          "experience": 300
+        }
+      },
+      {
+        "level": 9,
+        "cost": {
+          "experience": 360
+        }
+      },
+      {
+        "level": 10,
+        "cost": {
+          "experience": 420
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "MANA_STAT",
+        "precision": 1,
+        "type": "PERCENT",
+        "values": {
+          "1": 0.5,
+          "2": 1.0,
+          "3": 1.5,
+          "4": 2.0,
+          "5": 2.5,
+          "6": 3.0,
+          "7": 3.5,
+          "8": 4.0,
+          "9": 4.5,
+          "10": 5.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "MAGNET",
+    "name": "Magnet",
+    "description": "Grants %{VALUE:MORE_EXP} additional experience orbs every time you successfully catch a fish.",
+    "type": "NORMAL",
+    "requiredLevel": 13,
+    "categories": [
+      "FISHING_ROD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 75
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "MORE_EXP",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "OVERLOAD",
+    "name": "Overload",
+    "description": "Increases %{STAT:CRIT_DAMAGE} by %{VALUE:CRIT_DAMAGE} and %{STAT:CRIT_CHANCE} by %{VALUE:CRIT_CHANCE}. Having a Critical chance above %{VALUE:ABOVE_100} grants a chance to perform a Mega Critical Hit dealing %{VALUE:MEGA_CRIT_DAMAGE} extra damage.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "BOW"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "CRIT_DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        }
+      },
+      {
+        "id": "CRIT_CHANCE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        }
+      },
+      {
+        "id": "ABOVE_100",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 100,
+          "2": 100,
+          "3": 100,
+          "4": 100,
+          "5": 100
+        }
+      },
+      {
+        "id": "MEGA_CRIT_DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 40,
+          "5": 50
+        }
+      }
+    ]
+  },
+  {
+    "id": "PALEONTOLOGIST",
+    "name": "Paleontologist",
+    "description": "Increases chances of finding a %{KEYWORD:SUSPICIOUS_SCRAP} when mining in %{ZONE:GLACITE_MINESHAFT} by %{VALUE:CHANCE}.",
+    "type": "NORMAL",
+    "requiredLevel": 27,
+    "categories": [
+      "DRILL",
+      "GAUNTLET",
+      "PICKAXE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 23
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 45
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 91
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 136
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 179
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "CHANCE",
+        "precision": 1,
+        "type": "PERCENT",
+        "values": {
+          "1": 2.5,
+          "2": 5.0,
+          "3": 7.5,
+          "4": 10.0,
+          "5": 12.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "PESTERMINATOR",
+    "name": "Pesterminator",
+    "description": "Grants %{VALUE:FARMING_FORTUNE} %{STAT:FARMING_FORTUNE} and %{VALUE:BONUS_PEST_CHANCE} %{STAT:BONUS_PEST_CHANCE}.",
+    "type": "NORMAL",
+    "requiredLevel": 10,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 5
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 9
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 13
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 18
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 23
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 0,
+          "item": "PESTHUNTING_GUIDE"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "FARMING_FORTUNE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10,
+          "6": 12
+        }
+      },
+      {
+        "id": "BONUS_PEST_CHANCE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "PIERCING",
+    "name": "Piercing",
+    "description": "Arrows travel through enemies. The extra targets take %{VALUE:PIERCING_DAMAGE} of the damage.",
+    "type": "NORMAL",
+    "requiredLevel": 17,
+    "categories": [
+      "BOW"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 30
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "PIERCING_DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 25
+        }
+      }
+    ]
+  },
+  {
+    "id": "PISCARY",
+    "name": "Piscary",
+    "description": "Grants %{VALUE:FISHING_SPEED} %{STAT:FISHING_SPEED}.",
+    "type": "NORMAL",
+    "requiredLevel": 8,
+    "categories": [
+      "FISHING_ROD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 8
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 16
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 24
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 36
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 48
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 60
+        }
+      },
+      {
+        "level": 7,
+        "cost": {
+          "experience": 0,
+          "item": "TROUBLED_BUBBLE"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "FISHING_SPEED",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6,
+          "7": 7
+        }
+      }
+    ]
+  },
+  {
+    "id": "POWER",
+    "name": "Power",
+    "description": "Increases bow damage by %{VALUE:DAMAGE}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "BOW"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 200
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 8,
+          "2": 16,
+          "3": 24,
+          "4": 32,
+          "5": 40,
+          "6": 50,
+          "7": 65
+        }
+      }
+    ]
+  },
+  {
+    "id": "PRISMATIC",
+    "name": "Prismatic",
+    "description": "Grants %{VALUE:PRISTINE} %{STAT:PRISTINE}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "DRILL",
+      "GAUNTLET",
+      "PICKAXE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 150
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 200
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "PRISTINE",
+        "precision": 1,
+        "type": "FLAT",
+        "values": {
+          "1": 0.5,
+          "2": 1.0,
+          "3": 1.5,
+          "4": 2.0,
+          "5": 2.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "PROJECTILE_PROTECTION",
+    "name": "Projectile Protection",
+    "description": "Grants %{VALUE:PROJECTILE_DEFENSE} %{STAT:DEFENSE} against projectiles.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 15
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 7,
+        "cost": {
+          "experience": 200
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "PROJECTILE_DEFENSE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 7,
+          "2": 14,
+          "3": 21,
+          "4": 28,
+          "5": 35,
+          "6": 42,
+          "7": 49
+        }
+      }
+    ]
+  },
+  {
+    "id": "PROSECUTE",
+    "name": "Prosecute",
+    "description": "Increases damage dealt by %{VALUE:DAMAGE} for each percent of health your target has.",
+    "type": "NORMAL",
+    "requiredLevel": 25,
+    "conflict": "HEALTH_SCALE",
+    "categories": [
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 200
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "DAMAGE",
+        "precision": 1,
+        "type": "PERCENT",
+        "values": {
+          "1": 0.1,
+          "2": 0.2,
+          "3": 0.3,
+          "4": 0.4,
+          "5": 0.7,
+          "6": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "PROSPERITY",
+    "name": "Prosperity",
+    "description": "Grants %{VALUE:HEALTH} %{STAT:HEALTH}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "NECKLACE",
+      "CLOAK",
+      "BELT",
+      "GLOVES",
+      "BRACELET"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 200
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "HEALTH",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 3,
+          "2": 6,
+          "3": 9,
+          "4": 12,
+          "5": 15
+        }
+      }
+    ]
+  },
+  {
+    "id": "PROTECTION",
+    "name": "Protection",
+    "description": "Grants %{VALUE:DEFENSE} %{STAT:DEFENSE}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 15
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 75
+        }
+      },
+      {
+        "level": 7,
+        "cost": {
+          "experience": 150
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "PROJECTILE_DEFENSE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 4,
+          "2": 8,
+          "3": 12,
+          "4": 16,
+          "5": 20,
+          "6": 25,
+          "7": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": "PUNCH",
+    "name": "Punch",
+    "description": "Increases arrow knockback by %{VALUE:KNOCKBACK} blocks.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "BOW"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 15
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 30
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "KNOCKBACK",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 3,
+          "2": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "QUANTUM",
+    "name": "Quantum",
+    "description": "Grants %{VALUE:WEEKDAY_VITALITY} %{STAT:VITALITY} on weekdays and %{VALUE:WEEKEND_WISDOM}%{SYMBOL:COMBAT_WISDOM} of a random %{KEYWORD:WISDOM} stat on weekends.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "NECKLACE"
+    ],
+    "levels": [
+      {
+        "level": 3,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 100
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "WEEKDAY_VITALITY",
+        "precision": 1,
+        "type": "FLAT",
+        "values": {
+          "3": 2.4,
+          "4": 3.2,
+          "5": 4.0
+        }
+      },
+      {
+        "id": "WEEKEND_WISDOM",
+        "precision": 1,
+        "type": "FLAT",
+        "values": {
+          "3": 1.2,
+          "4": 1.6,
+          "5": 2.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "QUICK_BITE",
+    "name": "Quick Bite",
+    "description": "Makes fish swim %{VALUE:SWIM_SPEED} faster towards your bobber.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "FISHING_ROD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 18
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 23
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 37
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 36
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 45
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "SWIM_SPEED",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25
+        }
+      }
+    ]
+  },
+  {
+    "id": "REFLECTION",
+    "name": "Reflection",
+    "description": "Grants %{VALUE:INTELLIGENCE} %{STAT:INTELLIGENCE}.\nGrants %{VALUE:TRUE_DEFENSE} %{STAT:TRUE_DEFENSE}.\nWhen damage by an arrow, deal %{VALUE:INTEL_MULTIPLIER} your %{STAT:INTELLIGENCE} to its shooter.",
+    "type": "NORMAL",
+    "requiredLevel": 24,
+    "categories": [
+      "CHESTPLATE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 60
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 80
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 100
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "INTELLIGENCE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      },
+      {
+        "id": "TRUE_DEFENSE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        }
+      },
+      {
+        "id": "INTEL_MULTIPLIER",
+        "precision": 0,
+        "type": "MULTIPLY",
+        "values": {
+          "1": 2,
+          "2": 5,
+          "3": 10,
+          "4": 20,
+          "5": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": "REJUVENATE",
+    "name": "Rejuvenate",
+    "description": "Grants %{VALUE:HEALTH_REGEN} %{STAT:HEALTH_REGEN}.",
+    "type": "NORMAL",
+    "requiredLevel": 10,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "HEALTH_REGEN",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "REPLENISH",
+    "name": "Replenish",
+    "description": "Upon breaking crops, nether wart, or cocoa, automatically replant from materials in your inventory.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "AXE",
+      "HOE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 50
+        }
+      }
+    ],
+    "stats": []
+  },
+  {
+    "id": "RESPIRATION",
+    "name": "Respiration",
+    "description": "Grants %{VALUE:RESPIRATION} %{STAT:RESPIRATION}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "RESPIRATION",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 15,
+          "2": 30,
+          "3": 45,
+          "4": 60
+        }
+      }
+    ]
+  },
+  {
+    "id": "RESPITE",
+    "name": "Respite",
+    "description": "Grants %{VALUE:HEALTH_REGEN} %{STAT:HEALTH_REGEN} while out of combat.",
+    "type": "NORMAL",
+    "requiredLevel": 23,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "HEALTH_REGEN",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25
+        }
+      }
+    ]
+  },
+  {
+    "id": "SCAVENGER",
+    "name": "Scavenger",
+    "description": "Scavenge %{VALUE:COINS} per monster level on kill.",
+    "type": "NORMAL",
+    "requiredLevel": 1,
+    "categories": [
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 0,
+          "item": "GOLDEN_BOUNTY"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "COINS",
+        "precision": 1,
+        "type": "COINS",
+        "values": {
+          "1": 0.3,
+          "2": 0.6,
+          "3": 0.9,
+          "4": 1.2,
+          "5": 1.5,
+          "6": 1.8
+        }
+      }
+    ]
+  },
+  {
+    "id": "SCUBA",
+    "name": "Scuba",
+    "description": "Grants %{VALUE:PRESSURE_RESISTANCE} %{STAT:PRESSURE_RESISTANCE}.",
+    "type": "NORMAL",
+    "requiredLevel": 5,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "PRESSURE_RESISTANCE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "SHARPNESS",
+    "name": "Sharpness",
+    "description": "Increases melee damage dealt by %{VALUE:DAMAGE}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 15
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 7,
+        "cost": {
+          "experience": 200
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 30,
+          "6": 40,
+          "7": 50
+        }
+      }
+    ]
+  },
+  {
+    "id": "SILK_TOUCH",
+    "name": "Silk Touch",
+    "description": "Allows you to collect normally unobtainable block drops.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "conflict": "TOUCH",
+    "categories": [
+      "AXE",
+      "DRILL",
+      "GAUNTLET",
+      "HOE",
+      "PICKAXE",
+      "SHOVEL"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      }
+    ],
+    "stats": []
+  },
+  {
+    "id": "SMALL_BRAIN",
+    "name": "Small Brain",
+    "description": "Grants %{VALUE:INTELLIGENCE} %{STAT:INTELLIGENCE} and %{VALUE:TRUE_DEFENSE} %{STAT:TRUE_DEFENSE}.",
+    "type": "NORMAL",
+    "requiredLevel": 21,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 3,
+        "cost": {
+          "experience": 15
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 45
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "INTELLIGENCE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "3": -5,
+          "4": -10,
+          "5": -15
+        }
+      },
+      {
+        "id": "TRUE_DEFENSE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "3": 1,
+          "4": 2,
+          "5": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "SMARTY_PANTS",
+    "name": "Smarty Pants",
+    "description": "Grants %{VALUE:INTELLIGENCE} %{STAT:INTELLIGENCE}.",
+    "type": "NORMAL",
+    "requiredLevel": 21,
+    "categories": [
+      "LEGGINGS"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 60
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 80
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 100
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "INTELLIGENCE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25
+        }
+      }
+    ]
+  },
+  {
+    "id": "SMELTING_TOUCH",
+    "name": "Smelting Touch",
+    "description": "Automatically smelts broken blocks into their smelted form.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "AXE",
+      "DRILL",
+      "GAUNTLET",
+      "HOE",
+      "PICKAXE",
+      "SHOVEL"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 5
+        }
+      }
+    ],
+    "stats": []
+  },
+  {
+    "id": "SMITE",
+    "name": "Smite",
+    "description": "Increases damage dealt to %{MOB_TYPE:WITHER}, %{MOB_TYPE:SKELETAL} and %{MOB_TYPE:UNDEAD} mobs by %{VALUE:DAMAGE}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "mobTypes": [
+      "SKELETAL",
+      "UNDEAD",
+      "WITHER"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 15
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 7,
+        "cost": {
+          "experience": 0,
+          "item": "SEVERED_HAND"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 30,
+          "6": 40,
+          "7": 50
+        }
+      }
+    ]
+  },
+  {
+    "id": "SMOLDERING",
+    "name": "Smoldering",
+    "description": "Increases damage dealt to %{MOB_TYPE:INFERNAL} mobs by %{VALUE:DAMAGE}.",
+    "type": "NORMAL",
+    "requiredLevel": 23,
+    "categories": [
+      "BOW",
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": "SNIPE",
+    "name": "Snipe",
+    "description": "Arrows deal %{VALUE:DISTANCE_DAMAGE} damage for every %{VALUE:DISTANCE} blocks traveled.",
+    "type": "NORMAL",
+    "requiredLevel": 6,
+    "categories": [
+      "BOW"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 0
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "DISTANCE_DAMAGE",
+        "precision": 0,
+        "type": "PLUS_PERCENT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4
+        }
+      },
+      {
+        "id": "DISTANCE",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 10,
+          "2": 10,
+          "3": 10,
+          "4": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "SPIKED_HOOK",
+    "name": "Spiked Hook",
+    "description": "Fishing rod deals %{VALUE:MORE_DAMAGE} more damage to monsters.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "FISHING_ROD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 75
+        }
+      },
+      {
+        "level": 7,
+        "cost": {
+          "experience": 0,
+          "item": "OCTOPUS_TENDRIL"
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "MORE_DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25,
+          "6": 30,
+          "7": 35
+        }
+      }
+    ]
+  },
+  {
+    "id": "STEALTH",
+    "name": "Stealth",
+    "description": "Causes timid creatures that normally flee to remain still.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {}
+      }
+    ],
+    "stats": [
+      {
+        "id": "DEFAULT",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "STRONG_MANA",
+    "name": "Strong Mana",
+    "description": "Gain %{VALUE:MANA_STAT} of mana used near you as %{STAT:STRENGTH} for 10 seconds, capped at 100 %{STAT:STRENGTH}.",
+    "type": "NORMAL",
+    "requiredLevel": 22,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 45
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 60
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 75
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 90
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 180
+        }
+      },
+      {
+        "level": 7,
+        "cost": {
+          "experience": 240
+        }
+      },
+      {
+        "level": 8,
+        "cost": {
+          "experience": 300
+        }
+      },
+      {
+        "level": 9,
+        "cost": {
+          "experience": 360
+        }
+      },
+      {
+        "level": 10,
+        "cost": {
+          "experience": 420
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "MANA_STAT",
+        "precision": 1,
+        "type": "PERCENT",
+        "values": {
+          "1": 0.1,
+          "2": 0.2,
+          "3": 0.3,
+          "4": 0.4,
+          "5": 0.5,
+          "6": 0.6,
+          "7": 0.7,
+          "8": 0.8,
+          "9": 0.9,
+          "10": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "SUGAR_RUSH",
+    "name": "Sugar Rush",
+    "description": "Grants %{VALUE:WALK_SPEED} %{STAT:WALK_SPEED}.",
+    "type": "NORMAL",
+    "requiredLevel": 7,
+    "categories": [
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "WALK_SPEED",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "SUNDER",
+    "name": "Sunder",
+    "description": "Grants %{VALUE:FARMING_FORTUNE} %{STAT:FARMING_FORTUNE}.",
+    "type": "NORMAL",
+    "requiredLevel": 2,
+    "categories": [
+      "AXE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 5
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 15
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 0
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "FARMING_FORTUNE",
+        "precision": 1,
+        "type": "FLAT",
+        "values": {
+          "1": 12.5,
+          "2": 25.0,
+          "3": 37.5,
+          "4": 50.0,
+          "5": 62.5,
+          "6": 75.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "TABASCO",
+    "name": "Tabasco",
+    "description": "Grants %{VALUE:WEAPON_DAMAGE} weapon damage if you don't have a %{FORMAT:DARK_PURPLE}Dragon %{FORMAT:GRAY}pet equipped.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "AXE",
+      "BOW",
+      "FISHING_ROD",
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 2,
+        "cost": {
+          "experience": 300
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 500
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "WEAPON_DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "2": 2,
+          "3": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "THORNS",
+    "name": "Thorns",
+    "description": "Grants a %{VALUE:CHANCE} to rebound %{VALUE:REFLECT_DAMAGE} of damage dealt back at the attacker.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "CHANCE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 50,
+          "2": 50,
+          "3": 50
+        }
+      },
+      {
+        "id": "REFLECT_DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 3,
+          "2": 6,
+          "3": 9
+        }
+      }
+    ]
+  },
+  {
+    "id": "THUNDERBOLT",
+    "name": "Thunderbolt",
+    "description": "Every %{VALUE:HITS} hits on a monster, strike %{FORMAT:YELLOW}lightning%{FORMAT:GRAY}, dealing %{VALUE:HIT_DAMAGE} of the hit's damage to up to 10 monsters within 2 blocks.",
+    "type": "NORMAL",
+    "requiredLevel": 20,
+    "conflict": "THUNDER",
+    "categories": [
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 200
+        }
+      },
+      {
+        "level": 7,
+        "cost": {
+          "experience": 250
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "HITS",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3,
+          "7": 3
+        }
+      },
+      {
+        "id": "HIT_DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 4,
+          "2": 8,
+          "3": 12,
+          "4": 16,
+          "5": 20,
+          "6": 25,
+          "7": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": "THUNDERLORD",
+    "name": "Thunderlord",
+    "description": "Every %{VALUE:HITS} hits on a monster, strike %{FORMAT:YELLOW}lightning%{FORMAT:GRAY}, dealing %{VALUE:HIT_DAMAGE} of the hit's damage.",
+    "type": "NORMAL",
+    "requiredLevel": 14,
+    "conflict": "THUNDER",
+    "categories": [
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 9
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 13
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 18
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 23
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 27
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 91
+        }
+      },
+      {
+        "level": 7,
+        "cost": {
+          "experience": 179
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "HITS",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 3,
+          "6": 3,
+          "7": 3
+        }
+      },
+      {
+        "id": "HIT_DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 8,
+          "2": 16,
+          "3": 24,
+          "4": 32,
+          "5": 40,
+          "6": 50,
+          "7": 60
+        }
+      }
+    ]
+  },
+  {
+    "id": "TIDAL",
+    "name": "Tidal",
+    "description": "Increases your %{STAT:DEFENSE} by %{VALUE:SCC_DEFENSE} against Sea Creatures.",
+    "type": "NORMAL",
+    "requiredLevel": 13,
+    "categories": [
+      "LEGGINGS"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 55
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "SCC_DEFENSE",
+        "precision": 0,
+        "type": "PLUS_PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15
+        }
+      }
+    ]
+  },
+  {
+    "id": "TITAN_KILLER",
+    "name": "Titan Killer",
+    "description": "Increases damage dealt by %{VALUE:SCALE_DAMAGE} for every 100 defense your target has up to %{VALUE:MAX_SCALAR}",
+    "type": "NORMAL",
+    "requiredLevel": 28,
+    "conflict": "KILLER_SCALE",
+    "categories": [
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 7,
+        "cost": {
+          "experience": 200
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "SCALE_DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 12,
+          "6": 16,
+          "7": 20
+        }
+      },
+      {
+        "id": "MAX_SCALAR",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 6,
+          "2": 12,
+          "3": 18,
+          "4": 24,
+          "5": 40,
+          "6": 60,
+          "7": 80
+        }
+      }
+    ]
+  },
+  {
+    "id": "TOXOPHILITE",
+    "name": "Toxophilite",
+    "description": "Gain %{VALUE:COMBAT_XP} extra Combat XP. Grants %{VALUE:CRIT_CHANCE} %{STAT:CRIT_CHANCE}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "BOW"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 2,
+        "cost": {}
+      },
+      {
+        "level": 3,
+        "cost": {}
+      },
+      {
+        "level": 4,
+        "cost": {}
+      },
+      {
+        "level": 5,
+        "cost": {}
+      },
+      {
+        "level": 6,
+        "cost": {}
+      },
+      {
+        "level": 7,
+        "cost": {}
+      },
+      {
+        "level": 8,
+        "cost": {}
+      },
+      {
+        "level": 9,
+        "cost": {}
+      },
+      {
+        "level": 10,
+        "cost": {}
+      }
+    ],
+    "stats": [
+      {
+        "id": "COMBAT_XP",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 3,
+          "2": 4,
+          "3": 4,
+          "4": 5,
+          "5": 6,
+          "6": 7,
+          "7": 8,
+          "8": 8,
+          "9": 9,
+          "10": 10
+        }
+      },
+      {
+        "id": "CRIT_CHANCE",
+        "precision": 1,
+        "type": "PERCENT",
+        "values": {
+          "1": 3.7,
+          "2": 4.4,
+          "3": 5.1,
+          "4": 5.8,
+          "5": 6.5,
+          "6": 7.2,
+          "7": 7.9,
+          "8": 8.6,
+          "9": 9.3,
+          "10": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "TRANSYLVANIAN",
+    "name": "Transylvanian",
+    "description": "Heal %{VALUE:HEAL_SCALE}%{SYMBOL:HEALTH}/s per enemy within %{VALUE:DISTANCE} blocks, up to %{VALUE:HEAL_MAX}%{SYMBOL:HEALTH}/s.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK"
+    ],
+    "levels": [
+      {
+        "level": 4,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 150
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "HEAL_SCALE",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "4": 2,
+          "5": 3
+        }
+      },
+      {
+        "id": "DISTANCE",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "4": 10,
+          "5": 10
+        }
+      },
+      {
+        "id": "HEAL_MAX",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "4": 20,
+          "5": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": "TRUE_PROTECTION",
+    "name": "True Protection",
+    "description": "Grants %{VALUE:TRUE_DEFENSE} %{STAT:TRUE_DEFENSE}.",
+    "type": "NORMAL",
+    "requiredLevel": 15,
+    "categories": [
+      "CHESTPLATE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 40
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "TRUE_DEFENSE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "TRIPLE_STRIKE",
+    "name": "Triple-Strike",
+    "description": "Increases melee damage dealt by %{VALUE:DAMAGE} for the first three hits on a mob.",
+    "type": "NORMAL",
+    "requiredLevel": 19,
+    "conflict": "STRIKE",
+    "categories": [
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 75
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 200
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 40,
+          "5": 50
+        }
+      }
+    ]
+  },
+  {
+    "id": "TURBO_CACTUS",
+    "name": "Turbo-Cacti",
+    "description": "Grants %{VALUE:CACTUS_FORTUNE} %{STAT:CACTUS_FORTUNE}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "AXE",
+      "HOE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "CACTUS_FORTUNE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25
+        }
+      }
+    ]
+  },
+  {
+    "id": "TURBO_CANE",
+    "name": "Turbo-Cane",
+    "description": "Grants %{VALUE:SUGAR_CANE_FORTUNE} %{STAT:SUGAR_CANE_FORTUNE}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "HOE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "SUGAR_CANE_FORTUNE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25
+        }
+      }
+    ]
+  },
+  {
+    "id": "TURBO_CARROT",
+    "name": "Turbo-Carrot",
+    "description": "Grants %{VALUE:CARROT_FORTUNE} %{STAT:CARROT_FORTUNE}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "HOE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "CARROT_FORTUNE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25
+        }
+      }
+    ]
+  },
+  {
+    "id": "TURBO_COCOA",
+    "name": "Turbo-Cocoa",
+    "description": "Grants %{VALUE:COCOA_BEANS_FORTUNE} %{STAT:COCOA_BEANS_FORTUNE}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "AXE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "COCOA_BEANS_FORTUNE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25
+        }
+      }
+    ]
+  },
+  {
+    "id": "TURBO_MELON",
+    "name": "Turbo-Melon",
+    "description": "Grants %{VALUE:MELON_SLICE_FORTUNE} %{STAT:MELON_SLICE_FORTUNE}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "AXE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "MELON_SLICE_FORTUNE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25
+        }
+      }
+    ]
+  },
+  {
+    "id": "TURBO_MUSHROOMS",
+    "name": "Turbo-Mushrooms",
+    "description": "Grants %{VALUE:MUSHROOM_FORTUNE} %{STAT:MUSHROOM_FORTUNE}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "HOE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "MUSHROOM_FORTUNE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25
+        }
+      }
+    ]
+  },
+  {
+    "id": "TURBO_POTATO",
+    "name": "Turbo-Potato",
+    "description": "Grants %{VALUE:POTATO_FORTUNE} %{STAT:POTATO_FORTUNE}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "HOE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "POTATO_FORTUNE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25
+        }
+      }
+    ]
+  },
+  {
+    "id": "TURBO_PUMPKIN",
+    "name": "Turbo-Pumpkin",
+    "description": "Grants %{VALUE:PUMPKIN_FORTUNE} %{STAT:PUMPKIN_FORTUNE}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "AXE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "PUMPKIN_FORTUNE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25
+        }
+      }
+    ]
+  },
+  {
+    "id": "TURBO_WARTS",
+    "name": "Turbo-Warts",
+    "description": "Grants %{VALUE:NETHER_WART_FORTUNE} %{STAT:NETHER_WART_FORTUNE}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "HOE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "NETHER_WART_FORTUNE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25
+        }
+      }
+    ]
+  },
+  {
+    "id": "TURBO_WHEAT",
+    "name": "Turbo-Wheat",
+    "description": "Grants %{VALUE:WHEAT_FORTUNE} %{STAT:WHEAT_FORTUNE}.",
+    "type": "NORMAL",
+    "requiredLevel": 0,
+    "categories": [
+      "HOE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "WHEAT_FORTUNE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25
+        }
+      }
+    ]
+  },
+  {
+    "id": "ULTIMATE_BANK",
+    "name": "Bank",
+    "description": "Saves %{VALUE:COIN_SAVE} of your coins on death. Additionally, enemies drop %{VALUE:DROPPED_COINS} when killed.",
+    "type": "ULTIMATE",
+    "requiredLevel": 16,
+    "conflict": "ULTIMATE",
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 150
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 200
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 250
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "COIN_SAVE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 40,
+          "5": 50
+        }
+      },
+      {
+        "id": "DROPPED_COINS",
+        "precision": 1,
+        "type": "COINS",
+        "values": {
+          "1": 0.5,
+          "2": 1.0,
+          "3": 1.5,
+          "4": 2.0,
+          "5": 2.5
+        }
+      }
+    ]
+  },
+  {
+    "id": "ULTIMATE_BOBBIN_TIME",
+    "name": "Bobbin Time",
+    "description": "Increases all %{STAT_CATEGORY:FISHING} Stats and %{STAT:MAGIC_FIND} by %{VALUE:PER_BOBBER} per fishing bobber within %{VALUE:DISTANCE} blocks, up to %{VALUE:MAX_BOBBERS}.",
+    "type": "ULTIMATE",
+    "requiredLevel": 24,
+    "conflict": "ULTIMATE",
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 3,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 120
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 140
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "PER_BOBBER",
+        "precision": 0,
+        "type": "PLUS_PERCENT",
+        "values": {
+          "3": 0.3,
+          "4": 0.4,
+          "5": 0.5
+        }
+      },
+      {
+        "id": "",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "3": 30,
+          "4": 30,
+          "5": 30
+        }
+      },
+      {
+        "id": "",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "3": 10,
+          "4": 10,
+          "5": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "ULTIMATE_CHIMERA",
+    "name": "Chimera",
+    "description": "Copies %{VALUE:PET_STATS} of your active pet's stats.",
+    "type": "ULTIMATE",
+    "requiredLevel": 31,
+    "conflict": "ULTIMATE",
+    "categories": [
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 150
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 200
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 250
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "PET_STATS",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 20,
+          "2": 40,
+          "3": 60,
+          "4": 80,
+          "5": 100
+        }
+      }
+    ]
+  },
+  {
+    "id": "ULTIMATE_COMBO",
+    "name": "Combo",
+    "description": "Increases your damage by %{VALUE:DAMAGE_INCREASE} per kill up to %{VALUE:MAX_KILLS} kills within %{VALUE:DURATION}.",
+    "type": "ULTIMATE",
+    "requiredLevel": 24,
+    "conflict": "ULTIMATE",
+    "categories": [
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 150
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 200
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 250
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "DAMAGE_INCREASE",
+        "precision": 0,
+        "type": "PLUS_PERCENT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        }
+      },
+      {
+        "id": "MAX_KILLS",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      },
+      {
+        "id": "DURATION",
+        "precision": 0,
+        "type": "SECONDS",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "ULTIMATE_FATAL_TEMPO",
+    "name": "Fatal Tempo",
+    "description": "Attacking increases your %{STAT:FEROCITY} by %{VALUE:PER_HIT} per hit, capped at %{VALUE:FEROCITY_CAP} for 3 seconds after your last attack.",
+    "type": "ULTIMATE",
+    "requiredLevel": 37,
+    "conflict": "ULTIMATE",
+    "categories": [
+      "AXE",
+      "BOW",
+      "FISHING_ROD",
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 150
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 200
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 250
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "PER_HIT",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 40,
+          "5": 50
+        }
+      },
+      {
+        "id": "FEROCITY_CAP",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 200,
+          "2": 200,
+          "3": 200,
+          "4": 200,
+          "5": 200
+        }
+      }
+    ]
+  },
+  {
+    "id": "ULTIMATE_FIRST_IMPRESSION",
+    "name": "First Impression",
+    "description": "Grants %{VALUE:MELEE_SWEEP} %{STAT:SWEEP} on melee Log Breaks, and your first melee Log Break on a tree grants you %{VALUE:FIRST_HIT} %{STAT:SWEEP}.",
+    "type": "ULTIMATE",
+    "requiredLevel": 14,
+    "conflict": "ULTIMATE",
+    "categories": [
+      "AXE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 150
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 200
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 250
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "MELEE_SWEEP",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        }
+      },
+      {
+        "id": "FIRST_HIT",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "ULTIMATE_FLASH",
+    "name": "Flash",
+    "description": "Gain a %{VALUE:CHANCE} to instantly attract a fish.",
+    "type": "ULTIMATE",
+    "requiredLevel": 30,
+    "conflict": "ULTIMATE",
+    "categories": [
+      "FISHING_ROD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 150
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 200
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 250
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "CHANCE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "ULTIMATE_FLOWSTATE",
+    "name": "Flowstate",
+    "description": "Consecutive blocks broken grant %{VALUE:CONSECUTIVE_MINING_SPEED} %{STAT:MINING_SPEED}. Stops after %{VALUE:DURATION} of not mining and caps at %{VALUE:CAPPED_BLOCKS}.",
+    "type": "ULTIMATE",
+    "requiredLevel": 15,
+    "conflict": "ULTIMATE",
+    "categories": [
+      "DRILL",
+      "GAUNTLET",
+      "PICKAXE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 150
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "CONSECUTIVE_MINING_SPEED",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3
+        }
+      },
+      {
+        "id": "DURATION",
+        "precision": 0,
+        "type": "SECONDS",
+        "values": {
+          "1": 10,
+          "2": 10,
+          "3": 10
+        }
+      },
+      {
+        "id": "CAPPED_BLOCKS",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 200,
+          "2": 200,
+          "3": 200
+        }
+      }
+    ]
+  },
+  {
+    "id": "ULTIMATE_HABANERO_TACTICS",
+    "name": "Habanero Tactics",
+    "description": "%{SYMBOL:HABANERO} Heal %{VALUE:WAND_HEAL} more from wands.\n%{SYMBOL:HABANERO} Deal %{VALUE:SLAYER_DAMAGE} damage with Slayer weapons.\n%{SYMBOL:HABANERO} Gain %{VALUE:SLAYER_COMBAT_WISDOM} %{STAT:COMBAT_WISDOM} with Slayer weapons.\n%{SYMBOL:HABANERO} With %{KEYWORD:SMOLDERING_POLARIZATION}, gain %{VALUE:SLAYER_MAGIC_FIND} %{STAT:MAGIC_FIND} on your slayer weapon.",
+    "type": "ULTIMATE",
+    "requiredLevel": 28,
+    "conflict": "ULTIMATE",
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 4,
+        "cost": {
+          "experience": 200
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 250
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "WAND_HEAL",
+        "precision": 1,
+        "type": "PLUS_PERCENT",
+        "values": {
+          "4": 6.0,
+          "5": 7.5
+        }
+      },
+      {
+        "id": "SLAYER_DAMAGE",
+        "precision": 0,
+        "type": "PLUS_PERCENT",
+        "values": {
+          "4": 20,
+          "5": 25
+        }
+      },
+      {
+        "id": "SLAYER_COMBAT_WISDOM",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "4": 2.5,
+          "5": 5.0
+        }
+      },
+      {
+        "id": "SLAYER_MAGIC_FIND",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "4": 10,
+          "5": 15
+        }
+      }
+    ]
+  },
+  {
+    "id": "ULTIMATE_INFERNO",
+    "name": "Inferno",
+    "description": "Every %{VALUE:HIT_SCALAR}th hit on a mob traps it for %{VALUE:DURATION} and deals %{VALUE:HIT_DAMAGE} of that hit's damage over the trap duration.",
+    "type": "ULTIMATE",
+    "requiredLevel": 37,
+    "conflict": "ULTIMATE",
+    "categories": [
+      "AXE",
+      "BOW",
+      "FISHING_ROD",
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 150
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 200
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 250
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "HIT_SCALAR",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 10,
+          "2": 10,
+          "3": 10,
+          "4": 10,
+          "5": 10
+        }
+      },
+      {
+        "id": "DURATION",
+        "precision": 0,
+        "type": "SECONDS",
+        "values": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5,
+          "5": 5
+        }
+      },
+      {
+        "id": "HIT_DAMAGE",
+        "precision": 2,
+        "type": "PERCENT",
+        "values": {
+          "1": 1.25,
+          "2": 1.5,
+          "3": 1.75,
+          "4": 2.0,
+          "5": 2.25
+        }
+      }
+    ]
+  },
+  {
+    "id": "ULTIMATE_JERRY",
+    "name": "Ultimate Jerry",
+    "description": "Increases the base damage of %{ITEM:ASPECT_OF_THE_JERRY} by %{VALUE:DAMAGE}.",
+    "type": "ULTIMATE",
+    "requiredLevel": 18,
+    "conflict": "ULTIMATE",
+    "categories": [],
+    "items": [
+      "ASPECT_OF_THE_JERRY",
+      "ASPECT_OF_THE_JERRY_SIGNATURE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 150
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 200
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 250
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 1000,
+          "2": 2000,
+          "3": 3000,
+          "4": 4000,
+          "5": 5000
+        }
+      }
+    ]
+  },
+  {
+    "id": "ULTIMATE_LAST_STAND",
+    "name": "Last Stand",
+    "description": "Gain %{VALUE:DEFENSE_INCREASE} %{STAT:DEFENSE} when hit while below %{VALUE:LOW_HEALTH}%{SYMBOL:HEALTH}.",
+    "type": "ULTIMATE",
+    "requiredLevel": 30,
+    "conflict": "ULTIMATE",
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 150
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 200
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 250
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "DEFENSE_INCREASE",
+        "precision": 0,
+        "type": "PLUS_PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25
+        }
+      },
+      {
+        "id": "LOW_HEALTH",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 40,
+          "2": 40,
+          "3": 40,
+          "4": 40,
+          "5": 40
+        }
+      }
+    ]
+  },
+  {
+    "id": "ULTIMATE_LEGION",
+    "name": "Legion",
+    "description": "Increases all %{STAT_CATEGORY:COMBAT} stats and %{STAT:MAGIC_FIND} by %{VALUE:LEGION_SCALAR} per player within %{VALUE:DISTANCE} blocks of you, up to %{VALUE:MAX_PLAYERS} players.",
+    "type": "ULTIMATE",
+    "requiredLevel": 34,
+    "conflict": "ULTIMATE",
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 150
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 200
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 250
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "LEGION_SCALAR",
+        "precision": 2,
+        "type": "PERCENT",
+        "values": {
+          "1": 0.07,
+          "2": 0.14,
+          "3": 0.21,
+          "4": 0.28,
+          "5": 0.35
+        }
+      },
+      {
+        "id": "DISTANCE",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 30,
+          "2": 30,
+          "3": 30,
+          "4": 30,
+          "5": 30
+        }
+      },
+      {
+        "id": "MAX_PLAYERS",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20
+        }
+      }
+    ]
+  },
+  {
+    "id": "ULTIMATE_MISSILE",
+    "name": "Missile",
+    "description": "The Log penalty on Throwing Axe is reduced by %{VALUE:REDUCED_PENALTY}.",
+    "type": "ULTIMATE",
+    "requiredLevel": 14,
+    "conflict": "ULTIMATE",
+    "categories": [
+      "AXE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 150
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 200
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 250
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "REDUCED_PENALTY",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 40,
+          "5": 50
+        }
+      }
+    ]
+  },
+  {
+    "id": "ULTIMATE_NOPAINNOGAIN",
+    "name": "No Pain No Gain",
+    "description": "You have %{VALUE:CHANCE} chance to gain %{VALUE:XP_ORBS} experience orbs every time you take hits from mobs.",
+    "type": "ULTIMATE",
+    "requiredLevel": 29,
+    "conflict": "ULTIMATE",
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 150
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 200
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 250
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "CHANCE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 20,
+          "2": 40,
+          "3": 60,
+          "4": 80,
+          "5": 100
+        }
+      },
+      {
+        "id": "XP_ORBS",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 10,
+          "2": 10,
+          "3": 10,
+          "4": 10,
+          "5": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "ULTIMATE_ONE_FOR_ALL",
+    "name": "One For All",
+    "description": "Removes all other enchants but increases your damage by %{VALUE:DAMAGE}.",
+    "type": "ULTIMATE",
+    "requiredLevel": 38,
+    "conflict": "ALL",
+    "categories": [
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 50
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 500
+        }
+      }
+    ]
+  },
+  {
+    "id": "ULTIMATE_REFRIGERATE",
+    "name": "Refrigerate",
+    "description": "Grants %{VALUE:MANA_DEFENSE} of the mana used to cast abilities as %{STAT:DEFENSE} for %{VALUE:DURATION}, up to %{VALUE:MAX_DEFENSE} %{STAT:DEFENSE}.",
+    "type": "ULTIMATE",
+    "requiredLevel": 20,
+    "conflict": "ULTIMATE",
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 150
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 200
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 250
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "MANA_DEFENSE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25
+        }
+      },
+      {
+        "id": "DURATION",
+        "precision": 0,
+        "type": "SECONDS",
+        "values": {
+          "1": 10,
+          "2": 10,
+          "3": 10,
+          "4": 10,
+          "5": 10
+        }
+      },
+      {
+        "id": "MAX_DEFENSE",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 1000,
+          "2": 1000,
+          "3": 1000,
+          "4": 1000,
+          "5": 1000
+        }
+      }
+    ]
+  },
+  {
+    "id": "ULTIMATE_REITERATE",
+    "name": "Duplex",
+    "description": "Shoot an extra arrow dealing %{VALUE:ARROW_DAMAGE} of the first arrow's damage.\nTargets hit take %{VALUE:FIRE_DAMAGE} fire damage for %{VALUE:DURATION}.",
+    "type": "ULTIMATE",
+    "requiredLevel": 28,
+    "conflict": "ULTIMATE",
+    "categories": [
+      "BOW"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 150
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 200
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 250
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "ARROW_DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 4,
+          "2": 8,
+          "3": 12,
+          "4": 16,
+          "5": 20
+        }
+      },
+      {
+        "id": "FIRE_DAMAGE",
+        "precision": 1,
+        "type": "MULTIPLY",
+        "values": {
+          "1": 1.1,
+          "2": 1.2,
+          "3": 1.3,
+          "4": 1.4,
+          "5": 1.5
+        }
+      },
+      {
+        "id": "DURATION",
+        "precision": 0,
+        "type": "SECONDS",
+        "values": {
+          "1": 60,
+          "2": 60,
+          "3": 60,
+          "4": 60,
+          "5": 60
+        }
+      }
+    ]
+  },
+  {
+    "id": "ULTIMATE_REND",
+    "name": "Rend",
+    "description": "Use Left Click ability to rip your arrows out of nearby enemies. Each arrow deals %{VALUE:LAST_CRIT_DAMAGE} of your last critical shot on the target, up to %{VALUE:MAX_ARROWS}.\n%{VALUE:COOLDOWN} Cooldown.",
+    "type": "ULTIMATE",
+    "requiredLevel": 32,
+    "conflict": "ULTIMATE",
+    "categories": [
+      "BOW"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 150
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 200
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 250
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "LAST_CRIT_DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25
+        }
+      },
+      {
+        "id": "MAX_ARROWS",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5,
+          "5": 5
+        }
+      },
+      {
+        "id": "COOLDOWN",
+        "precision": 0,
+        "type": "SECONDS",
+        "values": {
+          "1": 2,
+          "2": 2,
+          "3": 2,
+          "4": 2,
+          "5": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "ULTIMATE_SOUL_EATER",
+    "name": "Soul Eater",
+    "description": "Your weapon gains %{VALUE:LAST_DAMAGE} the Damage of the latest monster killed and adds it at the end of your next critical hit.",
+    "type": "ULTIMATE",
+    "requiredLevel": 36,
+    "conflict": "ULTIMATE",
+    "categories": [
+      "BOW",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 150
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 200
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 250
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "LAST_DAMAGE",
+        "precision": 0,
+        "type": "MULTIPLY",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "ULTIMATE_SWARM",
+    "name": "Swarm",
+    "description": "Increases your damage by %{VALUE:RANGE_DAMAGE} for each enemy within %{VALUE:DISTANCE} blocks. Maximum of %{VALUE:MAX_ENEMIES}.",
+    "type": "ULTIMATE",
+    "requiredLevel": 35,
+    "conflict": "ULTIMATE",
+    "categories": [
+      "BOW",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 150
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 200
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 250
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "RANGE_DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      },
+      {
+        "id": "DISTANCE",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 10,
+          "2": 10,
+          "3": 10,
+          "4": 10,
+          "5": 10
+        }
+      },
+      {
+        "id": "MAX_ENEMIES",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 10,
+          "2": 10,
+          "3": 10,
+          "4": 10,
+          "5": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "ULTIMATE_THE_ONE",
+    "name": "The One",
+    "description": "Grants %{VALUE:COLLECTION_HEALTH} %{STAT:HEALTH} and %{VALUE:COLLECTION_STRENGTH} %{STAT:STRENGTH} per maxed out collection.",
+    "type": "ULTIMATE",
+    "requiredLevel": 25,
+    "conflict": "ULTIMATE",
+    "categories": [
+      "NECKLACE"
+    ],
+    "levels": [
+      {
+        "level": 4,
+        "cost": {
+          "experience": 250
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 300
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "COLLECTION_HEALTH",
+        "precision": 1,
+        "type": "FLAT",
+        "values": {
+          "4": 0.5,
+          "5": 1.0
+        }
+      },
+      {
+        "id": "COLLECTION_STRENGTH",
+        "precision": 1,
+        "type": "FLAT",
+        "values": {
+          "4": 0.1,
+          "5": 0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": "ULTIMATE_WISE",
+    "name": "Ultimate Wise",
+    "description": "Reduces the ability mana cost of this item by %{VALUE:MANA_REDUCTION}.",
+    "type": "ULTIMATE",
+    "requiredLevel": 20,
+    "conflict": "ULTIMATE",
+    "categories": [
+      "AXE",
+      "BOW",
+      "DRILL",
+      "FISHING_ROD",
+      "GAUNTLET",
+      "HOE",
+      "LONGSWORD",
+      "PICKAXE",
+      "SHOVEL",
+      "SWORD",
+      "WAND"
+    ],
+    "items": [
+      "PRECURSOR_EYE"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 150
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 200
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 250
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "MANA_REDUCTION",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 40,
+          "5": 50
+        }
+      }
+    ]
+  },
+  {
+    "id": "ULTIMATE_WISDOM",
+    "name": "Wisdom",
+    "description": "Gain %{VALUE:EXP_INTELLIGENCE} %{STAT:INTELLIGENCE} for every %{VALUE:LEVELS} levels of exp you have on you.\nCapped at %{VALUE:INTELLIGENCE_CAP} %{STAT:INTELLIGENCE}.",
+    "type": "ULTIMATE",
+    "requiredLevel": 27,
+    "conflict": "ULTIMATE",
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 100
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 150
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 200
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 250
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "EXP_INTELLIGENCE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        }
+      },
+      {
+        "id": "LEVELS",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5,
+          "5": 5
+        }
+      },
+      {
+        "id": "INTELLIGENCE_CAP",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 20,
+          "2": 40,
+          "3": 60,
+          "4": 80,
+          "5": 100
+        }
+      }
+    ]
+  },
+  {
+    "id": "VAMPIRISM",
+    "name": "Vampirism",
+    "description": "Heals for %{VALUE:HEAL} of your missing health whenever you kill an enemy.",
+    "type": "NORMAL",
+    "requiredLevel": 15,
+    "categories": [
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 200
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "HEAL",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6
+        }
+      }
+    ]
+  },
+  {
+    "id": "VENOMOUS",
+    "name": "Venomous",
+    "description": "Reduces the target's walk speed by %{VALUE:REDUCED} and deals %{VALUE:DPS} of your damage per second per hit, stacking globally up to %{VALUE:MAX_HITS}. Lasts %{VALUE:DURATION}.",
+    "type": "NORMAL",
+    "requiredLevel": 17,
+    "categories": [
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 40
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 50
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 200
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "REDUCED",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25,
+          "6": 30
+        }
+      },
+      {
+        "id": "DPS",
+        "precision": 1,
+        "type": "PLUS_PERCENT",
+        "values": {
+          "1": 0.3,
+          "2": 0.6,
+          "3": 0.9,
+          "4": 1.2,
+          "5": 1.5,
+          "6": 1.8
+        }
+      },
+      {
+        "id": "MAX_HITS",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 40,
+          "2": 40,
+          "3": 40,
+          "4": 40,
+          "5": 40,
+          "6": 40
+        }
+      },
+      {
+        "id": "DURATION",
+        "precision": 0,
+        "type": "SECONDS",
+        "values": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5,
+          "5": 5,
+          "6": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "VICIOUS",
+    "name": "Vicious",
+    "description": "Grants %{VALUE:FEROCITY} %{STAT:FEROCITY}.",
+    "type": "NORMAL",
+    "requiredLevel": 26,
+    "categories": [
+      "BOW",
+      "GAUNTLET",
+      "LONGSWORD",
+      "SWORD"
+    ],
+    "levels": [
+      {
+        "level": 3,
+        "cost": {
+          "experience": 60
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 80
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 100
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "FEROCITY",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "3": 3,
+          "4": 4,
+          "5": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "WOODSPLITTER",
+    "name": "Woodsplitter",
+    "description": "Increases damage dealt to %{MOB_TYPE:WOODLAND} mobs by %{VALUE:DAMAGE}.",
+    "type": "NORMAL",
+    "requiredLevel": 5,
+    "categories": [
+      "AXE"
+    ],
+    "mobTypes": [
+      "WOODLAND"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "cost": {
+          "experience": 10
+        }
+      },
+      {
+        "level": 2,
+        "cost": {
+          "experience": 15
+        }
+      },
+      {
+        "level": 3,
+        "cost": {
+          "experience": 20
+        }
+      },
+      {
+        "level": 4,
+        "cost": {
+          "experience": 25
+        }
+      },
+      {
+        "level": 5,
+        "cost": {
+          "experience": 30
+        }
+      },
+      {
+        "level": 6,
+        "cost": {
+          "experience": 100
+        }
+      }
+    ],
+    "stats": [
+      {
+        "id": "DAMAGE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 40,
+          "5": 60,
+          "6": 80
+        }
+      }
+    ]
+  }
+]

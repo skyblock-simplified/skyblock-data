@@ -1,0 +1,152 @@
+[
+  {
+    "id": "BLENDED_FISH_MIXIN",
+    "stats": [
+      {
+        "id": "FISHY_TREATS",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 3
+        }
+      }
+    ]
+  },
+  {
+    "id": "DEEPTERROR_MIXIN",
+    "regions": [
+      "THE_END",
+      "CRIMSON_ISLE"
+    ],
+    "stats": [
+      {
+        "id": "HEALTH",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 210
+        }
+      },
+      {
+        "id": "DEFENSE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 40
+        }
+      }
+    ]
+  },
+  {
+    "id": "END_PORTAL_FUMES_MIXIN",
+    "stats": [
+      {
+        "id": "OVERFLOW",
+        "precision": 0,
+        "type": "PLUS_PERCENT",
+        "values": {
+          "1": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": "GABAGOEY_MIXIN",
+    "stats": [
+      {
+        "id": "TRUE_DEFENCE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "HOT_CHOCOLATE_MIXIN",
+    "stats": [
+      {
+        "id": "PET_LUCK",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 15
+        }
+      },
+      {
+        "id": "CHOCOLATE_PER_SECOND",
+        "precision": 2,
+        "type": "PLUS_MULTIPLY",
+        "values": {
+          "1": 0.05
+        }
+      }
+    ]
+  },
+  {
+    "id": "MUSHED_MUSHROOM_MIXIN",
+    "stats": [
+      {
+        "id": "FISHING_SPEED",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": "PIG_BRAIN_MIXIN",
+    "stats": [
+      {
+        "id": "SHINY_STUFF_DROP_CHANCE",
+        "precision": 0,
+        "type": "PLUS_PERCENT",
+        "values": {
+          "1": 50
+        }
+      }
+    ]
+  },
+  {
+    "id": "SPIDER_EGG_MIXIN",
+    "stats": [
+      {
+        "id": "CRIT_DAMAGE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 15
+        }
+      }
+    ]
+  },
+  {
+    "id": "WOLF_FUR_MIXIN",
+    "stats": [
+      {
+        "id": "FIRST_HIT_MAGIC_FIND",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 7
+        }
+      }
+    ]
+  },
+  {
+    "id": "ZOMBIE_BRAIN_MIXIN",
+    "stats": [
+      {
+        "id": "FEROCITY",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 10
+        }
+      }
+    ]
+  }
+]

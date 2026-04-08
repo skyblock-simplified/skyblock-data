@@ -1,0 +1,5265 @@
+[
+  {
+    "id": "FAIR",
+    "name": "Fair",
+    "requiredLevel": 0,
+    "categories": [
+      "SWORD",
+      "LONGSWORD",
+      "FISHING_ROD"
+    ],
+    "stats": [
+      {
+        "id": "INTELLIGENCE",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 7.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      },
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 7.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      },
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 7.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      },
+      {
+        "id": "BONUS_ATTACK_SPEED",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 7.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 7.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "EPIC",
+    "name": "Epic",
+    "requiredLevel": 0,
+    "categories": [
+      "SWORD",
+      "LONGSWORD",
+      "FISHING_ROD"
+    ],
+    "stats": [
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 15.0,
+          "UNCOMMON": 20.0,
+          "RARE": 25.0,
+          "EPIC": 32.0,
+          "LEGENDARY": 40.0,
+          "MYTHIC": 50.0,
+          "DIVINE": 50.0
+        }
+      },
+      {
+        "id": "BONUS_ATTACK_SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 4.0,
+          "EPIC": 7.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 15.0,
+          "DIVINE": 15.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 10.0,
+          "UNCOMMON": 15.0,
+          "RARE": 20.0,
+          "EPIC": 27.0,
+          "LEGENDARY": 35.0,
+          "MYTHIC": 45.0,
+          "DIVINE": 45.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "FAST",
+    "name": "Fast",
+    "requiredLevel": 0,
+    "categories": [
+      "SWORD",
+      "LONGSWORD",
+      "FISHING_ROD"
+    ],
+    "stats": [
+      {
+        "id": "BONUS_ATTACK_SPEED",
+        "values": {
+          "COMMON": 10.0,
+          "UNCOMMON": 20.0,
+          "RARE": 30.0,
+          "EPIC": 40.0,
+          "LEGENDARY": 50.0,
+          "MYTHIC": 60.0,
+          "DIVINE": 60.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "GENTLE",
+    "name": "Gentle",
+    "requiredLevel": 0,
+    "categories": [
+      "SWORD",
+      "LONGSWORD",
+      "FISHING_ROD"
+    ],
+    "stats": [
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 5.0,
+          "RARE": 7.0,
+          "EPIC": 10.0,
+          "LEGENDARY": 15.0,
+          "MYTHIC": 20.0,
+          "DIVINE": 20.0
+        }
+      },
+      {
+        "id": "BONUS_ATTACK_SPEED",
+        "values": {
+          "COMMON": 8.0,
+          "UNCOMMON": 10.0,
+          "RARE": 15.0,
+          "EPIC": 20.0,
+          "LEGENDARY": 25.0,
+          "MYTHIC": 30.0,
+          "DIVINE": 30.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "HEROIC",
+    "name": "Heroic",
+    "requiredLevel": 0,
+    "categories": [
+      "SWORD",
+      "LONGSWORD",
+      "FISHING_ROD"
+    ],
+    "stats": [
+      {
+        "id": "INTELLIGENCE",
+        "values": {
+          "COMMON": 40.0,
+          "UNCOMMON": 50.0,
+          "RARE": 65.0,
+          "EPIC": 80.0,
+          "LEGENDARY": 100.0,
+          "MYTHIC": 125.0,
+          "DIVINE": 125.0
+        }
+      },
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 15.0,
+          "UNCOMMON": 20.0,
+          "RARE": 25.0,
+          "EPIC": 32.0,
+          "LEGENDARY": 40.0,
+          "MYTHIC": 50.0,
+          "DIVINE": 50.0
+        }
+      },
+      {
+        "id": "BONUS_ATTACK_SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 2.0,
+          "EPIC": 3.0,
+          "LEGENDARY": 5.0,
+          "MYTHIC": 7.0,
+          "DIVINE": 7.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "LEGENDARY",
+    "name": "Legendary",
+    "requiredLevel": 0,
+    "categories": [
+      "SWORD",
+      "LONGSWORD",
+      "FISHING_ROD"
+    ],
+    "stats": [
+      {
+        "id": "INTELLIGENCE",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 8.0,
+          "RARE": 12.0,
+          "EPIC": 18.0,
+          "LEGENDARY": 25.0,
+          "MYTHIC": 35.0,
+          "DIVINE": 35.0
+        }
+      },
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 7.0,
+          "RARE": 9.0,
+          "EPIC": 12.0,
+          "LEGENDARY": 15.0,
+          "MYTHIC": 18.0,
+          "DIVINE": 18.0
+        }
+      },
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 7.0,
+          "RARE": 12.0,
+          "EPIC": 18.0,
+          "LEGENDARY": 25.0,
+          "MYTHIC": 32.0,
+          "DIVINE": 32.0
+        }
+      },
+      {
+        "id": "BONUS_ATTACK_SPEED",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 5.0,
+          "EPIC": 7.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 15.0,
+          "DIVINE": 15.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 10.0,
+          "RARE": 15.0,
+          "EPIC": 22.0,
+          "LEGENDARY": 28.0,
+          "MYTHIC": 36.0,
+          "DIVINE": 36.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ODD",
+    "name": "Odd",
+    "requiredLevel": 0,
+    "categories": [
+      "SWORD",
+      "LONGSWORD",
+      "FISHING_ROD"
+    ],
+    "stats": [
+      {
+        "id": "INTELLIGENCE",
+        "values": {
+          "COMMON": -5.0,
+          "UNCOMMON": -10.0,
+          "RARE": -18.0,
+          "EPIC": -32.0,
+          "LEGENDARY": -50.0,
+          "MYTHIC": -75.0,
+          "DIVINE": -75.0
+        }
+      },
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 10.0,
+          "UNCOMMON": 12.0,
+          "RARE": 15.0,
+          "EPIC": 20.0,
+          "LEGENDARY": 25.0,
+          "MYTHIC": 30.0,
+          "DIVINE": 30.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 10.0,
+          "RARE": 15.0,
+          "EPIC": 22.0,
+          "LEGENDARY": 30.0,
+          "MYTHIC": 40.0,
+          "DIVINE": 40.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "RICH",
+    "name": "Rich",
+    "requiredLevel": 0,
+    "categories": [
+      "SWORD",
+      "LONGSWORD",
+      "FISHING_ROD"
+    ],
+    "stats": [
+      {
+        "id": "INTELLIGENCE",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 6.0,
+          "RARE": 10.0,
+          "EPIC": 15.0,
+          "LEGENDARY": 20.0,
+          "MYTHIC": 20.0,
+          "DIVINE": 20.0
+        }
+      },
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 4.0,
+          "EPIC": 7.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 10.0,
+          "DIVINE": 10.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 4.0,
+          "EPIC": 7.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 10.0,
+          "DIVINE": 10.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "SHARP",
+    "name": "Sharp",
+    "requiredLevel": 0,
+    "categories": [
+      "SWORD",
+      "LONGSWORD",
+      "FISHING_ROD"
+    ],
+    "stats": [
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 10.0,
+          "UNCOMMON": 12.0,
+          "RARE": 14.0,
+          "EPIC": 17.0,
+          "LEGENDARY": 20.0,
+          "MYTHIC": 25.0,
+          "DIVINE": 25.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 20.0,
+          "UNCOMMON": 30.0,
+          "RARE": 40.0,
+          "EPIC": 55.0,
+          "LEGENDARY": 75.0,
+          "MYTHIC": 90.0,
+          "DIVINE": 90.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "SPICY",
+    "name": "Spicy",
+    "requiredLevel": 0,
+    "categories": [
+      "SWORD",
+      "LONGSWORD",
+      "FISHING_ROD"
+    ],
+    "stats": [
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 1.0,
+          "EPIC": 1.0,
+          "LEGENDARY": 1.0,
+          "MYTHIC": 1.0,
+          "DIVINE": 1.0
+        }
+      },
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 7.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      },
+      {
+        "id": "BONUS_ATTACK_SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 4.0,
+          "EPIC": 7.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 15.0,
+          "DIVINE": 15.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 25.0,
+          "UNCOMMON": 35.0,
+          "RARE": 45.0,
+          "EPIC": 60.0,
+          "LEGENDARY": 80.0,
+          "MYTHIC": 100.0,
+          "DIVINE": 100.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "DIRTY",
+    "name": "Dirty",
+    "stone": "DIRT_BOTTLE",
+    "requiredLevel": 10,
+    "categories": [
+      "SWORD",
+      "LONGSWORD",
+      "FISHING_ROD"
+    ],
+    "stats": [
+      {
+        "id": "FEROCITY",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 6.0,
+          "EPIC": 9.0,
+          "LEGENDARY": 12.0,
+          "MYTHIC": 15.0,
+          "DIVINE": 15.0
+        }
+      },
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 4.0,
+          "RARE": 6.0,
+          "EPIC": 10.0,
+          "LEGENDARY": 12.0,
+          "MYTHIC": 15.0,
+          "DIVINE": 15.0
+        }
+      },
+      {
+        "id": "BONUS_ATTACK_SPEED",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 5.0,
+          "EPIC": 10.0,
+          "LEGENDARY": 15.0,
+          "MYTHIC": 20.0,
+          "DIVINE": 20.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "WARPED",
+    "name": "Warped",
+    "stone": "AOTE_STONE",
+    "requiredLevel": 26,
+    "categories": [
+      "SWORD"
+    ],
+    "items": [
+      "ASPECT_OF_THE_END",
+      "ASPECT_OF_THE_VOID"
+    ],
+    "stats": [
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 165.0,
+          "UNCOMMON": 165.0,
+          "RARE": 165.0,
+          "EPIC": 165.0,
+          "LEGENDARY": 165.0,
+          "MYTHIC": 165.0,
+          "DIVINE": 165.0
+        }
+      },
+      {
+        "id": "DAMAGE",
+        "values": {
+          "COMMON": 165.0,
+          "UNCOMMON": 165.0,
+          "RARE": 165.0,
+          "EPIC": 165.0,
+          "LEGENDARY": 165.0,
+          "MYTHIC": 165.0,
+          "DIVINE": 165.0
+        }
+      },
+      {
+        "id": "INTELLIGENCE",
+        "values": {
+          "RARE": 65.0,
+          "EPIC": 100.0,
+          "LEGENDARY": 150.0,
+          "MYTHIC": 150.0,
+          "DIVINE": 150.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "BULKY",
+    "name": "Bulky",
+    "stone": "BULKY_STONE",
+    "requiredLevel": 25,
+    "categories": [
+      "SWORD",
+      "LONGSWORD"
+    ],
+    "stats": [
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 4.0,
+          "UNCOMMON": 6.0,
+          "RARE": 9.0,
+          "EPIC": 12.0,
+          "LEGENDARY": 15.0,
+          "MYTHIC": 20.0,
+          "DIVINE": 20.0
+        }
+      },
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 5.0,
+          "EPIC": 8.0,
+          "LEGENDARY": 13.0,
+          "MYTHIC": 21.0,
+          "DIVINE": 21.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "COLDFUSED",
+    "name": "Coldfused",
+    "stone": "ENTROPY_SUPPRESSOR",
+    "requiredLevel": 20,
+    "categories": [
+      "SWORD",
+      "LONGSWORD"
+    ],
+    "stats": [
+      {
+        "id": "MAGIC_FIND",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 2.0,
+          "RARE": 2.0,
+          "EPIC": 2.0,
+          "LEGENDARY": 2.0,
+          "MYTHIC": 2.0,
+          "DIVINE": 2.0
+        }
+      },
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 15.0,
+          "UNCOMMON": 20.0,
+          "RARE": 25.0,
+          "EPIC": 35.0,
+          "LEGENDARY": 45.0,
+          "MYTHIC": 55.0,
+          "DIVINE": 55.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 20.0,
+          "UNCOMMON": 30.0,
+          "RARE": 40.0,
+          "EPIC": 50.0,
+          "LEGENDARY": 60.0,
+          "MYTHIC": 70.0,
+          "DIVINE": 70.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "FABLED",
+    "name": "Fabled",
+    "stone": "DRAGON_CLAW",
+    "requiredLevel": 22,
+    "categories": [
+      "SWORD",
+      "LONGSWORD"
+    ],
+    "stats": [
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 30.0,
+          "UNCOMMON": 35.0,
+          "RARE": 40.0,
+          "EPIC": 50.0,
+          "LEGENDARY": 60.0,
+          "MYTHIC": 75.0,
+          "DIVINE": 75.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 15.0,
+          "UNCOMMON": 20.0,
+          "RARE": 25.0,
+          "EPIC": 32.0,
+          "LEGENDARY": 40.0,
+          "MYTHIC": 50.0,
+          "DIVINE": 50.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "FANGED",
+    "name": "Fanged",
+    "stone": "FULL_JAW_FANGING_KIT",
+    "requiredLevel": 13,
+    "categories": [
+      "SWORD",
+      "LONGSWORD"
+    ],
+    "stats": [
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 30.0,
+          "UNCOMMON": 35.0,
+          "RARE": 40.0,
+          "EPIC": 50.0,
+          "LEGENDARY": 60.0,
+          "MYTHIC": 65.0,
+          "DIVINE": 65.0
+        }
+      },
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 4.0,
+          "RARE": 5.0,
+          "EPIC": 7.0,
+          "LEGENDARY": 8.0,
+          "MYTHIC": 10.0,
+          "DIVINE": 10.0
+        }
+      },
+      {
+        "id": "BONUS_ATTACK_SPEED",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 6.0,
+          "LEGENDARY": 9.0,
+          "MYTHIC": 10.0,
+          "DIVINE": 10.0
+        }
+      },
+      {
+        "id": "VITALITY",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 6.0,
+          "LEGENDARY": 8.0,
+          "MYTHIC": 10.0,
+          "DIVINE": 10.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "GILDED",
+    "name": "Gilded",
+    "stone": "MIDAS_JEWEL",
+    "requiredLevel": 25,
+    "categories": [
+      "SWORD"
+    ],
+    "items": [
+      "MIDAS_SWORD",
+      "STARRED_MIDAS_SWORD",
+      "MIDAS_STAFF",
+      "STARRED_MIDAS_STAFF"
+    ],
+    "stats": [
+      {
+        "id": "STRENGTH",
+        "values": {
+          "LEGENDARY": 75.0,
+          "MYTHIC": 90.0,
+          "DIVINE": 90.0
+        }
+      },
+      {
+        "id": "DAMAGE",
+        "values": {
+          "LEGENDARY": 75.0,
+          "MYTHIC": 90.0,
+          "DIVINE": 90.0
+        }
+      },
+      {
+        "id": "ABILITY_DAMAGE",
+        "values": {
+          "LEGENDARY": 8.0,
+          "MYTHIC": 10.0,
+          "DIVINE": 10.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "JERRYS",
+    "name": "Jerry's",
+    "stone": "JERRY_STONE",
+    "requiredLevel": 1,
+    "categories": [
+      "SWORD"
+    ],
+    "items": [
+      "ASPECT_OF_THE_JERRY",
+      "ASPECT_OF_THE_JERRY_SIGNATURE"
+    ],
+    "stats": [
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 10.0,
+          "UNCOMMON": 10.0,
+          "RARE": 10.0,
+          "EPIC": 10.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 10.0,
+          "DIVINE": 10.0
+        }
+      },
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 25.0,
+          "UNCOMMON": 25.0,
+          "RARE": 25.0,
+          "EPIC": 25.0,
+          "LEGENDARY": 25.0,
+          "MYTHIC": 25.0,
+          "DIVINE": 25.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 50.0,
+          "UNCOMMON": 50.0,
+          "RARE": 50.0,
+          "EPIC": 50.0,
+          "LEGENDARY": 50.0,
+          "MYTHIC": 50.0,
+          "DIVINE": 50.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "SUSPICIOUS",
+    "name": "Suspicious",
+    "stone": "SUSPICIOUS_VIAL",
+    "requiredLevel": 23,
+    "categories": [
+      "SWORD",
+      "LONGSWORD"
+    ],
+    "stats": [
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 5.0,
+          "LEGENDARY": 7.0,
+          "MYTHIC": 10.0,
+          "DIVINE": 10.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 30.0,
+          "UNCOMMON": 40.0,
+          "RARE": 50.0,
+          "EPIC": 65.0,
+          "LEGENDARY": 85.0,
+          "MYTHIC": 110.0,
+          "DIVINE": 110.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "WITHERED",
+    "name": "Withered",
+    "stone": "WITHER_BLOOD",
+    "requiredLevel": 30,
+    "categories": [
+      "SWORD",
+      "LONGSWORD"
+    ],
+    "stats": [
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 60.0,
+          "UNCOMMON": 75.0,
+          "RARE": 90.0,
+          "EPIC": 110.0,
+          "LEGENDARY": 135.0,
+          "MYTHIC": 170.0,
+          "DIVINE": 170.0
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "AWKWARD",
+    "name": "Awkward",
+    "requiredLevel": 0,
+    "categories": [
+      "BOW"
+    ],
+    "stats": [
+      {
+        "id": "INTELLIGENCE",
+        "values": {
+          "COMMON": -5.0,
+          "UNCOMMON": -10.0,
+          "RARE": -18.0,
+          "EPIC": -32.0,
+          "LEGENDARY": -50.0,
+          "MYTHIC": -60.0,
+          "DIVINE": -60.0
+        }
+      },
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 10.0,
+          "UNCOMMON": 12.0,
+          "RARE": 15.0,
+          "EPIC": 20.0,
+          "LEGENDARY": 25.0,
+          "MYTHIC": 30.0,
+          "DIVINE": 30.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 10.0,
+          "RARE": 15.0,
+          "EPIC": 22.0,
+          "LEGENDARY": 30.0,
+          "MYTHIC": 40.0,
+          "DIVINE": 40.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "DEADLY",
+    "name": "Deadly",
+    "requiredLevel": 0,
+    "categories": [
+      "BOW"
+    ],
+    "stats": [
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 10.0,
+          "UNCOMMON": 13.0,
+          "RARE": 16.0,
+          "EPIC": 19.0,
+          "LEGENDARY": 22.0,
+          "MYTHIC": 25.0,
+          "DIVINE": 25.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 10.0,
+          "RARE": 18.0,
+          "EPIC": 32.0,
+          "LEGENDARY": 50.0,
+          "MYTHIC": 70.0,
+          "DIVINE": 70.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "FINE",
+    "name": "Fine",
+    "requiredLevel": 0,
+    "categories": [
+      "BOW"
+    ],
+    "stats": [
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 7.0,
+          "RARE": 9.0,
+          "EPIC": 12.0,
+          "LEGENDARY": 15.0,
+          "MYTHIC": 20.0,
+          "DIVINE": 20.0
+        }
+      },
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 7.0,
+          "RARE": 12.0,
+          "EPIC": 18.0,
+          "LEGENDARY": 25.0,
+          "MYTHIC": 40.0,
+          "DIVINE": 40.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 4.0,
+          "RARE": 7.0,
+          "EPIC": 10.0,
+          "LEGENDARY": 15.0,
+          "MYTHIC": 20.0,
+          "DIVINE": 20.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "GRAND",
+    "name": "Grand",
+    "requiredLevel": 0,
+    "categories": [
+      "BOW"
+    ],
+    "stats": [
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 25.0,
+          "UNCOMMON": 32.0,
+          "RARE": 40.0,
+          "EPIC": 50.0,
+          "LEGENDARY": 60.0,
+          "MYTHIC": 70.0,
+          "DIVINE": 70.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "HASTY",
+    "name": "Hasty",
+    "requiredLevel": 0,
+    "categories": [
+      "BOW"
+    ],
+    "stats": [
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 20.0,
+          "UNCOMMON": 25.0,
+          "RARE": 30.0,
+          "EPIC": 40.0,
+          "LEGENDARY": 50.0,
+          "MYTHIC": 60.0,
+          "DIVINE": 60.0
+        }
+      },
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 5.0,
+          "RARE": 7.0,
+          "EPIC": 10.0,
+          "LEGENDARY": 15.0,
+          "MYTHIC": 20.0,
+          "DIVINE": 20.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "NEAT",
+    "name": "Neat",
+    "requiredLevel": 0,
+    "categories": [
+      "BOW"
+    ],
+    "stats": [
+      {
+        "id": "INTELLIGENCE",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 6.0,
+          "RARE": 10.0,
+          "EPIC": 15.0,
+          "LEGENDARY": 20.0,
+          "MYTHIC": 30.0,
+          "DIVINE": 30.0
+        }
+      },
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 10.0,
+          "UNCOMMON": 12.0,
+          "RARE": 14.0,
+          "EPIC": 17.0,
+          "LEGENDARY": 20.0,
+          "MYTHIC": 25.0,
+          "DIVINE": 25.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 4.0,
+          "UNCOMMON": 8.0,
+          "RARE": 14.0,
+          "EPIC": 20.0,
+          "LEGENDARY": 30.0,
+          "MYTHIC": 40.0,
+          "DIVINE": 40.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ODD",
+    "name": "Odd",
+    "requiredLevel": 0,
+    "categories": [
+      "BOW"
+    ],
+    "stats": [
+      {
+        "id": "INTELLIGENCE",
+        "values": {
+          "COMMON": -5.0,
+          "UNCOMMON": -10.0,
+          "RARE": -18.0,
+          "EPIC": -32.0,
+          "LEGENDARY": -50.0,
+          "MYTHIC": -50.0,
+          "DIVINE": -50.0
+        }
+      },
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 4.0,
+          "EPIC": 7.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 10.0,
+          "DIVINE": 10.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 4.0,
+          "EPIC": 7.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 10.0,
+          "DIVINE": 10.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "RAPID",
+    "name": "Rapid",
+    "requiredLevel": 0,
+    "categories": [
+      "BOW"
+    ],
+    "stats": [
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 7.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 35.0,
+          "UNCOMMON": 45.0,
+          "RARE": 55.0,
+          "EPIC": 65.0,
+          "LEGENDARY": 75.0,
+          "MYTHIC": 90.0,
+          "DIVINE": 90.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "RICH",
+    "name": "Rich",
+    "requiredLevel": 0,
+    "categories": [
+      "BOW"
+    ],
+    "stats": [
+      {
+        "id": "INTELLIGENCE",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 6.0,
+          "RARE": 10.0,
+          "EPIC": 15.0,
+          "LEGENDARY": 20.0,
+          "MYTHIC": 30.0,
+          "DIVINE": 30.0
+        }
+      },
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 10.0,
+          "UNCOMMON": 12.0,
+          "RARE": 14.0,
+          "EPIC": 17.0,
+          "LEGENDARY": 20.0,
+          "MYTHIC": 25.0,
+          "DIVINE": 25.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 4.0,
+          "RARE": 7.0,
+          "EPIC": 10.0,
+          "LEGENDARY": 15.0,
+          "MYTHIC": 20.0,
+          "DIVINE": 20.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "UNREAL",
+    "name": "Unreal",
+    "requiredLevel": 0,
+    "categories": [
+      "BOW"
+    ],
+    "stats": [
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 8.0,
+          "UNCOMMON": 9.0,
+          "RARE": 10.0,
+          "EPIC": 11.0,
+          "LEGENDARY": 13.0,
+          "MYTHIC": 15.0,
+          "DIVINE": 15.0
+        }
+      },
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 7.0,
+          "RARE": 12.0,
+          "EPIC": 18.0,
+          "LEGENDARY": 25.0,
+          "MYTHIC": 34.0,
+          "DIVINE": 34.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 10.0,
+          "RARE": 18.0,
+          "EPIC": 32.0,
+          "LEGENDARY": 50.0,
+          "MYTHIC": 70.0,
+          "DIVINE": 70.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "HEADSTRONG",
+    "name": "Headstrong",
+    "stone": "SALMON_OPAL",
+    "requiredLevel": 15,
+    "categories": [
+      "BOW"
+    ],
+    "stats": [
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 10.0,
+          "UNCOMMON": 11.0,
+          "RARE": 12.0,
+          "EPIC": 13.0,
+          "LEGENDARY": 15.0,
+          "MYTHIC": 17.0,
+          "DIVINE": 17.0
+        }
+      },
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 5.0,
+          "RARE": 10.0,
+          "EPIC": 16.0,
+          "LEGENDARY": 23.0,
+          "MYTHIC": 33.0,
+          "DIVINE": 33.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 4.0,
+          "UNCOMMON": 8.0,
+          "RARE": 16.0,
+          "EPIC": 28.0,
+          "LEGENDARY": 42.0,
+          "MYTHIC": 60.0,
+          "DIVINE": 60.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "PRECISE",
+    "name": "Precise",
+    "stone": "OPTICAL_LENS",
+    "requiredLevel": 22,
+    "categories": [
+      "BOW"
+    ],
+    "stats": [
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 8.0,
+          "UNCOMMON": 9.0,
+          "RARE": 10.0,
+          "EPIC": 11.0,
+          "LEGENDARY": 13.0,
+          "MYTHIC": 15.0,
+          "DIVINE": 15.0
+        }
+      },
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 7.0,
+          "RARE": 12.0,
+          "EPIC": 18.0,
+          "LEGENDARY": 25.0,
+          "MYTHIC": 34.0,
+          "DIVINE": 34.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 10.0,
+          "RARE": 18.0,
+          "EPIC": 32.0,
+          "LEGENDARY": 50.0,
+          "MYTHIC": 70.0,
+          "DIVINE": 70.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "SPIRITUAL",
+    "name": "Spiritual",
+    "stone": "SPIRIT_DECOY",
+    "requiredLevel": 24,
+    "categories": [
+      "BOW"
+    ],
+    "stats": [
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 7.0,
+          "UNCOMMON": 8.0,
+          "RARE": 9.0,
+          "EPIC": 10.0,
+          "LEGENDARY": 12.0,
+          "MYTHIC": 14.0,
+          "DIVINE": 14.0
+        }
+      },
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 4.0,
+          "UNCOMMON": 8.0,
+          "RARE": 14.0,
+          "EPIC": 20.0,
+          "LEGENDARY": 28.0,
+          "MYTHIC": 38.0,
+          "DIVINE": 38.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 10.0,
+          "UNCOMMON": 15.0,
+          "RARE": 23.0,
+          "EPIC": 37.0,
+          "LEGENDARY": 55.0,
+          "MYTHIC": 75.0,
+          "DIVINE": 75.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "CLEAN",
+    "name": "Clean",
+    "requiredLevel": 0,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 4.0,
+          "RARE": 6.0,
+          "EPIC": 8.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      },
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 7.0,
+          "RARE": 10.0,
+          "EPIC": 15.0,
+          "LEGENDARY": 20.0,
+          "MYTHIC": 25.0,
+          "DIVINE": 25.0
+        }
+      },
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 7.0,
+          "RARE": 10.0,
+          "EPIC": 15.0,
+          "LEGENDARY": 20.0,
+          "MYTHIC": 25.0,
+          "DIVINE": 25.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "FIERCE",
+    "name": "Fierce",
+    "requiredLevel": 0,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 5.0,
+          "LEGENDARY": 6.0,
+          "MYTHIC": 8.0,
+          "DIVINE": 8.0
+        }
+      },
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 4.0,
+          "RARE": 6.0,
+          "EPIC": 8.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 4.0,
+          "UNCOMMON": 7.0,
+          "RARE": 10.0,
+          "EPIC": 14.0,
+          "LEGENDARY": 18.0,
+          "MYTHIC": 24.0,
+          "DIVINE": 24.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "HEAVY",
+    "name": "Heavy",
+    "requiredLevel": 0,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": -1.0,
+          "UNCOMMON": -1.0,
+          "RARE": -1.0,
+          "EPIC": -1.0,
+          "LEGENDARY": -1.0,
+          "MYTHIC": -1.0,
+          "DIVINE": -1.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": -1.0,
+          "UNCOMMON": -2.0,
+          "RARE": -2.0,
+          "EPIC": -3.0,
+          "LEGENDARY": -5.0,
+          "MYTHIC": -7.0,
+          "DIVINE": -7.0
+        }
+      },
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 25.0,
+          "UNCOMMON": 35.0,
+          "RARE": 50.0,
+          "EPIC": 65.0,
+          "LEGENDARY": 80.0,
+          "MYTHIC": 110.0,
+          "DIVINE": 110.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "LIGHT",
+    "name": "Light",
+    "requiredLevel": 0,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 2.0,
+          "EPIC": 2.0,
+          "LEGENDARY": 3.0,
+          "MYTHIC": 3.0,
+          "DIVINE": 3.0
+        }
+      },
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 4.0,
+          "LEGENDARY": 5.0,
+          "MYTHIC": 6.0,
+          "DIVINE": 6.0
+        }
+      },
+      {
+        "id": "BONUS_ATTACK_SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 4.0,
+          "LEGENDARY": 5.0,
+          "MYTHIC": 6.0,
+          "DIVINE": 6.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 4.0,
+          "LEGENDARY": 5.0,
+          "MYTHIC": 6.0,
+          "DIVINE": 6.0
+        }
+      },
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 7.0,
+          "RARE": 10.0,
+          "EPIC": 15.0,
+          "LEGENDARY": 20.0,
+          "MYTHIC": 25.0,
+          "DIVINE": 25.0
+        }
+      },
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 4.0,
+          "LEGENDARY": 5.0,
+          "MYTHIC": 6.0,
+          "DIVINE": 6.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "MYTHIC",
+    "name": "Mythic",
+    "requiredLevel": 0,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "INTELLIGENCE",
+        "values": {
+          "COMMON": 20.0,
+          "UNCOMMON": 25.0,
+          "RARE": 30.0,
+          "EPIC": 40.0,
+          "LEGENDARY": 50.0,
+          "MYTHIC": 60.0,
+          "DIVINE": 60.0
+        }
+      },
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 4.0,
+          "LEGENDARY": 5.0,
+          "MYTHIC": 6.0,
+          "DIVINE": 6.0
+        }
+      },
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 2.0,
+          "RARE": 2.0,
+          "EPIC": 2.0,
+          "LEGENDARY": 2.0,
+          "MYTHIC": 2.0,
+          "DIVINE": 2.0
+        }
+      },
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 4.0,
+          "RARE": 6.0,
+          "EPIC": 8.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      },
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 4.0,
+          "RARE": 6.0,
+          "EPIC": 8.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      },
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 6.0,
+          "EPIC": 8.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "PURE",
+    "name": "Pure",
+    "requiredLevel": 0,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "INTELLIGENCE",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 6.0,
+          "LEGENDARY": 8.0,
+          "MYTHIC": 10.0,
+          "DIVINE": 10.0
+        }
+      },
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 4.0,
+          "RARE": 6.0,
+          "EPIC": 8.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      },
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 1.0,
+          "EPIC": 1.0,
+          "LEGENDARY": 1.0,
+          "MYTHIC": 1.0,
+          "DIVINE": 1.0
+        }
+      },
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 6.0,
+          "LEGENDARY": 8.0,
+          "MYTHIC": 10.0,
+          "DIVINE": 10.0
+        }
+      },
+      {
+        "id": "BONUS_ATTACK_SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 2.0,
+          "EPIC": 3.0,
+          "LEGENDARY": 4.0,
+          "MYTHIC": 5.0,
+          "DIVINE": 5.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 6.0,
+          "LEGENDARY": 8.0,
+          "MYTHIC": 10.0,
+          "DIVINE": 10.0
+        }
+      },
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 6.0,
+          "LEGENDARY": 8.0,
+          "MYTHIC": 10.0,
+          "DIVINE": 10.0
+        }
+      },
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 6.0,
+          "LEGENDARY": 8.0,
+          "MYTHIC": 10.0,
+          "DIVINE": 10.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "SMART",
+    "name": "Smart",
+    "requiredLevel": 0,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "INTELLIGENCE",
+        "values": {
+          "COMMON": 20.0,
+          "UNCOMMON": 40.0,
+          "RARE": 60.0,
+          "EPIC": 80.0,
+          "LEGENDARY": 100.0,
+          "MYTHIC": 120.0,
+          "DIVINE": 120.0
+        }
+      },
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 4.0,
+          "UNCOMMON": 6.0,
+          "RARE": 9.0,
+          "EPIC": 12.0,
+          "LEGENDARY": 15.0,
+          "MYTHIC": 20.0,
+          "DIVINE": 20.0
+        }
+      },
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 4.0,
+          "UNCOMMON": 6.0,
+          "RARE": 9.0,
+          "EPIC": 12.0,
+          "LEGENDARY": 15.0,
+          "MYTHIC": 20.0,
+          "DIVINE": 20.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "TITANIC",
+    "name": "Titanic",
+    "requiredLevel": 0,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 10.0,
+          "UNCOMMON": 15.0,
+          "RARE": 20.0,
+          "EPIC": 25.0,
+          "LEGENDARY": 35.0,
+          "MYTHIC": 50.0,
+          "DIVINE": 50.0
+        }
+      },
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 10.0,
+          "UNCOMMON": 15.0,
+          "RARE": 20.0,
+          "EPIC": 25.0,
+          "LEGENDARY": 35.0,
+          "MYTHIC": 50.0,
+          "DIVINE": 50.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "WISE",
+    "name": "Wise",
+    "requiredLevel": 0,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "INTELLIGENCE",
+        "values": {
+          "COMMON": 25.0,
+          "UNCOMMON": 50.0,
+          "RARE": 75.0,
+          "EPIC": 100.0,
+          "LEGENDARY": 125.0,
+          "MYTHIC": 150.0,
+          "DIVINE": 150.0
+        }
+      },
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 1.0,
+          "EPIC": 2.0,
+          "LEGENDARY": 2.0,
+          "MYTHIC": 3.0,
+          "DIVINE": 3.0
+        }
+      },
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 6.0,
+          "UNCOMMON": 8.0,
+          "RARE": 10.0,
+          "EPIC": 12.0,
+          "LEGENDARY": 15.0,
+          "MYTHIC": 20.0,
+          "DIVINE": 20.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ANCIENT",
+    "name": "Ancient",
+    "stone": "PRECURSOR_GEAR",
+    "requiredLevel": 30,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "INTELLIGENCE",
+        "values": {
+          "COMMON": 6.0,
+          "UNCOMMON": 9.0,
+          "RARE": 12.0,
+          "EPIC": 16.0,
+          "LEGENDARY": 20.0,
+          "MYTHIC": 25.0,
+          "DIVINE": 25.0
+        }
+      },
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 5.0,
+          "RARE": 7.0,
+          "EPIC": 9.0,
+          "LEGENDARY": 12.0,
+          "MYTHIC": 15.0,
+          "DIVINE": 15.0
+        }
+      },
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 4.0,
+          "UNCOMMON": 8.0,
+          "RARE": 12.0,
+          "EPIC": 18.0,
+          "LEGENDARY": 25.0,
+          "MYTHIC": 35.0,
+          "DIVINE": 35.0
+        }
+      },
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 7.0,
+          "UNCOMMON": 7.0,
+          "RARE": 7.0,
+          "EPIC": 7.0,
+          "LEGENDARY": 7.0,
+          "MYTHIC": 7.0,
+          "DIVINE": 7.0
+        }
+      },
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 7.0,
+          "UNCOMMON": 7.0,
+          "RARE": 7.0,
+          "EPIC": 7.0,
+          "LEGENDARY": 7.0,
+          "MYTHIC": 7.0,
+          "DIVINE": 7.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "BUSTLING",
+    "name": "Bustling",
+    "stone": "SKYMART_BROCHURE",
+    "requiredLevel": 9,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "FARMING_FORTUNE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 4.0,
+          "EPIC": 6.0,
+          "LEGENDARY": 8.0,
+          "MYTHIC": 10.0,
+          "DIVINE": 10.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "CALCIFIED",
+    "name": "Calcified",
+    "stone": "CALCIFIED_HEART",
+    "requiredLevel": 0,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "FISHING_SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 5.0,
+          "LEGENDARY": 7.0,
+          "MYTHIC": 9.0,
+          "DIVINE": 9.0
+        }
+      },
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 5.0,
+          "RARE": 7.0,
+          "EPIC": 10.0,
+          "LEGENDARY": 13.0,
+          "MYTHIC": 16.0,
+          "DIVINE": 16.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "CANDIED",
+    "name": "Candied",
+    "stone": "CANDY_CORN",
+    "requiredLevel": 0,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 4.0,
+          "EPIC": 6.0,
+          "LEGENDARY": 8.0,
+          "MYTHIC": 10.0,
+          "DIVINE": 10.0
+        }
+      },
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 2.0,
+          "EPIC": 3.0,
+          "LEGENDARY": 4.0,
+          "MYTHIC": 5.0,
+          "DIVINE": 6.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "LOVING",
+    "name": "Loving",
+    "stone": "RED_SCARF",
+    "requiredLevel": 21,
+    "categories": [
+      "CHESTPLATE"
+    ],
+    "stats": [
+      {
+        "id": "INTELLIGENCE",
+        "values": {
+          "COMMON": 20.0,
+          "UNCOMMON": 40.0,
+          "RARE": 60.0,
+          "EPIC": 80.0,
+          "LEGENDARY": 100.0,
+          "MYTHIC": 120.0,
+          "DIVINE": 120.0
+        }
+      },
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 4.0,
+          "UNCOMMON": 5.0,
+          "RARE": 6.0,
+          "EPIC": 8.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 14.0,
+          "DIVINE": 14.0
+        }
+      },
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 4.0,
+          "UNCOMMON": 5.0,
+          "RARE": 6.0,
+          "EPIC": 7.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 14.0,
+          "DIVINE": 14.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "CUBIC",
+    "name": "Cubic",
+    "stone": "MOLTEN_CUBE",
+    "requiredLevel": 20,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 5.0,
+          "RARE": 7.0,
+          "EPIC": 10.0,
+          "LEGENDARY": 12.0,
+          "MYTHIC": 15.0,
+          "DIVINE": 15.0
+        }
+      },
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 7.0,
+          "RARE": 10.0,
+          "EPIC": 15.0,
+          "LEGENDARY": 20.0,
+          "MYTHIC": 25.0,
+          "DIVINE": 25.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "DIMENSIONAL",
+    "name": "Dimensional",
+    "stone": "TITANIUM_TESSERACT",
+    "requiredLevel": 20,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "MINING_WISDOM",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 1.0,
+          "EPIC": 2.0,
+          "LEGENDARY": 2.0,
+          "MYTHIC": 3.0,
+          "DIVINE": 3.0
+        }
+      },
+      {
+        "id": "MINING_SPREAD",
+        "values": {
+          "COMMON": 10.0,
+          "UNCOMMON": 15.0,
+          "RARE": 20.0,
+          "EPIC": 30.0,
+          "LEGENDARY": 40.0,
+          "MYTHIC": 50.0,
+          "DIVINE": 50.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "EMPOWERED",
+    "name": "Empowered",
+    "stone": "SADAN_BROOCH",
+    "requiredLevel": 25,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 10.0,
+          "UNCOMMON": 15.0,
+          "RARE": 20.0,
+          "EPIC": 25.0,
+          "LEGENDARY": 35.0,
+          "MYTHIC": 50.0,
+          "DIVINE": 50.0
+        }
+      },
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 10.0,
+          "UNCOMMON": 15.0,
+          "RARE": 20.0,
+          "EPIC": 25.0,
+          "LEGENDARY": 35.0,
+          "MYTHIC": 50.0,
+          "DIVINE": 50.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "FESTIVE",
+    "name": "Festive",
+    "stone": "FROZEN_BAUBLE",
+    "requiredLevel": 20,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "FISHING_SPEED",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 6.0,
+          "LEGENDARY": 8.0,
+          "MYTHIC": 10.0,
+          "DIVINE": 10.0
+        }
+      },
+      {
+        "id": "INTELLIGENCE",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 10.0,
+          "RARE": 15.0,
+          "EPIC": 20.0,
+          "LEGENDARY": 25.0,
+          "MYTHIC": 30.0,
+          "DIVINE": 30.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "GIANT",
+    "name": "Giant",
+    "stone": "GIANT_TOOTH",
+    "requiredLevel": 25,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 50.0,
+          "UNCOMMON": 60.0,
+          "RARE": 80.0,
+          "EPIC": 120.0,
+          "LEGENDARY": 180.0,
+          "MYTHIC": 240.0,
+          "DIVINE": 240.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "RIDICULOUS",
+    "name": "Ridiculous",
+    "stone": "RED_NOSE",
+    "requiredLevel": 17,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK"
+    ],
+    "stats": [
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 4.0,
+          "LEGENDARY": 5.0,
+          "MYTHIC": 6.0,
+          "DIVINE": 6.0
+        }
+      },
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 10.0,
+          "UNCOMMON": 15.0,
+          "RARE": 20.0,
+          "EPIC": 25.0,
+          "LEGENDARY": 35.0,
+          "MYTHIC": 50.0,
+          "DIVINE": 50.0
+        }
+      },
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 10.0,
+          "UNCOMMON": 15.0,
+          "RARE": 20.0,
+          "EPIC": 25.0,
+          "LEGENDARY": 35.0,
+          "MYTHIC": 50.0,
+          "DIVINE": 50.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "JADED",
+    "name": "Jaded",
+    "stone": "JADERALD",
+    "requiredLevel": 30,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "MINING_FORTUNE",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 10.0,
+          "RARE": 15.0,
+          "EPIC": 20.0,
+          "LEGENDARY": 25.0,
+          "MYTHIC": 30.0,
+          "DIVINE": 30.0
+        }
+      },
+      {
+        "id": "MINING_SPREAD",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 12.0,
+          "RARE": 20.0,
+          "EPIC": 30.0,
+          "LEGENDARY": 45.0,
+          "MYTHIC": 60.0,
+          "DIVINE": 60.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "MOSSY",
+    "name": "Mossy",
+    "stone": "OVERGROWN_GRASS",
+    "requiredLevel": 23,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "FARMING_FORTUNE",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 10.0,
+          "RARE": 15.0,
+          "EPIC": 20.0,
+          "LEGENDARY": 25.0,
+          "MYTHIC": 30.0,
+          "DIVINE": 30.0
+        }
+      },
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 3.0,
+          "RARE": 5.0,
+          "EPIC": 5.0,
+          "LEGENDARY": 7.0,
+          "MYTHIC": 7.0,
+          "DIVINE": 7.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "NECROTIC",
+    "name": "Necrotic",
+    "stone": "NECROMANCER_BROOCH",
+    "requiredLevel": 19,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "INTELLIGENCE",
+        "values": {
+          "COMMON": 30.0,
+          "UNCOMMON": 60.0,
+          "RARE": 90.0,
+          "EPIC": 120.0,
+          "LEGENDARY": 150.0,
+          "MYTHIC": 200.0,
+          "DIVINE": 200.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "PERFECT",
+    "name": "Perfect",
+    "stone": "DIAMOND_ATOM",
+    "requiredLevel": 22,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 25.0,
+          "UNCOMMON": 35.0,
+          "RARE": 50.0,
+          "EPIC": 65.0,
+          "LEGENDARY": 80.0,
+          "MYTHIC": 110.0,
+          "DIVINE": 110.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "REINFORCED",
+    "name": "Reinforced",
+    "stone": "RARE_DIAMOND",
+    "requiredLevel": 8,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 25.0,
+          "UNCOMMON": 35.0,
+          "RARE": 50.0,
+          "EPIC": 65.0,
+          "LEGENDARY": 80.0,
+          "MYTHIC": 110.0,
+          "DIVINE": 110.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "RENOWNED",
+    "name": "Renowned",
+    "stone": "DRAGON_HORN",
+    "requiredLevel": 25,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "INTELLIGENCE",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 4.0,
+          "RARE": 6.0,
+          "EPIC": 8.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      },
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 4.0,
+          "RARE": 6.0,
+          "EPIC": 8.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      },
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 1.0,
+          "EPIC": 1.0,
+          "LEGENDARY": 1.0,
+          "MYTHIC": 1.0,
+          "DIVINE": 1.0
+        }
+      },
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 4.0,
+          "RARE": 6.0,
+          "EPIC": 8.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      },
+      {
+        "id": "BONUS_ATTACK_SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 2.0,
+          "EPIC": 3.0,
+          "LEGENDARY": 4.0,
+          "MYTHIC": 5.0,
+          "DIVINE": 5.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 4.0,
+          "RARE": 6.0,
+          "EPIC": 8.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      },
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 6.0,
+          "LEGENDARY": 8.0,
+          "MYTHIC": 10.0,
+          "DIVINE": 10.0
+        }
+      },
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 6.0,
+          "LEGENDARY": 8.0,
+          "MYTHIC": 10.0,
+          "DIVINE": 10.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "SPIKED",
+    "name": "Spiked",
+    "stone": "DRAGON_SCALE",
+    "requiredLevel": 20,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "INTELLIGENCE",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 4.0,
+          "RARE": 6.0,
+          "EPIC": 8.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      },
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 4.0,
+          "RARE": 6.0,
+          "EPIC": 8.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      },
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 1.0,
+          "EPIC": 1.0,
+          "LEGENDARY": 1.0,
+          "MYTHIC": 1.0,
+          "DIVINE": 1.0
+        }
+      },
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 4.0,
+          "RARE": 6.0,
+          "EPIC": 8.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      },
+      {
+        "id": "BONUS_ATTACK_SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 2.0,
+          "EPIC": 3.0,
+          "LEGENDARY": 4.0,
+          "MYTHIC": 5.0,
+          "DIVINE": 5.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 4.0,
+          "RARE": 6.0,
+          "EPIC": 8.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      },
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 6.0,
+          "LEGENDARY": 8.0,
+          "MYTHIC": 10.0,
+          "DIVINE": 10.0
+        }
+      },
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 6.0,
+          "LEGENDARY": 8.0,
+          "MYTHIC": 10.0,
+          "DIVINE": 10.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "SUBMERGED",
+    "name": "Submerged",
+    "stone": "DEEP_SEA_ORB",
+    "requiredLevel": 0,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 4.0,
+          "RARE": 6.0,
+          "EPIC": 8.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      },
+      {
+        "id": "FISHING_SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 2.0,
+          "EPIC": 3.0,
+          "LEGENDARY": 4.0,
+          "MYTHIC": 5.0,
+          "DIVINE": 5.0
+        }
+      },
+      {
+        "id": "SEA_CREATURE_CHANCE",
+        "values": {
+          "MYTHIC": 1.0,
+          "DIVINE": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "UNDEAD",
+    "name": "Undead",
+    "stone": "PREMIUM_FLESH",
+    "requiredLevel": 16,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 2.0,
+          "EPIC": 3.0,
+          "LEGENDARY": 5.0,
+          "MYTHIC": 7.0,
+          "DIVINE": 7.0
+        }
+      },
+      {
+        "id": "BONUS_ATTACK_SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 4.0,
+          "LEGENDARY": 5.0,
+          "MYTHIC": 6.0,
+          "DIVINE": 6.0
+        }
+      },
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 6.0,
+          "UNCOMMON": 8.0,
+          "RARE": 12.0,
+          "EPIC": 18.0,
+          "LEGENDARY": 25.0,
+          "MYTHIC": 33.0,
+          "DIVINE": 33.0
+        }
+      },
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 6.0,
+          "UNCOMMON": 8.0,
+          "RARE": 12.0,
+          "EPIC": 18.0,
+          "LEGENDARY": 25.0,
+          "MYTHIC": 33.0,
+          "DIVINE": 33.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "HYPER",
+    "name": "Hyper",
+    "stone": "ENDSTONE_GEODE",
+    "requiredLevel": 14,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "stats": [
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 2.0,
+          "EPIC": 2.0,
+          "LEGENDARY": 3.0,
+          "MYTHIC": 3.0,
+          "DIVINE": 3.0
+        }
+      },
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 4.0,
+          "RARE": 6.0,
+          "EPIC": 7.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      },
+      {
+        "id": "BONUS_ATTACK_SPEED",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 5.0,
+          "LEGENDARY": 6.0,
+          "MYTHIC": 7.0,
+          "DIVINE": 7.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "GREATER_SPOOK",
+    "name": "Greater Spook",
+    "stone": "BOO_STONE",
+    "requiredLevel": 0,
+    "categories": [
+      "HELMET",
+      "CARNIVAL_MASK",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS",
+      "NECKLACE",
+      "CLOAK",
+      "BELT",
+      "GLOVES",
+      "BRACELET"
+    ],
+    "stats": [
+      {
+        "id": "FEAR",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 4.0,
+          "LEGENDARY": 5.0,
+          "MYTHIC": 6.0,
+          "DIVINE": 7.0
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "ASTUTE",
+    "name": "Astute",
+    "requiredLevel": 0,
+    "categories": [
+      "NECKLACE",
+      "CLOAK",
+      "BELT",
+      "GLOVES",
+      "BRACELET"
+    ],
+    "stats": [
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 2.0,
+          "EPIC": 3.0,
+          "LEGENDARY": 4.0,
+          "MYTHIC": 5.0,
+          "DIVINE": 5.0
+        }
+      },
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 2.0,
+          "EPIC": 3.0,
+          "LEGENDARY": 4.0,
+          "MYTHIC": 5.0,
+          "DIVINE": 5.0
+        }
+      },
+      {
+        "id": "INTELLIGENCE",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 4.0,
+          "RARE": 5.0,
+          "EPIC": 6.0,
+          "LEGENDARY": 8.0,
+          "MYTHIC": 10.0,
+          "DIVINE": 10.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "BLENDED",
+    "name": "Blended",
+    "requiredLevel": 0,
+    "categories": [
+      "NECKLACE",
+      "CLOAK",
+      "BELT",
+      "GLOVES",
+      "BRACELET"
+    ],
+    "stats": [
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 2.0,
+          "EPIC": 2.0,
+          "LEGENDARY": 2.0,
+          "MYTHIC": 3.0,
+          "DIVINE": 3.0
+        }
+      },
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 1.0,
+          "EPIC": 2.0,
+          "LEGENDARY": 3.0,
+          "MYTHIC": 3.0,
+          "DIVINE": 3.0
+        }
+      },
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 1.0,
+          "EPIC": 1.0,
+          "LEGENDARY": 1.0,
+          "MYTHIC": 1.0,
+          "DIVINE": 1.0
+        }
+      },
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 2.0,
+          "EPIC": 2.0,
+          "LEGENDARY": 3.0,
+          "MYTHIC": 3.0,
+          "DIVINE": 3.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 2.0,
+          "EPIC": 2.0,
+          "LEGENDARY": 2.0,
+          "MYTHIC": 2.0,
+          "DIVINE": 2.0
+        }
+      },
+      {
+        "id": "BONUS_ATTACK_SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 1.0,
+          "EPIC": 1.0,
+          "LEGENDARY": 1.0,
+          "MYTHIC": 1.0,
+          "DIVINE": 1.0
+        }
+      },
+      {
+        "id": "INTELLIGENCE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 1.0,
+          "EPIC": 2.0,
+          "LEGENDARY": 2.0,
+          "MYTHIC": 3.0,
+          "DIVINE": 3.0
+        }
+      },
+      {
+        "id": "STRENGTH",
+        "values": {
+          "UNCOMMON": 1.0,
+          "RARE": 1.0,
+          "EPIC": 1.0,
+          "LEGENDARY": 2.0,
+          "MYTHIC": 2.0,
+          "DIVINE": 2.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "BRILLIANT",
+    "name": "Brilliant",
+    "requiredLevel": 0,
+    "categories": [
+      "NECKLACE",
+      "CLOAK",
+      "BELT",
+      "GLOVES",
+      "BRACELET"
+    ],
+    "stats": [
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 2.0,
+          "EPIC": 3.0,
+          "LEGENDARY": 4.0,
+          "MYTHIC": 5.0,
+          "DIVINE": 5.0
+        }
+      },
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 2.0,
+          "EPIC": 2.0,
+          "LEGENDARY": 2.0,
+          "MYTHIC": 2.0,
+          "DIVINE": 2.0
+        }
+      },
+      {
+        "id": "INTELLIGENCE",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 6.0,
+          "RARE": 7.0,
+          "EPIC": 9.0,
+          "LEGENDARY": 12.0,
+          "MYTHIC": 15.0,
+          "DIVINE": 15.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "COLOSSAL",
+    "name": "Colossal",
+    "requiredLevel": 0,
+    "categories": [
+      "NECKLACE",
+      "CLOAK",
+      "BELT",
+      "GLOVES",
+      "BRACELET"
+    ],
+    "stats": [
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 4.0,
+          "RARE": 6.0,
+          "EPIC": 8.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      },
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 4.0,
+          "RARE": 6.0,
+          "EPIC": 8.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "HEFTY",
+    "name": "Hefty",
+    "requiredLevel": 0,
+    "categories": [
+      "NECKLACE",
+      "CLOAK",
+      "BELT",
+      "GLOVES",
+      "BRACELET"
+    ],
+    "stats": [
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 7.0,
+          "UNCOMMON": 9.0,
+          "RARE": 12.0,
+          "EPIC": 15.0,
+          "LEGENDARY": 20.0,
+          "MYTHIC": 25.0,
+          "DIVINE": 25.0
+        }
+      },
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": -1.0,
+          "UNCOMMON": -1.0,
+          "RARE": -1.0,
+          "EPIC": -1.0,
+          "LEGENDARY": -1.0,
+          "MYTHIC": -1.0,
+          "DIVINE": -1.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": -2.0,
+          "UNCOMMON": -2.0,
+          "RARE": -3.0,
+          "EPIC": -3.0,
+          "LEGENDARY": -4.0,
+          "MYTHIC": -5.0,
+          "DIVINE": -5.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "HONORED",
+    "name": "Honored",
+    "requiredLevel": 0,
+    "categories": [
+      "NECKLACE",
+      "CLOAK",
+      "BELT",
+      "GLOVES",
+      "BRACELET"
+    ],
+    "stats": [
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 2.0,
+          "EPIC": 2.0,
+          "LEGENDARY": 3.0,
+          "MYTHIC": 4.0,
+          "DIVINE": 4.0
+        }
+      },
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 2.0,
+          "EPIC": 3.0,
+          "LEGENDARY": 3.0,
+          "MYTHIC": 4.0,
+          "DIVINE": 4.0
+        }
+      },
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 1.0,
+          "EPIC": 1.0,
+          "LEGENDARY": 1.0,
+          "MYTHIC": 1.0,
+          "DIVINE": 1.0
+        }
+      },
+      {
+        "id": "INTELLIGENCE",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 5.0,
+          "LEGENDARY": 6.0,
+          "MYTHIC": 7.0,
+          "DIVINE": 7.0
+        }
+      },
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 1.0,
+          "EPIC": 2.0,
+          "LEGENDARY": 2.0,
+          "MYTHIC": 2.0,
+          "DIVINE": 2.0
+        }
+      },
+      {
+        "id": "STRENGTH",
+        "values": {
+          "UNCOMMON": 1.0,
+          "RARE": 2.0,
+          "EPIC": 2.0,
+          "LEGENDARY": 3.0,
+          "MYTHIC": 3.0,
+          "DIVINE": 3.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "MENACING",
+    "name": "Menacing",
+    "requiredLevel": 0,
+    "categories": [
+      "NECKLACE",
+      "CLOAK",
+      "BELT",
+      "GLOVES",
+      "BRACELET"
+    ],
+    "stats": [
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 1.0,
+          "EPIC": 1.0,
+          "LEGENDARY": 2.0,
+          "MYTHIC": 2.0,
+          "DIVINE": 2.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 3.0,
+          "EPIC": 4.0,
+          "LEGENDARY": 4.0,
+          "MYTHIC": 5.0,
+          "DIVINE": 5.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "SOFT",
+    "name": "Soft",
+    "requiredLevel": 0,
+    "categories": [
+      "NECKLACE",
+      "CLOAK",
+      "BELT",
+      "GLOVES",
+      "BRACELET"
+    ],
+    "stats": [
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 5.0,
+          "LEGENDARY": 6.0,
+          "MYTHIC": 7.0,
+          "DIVINE": 7.0
+        }
+      },
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 1.0,
+          "EPIC": 1.0,
+          "LEGENDARY": 2.0,
+          "MYTHIC": 2.0,
+          "DIVINE": 2.0
+        }
+      },
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 1.0,
+          "EPIC": 1.0,
+          "LEGENDARY": 2.0,
+          "MYTHIC": 2.0,
+          "DIVINE": 2.0
+        }
+      },
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 1.0,
+          "EPIC": 1.0,
+          "LEGENDARY": 1.0,
+          "MYTHIC": 1.0,
+          "DIVINE": 1.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 1.0,
+          "EPIC": 2.0,
+          "LEGENDARY": 2.0,
+          "MYTHIC": 2.0,
+          "DIVINE": 2.0
+        }
+      },
+      {
+        "id": "BONUS_ATTACK_SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 1.0,
+          "EPIC": 1.0,
+          "LEGENDARY": 1.0,
+          "MYTHIC": 2.0,
+          "DIVINE": 2.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "STAINED",
+    "name": "Stained",
+    "requiredLevel": 0,
+    "categories": [
+      "NECKLACE",
+      "CLOAK",
+      "BELT",
+      "GLOVES",
+      "BRACELET"
+    ],
+    "stats": [
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 5.0,
+          "LEGENDARY": 5.0,
+          "MYTHIC": 7.0,
+          "DIVINE": 7.0
+        }
+      },
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 5.0,
+          "LEGENDARY": 6.0,
+          "MYTHIC": 7.0,
+          "DIVINE": 7.0
+        }
+      },
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 2.0,
+          "EPIC": 2.0,
+          "LEGENDARY": 3.0,
+          "MYTHIC": 4.0,
+          "DIVINE": 4.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "BLAZING",
+    "name": "Blazing",
+    "stone": "BLAZEN_SPHERE",
+    "requiredLevel": 27,
+    "categories": [
+      "NECKLACE",
+      "CLOAK",
+      "BELT",
+      "GLOVES",
+      "BRACELET"
+    ],
+    "stats": [
+      {
+        "id": "MINING_FORTUNE",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 4.0,
+          "RARE": 5.0,
+          "EPIC": 6.0,
+          "LEGENDARY": 7.0,
+          "MYTHIC": 8.0,
+          "DIVINE": 8.0
+        }
+      },
+      {
+        "id": "HEAT_RESISTANCE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 2.0,
+          "EPIC": 2.0,
+          "LEGENDARY": 3.0,
+          "MYTHIC": 3.0,
+          "DIVINE": 3.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "BLOOD_SOAKED",
+    "name": "Blood-Soaked",
+    "stone": "PRESUMED_GALLON_OF_RED_PAINT",
+    "requiredLevel": 24,
+    "categories": [
+      "CLOAK"
+    ],
+    "stats": [
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 6.0,
+          "UNCOMMON": 8.0,
+          "RARE": 8.0,
+          "EPIC": 9.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 14.0
+        }
+      },
+      {
+        "id": "VITALITY",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 2.0,
+          "EPIC": 2.0,
+          "LEGENDARY": 3.0,
+          "MYTHIC": 3.0,
+          "DIVINE": 4.0
+        }
+      },
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 4.0,
+          "LEGENDARY": 5.0,
+          "MYTHIC": 6.0,
+          "DIVINE": 7.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "BLOOMING",
+    "name": "Blooming",
+    "stone": "FLOWERING_BOUQUET",
+    "requiredLevel": 13,
+    "categories": [
+      "NECKLACE",
+      "CLOAK",
+      "BELT",
+      "GLOVES",
+      "BRACELET"
+    ],
+    "stats": [
+      {
+        "id": "FARMING_FORTUNE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 4.0,
+          "LEGENDARY": 5.0,
+          "MYTHIC": 6.0,
+          "DIVINE": 6.0
+        }
+      },
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": 4.0,
+          "UNCOMMON": 4.0,
+          "RARE": 5.0,
+          "EPIC": 5.0,
+          "LEGENDARY": 6.0,
+          "MYTHIC": 6.0,
+          "DIVINE": 6.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "FORTIFIED",
+    "name": "Fortified",
+    "stone": "METEOR_SHARD",
+    "requiredLevel": 24,
+    "categories": [
+      "NECKLACE",
+      "CLOAK",
+      "BELT",
+      "GLOVES",
+      "BRACELET"
+    ],
+    "stats": [
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 12.0,
+          "UNCOMMON": 14.0,
+          "RARE": 17.0,
+          "EPIC": 20.0,
+          "LEGENDARY": 25.0,
+          "MYTHIC": 30.0,
+          "DIVINE": 36.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "GLISTENING",
+    "name": "Glistening",
+    "stone": "SHINY_PRISM",
+    "requiredLevel": 24,
+    "categories": [
+      "NECKLACE",
+      "CLOAK",
+      "BELT",
+      "GLOVES",
+      "BRACELET"
+    ],
+    "stats": [
+      {
+        "id": "TRUE_DEFENSE",
+        "values": {
+          "COMMON": 2.0,
+          "RARE": 3.0,
+          "LEGENDARY": 4.0,
+          "DIVINE": 5.0
+        }
+      },
+      {
+        "id": "INTELLIGENCE",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 6.0,
+          "RARE": 8.0,
+          "EPIC": 10.0,
+          "LEGENDARY": 12.0,
+          "MYTHIC": 15.0,
+          "DIVINE": 18.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ROOTED",
+    "name": "Rooted",
+    "stone": "BURROWING_SPORES",
+    "requiredLevel": 24,
+    "categories": [
+      "NECKLACE",
+      "CLOAK",
+      "BELT",
+      "GLOVES",
+      "BRACELET"
+    ],
+    "stats": [
+      {
+        "id": "FARMING_FORTUNE",
+        "values": {
+          "COMMON": 6.0,
+          "UNCOMMON": 9.0,
+          "RARE": 12.0,
+          "EPIC": 15.0,
+          "LEGENDARY": 18.0,
+          "MYTHIC": 21.0,
+          "DIVINE": 21.0
+        }
+      },
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 5.0,
+          "RARE": 8.0,
+          "EPIC": 11.0,
+          "LEGENDARY": 14.0,
+          "MYTHIC": 17.0,
+          "DIVINE": 17.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ROYAL",
+    "name": "Royal",
+    "stone": "DWARVEN_TREASURE",
+    "requiredLevel": 14,
+    "categories": [
+      "NECKLACE",
+      "CLOAK",
+      "BELT",
+      "GLOVES",
+      "BRACELET"
+    ],
+    "stats": [
+      {
+        "id": "MINING_SPREAD",
+        "values": {
+          "COMMON": 4.0,
+          "UNCOMMON": 6.0,
+          "RARE": 8.0,
+          "EPIC": 10.0,
+          "LEGENDARY": 14.0,
+          "MYTHIC": 18.0,
+          "DIVINE": 18.0
+        }
+      },
+      {
+        "id": "MINING_FORTUNE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 2.0,
+          "EPIC": 2.0,
+          "LEGENDARY": 3.0,
+          "MYTHIC": 3.0,
+          "DIVINE": 3.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "SNOWY",
+    "name": "Snowy",
+    "stone": "TERRY_SNOWGLOBE",
+    "requiredLevel": 15,
+    "categories": [
+      "NECKLACE",
+      "CLOAK",
+      "BELT",
+      "GLOVES",
+      "BRACELET"
+    ],
+    "stats": [
+      {
+        "id": "FISHING_SPEED",
+        "values": {
+          "UNCOMMON": 1.0,
+          "EPIC": 2.0,
+          "MYTHIC": 3.0,
+          "DIVINE": 3.0
+        }
+      },
+      {
+        "id": "SEA_CREATURE_CHANCE",
+        "values": {
+          "MYTHIC": 1.0,
+          "DIVINE": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "SQUEAKY",
+    "name": "Squeaky",
+    "stone": "SQUEAKY_TOY",
+    "requiredLevel": 21,
+    "categories": [
+      "NECKLACE",
+      "CLOAK",
+      "BELT",
+      "GLOVES",
+      "BRACELET"
+    ],
+    "stats": [
+      {
+        "id": "FARMING_FORTUNE",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 4.0,
+          "RARE": 6.0,
+          "EPIC": 8.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      },
+      {
+        "id": "BONUS_PEST_CHANCE",
+        "values": {
+          "RARE": 1.0,
+          "LEGENDARY": 2.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "STRENGTHENED",
+    "name": "Strengthened",
+    "stone": "SEARING_STONE",
+    "requiredLevel": 24,
+    "categories": [
+      "NECKLACE",
+      "CLOAK",
+      "BELT",
+      "GLOVES",
+      "BRACELET"
+    ],
+    "stats": [
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 4.0,
+          "RARE": 5.0,
+          "EPIC": 6.0,
+          "LEGENDARY": 8.0,
+          "MYTHIC": 10.0,
+          "DIVINE": 12.0
+        }
+      },
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 5.0,
+          "LEGENDARY": 6.0,
+          "MYTHIC": 7.0,
+          "DIVINE": 8.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "WAXED",
+    "name": "Waxed",
+    "stone": "BLAZE_WAX",
+    "requiredLevel": 24,
+    "categories": [
+      "NECKLACE",
+      "CLOAK",
+      "BELT",
+      "GLOVES",
+      "BRACELET"
+    ],
+    "stats": [
+      {
+        "id": "HEALTH",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 6.0,
+          "RARE": 8.0,
+          "EPIC": 10.0,
+          "LEGENDARY": 12.0,
+          "MYTHIC": 15.0,
+          "DIVINE": 20.0
+        }
+      },
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 5.0,
+          "LEGENDARY": 6.0,
+          "MYTHIC": 7.0,
+          "DIVINE": 8.0
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "CHOMP",
+    "name": "Chomp",
+    "stone": "KUUDRA_MANDIBLE",
+    "requiredLevel": 33,
+    "categories": [
+      "FISHING_ROD"
+    ],
+    "stats": [
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 10.0,
+          "RARE": 17.0,
+          "EPIC": 25.0,
+          "LEGENDARY": 35.0,
+          "MYTHIC": 50.0,
+          "DIVINE": 50.0
+        }
+      },
+      {
+        "id": "CRIT_CHANCE",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 10.0,
+          "RARE": 17.0,
+          "EPIC": 25.0,
+          "LEGENDARY": 35.0,
+          "MYTHIC": 50.0,
+          "DIVINE": 50.0
+        }
+      },
+      {
+        "id": "FISHING_SPEED",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 5.0,
+          "EPIC": 7.0,
+          "LEGENDARY": 9.0,
+          "MYTHIC": 11.0,
+          "DIVINE": 11.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "LUCKY",
+    "name": "Lucky",
+    "stone": "LUCKY_DICE",
+    "requiredLevel": 24,
+    "categories": [
+      "FISHING_ROD"
+    ],
+    "stats": [
+      {
+        "id": "SEA_CREATURE_CHANCE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 2.0,
+          "EPIC": 3.0,
+          "LEGENDARY": 5.0,
+          "MYTHIC": 7.0,
+          "DIVINE": 7.0
+        }
+      },
+      {
+        "id": "MAGIC_FIND",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 4.0,
+          "LEGENDARY": 5.0,
+          "MYTHIC": 6.0,
+          "DIVINE": 6.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "PITCHIN",
+    "name": "Pitchin'",
+    "stone": "PITCHIN_KOI",
+    "requiredLevel": 18,
+    "categories": [
+      "FISHING_ROD"
+    ],
+    "stats": [
+      {
+        "id": "FISHING_SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 4.0,
+          "EPIC": 6.0,
+          "LEGENDARY": 8.0,
+          "MYTHIC": 10.0,
+          "DIVINE": 10.0
+        }
+      },
+      {
+        "id": "SEA_CREATURE_CHANCE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 2.0,
+          "EPIC": 3.0,
+          "LEGENDARY": 4.0,
+          "MYTHIC": 5.0,
+          "DIVINE": 5.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "SALTY",
+    "name": "Salty",
+    "stone": "SALT_CUBE",
+    "requiredLevel": 0,
+    "categories": [
+      "FISHING_ROD"
+    ],
+    "stats": [
+      {
+        "id": "SEA_CREATURE_CHANCE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 2.0,
+          "EPIC": 3.0,
+          "LEGENDARY": 5.0,
+          "MYTHIC": 7.0,
+          "DIVINE": 7.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "STIFF",
+    "name": "Stiff",
+    "stone": "HARDENED_WOOD",
+    "requiredLevel": 12,
+    "categories": [
+      "FISHING_ROD"
+    ],
+    "stats": [
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 4.0,
+          "RARE": 6.0,
+          "EPIC": 8.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      },
+      {
+        "id": "SEA_CREATURE_CHANCE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 2.0,
+          "EPIC": 3.0,
+          "LEGENDARY": 5.0,
+          "MYTHIC": 7.0,
+          "DIVINE": 7.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "TRASHY",
+    "name": "Trashy",
+    "stone": "OVERFLOWING_TRASH_CAN",
+    "requiredLevel": 3,
+    "categories": [
+      "FISHING_ROD"
+    ],
+    "stats": [
+      {
+        "id": "FISHING_SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 5.0,
+          "LEGENDARY": 7.0,
+          "MYTHIC": 9.0,
+          "DIVINE": 9.0
+        }
+      },
+      {
+        "id": "SEA_CREATURE_CHANCE",
+        "values": {
+          "RARE": 1.0,
+          "LEGENDARY": 2.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "TREACHEROUS",
+    "name": "Treacherous",
+    "stone": "RUSTY_ANCHOR",
+    "requiredLevel": 0,
+    "categories": [
+      "FISHING_ROD"
+    ],
+    "stats": [
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 10.0,
+          "RARE": 15.0,
+          "EPIC": 20.0,
+          "LEGENDARY": 25.0,
+          "MYTHIC": 30.0,
+          "DIVINE": 30.0
+        }
+      },
+      {
+        "id": "SEA_CREATURE_CHANCE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 2.0,
+          "EPIC": 3.0,
+          "LEGENDARY": 5.0,
+          "MYTHIC": 7.0,
+          "DIVINE": 7.0
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "UNYIELDING",
+    "name": "Unyielding",
+    "requiredLevel": 0,
+    "categories": [
+      "PICKAXE",
+      "DRILL"
+    ],
+    "stats": [
+      {
+        "id": "MINING_FORTUNE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 4.0,
+          "LEGENDARY": 5.0,
+          "MYTHIC": 6.0,
+          "DIVINE": 6.0
+        }
+      },
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 5.0,
+          "LEGENDARY": 7.0,
+          "MYTHIC": 9.0,
+          "DIVINE": 9.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "EXCELLENT",
+    "name": "Excellent",
+    "requiredLevel": 0,
+    "categories": [
+      "PICKAXE",
+      "DRILL"
+    ],
+    "stats": [
+      {
+        "id": "MINING_SPREAD",
+        "values": {
+          "COMMON": 4.0,
+          "UNCOMMON": 8.0,
+          "RARE": 12.0,
+          "EPIC": 16.0,
+          "LEGENDARY": 20.0,
+          "MYTHIC": 25.0,
+          "DIVINE": 25.0
+        }
+      },
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 4.0,
+          "LEGENDARY": 5.0,
+          "MYTHIC": 7.0,
+          "DIVINE": 7.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "FORTUNATE",
+    "name": "Fortunate",
+    "requiredLevel": 0,
+    "categories": [
+      "PICKAXE",
+      "DRILL"
+    ],
+    "stats": [
+      {
+        "id": "MINING_SPREAD",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 4.0,
+          "LEGENDARY": 6.0,
+          "MYTHIC": 8.0,
+          "DIVINE": 8.0
+        }
+      },
+      {
+        "id": "MINING_FORTUNE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 1.0,
+          "EPIC": 2.0,
+          "LEGENDARY": 2.0,
+          "MYTHIC": 3.0,
+          "DIVINE": 3.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "STURDY",
+    "name": "Sturdy",
+    "requiredLevel": 0,
+    "categories": [
+      "PICKAXE",
+      "DRILL"
+    ],
+    "stats": [
+      {
+        "id": "MINING_SPREAD",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 6.0,
+          "RARE": 9.0,
+          "EPIC": 12.0,
+          "LEGENDARY": 15.0,
+          "MYTHIC": 20.0,
+          "DIVINE": 20.0
+        }
+      },
+      {
+        "id": "DEFENSE",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 6.0,
+          "RARE": 9.0,
+          "EPIC": 12.0,
+          "LEGENDARY": 15.0,
+          "MYTHIC": 20.0,
+          "DIVINE": 20.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "PROSPECTORS",
+    "name": "Prospector's",
+    "requiredLevel": 0,
+    "categories": [
+      "PICKAXE",
+      "DRILL"
+    ],
+    "stats": [
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 5.0,
+          "LEGENDARY": 7.0,
+          "MYTHIC": 9.0,
+          "DIVINE": 9.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "AMBERED",
+    "name": "Ambered",
+    "stone": "AMBER_MATERIAL",
+    "requiredLevel": 30,
+    "categories": [
+      "PICKAXE",
+      "DRILL"
+    ],
+    "stats": [
+      {
+        "id": "MINING_SPREAD",
+        "values": {
+          "COMMON": 25.0,
+          "UNCOMMON": 35.0,
+          "RARE": 50.0,
+          "EPIC": 75.0,
+          "LEGENDARY": 100.0,
+          "MYTHIC": 150.0,
+          "DIVINE": 200.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "AUSPICIOUS",
+    "name": "Auspicious",
+    "stone": "DWARVEN_GEODE",
+    "requiredLevel": 21,
+    "categories": [
+      "PICKAXE",
+      "DRILL"
+    ],
+    "stats": [
+      {
+        "id": "MINING_SPREAD",
+        "values": {
+          "COMMON": 10.0,
+          "UNCOMMON": 20.0,
+          "RARE": 30.0,
+          "EPIC": 40.0,
+          "LEGENDARY": 50.0,
+          "MYTHIC": 75.0,
+          "DIVINE": 100.0
+        }
+      },
+      {
+        "id": "MINING_FORTUNE",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 6.0,
+          "RARE": 9.0,
+          "EPIC": 13.0,
+          "LEGENDARY": 16.0,
+          "MYTHIC": 20.0,
+          "DIVINE": 25.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "FLEET",
+    "name": "Fleet",
+    "stone": "DIAMONITE",
+    "requiredLevel": 15,
+    "categories": [
+      "PICKAXE",
+      "DRILL"
+    ],
+    "stats": [
+      {
+        "id": "MINING_SPREAD",
+        "values": {
+          "COMMON": 10.0,
+          "UNCOMMON": 20.0,
+          "RARE": 30.0,
+          "EPIC": 40.0,
+          "LEGENDARY": 50.0,
+          "MYTHIC": 75.0,
+          "DIVINE": 100.0
+        }
+      },
+      {
+        "id": "BLOCK_FORTUNE",
+        "values": {
+          "COMMON": 25.0,
+          "UNCOMMON": 30.0,
+          "RARE": 35.0,
+          "EPIC": 45.0,
+          "LEGENDARY": 55.0,
+          "MYTHIC": 65.0,
+          "DIVINE": 75.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "FRUITFUL",
+    "name": "Fruitful",
+    "stone": "ONYX",
+    "requiredLevel": 2,
+    "categories": [
+      "PICKAXE",
+      "DRILL"
+    ],
+    "stats": [
+      {
+        "id": "MINING_SPREAD",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 10.0,
+          "RARE": 15.0,
+          "EPIC": 25.0,
+          "LEGENDARY": 40.0,
+          "MYTHIC": 55.0,
+          "DIVINE": 70.0
+        }
+      },
+      {
+        "id": "MINING_FORTUNE",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 4.0,
+          "RARE": 6.0,
+          "EPIC": 8.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 15.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "GLACIAL",
+    "name": "Glacial",
+    "stone": "FRIGID_HUSK",
+    "requiredLevel": 30,
+    "categories": [
+      "PICKAXE",
+      "DRILL"
+    ],
+    "stats": [
+      {
+        "id": "MINING_FORTUNE",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 6.0,
+          "RARE": 9.0,
+          "EPIC": 13.0,
+          "LEGENDARY": 16.0,
+          "MYTHIC": 20.0,
+          "DIVINE": 25.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "HEATED",
+    "name": "Heated",
+    "stone": "HOT_STUFF",
+    "requiredLevel": 0,
+    "categories": [
+      "PICKAXE",
+      "DRILL"
+    ],
+    "stats": [
+      {
+        "id": "MINING_SPREAD",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 10.0,
+          "RARE": 15.0,
+          "EPIC": 25.0,
+          "LEGENDARY": 40.0,
+          "MYTHIC": 55.0,
+          "DIVINE": 70.0
+        }
+      },
+      {
+        "id": "MINING_FORTUNE",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 6.0,
+          "RARE": 9.0,
+          "EPIC": 13.0,
+          "LEGENDARY": 16.0,
+          "MYTHIC": 20.0,
+          "DIVINE": 25.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "MAGNETIC",
+    "name": "Magnetic",
+    "stone": "LAPIS_CRYSTAL",
+    "requiredLevel": 5,
+    "categories": [
+      "PICKAXE",
+      "DRILL"
+    ],
+    "stats": [
+      {
+        "id": "MINING_SPREAD",
+        "values": {
+          "COMMON": 10.0,
+          "UNCOMMON": 20.0,
+          "RARE": 30.0,
+          "EPIC": 40.0,
+          "LEGENDARY": 50.0,
+          "MYTHIC": 75.0,
+          "DIVINE": 100.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "MITHRAIC",
+    "name": "Mithraic",
+    "stone": "PURE_MITHRIL",
+    "requiredLevel": 18,
+    "categories": [
+      "PICKAXE",
+      "DRILL"
+    ],
+    "stats": [
+      {
+        "id": "MINING_FORTUNE",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 6.0,
+          "RARE": 9.0,
+          "EPIC": 13.0,
+          "LEGENDARY": 16.0,
+          "MYTHIC": 20.0,
+          "DIVINE": 25.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "REFINED",
+    "name": "Refined",
+    "stone": "REFINED_AMBER",
+    "requiredLevel": 25,
+    "categories": [
+      "PICKAXE",
+      "DRILL"
+    ],
+    "stats": [
+      {
+        "id": "MINING_WISDOM",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 4.0,
+          "LEGENDARY": 6.0,
+          "MYTHIC": 8.0,
+          "DIVINE": 10.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "SCRAPED",
+    "name": "Scraped",
+    "stone": "POCKET_ICEBERG",
+    "requiredLevel": 25,
+    "categories": [
+      "PICKAXE",
+      "DRILL"
+    ],
+    "stats": [
+      {
+        "id": "BP",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 1.0,
+          "EPIC": 1.0,
+          "LEGENDARY": 1.0,
+          "MYTHIC": 1.0,
+          "DIVINE": 1.0
+        }
+      },
+      {
+        "id": "MINING_WISDOM",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 1.0,
+          "EPIC": 2.0,
+          "LEGENDARY": 2.0,
+          "MYTHIC": 2.0,
+          "DIVINE": 3.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "STELLAR",
+    "name": "Stellar",
+    "stone": "PETRIFIED_STARFALL",
+    "requiredLevel": 26,
+    "categories": [
+      "PICKAXE",
+      "DRILL"
+    ],
+    "stats": [
+      {
+        "id": "MINING_SPREAD",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 10.0,
+          "RARE": 15.0,
+          "EPIC": 25.0,
+          "LEGENDARY": 40.0,
+          "MYTHIC": 55.0,
+          "DIVINE": 70.0
+        }
+      },
+      {
+        "id": "MINING_FORTUNE",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 10.0,
+          "RARE": 15.0,
+          "EPIC": 20.0,
+          "LEGENDARY": 25.0,
+          "MYTHIC": 35.0,
+          "DIVINE": 50.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "LUSTROUS",
+    "name": "Lustrous",
+    "stone": "GLEAMING_CRYSTAL",
+    "requiredLevel": 24,
+    "categories": [
+      "PICKAXE",
+      "DRILL"
+    ],
+    "stats": [
+      {
+        "id": "MINING_SPREAD",
+        "values": {
+          "COMMON": 10.0,
+          "UNCOMMON": 20.0,
+          "RARE": 30.0,
+          "EPIC": 40.0,
+          "LEGENDARY": 50.0,
+          "MYTHIC": 60.0,
+          "DIVINE": 75.0
+        }
+      },
+      {
+        "id": "MINING_FORTUNE",
+        "values": {
+          "COMMON": 10.0,
+          "UNCOMMON": 20.0,
+          "RARE": 30.0,
+          "EPIC": 40.0,
+          "LEGENDARY": 50.0,
+          "MYTHIC": 60.0,
+          "DIVINE": 75.0
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "GREAT",
+    "name": "Great",
+    "requiredLevel": 0,
+    "categories": [
+      "AXE"
+    ],
+    "stats": [
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 4.0,
+          "LEGENDARY": 5.0,
+          "MYTHIC": 7.0,
+          "DIVINE": 7.0
+        }
+      },
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 4.0,
+          "RARE": 6.0,
+          "EPIC": 9.0,
+          "LEGENDARY": 12.0,
+          "MYTHIC": 16.0,
+          "DIVINE": 16.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 4.0,
+          "RARE": 6.0,
+          "EPIC": 9.0,
+          "LEGENDARY": 12.0,
+          "MYTHIC": 16.0,
+          "DIVINE": 16.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "LUSH",
+    "name": "Lush",
+    "requiredLevel": 0,
+    "categories": [
+      "AXE"
+    ],
+    "stats": [
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 4.0,
+          "RARE": 5.0,
+          "EPIC": 7.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 15.0,
+          "DIVINE": 15.0
+        }
+      },
+      {
+        "id": "FORAGING_FORTUNE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 2.0,
+          "EPIC": 2.0,
+          "LEGENDARY": 3.0,
+          "MYTHIC": 5.0,
+          "DIVINE": 5.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "RUGGED",
+    "name": "Rugged",
+    "requiredLevel": 0,
+    "categories": [
+      "AXE"
+    ],
+    "stats": [
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 4.0,
+          "UNCOMMON": 6.0,
+          "RARE": 9.0,
+          "EPIC": 13.0,
+          "LEGENDARY": 18.0,
+          "MYTHIC": 24.0,
+          "DIVINE": 24.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 3.0,
+          "UNCOMMON": 5.0,
+          "RARE": 8.0,
+          "EPIC": 12.0,
+          "LEGENDARY": 16.0,
+          "MYTHIC": 22.0,
+          "DIVINE": 22.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "DOUBLE_BIT",
+    "name": "Double-Bit",
+    "requiredLevel": 0,
+    "categories": [
+      "AXE"
+    ],
+    "stats": [
+      {
+        "id": "FORAGING_FORTUNE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 4.0,
+          "LEGENDARY": 5.0,
+          "MYTHIC": 6.0,
+          "DIVINE": 6.0
+        }
+      },
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 5.0,
+          "LEGENDARY": 7.0,
+          "MYTHIC": 9.0,
+          "DIVINE": 9.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "LUMBERJACKS",
+    "name": "Lumberjack's",
+    "requiredLevel": 0,
+    "categories": [
+      "AXE"
+    ],
+    "stats": [
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 5.0,
+          "LEGENDARY": 7.0,
+          "MYTHIC": 9.0,
+          "DIVINE": 9.0
+        }
+      },
+      {
+        "id": "FORAGING_WISDOM",
+        "values": {
+          "RARE": 1.0,
+          "LEGENDARY": 2.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "EARTHY",
+    "name": "Earthy",
+    "stone": "LARGE_WALNUT",
+    "requiredLevel": 12,
+    "categories": [
+      "AXE"
+    ],
+    "stats": [
+      {
+        "id": "FARMING_FORTUNE",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 4.0,
+          "RARE": 6.0,
+          "EPIC": 8.0,
+          "LEGENDARY": 10.0,
+          "MYTHIC": 12.0,
+          "DIVINE": 12.0
+        }
+      },
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 1.0,
+          "RARE": 1.0,
+          "EPIC": 1.0,
+          "LEGENDARY": 1.0,
+          "MYTHIC": 1.0,
+          "DIVINE": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "MOIL",
+    "name": "Moil",
+    "stone": "MOIL_LOG",
+    "requiredLevel": 5,
+    "categories": [
+      "AXE"
+    ],
+    "stats": []
+  },
+  {
+    "id": "TOIL",
+    "name": "Toil",
+    "stone": "TOIL_LOG",
+    "requiredLevel": 25,
+    "categories": [
+      "AXE"
+    ],
+    "stats": [
+      {
+        "id": "STRENGTH",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 7.0,
+          "RARE": 9.0,
+          "EPIC": 13.0,
+          "LEGENDARY": 16.0,
+          "MYTHIC": 20.0,
+          "DIVINE": 20.0
+        }
+      },
+      {
+        "id": "CRIT_DAMAGE",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 7.0,
+          "RARE": 9.0,
+          "EPIC": 13.0,
+          "LEGENDARY": 16.0,
+          "MYTHIC": 20.0,
+          "DIVINE": 20.0
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "BLESSED",
+    "name": "Blessed",
+    "stone": "BLESSED_FRUIT",
+    "requiredLevel": 25,
+    "categories": [
+      "HOE",
+      "AXE"
+    ],
+    "stats": [
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 7.0,
+          "RARE": 9.0,
+          "EPIC": 13.0,
+          "LEGENDARY": 16.0,
+          "MYTHIC": 20.0,
+          "DIVINE": 20.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "BOUNTIFUL",
+    "name": "Bountiful",
+    "stone": "GOLDEN_BALL",
+    "requiredLevel": 30,
+    "categories": [
+      "HOE",
+      "AXE"
+    ],
+    "stats": [
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 5.0,
+          "LEGENDARY": 8.0,
+          "MYTHIC": 13.0,
+          "DIVINE": 13.0
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "GREEN_THUMB",
+    "name": "Green Thumb",
+    "requiredLevel": 0,
+    "categories": [
+      "HOE"
+    ],
+    "stats": [
+      {
+        "id": "FARMING_FORTUNE",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 4.0,
+          "LEGENDARY": 5.0,
+          "MYTHIC": 6.0,
+          "DIVINE": 6.0
+        }
+      },
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 5.0,
+          "LEGENDARY": 7.0,
+          "MYTHIC": 9.0,
+          "DIVINE": 9.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ROBUST",
+    "name": "Robust",
+    "requiredLevel": 0,
+    "categories": [
+      "HOE"
+    ],
+    "stats": [
+      {
+        "id": "FARMING_FORTUNE",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 4.0,
+          "EPIC": 6.0,
+          "LEGENDARY": 8.0,
+          "MYTHIC": 10.0,
+          "DIVINE": 10.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "ZOOMING",
+    "name": "Zooming",
+    "requiredLevel": 0,
+    "categories": [
+      "HOE"
+    ],
+    "stats": [
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": 5.0,
+          "UNCOMMON": 8.0,
+          "RARE": 12.0,
+          "EPIC": 16.0,
+          "LEGENDARY": 20.0,
+          "MYTHIC": 25.0,
+          "DIVINE": 25.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "PEASANTS",
+    "name": "Peasant's",
+    "requiredLevel": 0,
+    "categories": [
+      "HOE"
+    ],
+    "stats": [
+      {
+        "id": "SPEED",
+        "values": {
+          "COMMON": 1.0,
+          "UNCOMMON": 2.0,
+          "RARE": 3.0,
+          "EPIC": 5.0,
+          "LEGENDARY": 7.0,
+          "MYTHIC": 9.0,
+          "DIVINE": 9.0
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "BEADY",
+    "name": "Beady",
+    "stone": "BEADY_EYES",
+    "requiredLevel": 0,
+    "categories": [
+      "VACUUM"
+    ],
+    "stats": [
+      {
+        "id": "INTELLIGENCE",
+        "values": {
+          "COMMON": 10.0,
+          "UNCOMMON": 20.0,
+          "RARE": 30.0,
+          "EPIC": 40.0,
+          "LEGENDARY": 50.0,
+          "MYTHIC": 60.0,
+          "DIVINE": 60.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "BUZZING",
+    "name": "Buzzing",
+    "stone": "CLIPPED_WINGS",
+    "requiredLevel": 0,
+    "categories": [
+      "VACUUM"
+    ],
+    "stats": [
+      {
+        "id": "FARMING_FORTUNE",
+        "values": {
+          "COMMON": 2.0,
+          "UNCOMMON": 3.0,
+          "RARE": 5.0,
+          "EPIC": 7.0,
+          "LEGENDARY": 9.0,
+          "MYTHIC": 11.0,
+          "DIVINE": 11.0
+        }
+      }
+    ]
+  }
+]

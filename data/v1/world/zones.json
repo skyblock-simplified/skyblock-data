@@ -1,0 +1,1646 @@
+[
+  {
+    "id": "PRIVATE_ISLAND",
+    "name": "Private Island",
+    "format": "GREEN",
+    "region": "PRIVATE_ISLAND"
+  },
+  {
+    "id": "THE_GARDEN",
+    "name": "The Garden",
+    "format": "GREEN",
+    "region": "THE_GARDEN"
+  },
+  {
+    "id": "HUB",
+    "name": "Hub",
+    "format": "WHITE",
+    "region": "HUB"
+  },
+  {
+    "id": "CANVAS_ROOM",
+    "name": "Canvas Room",
+    "format": "AQUA",
+    "region": "HUB"
+  },
+  {
+    "id": "CARNIVAL",
+    "name": "Carnival",
+    "format": "YELLOW",
+    "region": "HUB"
+  },
+  {
+    "id": "COMBAT_SETTLEMENT",
+    "name": "Combat Settlement",
+    "format": "RED",
+    "region": "HUB"
+  },
+  {
+    "id": "ARCHERY_RANGE",
+    "name": "Archery Range",
+    "format": "DARK_AQUA",
+    "region": "HUB"
+  },
+  {
+    "id": "LIBRARY",
+    "name": "Library",
+    "format": "DARK_AQUA",
+    "region": "HUB"
+  },
+  {
+    "id": "THAUMATURGIST",
+    "name": "Thaumaturgist",
+    "format": "GOLD",
+    "region": "HUB"
+  },
+  {
+    "id": "TRADE_CENTER",
+    "name": "Trade Center",
+    "format": "AQUA",
+    "region": "HUB"
+  },
+  {
+    "id": "ELECTION_ROOM",
+    "name": "Election Room",
+    "format": "AQUA",
+    "region": "HUB"
+  },
+  {
+    "id": "FARM",
+    "name": "Farm",
+    "format": "YELLOW",
+    "region": "HUB"
+  },
+  {
+    "id": "FARMHOUSE",
+    "name": "Farmhouse",
+    "format": "AQUA",
+    "region": "HUB"
+  },
+  {
+    "id": "FISHING_OUTPOST",
+    "name": "Fishing Outpost",
+    "format": "AQUA",
+    "region": "HUB"
+  },
+  {
+    "id": "FISHERMANS_HUT",
+    "name": "Fisherman's Hut",
+    "format": "AQUA",
+    "region": "HUB"
+  },
+  {
+    "id": "FOREST",
+    "name": "Forest",
+    "format": "DARK_GREEN",
+    "region": "HUB"
+  },
+  {
+    "id": "FORAGING_CAMP",
+    "name": "Foraging Camp",
+    "format": "DARK_GREEN",
+    "region": "HUB"
+  },
+  {
+    "id": "GRAVEYARD",
+    "name": "Graveyard",
+    "format": "RED",
+    "region": "HUB"
+  },
+  {
+    "id": "HUB_CRYPTS",
+    "name": "Hub Crypts",
+    "format": "AQUA",
+    "region": "HUB"
+  },
+  {
+    "id": "TAVERN",
+    "name": "Tavern",
+    "format": "AQUA",
+    "region": "HUB"
+  },
+  {
+    "id": "MINING_DISTRICT",
+    "name": "Mining District",
+    "format": "GOLD",
+    "region": "HUB"
+  },
+  {
+    "id": "BLACKSMITHS_HOUSE",
+    "name": "Blacksmith's House",
+    "format": "AQUA",
+    "region": "HUB"
+  },
+  {
+    "id": "COAL_MINE",
+    "name": "Coal Mine",
+    "format": "DARK_GRAY",
+    "region": "HUB"
+  },
+  {
+    "id": "MOUNTAIN",
+    "name": "Mountain",
+    "format": "AQUA",
+    "region": "HUB"
+  },
+  {
+    "id": "WIZARD_TOWER",
+    "name": "Wizard Tower",
+    "format": "LIGHT_PURPLE",
+    "region": "HUB"
+  },
+  {
+    "id": "REGALIA_ROOM",
+    "name": "Regalia Room",
+    "format": "GOLD",
+    "region": "HUB"
+  },
+  {
+    "id": "RUINS",
+    "name": "Ruins",
+    "format": "AQUA",
+    "region": "HUB"
+  },
+  {
+    "id": "UNINCORPORATED",
+    "name": "Unincorporated",
+    "format": "RED",
+    "region": "HUB"
+  },
+  {
+    "id": "VILLAGE",
+    "name": "Village",
+    "format": "AQUA",
+    "region": "HUB"
+  },
+  {
+    "id": "ABIPHONES_&_CO.",
+    "name": "Abiphones & Co.",
+    "format": "GREEN",
+    "region": "HUB"
+  },
+  {
+    "id": "AUCTION_HOUSE",
+    "name": "Auction House",
+    "format": "GOLD",
+    "region": "HUB"
+  },
+  {
+    "id": "BANK",
+    "name": "Bank",
+    "format": "GOLD",
+    "region": "HUB"
+  },
+  {
+    "id": "BAZAAR_ALLEY",
+    "name": "Bazaar Alley",
+    "format": "YELLOW",
+    "region": "HUB"
+  },
+  {
+    "id": "BUILDERS_HOUSE",
+    "name": "Builder's House",
+    "format": "AQUA",
+    "region": "HUB"
+  },
+  {
+    "id": "COMMUNITY_CENTER",
+    "name": "Community Center",
+    "format": "AQUA",
+    "region": "HUB"
+  },
+  {
+    "id": "FASHION_SHOP",
+    "name": "Fashion Shop",
+    "format": "LIGHT_PURPLE",
+    "region": "HUB"
+  },
+  {
+    "id": "FLOWER_HOUSE",
+    "name": "Flower House",
+    "format": "AQUA",
+    "region": "HUB"
+  },
+  {
+    "id": "HAXATORUM",
+    "name": "Haxatorum",
+    "format": "LIGHT_PURPLE",
+    "region": "HUB"
+  },
+  {
+    "id": "MUSEUM",
+    "name": "Museum",
+    "format": "DARK_AQUA",
+    "region": "HUB"
+  },
+  {
+    "id": "PET_CARE",
+    "name": "Pet Care",
+    "format": "AQUA",
+    "region": "HUB"
+  },
+  {
+    "id": "RABBIT_HOUSE",
+    "name": "Rabbit House",
+    "format": "YELLOW",
+    "region": "HUB"
+  },
+  {
+    "id": "SEWER",
+    "name": "Sewer",
+    "format": "RED",
+    "region": "HUB"
+  },
+  {
+    "id": "SHENS_AUCTION",
+    "name": "Shen's Auction",
+    "format": "GOLD",
+    "region": "HUB"
+  },
+  {
+    "id": "TAYLORS_SHOP",
+    "name": "Taylor's Shop",
+    "format": "AQUA",
+    "region": "HUB"
+  },
+  {
+    "id": "WILDERNESS",
+    "name": "Wilderness",
+    "format": "DARK_GREEN",
+    "region": "HUB"
+  },
+  {
+    "id": "ARTISTS_ABODE",
+    "name": "Artist's Abode",
+    "format": "BLUE",
+    "region": "HUB"
+  },
+  {
+    "id": "BIRCH_PARK",
+    "name": "Birch Park",
+    "format": "GREEN",
+    "region": "THE_PARK"
+  },
+  {
+    "id": "SPRUCE_WOODS",
+    "name": "Spruce Woods",
+    "format": "GREEN",
+    "region": "THE_PARK"
+  },
+  {
+    "id": "VIKING_LONGHOUSE",
+    "name": "Viking Longhouse",
+    "format": "AQUA",
+    "region": "THE_PARK"
+  },
+  {
+    "id": "DARK_THICKET",
+    "name": "Dark Thicket",
+    "format": "GREEN",
+    "region": "THE_PARK"
+  },
+  {
+    "id": "HOWLING_CAVE",
+    "name": "Howling Cave",
+    "format": "AQUA",
+    "region": "THE_PARK"
+  },
+  {
+    "id": "TRIALS_OF_FIRE",
+    "name": "Trials of Fire",
+    "format": "RED",
+    "region": "THE_PARK"
+  },
+  {
+    "id": "SAVANNA_WOODLAND",
+    "name": "Savanna Woodland",
+    "format": "GREEN",
+    "region": "THE_PARK"
+  },
+  {
+    "id": "SOUL_CAVE",
+    "name": "Soul Cave",
+    "format": "AQUA",
+    "region": "THE_PARK"
+  },
+  {
+    "id": "MELODYS_PLATEAU",
+    "name": "Melody's Plateau",
+    "format": "LIGHT_PURPLE",
+    "region": "THE_PARK"
+  },
+  {
+    "id": "JUNGLE_ISLAND",
+    "name": "Jungle Island",
+    "format": "GREEN",
+    "region": "THE_PARK"
+  },
+  {
+    "id": "SPIRIT_CAVE",
+    "name": "Spirit Cave",
+    "format": "AQUA",
+    "region": "THE_PARK"
+  },
+  {
+    "id": "MOONGLADE_MARSH",
+    "name": "Moonglade Marsh",
+    "format": "DARK_GREEN",
+    "region": "GALATEA"
+  },
+  {
+    "id": "ANCIENT_RUINS",
+    "name": "Ancient Ruins",
+    "format": "AQUA",
+    "region": "GALATEA"
+  },
+  {
+    "id": "BUBBLEBOOST_COLUMN",
+    "name": "Bubbleboost Column",
+    "format": "AQUA",
+    "region": "GALATEA"
+  },
+  {
+    "id": "DIVE-EMBER_PASS",
+    "name": "Dive-Ember Pass",
+    "format": "GOLD",
+    "region": "GALATEA"
+  },
+  {
+    "id": "DRIPTOAD_DELVE",
+    "name": "Driptoad Delve",
+    "format": "DARK_AQUA",
+    "region": "GALATEA"
+  },
+  {
+    "id": "DRIPTOAD_PASS",
+    "name": "Driptoad Pass",
+    "format": "DARK_AQUA",
+    "region": "GALATEA"
+  },
+  {
+    "id": "DRAGONS_LAIR",
+    "name": "Dragon's Lair",
+    "format": "DARK_GREEN",
+    "region": "GALATEA"
+  },
+  {
+    "id": "DROWNED_RELIQUARY",
+    "name": "Drowned Reliquary",
+    "format": "RED",
+    "region": "GALATEA"
+  },
+  {
+    "id": "EVERGREEN_PLATEAU",
+    "name": "Evergreen Plateau",
+    "format": "GREEN",
+    "region": "GALATEA"
+  },
+  {
+    "id": "FOREST_TEMPLE",
+    "name": "Forest Temple",
+    "format": "DARK_GREEN",
+    "region": "GALATEA"
+  },
+  {
+    "id": "FUSION_HOUSE",
+    "name": "Fusion House",
+    "format": "DARK_PURPLE",
+    "region": "GALATEA"
+  },
+  {
+    "id": "KELPWOVEN_TUNNELS",
+    "name": "Kelpwoven Tunnels",
+    "format": "DARK_AQUA",
+    "region": "GALATEA"
+  },
+  {
+    "id": "MOONGLADES_EDGE",
+    "name": "Moonglade's Edge",
+    "format": "DARK_GREEN",
+    "region": "GALATEA"
+  },
+  {
+    "id": "MURKWATER_DEPTHS",
+    "name": "Murkwater Depths",
+    "format": "DARK_AQUA",
+    "region": "GALATEA"
+  },
+  {
+    "id": "MURKWATER_LOCH",
+    "name": "Murkwater Loch",
+    "format": "DARK_GREEN",
+    "region": "GALATEA"
+  },
+  {
+    "id": "MURKWATER_OUTPOST",
+    "name": "Murkwater Outpost",
+    "format": "DARK_AQUA",
+    "region": "GALATEA"
+  },
+  {
+    "id": "MURKWATER_SHALLOWS",
+    "name": "Murkwater Shallows",
+    "format": "DARK_AQUA",
+    "region": "GALATEA"
+  },
+  {
+    "id": "NORTH_REACHES",
+    "name": "North Reaches",
+    "format": "GREEN",
+    "region": "GALATEA"
+  },
+  {
+    "id": "NORTH_WETLANDS",
+    "name": "North Wetlands",
+    "format": "DARK_GREEN",
+    "region": "GALATEA"
+  },
+  {
+    "id": "RED_HOUSE",
+    "name": "Red House",
+    "format": "RED",
+    "region": "GALATEA"
+  },
+  {
+    "id": "REEFGUARD_PASS",
+    "name": "Reefguard Pass",
+    "format": "LIGHT_PURPLE",
+    "region": "GALATEA"
+  },
+  {
+    "id": "SIDE-EMBER_WAY",
+    "name": "Side-Ember Way",
+    "format": "GOLD",
+    "region": "GALATEA"
+  },
+  {
+    "id": "STRIDE-EMBER_FISSURE",
+    "name": "Stride-Ember Fissure",
+    "format": "GOLD",
+    "region": "GALATEA"
+  },
+  {
+    "id": "SOUTH_REACHES",
+    "name": "South Reaches",
+    "format": "GREEN",
+    "region": "GALATEA"
+  },
+  {
+    "id": "SOUTH_WETLANDS",
+    "name": "South Wetlands",
+    "format": "DARK_GREEN",
+    "region": "GALATEA"
+  },
+  {
+    "id": "SWAMPCUT_INC.",
+    "name": "SwampCut Inc.",
+    "format": "AQUA",
+    "region": "GALATEA"
+  },
+  {
+    "id": "TANGLEBURGS_PATH",
+    "name": "Tangleburg's Path",
+    "format": "AQUA",
+    "region": "GALATEA"
+  },
+  {
+    "id": "TANGLEBURG",
+    "name": "Tangleburg",
+    "format": "AQUA",
+    "region": "GALATEA"
+  },
+  {
+    "id": "TANGLEBURG_LIBRARY",
+    "name": "Tangleburg Library",
+    "format": "AQUA",
+    "region": "GALATEA"
+  },
+  {
+    "id": "TANGLEBURG_BANK",
+    "name": "Tangleburg Bank",
+    "format": "GOLD",
+    "region": "GALATEA"
+  },
+  {
+    "id": "TOMB_FLOODWAY",
+    "name": "Tomb Floodway",
+    "format": "RED",
+    "region": "GALATEA"
+  },
+  {
+    "id": "TRANQUIL_PASS",
+    "name": "Tranquil Pass",
+    "format": "AQUA",
+    "region": "GALATEA"
+  },
+  {
+    "id": "TRANQUILITY_SANCTUM",
+    "name": "Tranquility Sanctum",
+    "format": "AQUA",
+    "region": "GALATEA"
+  },
+  {
+    "id": "VERDANT_SUMMIT",
+    "name": "Verdant Summit",
+    "format": "GREEN",
+    "region": "GALATEA"
+  },
+  {
+    "id": "WEST_REACHES",
+    "name": "West Reaches",
+    "format": "GREEN",
+    "region": "GALATEA"
+  },
+  {
+    "id": "WESTBOUND_WETLANDS",
+    "name": "Westbound Wetlands",
+    "format": "DARK_GREEN",
+    "region": "GALATEA"
+  },
+  {
+    "id": "WYRMGROVE_TOMB",
+    "name": "Wyrmgrove Tomb",
+    "format": "AQUA",
+    "region": "GALATEA"
+  },
+  {
+    "id": "TORRHUS_CANYON",
+    "name": "Torrhus Canyon",
+    "format": "GREEN",
+    "region": "GALATEA"
+  },
+  {
+    "id": "LUNARISE",
+    "name": "Lunarise",
+    "format": "GREEN",
+    "region": "GALATEA"
+  },
+  {
+    "id": "THE_BARN",
+    "name": "The Barn",
+    "format": "AQUA",
+    "region": "THE_FARMING_ISLANDS"
+  },
+  {
+    "id": "WINDMILL",
+    "name": "Windmill",
+    "format": "AQUA",
+    "region": "THE_FARMING_ISLANDS"
+  },
+  {
+    "id": "MUSHROOM_DESERT",
+    "name": "Mushroom Desert",
+    "format": "YELLOW",
+    "region": "THE_FARMING_ISLANDS"
+  },
+  {
+    "id": "DESERT_SETTLEMENT",
+    "name": "Desert Settlement",
+    "format": "YELLOW",
+    "region": "THE_FARMING_ISLANDS"
+  },
+  {
+    "id": "OASIS",
+    "name": "Oasis",
+    "format": "AQUA",
+    "region": "THE_FARMING_ISLANDS"
+  },
+  {
+    "id": "SHEPHERDS_KEEP",
+    "name": "Shepherd's Keep",
+    "format": "AQUA",
+    "region": "THE_FARMING_ISLANDS"
+  },
+  {
+    "id": "TRAPPERS_DEN",
+    "name": "Trapper's Den",
+    "format": "AQUA",
+    "region": "THE_FARMING_ISLANDS"
+  },
+  {
+    "id": "JAKES_HOUSE",
+    "name": "Jake's House",
+    "format": "AQUA",
+    "region": "THE_FARMING_ISLANDS"
+  },
+  {
+    "id": "MUSHROOM_GORGE",
+    "name": "Mushroom Gorge",
+    "format": "AQUA",
+    "region": "THE_FARMING_ISLANDS"
+  },
+  {
+    "id": "OVERGROWN_MUSHROOM_CAVE",
+    "name": "Overgrown Mushroom Cave",
+    "format": "DARK_GREEN",
+    "region": "THE_FARMING_ISLANDS"
+  },
+  {
+    "id": "GLOWING_MUSHROOM_CAVE",
+    "name": "Glowing Mushroom Cave",
+    "format": "DARK_GREEN",
+    "region": "THE_FARMING_ISLANDS"
+  },
+  {
+    "id": "SPIDERS_DEN",
+    "name": "Spider's Den",
+    "format": "RED",
+    "region": "SPIDERS_DEN"
+  },
+  {
+    "id": "ARACHNES_BURROW",
+    "name": "Arachne's Burrow",
+    "format": "DARK_RED",
+    "region": "SPIDERS_DEN"
+  },
+  {
+    "id": "ARACHNES_SANCTUARY",
+    "name": "Arachne's Sanctuary",
+    "format": "DARK_RED",
+    "region": "SPIDERS_DEN"
+  },
+  {
+    "id": "ARCHAEOLOGISTS_CAMP",
+    "name": "Archaeologist's Camp",
+    "format": "AQUA",
+    "region": "SPIDERS_DEN"
+  },
+  {
+    "id": "GRANDMAS_HOUSE",
+    "name": "Grandma's House",
+    "format": "RED",
+    "region": "SPIDERS_DEN"
+  },
+  {
+    "id": "GRAVEL_MINES",
+    "name": "Gravel Mines",
+    "format": "DARK_GRAY",
+    "region": "SPIDERS_DEN"
+  },
+  {
+    "id": "SPIDER_MOUND",
+    "name": "Spider Mound",
+    "format": "RED",
+    "region": "SPIDERS_DEN"
+  },
+  {
+    "id": "THE_END",
+    "name": "The End",
+    "format": "LIGHT_PURPLE",
+    "region": "THE_END"
+  },
+  {
+    "id": "DRAGONS_NEST",
+    "name": "Dragon's Nest",
+    "format": "DARK_PURPLE",
+    "region": "THE_END"
+  },
+  {
+    "id": "VOID_SEPULTURE",
+    "name": "Void Sepulture",
+    "format": "LIGHT_PURPLE",
+    "region": "THE_END"
+  },
+  {
+    "id": "VOID_SLATE",
+    "name": "Void Slate",
+    "format": "DARK_GRAY",
+    "region": "THE_END"
+  },
+  {
+    "id": "ZEALOT_BRUISER_HIDEOUT",
+    "name": "Zealot Bruiser Hideout",
+    "format": "DARK_PURPLE",
+    "region": "THE_END"
+  },
+  {
+    "id": "CRIMSON_ISLE",
+    "name": "Crimson Isle",
+    "format": "RED",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "AURAS_LAB",
+    "name": "Aura's Lab",
+    "format": "LIGHT_PURPLE",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "BARBARIAN_OUTPOST",
+    "name": "Barbarian Outpost",
+    "format": "DARK_GREEN",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "BELLY_OF_THE_BEAST",
+    "name": "Belly of the Beast",
+    "format": "DARK_RED",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "BLAZING_VOLCANO",
+    "name": "Blazing Volcano",
+    "format": "GOLD",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "BURNING_DESERT",
+    "name": "Burning Desert",
+    "format": "YELLOW",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "COURTYARD",
+    "name": "Courtyard",
+    "format": "DARK_PURPLE",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "CRIMSON_FIELDS",
+    "name": "Crimson Fields",
+    "format": "RED",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "DOJO",
+    "name": "Dojo",
+    "format": "YELLOW",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "DRAGONTAIL",
+    "name": "Dragontail",
+    "format": "DARK_GREEN",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "DRAGONTAIL_AUCTION_HOUSE",
+    "name": "Dragontail Auction House",
+    "format": "DARK_GREEN",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "DRAGONTAIL_BANK",
+    "name": "Dragontail Bank",
+    "format": "DARK_GREEN",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "DRAGONTAIL_BAZAAR",
+    "name": "Dragontail Bazaar",
+    "format": "DARK_GREEN",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "DRAGONTAIL_BLACKSMITH",
+    "name": "Dragontail Blacksmith",
+    "format": "DARK_GREEN",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "CHIEFS_HUT",
+    "name": "Chief's Hut",
+    "format": "DARK_GREEN",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "DRAGONTAIL_MINION_SHOP",
+    "name": "Dragontail Minion Shop",
+    "format": "DARK_GREEN",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "DRAGONTAIL_TOWNSQUARE",
+    "name": "Dragontail Townsquare",
+    "format": "DARK_GREEN",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "FORGOTTEN_SKULL",
+    "name": "Forgotten Skull",
+    "format": "GOLD",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "MAGE_OUTPOST",
+    "name": "Mage Outpost",
+    "format": "AQUA",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "MAGMA_CHAMBER",
+    "name": "Magma Chamber",
+    "format": "DARK_RED",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "MATRIARCHS_LAIR",
+    "name": "Matriarch's Lair",
+    "format": "GOLD",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "MYSTIC_MARSH",
+    "name": "Mystic Marsh",
+    "format": "LIGHT_PURPLE",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "ODGERS_HUT",
+    "name": "Odger's Hut",
+    "format": "GREEN",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "PLHLEGBLAST_POOL",
+    "name": "Plhlegblast Pool",
+    "format": "RED",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "RUINS_OF_ASHFANG",
+    "name": "Ruins of Ashfang",
+    "format": "DARK_PURPLE",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "SCARLETON",
+    "name": "Scarleton",
+    "format": "DARK_PURPLE",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "SCARLETON_AUCTION_HOUSE",
+    "name": "Scarleton Auction House",
+    "format": "LIGHT_PURPLE",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "CATHEDRAL",
+    "name": "Cathedral",
+    "format": "DARK_PURPLE",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "IGRUPANS_CHICKEN_COOP",
+    "name": "Igrupan's Chicken Coop",
+    "format": "YELLOW",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "IGRUPANS_HOUSE",
+    "name": "Igrupan's House",
+    "format": "LIGHT_PURPLE",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "MAGE_COUNCIL",
+    "name": "Mage Council",
+    "format": "LIGHT_PURPLE",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "SCARLETON_BANK",
+    "name": "Scarleton Bank",
+    "format": "DARK_PURPLE",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "SCARLETON_BAZAAR",
+    "name": "Scarleton Bazaar",
+    "format": "LIGHT_PURPLE",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "SCARLETON_BLACKSMITH",
+    "name": "Scarleton Blacksmith",
+    "format": "DARK_PURPLE",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "SCARLETON_MINION_SHOP",
+    "name": "Scarleton Minion Shop",
+    "format": "LIGHT_PURPLE",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "SCARLETON_PLAZA",
+    "name": "Scarleton Plaza",
+    "format": "LIGHT_PURPLE",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "THRONE_ROOM",
+    "name": "Throne Room",
+    "format": "LIGHT_PURPLE",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "SMOLDERING_TOMB",
+    "name": "Smoldering Tomb",
+    "format": "RED",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "STRONGHOLD",
+    "name": "Stronghold",
+    "format": "DARK_PURPLE",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "THE_BASTION",
+    "name": "The Bastion",
+    "format": "DARK_GREEN",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "THE_DUKEDOM",
+    "name": "The Dukedom",
+    "format": "DARK_PURPLE",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "THE_WASTELAND",
+    "name": "The Wasteland",
+    "format": "RED",
+    "region": "CRIMSON_ISLE"
+  },
+  {
+    "id": "GOLD_MINE",
+    "name": "Gold Mine",
+    "format": "GOLD",
+    "region": "GOLD_MINE"
+  },
+  {
+    "id": "DEEP_CAVERNS",
+    "name": "Deep Caverns",
+    "format": "AQUA",
+    "region": "DEEP_CAVERNS"
+  },
+  {
+    "id": "GUNPOWDER_MINES",
+    "name": "Gunpowder Mines",
+    "format": "AQUA",
+    "region": "DEEP_CAVERNS"
+  },
+  {
+    "id": "LAPIS_QUARRY",
+    "name": "Lapis Quarry",
+    "format": "AQUA",
+    "region": "DEEP_CAVERNS"
+  },
+  {
+    "id": "PIGMENS_DEN",
+    "name": "Pigmen's Den",
+    "format": "AQUA",
+    "region": "DEEP_CAVERNS"
+  },
+  {
+    "id": "SLIMEHILL",
+    "name": "Slimehill",
+    "format": "AQUA",
+    "region": "DEEP_CAVERNS"
+  },
+  {
+    "id": "DIAMOND_RESERVE",
+    "name": "Diamond Reserve",
+    "format": "AQUA",
+    "region": "DEEP_CAVERNS"
+  },
+  {
+    "id": "OBSIDIAN_SANCTUARY",
+    "name": "Obsidian Sanctuary",
+    "format": "AQUA",
+    "region": "DEEP_CAVERNS"
+  },
+  {
+    "id": "DWARVEN_MINES",
+    "name": "Dwarven Mines",
+    "format": "DARK_GREEN",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "ABANDONED_QUARRY",
+    "name": "Abandoned Quarry",
+    "format": "DARK_GREEN",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "CLIFFSIDE_VEINS",
+    "name": "Cliffside Veins",
+    "format": "AQUA",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "DIVANS_GATEWAY",
+    "name": "Divan's Gateway",
+    "format": "AQUA",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "DWARVEN_BASE_CAMP",
+    "name": "Dwarven Base Camp",
+    "format": "GOLD",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "DWARVEN_VILLAGE",
+    "name": "Dwarven Village",
+    "format": "AQUA",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "DWARVEN_TAVERN",
+    "name": "Dwarven Tavern",
+    "format": "AQUA",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "FAR_RESERVE",
+    "name": "Far Reserve",
+    "format": "AQUA",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "FOSSIL_RESEARCH_CENTER",
+    "name": "Fossil Research Center",
+    "format": "YELLOW",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "GATES_TO_THE_MINES",
+    "name": "Gates to the Mines",
+    "format": "AQUA",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "GOBLIN_BURROWS",
+    "name": "Goblin Burrows",
+    "format": "AQUA",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "GLACITE_TUNNELS",
+    "name": "Glacite Tunnels",
+    "format": "AQUA",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "GREAT_GLACITE_LAKE",
+    "name": "Great Glacite Lake",
+    "format": "AQUA",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "GREAT_ICE_WALL",
+    "name": "Great Ice Wall",
+    "format": "AQUA",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "RAMPARTS_QUARRY",
+    "name": "Rampart's Quarry",
+    "format": "AQUA",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "IRONMANS_GUILD",
+    "name": "Ironman's Guild",
+    "format": "GRAY",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "ROYAL_MINES",
+    "name": "Royal Mines",
+    "format": "AQUA",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "ROYAL_PALACE",
+    "name": "Royal Palace",
+    "format": "AQUA",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "ARISTOCRAT_PASSAGE",
+    "name": "Aristocrat Passage",
+    "format": "AQUA",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "BARRACKS_OF_HEROES",
+    "name": "Barracks of Heroes",
+    "format": "AQUA",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "GRAND_LIBRARY",
+    "name": "Grand Library",
+    "format": "AQUA",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "HANGING_COURT",
+    "name": "Hanging Court",
+    "format": "AQUA",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "PALACE_BRIDGE",
+    "name": "Palace Bridge",
+    "format": "AQUA",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "ROYAL_QUARTERS",
+    "name": "Royal Quarters",
+    "format": "AQUA",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "THE_FORGE",
+    "name": "The Forge",
+    "format": "AQUA",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "FORGE_BASIN",
+    "name": "Forge Basin",
+    "format": "AQUA",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "THE_LIFT",
+    "name": "The Lift",
+    "format": "AQUA",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "THE_MIST",
+    "name": "The Mist",
+    "format": "DARK_GRAY",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "UPPER_MINES",
+    "name": "Upper Mines",
+    "format": "AQUA",
+    "region": "DWARVEN_MINES"
+  },
+  {
+    "id": "CRYSTAL_HOLLOWS",
+    "name": "Crystal Hollows",
+    "format": "DARK_PURPLE",
+    "region": "CRYSTAL_HOLLOWS"
+  },
+  {
+    "id": "CRYSTAL_NUCLEUS",
+    "name": "Crystal Nucleus",
+    "format": "DARK_PURPLE",
+    "region": "CRYSTAL_HOLLOWS"
+  },
+  {
+    "id": "FAIRY_GROTTO",
+    "name": "Fairy Grotto",
+    "format": "LIGHT_PURPLE",
+    "region": "CRYSTAL_HOLLOWS"
+  },
+  {
+    "id": "GOBLIN_HOLDOUT",
+    "name": "Goblin Holdout",
+    "format": "GOLD",
+    "region": "CRYSTAL_HOLLOWS"
+  },
+  {
+    "id": "GOBLIN_QUEENS_DEN",
+    "name": "Goblin Queen's Den",
+    "format": "GOLD",
+    "region": "CRYSTAL_HOLLOWS"
+  },
+  {
+    "id": "JUNGLE",
+    "name": "Jungle",
+    "format": "DARK_GREEN",
+    "region": "CRYSTAL_HOLLOWS"
+  },
+  {
+    "id": "JUNGLE_TEMPLE",
+    "name": "Jungle Temple",
+    "format": "DARK_GREEN",
+    "region": "CRYSTAL_HOLLOWS"
+  },
+  {
+    "id": "MAGMA_FIELDS",
+    "name": "Magma Fields",
+    "format": "RED",
+    "region": "CRYSTAL_HOLLOWS"
+  },
+  {
+    "id": "KHAZAD-DÛM",
+    "name": "Khazad-dûm",
+    "format": "RED",
+    "region": "CRYSTAL_HOLLOWS"
+  },
+  {
+    "id": "MITHRIL_DEPOSITS",
+    "name": "Mithril Deposits",
+    "format": "DARK_GREEN",
+    "region": "CRYSTAL_HOLLOWS"
+  },
+  {
+    "id": "MINES_OF_DIVAN",
+    "name": "Mines of Divan",
+    "format": "DARK_GREEN",
+    "region": "CRYSTAL_HOLLOWS"
+  },
+  {
+    "id": "PRECURSOR_REMNANTS",
+    "name": "Precursor Remnants",
+    "format": "AQUA",
+    "region": "CRYSTAL_HOLLOWS"
+  },
+  {
+    "id": "LOST_PRECURSOR_CITY",
+    "name": "Lost Precursor City",
+    "format": "AQUA",
+    "region": "CRYSTAL_HOLLOWS"
+  },
+  {
+    "id": "BACKWATER_BAYOU",
+    "name": "Backwater Bayou",
+    "format": "DARK_GREEN",
+    "region": "BACKWATER_BAYOU"
+  },
+  {
+    "id": "JERRYS_WORKSHOP",
+    "name": "Jerry's Workshop",
+    "format": "RED",
+    "region": "JERRYS_WORKSHOP"
+  },
+  {
+    "id": "EINARYS_EMPORIUM",
+    "name": "Einary's Emporium",
+    "format": "GOLD",
+    "region": "JERRYS_WORKSHOP"
+  },
+  {
+    "id": "GARYS_SHACK",
+    "name": "Gary's Shack",
+    "format": "AQUA",
+    "region": "JERRYS_WORKSHOP"
+  },
+  {
+    "id": "GLACIAL_CAVE",
+    "name": "Glacial Cave",
+    "format": "DARK_AQUA",
+    "region": "JERRYS_WORKSHOP"
+  },
+  {
+    "id": "HOT_SPRINGS",
+    "name": "Hot Springs",
+    "format": "DARK_RED",
+    "region": "JERRYS_WORKSHOP"
+  },
+  {
+    "id": "JERRY_POND",
+    "name": "Jerry Pond",
+    "format": "AQUA",
+    "region": "JERRYS_WORKSHOP"
+  },
+  {
+    "id": "MOUNT_JERRY",
+    "name": "Mount Jerry",
+    "format": "DARK_RED",
+    "region": "JERRYS_WORKSHOP"
+  },
+  {
+    "id": "REFLECTIVE_POND",
+    "name": "Reflective Pond",
+    "format": "AQUA",
+    "region": "JERRYS_WORKSHOP"
+  },
+  {
+    "id": "SHERRYS_SHOWROOM",
+    "name": "Sherry's Showroom",
+    "format": "YELLOW",
+    "region": "JERRYS_WORKSHOP"
+  },
+  {
+    "id": "SUNKEN_JERRY_POND",
+    "name": "Sunken Jerry Pond",
+    "format": "AQUA",
+    "region": "JERRYS_WORKSHOP"
+  },
+  {
+    "id": "TERRYS_SHACK",
+    "name": "Terry's Shack",
+    "format": "AQUA",
+    "region": "JERRYS_WORKSHOP"
+  },
+  {
+    "id": "COLOSSEUM",
+    "name": "Colosseum",
+    "format": "AQUA",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "BLACK_LAGOON",
+    "name": "Black Lagoon",
+    "format": "DARK_GRAY",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "LAGOON_CAVE",
+    "name": "Lagoon Cave",
+    "format": "DARK_GRAY",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "LAGOON_HUT",
+    "name": "Lagoon Hut",
+    "format": "DARK_AQUA",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "LEECHES_LAIR",
+    "name": "Leeches Lair",
+    "format": "RED",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "AROUND_COLESSEUM",
+    "name": "Around Colesseum",
+    "format": "GRAY",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "DREADFARM",
+    "name": "Dreadfarm",
+    "format": "YELLOW",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "GREAT_BEANSTALK",
+    "name": "Great Beanstalk",
+    "format": "GREEN",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "LIVING_CAVE",
+    "name": "Living Cave",
+    "format": "BLUE",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "LIVING_STILLNESS",
+    "name": "Living Stillness",
+    "format": "AQUA",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "THE_MOUNTAINTOP",
+    "name": "The Mountaintop",
+    "format": "GRAY",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "WALK_OF_FAME",
+    "name": "Walk of Fame",
+    "format": "YELLOW",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "WIZARD_BRAWL",
+    "name": "Wizard Brawl",
+    "format": "DARK_PURPLE",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "CEREBRAL_CITADEL",
+    "name": "Cerebral Citadel",
+    "format": "AQUA",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "CONTINUUM",
+    "name": "Continuum",
+    "format": "DARK_PURPLE",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "THE_VENTS",
+    "name": "The Vents",
+    "format": "GRAY",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "ROSES_END",
+    "name": "Rose's End",
+    "format": "RED",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "TRIAL_GROUNDS",
+    "name": "Trial Grounds",
+    "format": "DARK_PURPLE",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "WIZARDMAN_BUREAU",
+    "name": "Wizardman Bureau",
+    "format": "LIGHT_PURPLE",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "OTHERSIDE",
+    "name": "Otherside",
+    "format": "GRAY",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "RIFT_GALLERY",
+    "name": "Rift Gallery",
+    "format": "LIGHT_PURPLE",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "RIFT_GALLERY_ENTRANCE",
+    "name": "Rift Gallery Entrance",
+    "format": "LIGHT_PURPLE",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "STILLGORE_CHÂTEAU",
+    "name": "Stillgore Château",
+    "format": "RED",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "FAIRYLOSOPHY_TOWER",
+    "name": "Fairylosophy Tower",
+    "format": "LIGHT_PURPLE",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "OUBLIETTE",
+    "name": "Oubliette",
+    "format": "RED",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "TIME_CHAMBER",
+    "name": "Time Chamber",
+    "format": "GREEN",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "VILLAGE_PLAZA",
+    "name": "Village Plaza",
+    "format": "AQUA",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "BARRIER_STREET",
+    "name": "Barrier Street",
+    "format": "GOLD",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "BARRY_CENTER",
+    "name": "Barry Center",
+    "format": "AQUA",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "BARRY_HQ",
+    "name": "Barry HQ",
+    "format": "AQUA",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "DÉJÀ_VU_ALLEY",
+    "name": "Déjà Vu Alley",
+    "format": "GREEN",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "EMPTY_BANK",
+    "name": "Empty Bank",
+    "format": "GOLD",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "HALF-EATEN_CAVE",
+    "name": "Half-Eaten Cave",
+    "format": "GOLD",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "MURDER_HOUSE",
+    "name": "Murder House",
+    "format": "GREEN",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "LONELY_TERRACE",
+    "name": "Lonely Terrace",
+    "format": "BLUE",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "PHOTON_PATHWAY",
+    "name": "Photon Pathway",
+    "format": "AQUA",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "TAYLORS",
+    "name": "Taylor's",
+    "format": "RED",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "\"YOUR\"_ISLAND",
+    "name": "\"Your\" Island",
+    "format": "GREEN",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "WEST_VILLAGE",
+    "name": "West Village",
+    "format": "DARK_AQUA",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "CAKE_HOUSE",
+    "name": "Cake House",
+    "format": "LIGHT_PURPLE",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "DOLPHIN_TRAINER",
+    "name": "Dolphin Trainer",
+    "format": "AQUA",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "INFESTED_HOUSE",
+    "name": "Infested House",
+    "format": "GREEN",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "MIRRORVERSE",
+    "name": "Mirrorverse",
+    "format": "WHITE",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "WYLD_WOODS",
+    "name": "Wyld Woods",
+    "format": "GREEN",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "BROKEN_CAGE",
+    "name": "Broken Cage",
+    "format": "DARK_RED",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "ENIGMAS_CRIB",
+    "name": "Enigma's Crib",
+    "format": "DARK_PURPLE",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "PUMPGROTTO",
+    "name": "Pumpgrotto",
+    "format": "BLUE",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "SHIFTED_TAVERN",
+    "name": "Shifted Tavern",
+    "format": "GREEN",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "BOOK_IN_A_BOOK",
+    "name": "Book in a Book",
+    "format": "YELLOW",
+    "region": "THE_RIFT"
+  },
+  {
+    "id": "DUNGEON_HUB",
+    "name": "Dungeon Hub",
+    "format": "RED",
+    "region": "DUNGEON_HUB"
+  },
+  {
+    "id": "LIMBO",
+    "name": "Limbo",
+    "format": "AQUA",
+    "region": "PROTOTYPE_LOBBY"
+  }
+]

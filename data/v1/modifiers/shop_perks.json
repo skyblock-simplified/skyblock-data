@@ -1,0 +1,5641 @@
+[
+  {
+    "id": "CATACOMBS_BOSS_LUCK",
+    "name": "Boss Luck",
+    "description": "Increases the quality of boss rewards in %{ZONE:THE_CATACOMBS} by %{BOSS_LUCK}.",
+    "regions": [
+      "THE_CATACOMBS"
+    ],
+    "stats": [
+      {
+        "id": "BOSS_LUCK",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 1,
+          "2": 3,
+          "3": 5,
+          "4": 10
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 10000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "CATACOMBS_LOOTING",
+    "name": "Looting",
+    "description": "Increases the quality of mob loot drops in %{ZONE:THE_CATACOMBS} by %{LOOT_QUALITY}.",
+    "regions": [
+      "THE_CATACOMBS"
+    ],
+    "stats": [
+      {
+        "id": "LOOT_QUALITY",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 2000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 3000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 4000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 5000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "REVIVE_STONE",
+    "name": "Help of the Fairies",
+    "description": "Start every run in %{ZONE:THE_CATACOMBS} with an invisible %{ITEM:REVIVESTONE}.",
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 200000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "CATACOMBS_HEALTH",
+    "name": "Health Essence",
+    "description": "Increases your base %{STAT:HEALTH} in %{ZONE:THE_CATACOMBS} by %{HEALTH}.",
+    "regions": [
+      "THE_CATACOMBS"
+    ],
+    "stats": [
+      {
+        "id": "HEALTH",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 25,
+          "2": 50,
+          "3": 75,
+          "4": 100,
+          "5": 125
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 2500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 5000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 10000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 25000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "CATACOMBS_DEFENSE",
+    "name": "Defense Essence",
+    "description": "Increases your base %{STAT:DEFENSE} in %{ZONE:THE_CATACOMBS} by %{DEFENSE}.",
+    "regions": [
+      "THE_CATACOMBS"
+    ],
+    "stats": [
+      {
+        "id": "DEFENSE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 40,
+          "5": 50
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 4000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 6000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 8000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 10000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "CATACOMBS_STRENGTH",
+    "name": "Strength Essence",
+    "description": "Increases your base %{STAT:STRENGTH} in %{ZONE:THE_CATACOMBS} by %{STRENGTH}.",
+    "regions": [
+      "THE_CATACOMBS"
+    ],
+    "stats": [
+      {
+        "id": "STRENGTH",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 40,
+          "5": 50
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 4000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 6000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 8000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 10000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "CATACOMBS_INTELLIGENCE",
+    "name": "Intelligence Essence",
+    "description": "Increases your base %{STAT:INTELLIGENCE} in %{ZONE:THE_CATACOMBS} by %{INTELLIGENCE}.",
+    "regions": [
+      "THE_CATACOMBS"
+    ],
+    "stats": [
+      {
+        "id": "INTELLIGENCE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 15,
+          "2": 30,
+          "3": 45,
+          "4": 60,
+          "5": 75
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 4000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 6000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 8000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 10000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "CATACOMBS_CRIT_DAMAGE",
+    "name": "Critical Essence",
+    "description": "Increases your base %{STAT:CRIT_DAMAGE} in %{ZONE:THE_CATACOMBS} by %{CRIT_DAMAGE}.",
+    "regions": [
+      "THE_CATACOMBS"
+    ],
+    "stats": [
+      {
+        "id": "CRIT_DAMAGE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 40,
+          "5": 50
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 3000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 10000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 20000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 50000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "PERMANENT_HEALTH",
+    "name": "Forbidden Health",
+    "description": "Increases your %{STAT:HEALTH} by %{HEALTH}",
+    "stats": [
+      {
+        "id": "HEALTH",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 250
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1500
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "PERMANENT_DEFENSE",
+    "name": "Forbidden Defense",
+    "description": "Increases your %{STAT:DEFENSE} by %{DEFENSE}",
+    "stats": [
+      {
+        "id": "DEFENSE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 250
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1500
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "PERMANENT_SPEED",
+    "name": "Forbidden Speed",
+    "description": "Increases your %{STAT:WALK_SPEED} by %{WALK_SPEED}",
+    "stats": [
+      {
+        "id": "WALK_SPEED",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 1,
+          "2": 2
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 250
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "PERMANENT_INTELLIGENCE",
+    "name": "Forbidden Intelligence",
+    "description": "Increases your %{STAT:INTELLIGENCE} by %{INTELLIGENCE}",
+    "stats": [
+      {
+        "id": "INTELLIGENCE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 250
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1500
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "PERMANENT_STRENGTH",
+    "name": "Forbidden Strength",
+    "description": "Increases your %{STAT:STRENGTH} by %{STRENGTH}",
+    "stats": [
+      {
+        "id": "STRENGTH",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 250
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1500
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "FORBIDDEN_BLESSING",
+    "name": "Forbidden Blessing",
+    "description": "Blessing are %{BLESSING_EFFECTIVENESS} more effective on you.",
+    "stats": [
+      {
+        "id": "BLESSING_EFFECTIVENESS",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6,
+          "7": 7,
+          "8": 8,
+          "9": 9,
+          "10": 10
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 200
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 400
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 600
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 800
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 6,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1200
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 7,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1400
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 8,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1600
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 9,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1800
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 10,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 2000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "DUNGEONBREAKER_SECRETS",
+    "name": "Echoes of the Lost",
+    "description": "Restore %{RESTORE_CHARGES} charges on your %{ITEM:DUNGEONBREAKER} after collecting a secret.",
+    "stats": [
+      {
+        "id": "RESTORE_CHARGES",
+        "precision": 0,
+        "type": "NONE",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 250
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 2000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 5000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "FLAT_DAMAGE_VS_ENDER",
+    "name": "One Punch",
+    "description": "After all other damage add %{ENDERMAN_DAMAGE} damage to the first strike against %{MOB:ENDERMAN} and %{MOB:ENDERMITE}.",
+    "stats": [
+      {
+        "id": "ENDERMAN_DAMAGE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 500,
+          "2": 1000,
+          "3": 1500,
+          "4": 2000,
+          "5": 2500
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 200
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 300
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 400
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 500
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "MANA_AFTER_ENDER_KILL",
+    "name": "Recharge",
+    "description": "Regain %{MANA_RECHARGE} %{STAT:MANA} after killing an %{MOB:ENDERMAN} or %{MOB:ENDERMITE}.",
+    "stats": [
+      {
+        "id": "MANA_RECHARGE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10,
+          "6": 12,
+          "7": 14,
+          "8": 16,
+          "9": 18,
+          "10": 20
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 6,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 7,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 8,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 9,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 10,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "FERO_VS_DRAGONS",
+    "name": "Rageborn",
+    "description": "Gain %{DRAGON_FEROCITY} %{STAT:FEROCITY} against %{MOB:DRAGON}.",
+    "stats": [
+      {
+        "id": "DRAGON_FEROCITY",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 125
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 250
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1500
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "INC_ZEALOTS_ODDS",
+    "name": "Zealuck",
+    "description": "Increases the chance to find a special Zealot by %{SPECIAL_ZEALOT_CHANCE}.",
+    "stats": [
+      {
+        "id": "SPECIAL_ZEALOT_CHANCE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 150
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1250
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 2000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 3000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "COMBAT_WISDOM_IN_END",
+    "name": "Ender Training",
+    "description": "Gain %{COMBAT_WISDOM} %{STAT:COMBAT_WISDOM} while in %{ZONE:THE_END}.",
+    "regions": [
+      "THE_END"
+    ],
+    "stats": [
+      {
+        "id": "COMBAT_WISDOM",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 3,
+          "2": 5,
+          "3": 7
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 250
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1250
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 5000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "EDRAG_CD",
+    "name": "Infused Dragon",
+    "description": "Increases the %{STAT:CRIT_DAMAGE} of your Ender Dragon Pet by %{EDRAG_CRIT_DAMAGE}.",
+    "stats": [
+      {
+        "id": "EDRAG_CRIT_DAMAGE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 2500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 3500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 4500
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "UNBRIDLED_RAGE",
+    "name": "Unbridled Rage",
+    "description": "Increases Berserk class experience gain by %{BERS_EXP_GAIN}.",
+    "stats": [
+      {
+        "id": "BERS_EXP_GAIN",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 2000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 3000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 5000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "DRAGON_REFORGES_BUFF",
+    "name": "Two-Headed Strike",
+    "description": "Renowned and Spiked Reforges apply an extra %{REFORGE_ATTACK_SPEED} %{STAT:BONUS_ATTACK_SPEED} on your gear.",
+    "stats": [
+      {
+        "id": "REFORGE_ATTACK_SPEED",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 2250
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 3250
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 4500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 6500
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "INCREASED_SUP_CHANCES",
+    "name": "Dragon Piper",
+    "description": "Gain %{SUPERIOR_SPAWN_CHANCE} chance to spawn a Superior Dragon if you placed a Summoning Eye.\n%{FORMAT:GRAY}This perk only applies once per dragon across players.",
+    "stats": [
+      {
+        "id": "SUPERIOR_SPAWN_CHANCE",
+        "precision": 0,
+        "type": "PLUS_PERCENT",
+        "values": {
+          "1": 10
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 2000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "EMPOWERED_AGILITY",
+    "name": "Empowered Agility",
+    "description": "Reduces the %{STAT:MANA} cost of some movement abilities by %{MOVEMENT_MANA_REDUCTION}.",
+    "stats": [
+      {
+        "id": "MOVEMENT_MANA_REDUCTION",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6,
+          "7": 7,
+          "8": 8,
+          "9": 9,
+          "10": 10
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 50
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 75
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 150
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 250
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 6,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 400
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 7,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 750
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 8,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 9,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1750
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 10,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 2500
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "VERMIN_CONTROL",
+    "name": "Vermin Control",
+    "description": "Receive %{SPIDER_DAMAGE_REDUCTION} less damage from Spiders.",
+    "stats": [
+      {
+        "id": "SPIDER_DAMAGE_REDUCTION",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 3,
+          "2": 6,
+          "3": 9,
+          "4": 12,
+          "5": 15
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 3000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 5000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "BANE",
+    "name": "Bane",
+    "description": "Increases damage dealt to Spiders by %{SPIDER_DAMAGE_INCREASE}.",
+    "stats": [
+      {
+        "id": "SPIDER_DAMAGE_INCREASE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 3,
+          "2": 6,
+          "3": 9,
+          "4": 12,
+          "5": 15
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 3000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 5000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "SPIDER_TRAINING",
+    "name": "Spider Training",
+    "description": "Increases your %{STAT:COMBAT_WISDOM} by %{COMBAT_WISDOM} while on the %{ZONE:SPIDERS_DEN}.",
+    "regions": [
+      "SPIDERS_DEN"
+    ],
+    "stats": [
+      {
+        "id": "COMBAT_WISDOM",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 3,
+          "2": 5,
+          "3": 10
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 250
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1250
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 5000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "TOXOPHILITE",
+    "name": "Toxophilite",
+    "description": "Increases Archer class experience gain by %{ARCHER_EXP_GAIN}.",
+    "stats": [
+      {
+        "id": "ARCHER_EXP_GAIN",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 2000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 3000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 5000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "COLD_EFFICIENCY",
+    "name": "Cold Efficiency",
+    "description": "Increases Mage class experience gain by %{MAGE_EXP_GAIN}.",
+    "stats": [
+      {
+        "id": "MAGE_EXP_GAIN",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 2000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 3000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 5000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "COOLED_FORGES",
+    "name": "Cooled Forges",
+    "description": "%{DOUBLE_ESSENCE_CHANCE} chance to get double ESSENCE when salvaging.",
+    "stats": [
+      {
+        "id": "DOUBLE_ESSENCE_CHANCE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 4,
+          "2": 8,
+          "3": 12,
+          "4": 16,
+          "5": 20
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 2000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 3000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 5000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "FROZEN_SKIN",
+    "name": "Frozen Skin",
+    "description": "Grants %{COLD_RESISTANCE} %{STAT:COLD_RESISTANCE}.",
+    "stats": [
+      {
+        "id": "COLD_RESISTANCE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 2000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 3000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 5000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "SEASON_OF_JOY",
+    "name": "Season Of Joy",
+    "description": "Gain %{BONUS_GIFT_DROPS} extra Gifts from the Gift Attack event.",
+    "stats": [
+      {
+        "id": "BONUS_GIFT_DROPS",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6,
+          "7": 7,
+          "8": 8,
+          "9": 9,
+          "10": 10
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 200
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 400
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 800
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 2100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 6,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 3000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 7,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 3000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 8,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 4000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 9,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 4000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 10,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 4000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "DRAKE_PIPER",
+    "name": "Drake Piper",
+    "description": "Increases the chance to spawn a Reindrake by %{REINDRAKE_SPAWN_CHANCE} while fishing on %{ZONE:JERRYS_WORKSHOP}.",
+    "regions": [
+      "JERRYS_WORKSHOP"
+    ],
+    "stats": [
+      {
+        "id": "REINDRAKE_SPAWN_CHANCE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 10
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 2000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "STRONGARM_KUUDRA",
+    "name": "Strongarm",
+    "description": "Your Fishing Rods pull Supplies and Fuel Cells %{PULL_DISTANCE} further during the %{KEYWORD:KUUDRA_BOSS_FIGHT}.",
+    "stats": [
+      {
+        "id": "PULL_DISTANCE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 10,
+          "2": 25
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 2000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "FRESH_TOOLS_KUUDRA",
+    "name": "Fresh Tools",
+    "description": "%{BALLISTA_SPEED_CHANCE} chance to double the speed of repairing Elle's Ballista for 10s during the %{KEYWORD:KUUDRA_BOSS_FIGHT}.",
+    "stats": [
+      {
+        "id": "BALLITA_SPEED_CHANCE",
+        "precision": 1,
+        "type": "PERCENT",
+        "values": {
+          "1": 5,
+          "2": 7.5,
+          "3": 10,
+          "4": 12.5,
+          "5": 15
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 200
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 400
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 600
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 800
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "HEADSTART_KUUDRA",
+    "name": "Headstart",
+    "description": "Start the %{KEYWORD:KUUDRA_BOSS_FIGHT} with %{STARTING_TOKENS} %{KEYWORDS:KUUDRA_TOKEN}.",
+    "stats": [
+      {
+        "id": "STARTING_TOKENS",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 40,
+          "5": 50
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 200
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 300
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 400
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 500
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "MASTER_KUUDRA",
+    "name": "Kuudra Master",
+    "description": "Deal %{MINION_DAMAGE} increased damage to %{KEYWORDS:KUUDRAS_MINION} multiplied by the highest defeated wave in that tier or higher. %{FORMAT:GRAY}Max 10%",
+    "stats": [
+      {
+        "id": "MINION_DAMAGE",
+        "precision": 1,
+        "type": "PERCENT",
+        "values": {
+          "1": 0.1
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 5000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "FUNGUS_FORTUNA",
+    "name": "Fungus Fortuna",
+    "description": "Gain %{MYCELIUM_FORTUNE} %{STAT:MINING_FORTUNE} when mining Mycelium.",
+    "stats": [
+      {
+        "id": "MYCELIUM_FORTUNE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10,
+          "6": 12,
+          "7": 14,
+          "8": 16,
+          "9": 18,
+          "10": 20
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 200
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 300
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 400
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 6,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 600
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 7,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 700
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 8,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 800
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 9,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 900
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 10,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "HARENA_FORTUNA",
+    "name": "Harena Fortuna",
+    "description": "Gain %{RED_SAND_FORTUNE} %{STAT:MINING_FORTUNE} when mining Red Sand.",
+    "stats": [
+      {
+        "id": "RED_SAND_FORTUNE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10,
+          "6": 12,
+          "7": 14,
+          "8": 16,
+          "9": 18,
+          "10": 20
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 200
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 300
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 400
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 6,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 600
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 7,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 700
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 8,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 800
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 9,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 900
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 10,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "CRIMSON_TRAINING",
+    "name": "Crimson Training",
+    "description": "Increases your %{STAT:COMBAT_WISDOM} by %{COMBAT_WISDOM} while on the %{ZONE:CRIMSON_ISLE} and in the %{KEYWORD:KUUDRA_BOSS_FIGHT}.",
+    "regions": [
+      "CRIMSON_ISLE"
+    ],
+    "stats": [
+      {
+        "id": "COMBAT_WISDOM",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 3,
+          "2": 5,
+          "3": 10
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 250
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1250
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 5000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "WITHER_PIPER",
+    "name": "Wither Piper",
+    "description": "%{VANQUISHER_SPAWN_CHANCE} increased chance to find %{MOBS:VANQUISHER} on the %{ZONE:CRIMSON_ISLE}.",
+    "regions": [
+      "CRIMSON_ISLE"
+    ],
+    "stats": [
+      {
+        "id": "VANQUISHER_SPAWN_CHANCE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 750
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1250
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 2000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 3000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "HEART_OF_GOLD",
+    "name": "Heart of Gold",
+    "description": "Increases Healer class experience gain by %{HEALER_EXP_GAIN}.",
+    "stats": [
+      {
+        "id": "HEALER_EXP_GAIN",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 2000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 3000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 5000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "TREASURE_OF_THE_EARTH",
+    "name": "Treasure of the Earth",
+    "description": "Increases your chances of spawning a %{MOB:WORM} or %{MOB:SCATHA} when mining %{ITEM:HARD_STONE} by %{WORM_SPAWN_CHANCE}.",
+    "stats": [
+      {
+        "id": "WORM_SPAWN_CHANCE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 150
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1250
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 2000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 3000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "DWARVEN_TRAINING",
+    "name": "Dwarven Training",
+    "description": "Increases your %{STAT:MINING_WISDOM} by %{MINING_WISDOM} while on %{ZONE:MINING_ISLANDS}.",
+    "zones": [
+      "GOLD_MINE",
+      "DEEP_CAVERNS",
+      "DWARVEN_MINES",
+      "CRYSTAL_HOLLOWS"
+    ],
+    "stats": [
+      {
+        "id": "MINING_WISDOM",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 3,
+          "2": 5,
+          "3": 10
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 250
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1250
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 5000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "UNBREAKING",
+    "name": "Unbreaking",
+    "description": "Increases your %{STAT:VITALITY} by %{VITALITY}.",
+    "stats": [
+      {
+        "id": "VITALITY",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 150
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1250
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 2000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 3000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "EAGER_MINER",
+    "name": "Eager Miner",
+    "description": "Increase your %{STAT:MINING_SPEED} by %{MINING_SPEED} while on %{ZONE:MINING_ISLANDS}.",
+    "regions": [
+      "GOLD_MINE",
+      "DEEP_CAVERNS",
+      "DWARVEN_MINES",
+      "CRYSTAL_HOLLOWS"
+    ],
+    "stats": [
+      {
+        "id": "MINING_SPEED",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 40,
+          "5": 50,
+          "6": 60,
+          "7": 70,
+          "8": 80,
+          "9": 90,
+          "10": 100
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 200
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 300
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 400
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 6,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 600
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 7,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 700
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 8,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 800
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 9,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 900
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 10,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "MIDAS_LURE",
+    "name": "Midas Lure",
+    "description": "Increases your chances of fishing up a %{KEYWORD:TROPHY_FISH_GOLD} in the %{ZONE:CRIMSON_ISLE} by %{TROPHY_FISH_GOLD_CHANCE}.",
+    "regions": [
+      "CRIMSON_ISLE"
+    ],
+    "stats": [
+      {
+        "id": "TROPHY_FISH_GOLD_CHANCE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10,
+          "6": 12,
+          "7": 14,
+          "8": 16,
+          "9": 18,
+          "10": 20
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 200
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 400
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 600
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 800
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 6,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1200
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 7,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1400
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 8,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1600
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 9,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1800
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 10,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 2000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "RADIANT_FISHER",
+    "name": "Radiant Fisher",
+    "description": "Increases your chances of fishing up a %{KEYWORD:TROPHY_FISH_DIAMOND} in the %{ZONE:CRIMSON_ISLE} by %{TROPHY_FISH_DIAMOND_CHANCE}.",
+    "regions": [
+      "CRIMSON_ISLE"
+    ],
+    "stats": [
+      {
+        "id": "TROPHY_FISH_DIAMOND_CHANCE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10,
+          "6": 12,
+          "7": 14,
+          "8": 16,
+          "9": 18,
+          "10": 20
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 200
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 400
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 600
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 800
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 6,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1200
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 7,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1400
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 8,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1600
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 9,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1800
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 10,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 2000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "DIAMOND_IN_THE_ROUGH",
+    "name": "Diamond in the Rough",
+    "description": "Increases Tank class experience gain by %{TANK_EXP_GAIN}.",
+    "stats": [
+      {
+        "id": "TANK_EXP_GAIN",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 2000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 3000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 5000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "RHINESTONE_INFUSION",
+    "name": "Rhinestone Infusion",
+    "description": "Grants %{GEMSTONE_FORTUNE} %{STAT:GEMSTONE_FORTUNE}.",
+    "stats": [
+      {
+        "id": "GEMSTONE_FORTUNE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10,
+          "6": 12,
+          "7": 14,
+          "8": 16,
+          "9": 18,
+          "10": 20
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 200
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 300
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 400
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 6,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 600
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 7,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 700
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 8,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 800
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 9,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 900
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 10,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "UNDER_PRESSURE",
+    "name": "Under Pressure",
+    "description": "Increases your %{STAT:STRENGTH} by %{STRENGTH} while on %{ZONE:MINING_ISLANDS}.",
+    "regions": [
+      "GOLD_MINE",
+      "DEEP_CAVERNS",
+      "DWARVEN_MINES",
+      "CRYSTAL_HOLLOWS"
+    ],
+    "stats": [
+      {
+        "id": "STRENGTH",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15,
+          "4": 20,
+          "5": 25
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 125
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 250
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1500
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "HIGH_ROLLER",
+    "name": "High Roller",
+    "description": "Get %{EXTRA_NUCLEUS_DROP} extra random drop when obtaining a Crystal Nucleus Bundle.",
+    "stats": [
+      {
+        "id": "EXTRA_NUCLEUS_DROP",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 1
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 5000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "RETURN_TO_SENDER",
+    "name": "Return to Sender",
+    "description": "Increases the chances of a %{KEYWORD:DIAMOND_GOBLIN} spawning by %{DIAMOND_GOBLIN_CHANCE}.",
+    "stats": [
+      {
+        "id": "DIAMOND_GOBLIN_CHANCE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 10,
+          "2": 20,
+          "3": 30,
+          "4": 40,
+          "5": 50,
+          "6": 60,
+          "7": 70,
+          "8": 80,
+          "9": 90,
+          "10": 100
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 50
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 75
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 150
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 250
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 6,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 400
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 7,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 750
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 8,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 9,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1750
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 10,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 2500
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "TRAPPED",
+    "name": "Trapped",
+    "description": "Your Traps now catch creatures by %{TRAP_SPEED} faster.",
+    "stats": [
+      {
+        "id": "TRAP_SPEED",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 200
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 300
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 400
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 500
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "AXED",
+    "name": "Axed",
+    "description": "All the stats on your axes are %{AXE_STATS} stronger.",
+    "stats": [
+      {
+        "id": "AXE_STATS",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 2
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 10000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "EXTREME_PRESSURE",
+    "name": "Extreme Pressure",
+    "description": "Increases your %{STAT:PRESSURE_RESISTANCE} by %{PRESSURE_RESISTANCE}.",
+    "stats": [
+      {
+        "id": "PRESSURE_RESISTANCE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 3,
+          "2": 6,
+          "3": 9,
+          "4": 12,
+          "5": 15,
+          "6": 18,
+          "7": 21,
+          "8": 24,
+          "9": 27,
+          "10": 30
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 200
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 300
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 400
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 6,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 600
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 7,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 700
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 8,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 800
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 9,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 900
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 10,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "LUMBERJACK",
+    "name": "Lumberjack",
+    "description": "Increases your %{STAT:FORAGING_FORTUNE} by %{FORAGING_FORTUNE}.",
+    "stats": [
+      {
+        "id": "FORAGING_FORTUNE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10,
+          "6": 12,
+          "7": 14,
+          "8": 16,
+          "9": 18,
+          "10": 20
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 125
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 250
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 6,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 2000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 7,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 2500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 8,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 3000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 9,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 3500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 10,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 4000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "TASTY",
+    "name": "Tasty",
+    "description": "Your Berry items are %{BERRY_BUFF} stronger.",
+    "stats": [
+      {
+        "id": "BERRY_BUFF",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6,
+          "4": 8,
+          "5": 10
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 125
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 250
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 500
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1000
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1500
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+  {
+    "id": "FOREST_TRAINING",
+    "name": "Forest Training",
+    "description": "Increases your %{STAT:FORAGING_WISDOM} by %{FORAGING_WISDOM} while on the %{ZONE:FORAGING_ISLANDS}.",
+    "regions": [
+      "GALATEA"
+    ],
+    "stats": [
+      {
+        "id": "FORAGING_WISDOM",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 250
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 1250
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 5000
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "BLESSING_OF_TIME",
+    "name": "Blessing of Time",
+    "description": "Gain the following stats:\n\nRift stats:\n %{WALK_SPEED} %{STAT:WALK_SPEED}\n%{RIFT_TIME} %{STAT:RIFT_TIME}\n%{RIFT_MANA_REGEN} %{STAT:RIFT_MANA_REGEN}\n\nOverworld stats:\n%{STRENGTH} %{STAT:STRENGTH}\n%{DEFENSE} %{STAT:DEFENSE}\n%{HEALTH} %{STAT:HEALTH}\n%{INTELLIGENCE} %{STAT:INTELLIGENCE}",
+    "stats": [
+      {
+        "id": "WALK_SPEED",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3
+        }
+      },
+      {
+        "id": "RIFT_TIME",
+        "precision": 0,
+        "type": "SECONDS",
+        "values": {
+          "1": 30,
+          "2": 60,
+          "3": 90
+        }
+      },
+      {
+        "id": "RIFT_MANA_REGEN",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3
+        }
+      },
+      {
+        "id": "STRENGTH",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6
+        }
+      },
+      {
+        "id": "DEFENSE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 2,
+          "2": 4,
+          "3": 6
+        }
+      },
+      {
+        "id": "HEALTH",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 5,
+          "2": 10,
+          "3": 15
+        }
+      },
+      {
+        "id": "INTELLIGENCE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 5
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 50
+          },
+          "items": {}
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {
+            "ESSENCE": 100
+          },
+          "items": {}
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "AGATHA_POWER",
+    "name": "Agatha's Power",
+    "description": "Grants %{SWEEP} %{STAT:SWEEP}.",
+    "stats": [
+      {
+        "id": "SWEEP",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 20
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 30
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 40
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 50
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 60
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "AGATHA_FIG_FORTUNE",
+    "name": "Fig Fortune",
+    "description": "Grants %{FIG_FORTUNE} %{STAT:FIG_FORTUNE}.",
+    "stats": [
+      {
+        "id": "FIG_FORTUNE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 4,
+          "2": 8,
+          "3": 12,
+          "4": 16,
+          "5": 20,
+          "6": 24,
+          "7": 28,
+          "8": 32,
+          "9": 36,
+          "10": 40,
+          "11": 44,
+          "12": 48,
+          "13": 52,
+          "14": 56,
+          "15": 60,
+          "16": 64,
+          "17": 68,
+          "18": 72,
+          "19": 76,
+          "20": 80,
+          "21": 84,
+          "22": 88,
+          "23": 92,
+          "24": 96,
+          "25": 100,
+          "26": 104,
+          "27": 108,
+          "28": 112,
+          "29": 116,
+          "30": 120,
+          "31": 124,
+          "32": 128,
+          "33": 132,
+          "34": 136,
+          "35": 140,
+          "36": 144,
+          "37": 148,
+          "38": 152,
+          "39": 156,
+          "40": 160,
+          "41": 164,
+          "42": 168,
+          "43": 172,
+          "44": 176,
+          "45": 180,
+          "46": 184,
+          "47": 188,
+          "48": 192,
+          "49": 196,
+          "50": 200
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 5,
+            "ENCHANTED_FIG_LOG": 2
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 10,
+            "ENCHANTED_FIG_LOG": 4
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 15,
+            "ENCHANTED_FIG_LOG": 8
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 20,
+            "ENCHANTED_FIG_LOG": 12
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 25,
+            "ENCHANTED_FIG_LOG": 16
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 30,
+            "ENCHANTED_FIG_LOG": 24
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 35,
+            "ENCHANTED_FIG_LOG": 32
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 40,
+            "ENCHANTED_FIG_LOG": 40
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 45,
+            "ENCHANTED_FIG_LOG": 56
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 50,
+            "ENCHANTED_FIG_LOG": 72
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 55,
+            "ENCHANTED_FIG_LOG": 88
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 60,
+            "ENCHANTED_FIG_LOG": 112
+          }
+        }
+      },
+      {
+        "tier": 13,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 65,
+            "ENCHANTED_FIG_LOG": 136
+          }
+        }
+      },
+      {
+        "tier": 14,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 70,
+            "ENCHANTED_FIG_LOG": 160
+          }
+        }
+      },
+      {
+        "tier": 15,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 75,
+            "ENCHANTED_FIG_LOG": 192
+          }
+        }
+      },
+      {
+        "tier": 16,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 80,
+            "ENCHANTED_FIG_LOG": 224
+          }
+        }
+      },
+      {
+        "tier": 17,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 85,
+            "ENCHANTED_FIG_LOG": 272
+          }
+        }
+      },
+      {
+        "tier": 18,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 90,
+            "ENCHANTED_FIG_LOG": 320
+          }
+        }
+      },
+      {
+        "tier": 19,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 95,
+            "ENCHANTED_FIG_LOG": 400
+          }
+        }
+      },
+      {
+        "tier": 20,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 100,
+            "FIGSTONE": 3
+          }
+        }
+      },
+      {
+        "tier": 21,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 105,
+            "FIGSTONE": 4
+          }
+        }
+      },
+      {
+        "tier": 22,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 110,
+            "FIGSTONE": 5
+          }
+        }
+      },
+      {
+        "tier": 23,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 115,
+            "FIGSTONE": 6
+          }
+        }
+      },
+      {
+        "tier": 24,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 120,
+            "FIGSTONE": 8
+          }
+        }
+      },
+      {
+        "tier": 25,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "FIGSTONE": 10
+          }
+        }
+      },
+      {
+        "tier": 26,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "FIGSTONE": 10
+          }
+        }
+      },
+      {
+        "tier": 27,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "FIGSTONE": 10
+          }
+        }
+      },
+      {
+        "tier": 28,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "FIGSTONE": 10
+          }
+        }
+      },
+      {
+        "tier": 29,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "FIGSTONE": 10
+          }
+        }
+      },
+      {
+        "tier": 30,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "FIGSTONE": 10
+          }
+        }
+      },
+      {
+        "tier": 31,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "FIGSTONE": 10
+          }
+        }
+      },
+      {
+        "tier": 32,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "FIGSTONE": 10
+          }
+        }
+      },
+      {
+        "tier": 33,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "FIGSTONE": 10
+          }
+        }
+      },
+      {
+        "tier": 34,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "FIGSTONE": 10
+          }
+        }
+      },
+      {
+        "tier": 35,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "FIGSTONE": 10
+          }
+        }
+      },
+      {
+        "tier": 36,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "FIGSTONE": 10
+          }
+        }
+      },
+      {
+        "tier": 37,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "FIGSTONE": 10
+          }
+        }
+      },
+      {
+        "tier": 38,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "FIGSTONE": 10
+          }
+        }
+      },
+      {
+        "tier": 39,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "FIGSTONE": 10
+          }
+        }
+      },
+      {
+        "tier": 40,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "FIGSTONE": 10
+          }
+        }
+      },
+      {
+        "tier": 41,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "FIGSTONE": 10,
+            "STARLYN_PRIZE": 1
+          }
+        }
+      },
+      {
+        "tier": 42,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "FIGSTONE": 10,
+            "STARLYN_PRIZE": 1
+          }
+        }
+      },
+      {
+        "tier": 43,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "FIGSTONE": 10,
+            "STARLYN_PRIZE": 1
+          }
+        }
+      },
+      {
+        "tier": 44,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "FIGSTONE": 10,
+            "STARLYN_PRIZE": 1
+          }
+        }
+      },
+      {
+        "tier": 45,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "FIGSTONE": 10,
+            "STARLYN_PRIZE": 1
+          }
+        }
+      },
+      {
+        "tier": 46,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "FIGSTONE": 10,
+            "STARLYN_PRIZE": 1
+          }
+        }
+      },
+      {
+        "tier": 47,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "FIGSTONE": 10,
+            "STARLYN_PRIZE": 1
+          }
+        }
+      },
+      {
+        "tier": 48,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "FIGSTONE": 10,
+            "STARLYN_PRIZE": 1
+          }
+        }
+      },
+      {
+        "tier": 49,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "FIGSTONE": 10,
+            "STARLYN_PRIZE": 1
+          }
+        }
+      },
+      {
+        "tier": 50,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "FIGSTONE": 10,
+            "STARLYN_PRIZE": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "AGATHA_FIG_PERSONAL_BEST",
+    "name": "Fig Personal Best",
+    "description": "You gain %{SWEEP_SCALAR} %{STAT:SWEEP} for every\n100 Extra Fig Collection\nduring her contest.\n%{FORMAT:DARK_GRAY}(Max 100k collection).",
+    "stats": [
+      {
+        "id": "SWEEP_SCALAR",
+        "precision": 2,
+        "type": "PERCENT",
+        "values": {
+          "1": 0.01
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 12
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "AGATHA_MANGROVE_FORTUNE",
+    "name": "Mangrove Fortune",
+    "description": "Grants %{MANGROVE_FORTUNE} %{STAT:MANGROVE_FORTUNE}.",
+    "stats": [
+      {
+        "id": "MANGROVE_FORTUNE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 4,
+          "2": 8,
+          "3": 12,
+          "4": 16,
+          "5": 20,
+          "6": 24,
+          "7": 28,
+          "8": 32,
+          "9": 36,
+          "10": 40,
+          "11": 44,
+          "12": 48,
+          "13": 52,
+          "14": 56,
+          "15": 60,
+          "16": 64,
+          "17": 68,
+          "18": 72,
+          "19": 76,
+          "20": 80,
+          "21": 84,
+          "22": 88,
+          "23": 92,
+          "24": 96,
+          "25": 100,
+          "26": 104,
+          "27": 108,
+          "28": 112,
+          "29": 116,
+          "30": 120,
+          "31": 124,
+          "32": 128,
+          "33": 132,
+          "34": 136,
+          "35": 140,
+          "36": 144,
+          "37": 148,
+          "38": 152,
+          "39": 156,
+          "40": 160,
+          "41": 164,
+          "42": 168,
+          "43": 172,
+          "44": 176,
+          "45": 180,
+          "46": 184,
+          "47": 188,
+          "48": 192,
+          "49": 196,
+          "50": 200
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 5,
+            "ENCHANTED_MANGROVE_LOG": 2
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 10,
+            "ENCHANTED_MANGROVE_LOG": 4
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 15,
+            "ENCHANTED_MANGROVE_LOG": 8
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 20,
+            "ENCHANTED_MANGROVE_LOG": 12
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 25,
+            "ENCHANTED_MANGROVE_LOG": 16
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 30,
+            "ENCHANTED_MANGROVE_LOG": 24
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 35,
+            "ENCHANTED_MANGROVE_LOG": 32
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 40,
+            "ENCHANTED_MANGROVE_LOG": 40
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 45,
+            "ENCHANTED_MANGROVE_LOG": 56
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 50,
+            "ENCHANTED_MANGROVE_LOG": 72
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 55,
+            "ENCHANTED_MANGROVE_LOG": 88
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 60,
+            "ENCHANTED_MANGROVE_LOG": 112
+          }
+        }
+      },
+      {
+        "tier": 13,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 65,
+            "ENCHANTED_MANGROVE_LOG": 136
+          }
+        }
+      },
+      {
+        "tier": 14,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 70,
+            "ENCHANTED_MANGROVE_LOG": 160
+          }
+        }
+      },
+      {
+        "tier": 15,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 75,
+            "ENCHANTED_MANGROVE_LOG": 192
+          }
+        }
+      },
+      {
+        "tier": 16,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 80,
+            "ENCHANTED_MANGROVE_LOG": 224
+          }
+        }
+      },
+      {
+        "tier": 17,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 85,
+            "ENCHANTED_MANGROVE_LOG": 272
+          }
+        }
+      },
+      {
+        "tier": 18,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 90,
+            "ENCHANTED_MANGROVE_LOG": 320
+          }
+        }
+      },
+      {
+        "tier": 19,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 95,
+            "ENCHANTED_MANGROVE_LOG": 400
+          }
+        }
+      },
+      {
+        "tier": 20,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 100,
+            "MANGCORE": 3
+          }
+        }
+      },
+      {
+        "tier": 21,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 105,
+            "MANGCORE": 4
+          }
+        }
+      },
+      {
+        "tier": 22,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 110,
+            "MANGCORE": 5
+          }
+        }
+      },
+      {
+        "tier": 23,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 115,
+            "MANGCORE": 6
+          }
+        }
+      },
+      {
+        "tier": 24,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 120,
+            "MANGCORE": 8
+          }
+        }
+      },
+      {
+        "tier": 25,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "MANGCORE": 10
+          }
+        }
+      },
+      {
+        "tier": 26,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "MANGCORE": 10
+          }
+        }
+      },
+      {
+        "tier": 27,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "MANGCORE": 10
+          }
+        }
+      },
+      {
+        "tier": 28,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "MANGCORE": 10
+          }
+        }
+      },
+      {
+        "tier": 29,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "MANGCORE": 10
+          }
+        }
+      },
+      {
+        "tier": 30,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "MANGCORE": 10
+          }
+        }
+      },
+      {
+        "tier": 31,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "MANGCORE": 10
+          }
+        }
+      },
+      {
+        "tier": 32,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "MANGCORE": 10
+          }
+        }
+      },
+      {
+        "tier": 33,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "MANGCORE": 10
+          }
+        }
+      },
+      {
+        "tier": 34,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "MANGCORE": 10
+          }
+        }
+      },
+      {
+        "tier": 35,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "MANGCORE": 10
+          }
+        }
+      },
+      {
+        "tier": 36,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "MANGCORE": 10
+          }
+        }
+      },
+      {
+        "tier": 37,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "MANGCORE": 10
+          }
+        }
+      },
+      {
+        "tier": 38,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "MANGCORE": 10
+          }
+        }
+      },
+      {
+        "tier": 39,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "MANGCORE": 10
+          }
+        }
+      },
+      {
+        "tier": 40,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "MANGCORE": 10
+          }
+        }
+      },
+      {
+        "tier": 41,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "MANGCORE": 10,
+            "STARLYN_PRIZE": 1
+          }
+        }
+      },
+      {
+        "tier": 42,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "MANGCORE": 10,
+            "STARLYN_PRIZE": 1
+          }
+        }
+      },
+      {
+        "tier": 43,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "MANGCORE": 10,
+            "STARLYN_PRIZE": 1
+          }
+        }
+      },
+      {
+        "tier": 44,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "MANGCORE": 10,
+            "STARLYN_PRIZE": 1
+          }
+        }
+      },
+      {
+        "tier": 45,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "MANGCORE": 10,
+            "STARLYN_PRIZE": 1
+          }
+        }
+      },
+      {
+        "tier": 46,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "MANGCORE": 10,
+            "STARLYN_PRIZE": 1
+          }
+        }
+      },
+      {
+        "tier": 47,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "MANGCORE": 10,
+            "STARLYN_PRIZE": 1
+          }
+        }
+      },
+      {
+        "tier": 48,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "MANGCORE": 10,
+            "STARLYN_PRIZE": 1
+          }
+        }
+      },
+      {
+        "tier": 49,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "MANGCORE": 10,
+            "STARLYN_PRIZE": 1
+          }
+        }
+      },
+      {
+        "tier": 50,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 125,
+            "MANGCORE": 10,
+            "STARLYN_PRIZE": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "AGATHA_MANGROVE_PERSONAL_BEST",
+    "name": "Mangrove Personal Best",
+    "description": "You gain %{SWEEP_SCALAR} %{STAT:SWEEP} for every\n100 Extra Mangrove Collection\nduring her contest.\n%{FORMAT:DARK_GRAY}(Max 100k collection).",
+    "stats": [
+      {
+        "id": "SWEEP_SCALAR",
+        "precision": 2,
+        "type": "PERCENT",
+        "values": {
+          "1": 0.01
+        }
+      }
+    ],
+    "unlocks": [
+      {
+        "tier": 1,
+        "cost": {
+          "currencies": {},
+          "items": {
+            "AGATHA_COUPON": 24
+          }
+        }
+      }
+    ]
+  }
+]

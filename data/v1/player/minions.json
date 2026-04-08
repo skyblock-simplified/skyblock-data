@@ -1,0 +1,8199 @@
+[
+  {
+    "id": "BLAZE",
+    "name": "Blaze",
+    "collection": "COMBAT",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 33,
+        "item": "BLAZE_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_SWORD": 1,
+            "BLAZE_ROD": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 33,
+        "item": "BLAZE_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "BLAZE_ROD": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 31,
+        "item": "BLAZE_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "BLAZE_ROD": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 31,
+        "item": "BLAZE_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "BLAZE_ROD": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 28.5,
+        "item": "BLAZE_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_BLAZE_POWDER": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 28.5,
+        "item": "BLAZE_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_BLAZE_POWDER": 24
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 25,
+        "item": "BLAZE_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_BLAZE_POWDER": 64
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 25,
+        "item": "BLAZE_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_BLAZE_POWDER": 128
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 21,
+        "item": "BLAZE_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_BLAZE_POWDER": 256
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 21,
+        "item": "BLAZE_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_BLAZE_POWDER": 512
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 16.5,
+        "item": "BLAZE_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_BLAZE_ROD": 8
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 15,
+        "item": "BLAZE_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 0.0,
+            "PELTS": 0,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "ENCHANTED_BLAZE_ROD": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "CAVESPIDER",
+    "name": "Cave Spider",
+    "collection": "COMBAT",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 26,
+        "item": "CAVESPIDER_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_SWORD": 1,
+            "SPIDER_EYE": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 26,
+        "item": "CAVESPIDER_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SPIDER_EYE": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 24,
+        "item": "CAVESPIDER_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SPIDER_EYE": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 24,
+        "item": "CAVESPIDER_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SPIDER_EYE": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 22,
+        "item": "CAVESPIDER_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SPIDER_EYE": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 22,
+        "item": "CAVESPIDER_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SPIDER_EYE": 24
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 20,
+        "item": "CAVESPIDER_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SPIDER_EYE": 64
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 20,
+        "item": "CAVESPIDER_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SPIDER_EYE": 128
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 17,
+        "item": "CAVESPIDER_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SPIDER_EYE": 256
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 17,
+        "item": "CAVESPIDER_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SPIDER_EYE": 512
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 13,
+        "item": "CAVESPIDER_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_FERMENTED_SPIDER_EYE": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "CREEPER",
+    "name": "Creeper",
+    "collection": "COMBAT",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 27,
+        "item": "CREEPER_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_SWORD": 1,
+            "SULPHUR": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 27,
+        "item": "CREEPER_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SULPHUR": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 25,
+        "item": "CREEPER_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SULPHUR": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 25,
+        "item": "CREEPER_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SULPHUR": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 23,
+        "item": "CREEPER_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_GUNPOWDER": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 23,
+        "item": "CREEPER_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_GUNPOWDER": 24
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 21,
+        "item": "CREEPER_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_GUNPOWDER": 64
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 21,
+        "item": "CREEPER_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_GUNPOWDER": 128
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 18,
+        "item": "CREEPER_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_GUNPOWDER": 256
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 18,
+        "item": "CREEPER_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_GUNPOWDER": 512
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 14,
+        "item": "CREEPER_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_FIREWORK_ROCKET": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ENDERMAN",
+    "name": "Enderman",
+    "collection": "COMBAT",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 32,
+        "item": "ENDERMAN_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_SWORD": 1,
+            "ENDER_PEARL": 64
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 32,
+        "item": "ENDERMAN_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENDER_PEARL": 128
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 30,
+        "item": "ENDERMAN_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ENDER_PEARL": 8
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 30,
+        "item": "ENDERMAN_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ENDER_PEARL": 24
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 28,
+        "item": "ENDERMAN_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ENDER_PEARL": 48
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 28,
+        "item": "ENDERMAN_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ENDER_PEARL": 96
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 25,
+        "item": "ENDERMAN_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_EYE_OF_ENDER": 8
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 25,
+        "item": "ENDERMAN_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_EYE_OF_ENDER": 24
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 22,
+        "item": "ENDERMAN_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_EYE_OF_ENDER": 48
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 22,
+        "item": "ENDERMAN_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_EYE_OF_ENDER": 96
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 18,
+        "item": "ENDERMAN_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_EYE_OF_ENDER": 192
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "GHAST",
+    "name": "Ghast",
+    "collection": "COMBAT",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 50,
+        "item": "GHAST_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_SWORD": 1,
+            "GHAST_TEAR": 64
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 50,
+        "item": "GHAST_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "GHAST_TEAR": 128
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 47,
+        "item": "GHAST_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "GHAST_TEAR": 256
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 47,
+        "item": "GHAST_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "GHAST_TEAR": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 44,
+        "item": "GHAST_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_GHAST_TEAR": 256
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 44,
+        "item": "GHAST_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_GHAST_TEAR": 512
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 41,
+        "item": "GHAST_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SILVER_FANG": 32
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 41,
+        "item": "GHAST_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SILVER_FANG": 64
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 38,
+        "item": "GHAST_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SILVER_FANG": 128
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 38,
+        "item": "GHAST_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SILVER_FANG": 256
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 32,
+        "item": "GHAST_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SILVER_FANG": 512
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 30,
+        "item": "GHAST_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SILVER_FANG": 1024
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "INFERNO",
+    "name": "Inferno",
+    "collection": "COMBAT",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 1013,
+        "item": "INFERNO_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "BLAZE_GENERATOR_1": 1,
+            "DERELICT_ASHE": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 982,
+        "item": "INFERNO_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "DERELICT_ASHE": 320
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 950,
+        "item": "INFERNO_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "MOLTEN_POWDER": 8
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 919,
+        "item": "INFERNO_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "MOLTEN_POWDER": 16
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 886,
+        "item": "INFERNO_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "MOLTEN_POWDER": 32
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 855,
+        "item": "INFERNO_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "MOLTEN_POWDER": 64
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 823,
+        "item": "INFERNO_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "MOLTEN_POWDER": 128
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 792,
+        "item": "INFERNO_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "MOLTEN_POWDER": 256
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 760,
+        "item": "INFERNO_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "MOLTEN_POWDER": 256,
+            "INFERNO_VERTEX": 16
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 728,
+        "item": "INFERNO_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "MOLTEN_POWDER": 256,
+            "INFERNO_VERTEX": 48
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 697,
+        "item": "INFERNO_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "MOLTEN_POWDER": 256,
+            "INFERNO_VERTEX": 48,
+            "INFERNO_APEX": 1,
+            "INFERNO_GENERATOR_8": 1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "MAGMA_CUBE",
+    "name": "Magma Cube",
+    "collection": "COMBAT",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 32,
+        "item": "MAGMA_CUBE_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_SWORD": 1,
+            "MAGMA_CREAM": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 32,
+        "item": "MAGMA_CUBE_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "MAGMA_CREAM": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 30,
+        "item": "MAGMA_CUBE_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "MAGMA_CREAM": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 30,
+        "item": "MAGMA_CUBE_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "MAGMA_CREAM": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 28,
+        "item": "MAGMA_CUBE_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MAGMA_CREAM": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 28,
+        "item": "MAGMA_CUBE_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MAGMA_CREAM": 16
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 25,
+        "item": "MAGMA_CUBE_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MAGMA_CREAM": 32
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 25,
+        "item": "MAGMA_CUBE_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MAGMA_CREAM": 64
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 22,
+        "item": "MAGMA_CUBE_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MAGMA_CREAM": 128
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 22,
+        "item": "MAGMA_CUBE_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MAGMA_CREAM": 256
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 18,
+        "item": "MAGMA_CUBE_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MAGMA_CREAM": 512
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 16,
+        "item": "MAGMA_CUBE_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MAGMA_CREAM": 1024
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "REVENANT",
+    "name": "Revenant",
+    "collection": "COMBAT",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 29,
+        "item": "REVENANT_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ROTTEN_FLESH": 256,
+            "ENCHANTED_DIAMOND": 256,
+            "REVENANT_FLESH": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 29,
+        "item": "REVENANT_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ZOMBIE_GENERATOR_1": 1,
+            "REVENANT_FLESH": 140
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 26,
+        "item": "REVENANT_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ZOMBIE_GENERATOR_2": 1,
+            "REVENANT_FLESH": 280
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 26,
+        "item": "REVENANT_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ZOMBIE_GENERATOR_3": 1,
+            "REVENANT_FLESH": 448
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 23,
+        "item": "REVENANT_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ZOMBIE_GENERATOR_4": 1,
+            "REVENANT_VISCERA": 7
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 23,
+        "item": "REVENANT_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ZOMBIE_GENERATOR_5": 1,
+            "REVENANT_VISCERA": 14
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 19,
+        "item": "REVENANT_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ZOMBIE_GENERATOR_6": 1,
+            "REVENANT_VISCERA": 28
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 19,
+        "item": "REVENANT_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ZOMBIE_GENERATOR_7": 1,
+            "REVENANT_VISCERA": 56
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 14.5,
+        "item": "REVENANT_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ZOMBIE_GENERATOR_8": 1,
+            "REVENANT_VISCERA": 112
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 14.5,
+        "item": "REVENANT_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ZOMBIE_GENERATOR_9": 1,
+            "REVENANT_VISCERA": 224
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 10,
+        "item": "REVENANT_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ZOMBIE_GENERATOR_10": 1,
+            "REVENANT_VISCERA": 448
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 8,
+        "item": "REVENANT_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 2000000,
+            "PELTS": 0,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "REVENANT_VISCERA": 64
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "SKELETON",
+    "name": "Skeleton",
+    "collection": "COMBAT",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 26,
+        "item": "SKELETON_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_SWORD": 1,
+            "BONE": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 26,
+        "item": "SKELETON_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "BONE": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 24,
+        "item": "SKELETON_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "BONE": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 24,
+        "item": "SKELETON_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "BONE": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 22,
+        "item": "SKELETON_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_BONE": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 22,
+        "item": "SKELETON_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_BONE": 16
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 20,
+        "item": "SKELETON_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_BONE": 32
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 20,
+        "item": "SKELETON_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_BONE": 64
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 17,
+        "item": "SKELETON_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_BONE": 128
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 17,
+        "item": "SKELETON_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_BONE": 256
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 13,
+        "item": "SKELETON_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_BONE": 512
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "SLIME",
+    "name": "Slime",
+    "collection": "COMBAT",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 26,
+        "item": "SLIME_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_SWORD": 1,
+            "SLIME_BALL": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 26,
+        "item": "SLIME_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SLIME_BALL": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 24,
+        "item": "SLIME_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SLIME_BALL": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 24,
+        "item": "SLIME_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SLIME_BALL": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 22,
+        "item": "SLIME_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SLIME_BALL": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 22,
+        "item": "SLIME_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SLIME_BALL": 24
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 19,
+        "item": "SLIME_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SLIME_BALL": 64
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 19,
+        "item": "SLIME_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SLIME_BALL": 128
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 16,
+        "item": "SLIME_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SLIME_BALL": 256
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 16,
+        "item": "SLIME_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SLIME_BALL": 512
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 12,
+        "item": "SLIME_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SLIME_BLOCK": 8
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "SPIDER",
+    "name": "Spider",
+    "collection": "COMBAT",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 26,
+        "item": "SPIDER_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_SWORD": 1,
+            "STRING": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 26,
+        "item": "SPIDER_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "STRING": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 24,
+        "item": "SPIDER_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "STRING": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 24,
+        "item": "SPIDER_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "STRING": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 22,
+        "item": "SPIDER_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_STRING": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 22,
+        "item": "SPIDER_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_STRING": 16
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 20,
+        "item": "SPIDER_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_STRING": 32
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 20,
+        "item": "SPIDER_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_STRING": 64
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 17,
+        "item": "SPIDER_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_STRING": 128
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 17,
+        "item": "SPIDER_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_STRING": 256
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 13,
+        "item": "SPIDER_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_STRING": 512
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "TARANTULA",
+    "name": "Tarantula",
+    "collection": "COMBAT",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 29,
+        "item": "TARANTULA_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_FERMENTED_SPIDER_EYE": 1,
+            "TARANTULA_WEB": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 29,
+        "item": "TARANTULA_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SPIDER_GENERATOR_1": 1,
+            "TARANTULA_WEB": 140
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 26,
+        "item": "TARANTULA_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SPIDER_GENERATOR_2": 1,
+            "TARANTULA_WEB": 280
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 26,
+        "item": "TARANTULA_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SPIDER_GENERATOR_3": 1,
+            "TARANTULA_WEB": 448
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 23,
+        "item": "TARANTULA_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SPIDER_GENERATOR_4": 1,
+            "TARANTULA_WEB": 7
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 23,
+        "item": "TARANTULA_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SPIDER_GENERATOR_5": 1,
+            "TARANTULA_WEB": 14
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 19,
+        "item": "TARANTULA_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SPIDER_GENERATOR_6": 1,
+            "TARANTULA_WEB": 28
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 19,
+        "item": "TARANTULA_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SPIDER_GENERATOR_7": 1,
+            "TARANTULA_WEB": 56
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 14.5,
+        "item": "TARANTULA_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SPIDER_GENERATOR_8": 1,
+            "TARANTULA_WEB": 112
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 14.5,
+        "item": "TARANTULA_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SPIDER_GENERATOR_9": 1,
+            "TARANTULA_WEB": 224
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 10,
+        "item": "TARANTULA_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SPIDER_GENERATOR_10": 1,
+            "TARANTULA_WEB": 448
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 8,
+        "item": "TARANTULA_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 2000000,
+            "PELTS": 0,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "TARANTULA_SILK": 64
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "VAMPIRE",
+    "name": "Vampire",
+    "collection": "COMBAT",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 190,
+        "item": "VAMPIRE_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "BAT_PERSON_HELMET": 1,
+            "HEMOVIBE": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 190,
+        "item": "VAMPIRE_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "HEMOVIBE": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 175,
+        "item": "VAMPIRE_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "HEMOVIBE": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 175,
+        "item": "VAMPIRE_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "HEMOVIBE": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 160,
+        "item": "VAMPIRE_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "HEMOGLASS": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 160,
+        "item": "VAMPIRE_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "HEMOGLASS": 16
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 140,
+        "item": "VAMPIRE_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "HEMOGLASS": 32
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 140,
+        "item": "VAMPIRE_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "HEMOGLASS": 64
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 117,
+        "item": "VAMPIRE_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "HEMOGLASS": 128
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 117,
+        "item": "VAMPIRE_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "HEMOGLASS": 256
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 95,
+        "item": "VAMPIRE_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "HEMOGLASS": 512
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "VOIDLING",
+    "name": "Voidling",
+    "collection": "COMBAT",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 45,
+        "item": "VOIDLING_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENDERMAN_GENERATOR_1": 1,
+            "NULL_SPHERE": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 45,
+        "item": "VOIDLING_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "OBSIDIAN_GENERATOR_1": 1,
+            "NULL_SPHERE": 140
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 42,
+        "item": "VOIDLING_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENDERMAN_GENERATOR_2": 1,
+            "NULL_SPHERE": 280
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 42,
+        "item": "VOIDLING_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "OBSIDIAN_GENERATOR_3": 1,
+            "NULL_SPHERE": 448
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 39,
+        "item": "VOIDLING_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENDERMAN_GENERATOR_4": 1,
+            "NULL_OVOID": 7
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 39,
+        "item": "VOIDLING_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "OBSIDIAN_GENERATOR_5": 1,
+            "NULL_OVOID": 14
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 35,
+        "item": "VOIDLING_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENDERMAN_GENERATOR_6": 1,
+            "NULL_OVOID": 28
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 35,
+        "item": "VOIDLING_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "OBSIDIAN_GENERATOR_7": 1,
+            "NULL_OVOID": 56
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 30,
+        "item": "VOIDLING_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENDERMAN_GENERATOR_8": 1,
+            "NULL_OVOID": 112
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 30,
+        "item": "VOIDLING_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "OBSIDIAN_GENERATOR_9": 1,
+            "NULL_OVOID": 224
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 24,
+        "item": "VOIDLING_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENDERMAN_GENERATOR_10": 1,
+            "NULL_OVOID": 448
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ZOMBIE",
+    "name": "Zombie",
+    "collection": "COMBAT",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 26,
+        "item": "ZOMBIE_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_SWORD": 1,
+            "ROTTEN_FLESH": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 26,
+        "item": "ZOMBIE_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ROTTEN_FLESH": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 24,
+        "item": "ZOMBIE_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ROTTEN_FLESH": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 24,
+        "item": "ZOMBIE_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ROTTEN_FLESH": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 22,
+        "item": "ZOMBIE_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ROTTEN_FLESH": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 22,
+        "item": "ZOMBIE_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ROTTEN_FLESH": 16
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 20,
+        "item": "ZOMBIE_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ROTTEN_FLESH": 32
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 20,
+        "item": "ZOMBIE_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ROTTEN_FLESH": 64
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 17,
+        "item": "ZOMBIE_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ROTTEN_FLESH": 128
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 17,
+        "item": "ZOMBIE_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ROTTEN_FLESH": 256
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 13,
+        "item": "ZOMBIE_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ROTTEN_FLESH": 512
+          }
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "CACTUS",
+    "name": "Cactus",
+    "collection": "FARMING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 27,
+        "item": "CACTUS_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_HOE": 1,
+            "CACTUS": 128
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 27,
+        "item": "CACTUS_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "CACTUS": 256
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 25,
+        "item": "CACTUS_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "CACTUS": 512
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 25,
+        "item": "CACTUS_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_CACTUS_GREEN": 8
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 23,
+        "item": "CACTUS_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_CACTUS_GREEN": 24
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 23,
+        "item": "CACTUS_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_CACTUS_GREEN": 64
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 21,
+        "item": "CACTUS_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_CACTUS_GREEN": 128
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 21,
+        "item": "CACTUS_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_CACTUS_GREEN": 256
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 18,
+        "item": "CACTUS_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_CACTUS_GREEN": 512
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 18,
+        "item": "CACTUS_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_CACTUS": 8
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 15,
+        "item": "CACTUS_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_CACTUS": 16
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 12,
+        "item": "CACTUS_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 0.0,
+            "PELTS": 75,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "ENCHANTED_CACTUS": 32
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "CARROT",
+    "name": "Carrot",
+    "collection": "FARMING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 20,
+        "item": "CARROT_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_HOE": 1,
+            "CARROT_ITEM": 128
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 20,
+        "item": "CARROT_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "CARROT_ITEM": 256
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 18,
+        "item": "CARROT_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "CARROT_ITEM": 512
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 18,
+        "item": "CARROT_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_CARROT": 8
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 16,
+        "item": "CARROT_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_CARROT": 24
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 16,
+        "item": "CARROT_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_CARROT": 64
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 14,
+        "item": "CARROT_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_CARROT": 128
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 14,
+        "item": "CARROT_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_CARROT": 256
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 12,
+        "item": "CARROT_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_CARROT": 512
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 12,
+        "item": "CARROT_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_GOLDEN_CARROT": 8
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 10,
+        "item": "CARROT_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_GOLDEN_CARROT": 16
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 8,
+        "item": "CARROT_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 0.0,
+            "PELTS": 75,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "ENCHANTED_GOLDEN_CARROT": 32
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "CHICKEN",
+    "name": "Chicken",
+    "collection": "FARMING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 26,
+        "item": "CHICKEN_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_SWORD": 1,
+            "RAW_CHICKEN": 64
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 26,
+        "item": "CHICKEN_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "RAW_CHICKEN": 128
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 24,
+        "item": "CHICKEN_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "RAW_CHICKEN": 256
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 24,
+        "item": "CHICKEN_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "RAW_CHICKEN": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 22,
+        "item": "CHICKEN_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RAW_CHICKEN": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 22,
+        "item": "CHICKEN_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RAW_CHICKEN": 16
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 20,
+        "item": "CHICKEN_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RAW_CHICKEN": 32
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 20,
+        "item": "CHICKEN_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RAW_CHICKEN": 64
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 17,
+        "item": "CHICKEN_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RAW_CHICKEN": 128
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 17,
+        "item": "CHICKEN_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RAW_CHICKEN": 256
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 13,
+        "item": "CHICKEN_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RAW_CHICKEN": 512
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 12,
+        "item": "CHICKEN_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 0.0,
+            "PELTS": 75,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "ENCHANTED_RAW_CHICKEN": 1024
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "COCOA",
+    "name": "Cocoa Beans",
+    "collection": "FARMING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 27,
+        "item": "COCOA_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_HOE": 1,
+            "INK_SACK:3": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 27,
+        "item": "COCOA_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "INK_SACK:3": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 25,
+        "item": "COCOA_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "INK_SACK:3": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 25,
+        "item": "COCOA_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "INK_SACK:3": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 23,
+        "item": "COCOA_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_COCOA": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 23,
+        "item": "COCOA_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_COCOA": 24
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 21,
+        "item": "COCOA_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_COCOA": 64
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 21,
+        "item": "COCOA_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_COCOA": 128
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 18,
+        "item": "COCOA_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_COCOA": 256
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 18,
+        "item": "COCOA_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_COCOA": 512
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 15,
+        "item": "COCOA_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_COOKIE": 8
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 12,
+        "item": "COCOA_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 0.0,
+            "PELTS": 75,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "ENCHANTED_COOKIE": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "COW",
+    "name": "Cow",
+    "collection": "FARMING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 26,
+        "item": "COW_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_SWORD": 1,
+            "RAW_BEEF": 64
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 26,
+        "item": "COW_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "RAW_BEEF": 128
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 24,
+        "item": "COW_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "RAW_BEEF": 256
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 24,
+        "item": "COW_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "RAW_BEEF": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 22,
+        "item": "COW_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RAW_BEEF": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 22,
+        "item": "COW_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RAW_BEEF": 24
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 20,
+        "item": "COW_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RAW_BEEF": 64
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 20,
+        "item": "COW_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RAW_BEEF": 128
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 17,
+        "item": "COW_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RAW_BEEF": 256
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 17,
+        "item": "COW_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RAW_BEEF": 512
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 13,
+        "item": "COW_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_LEATHER": 512
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 10,
+        "item": "COW_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 0.0,
+            "PELTS": 75,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "ENCHANTED_LEATHER": 1024
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "FLOWER",
+    "name": "Flower",
+    "collection": "FARMING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 30,
+        "item": "FLOWER_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 29,
+        "item": "FLOWER_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "YELLOW_FLOWER": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 28,
+        "item": "FLOWER_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "YELLOW_FLOWER": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 27,
+        "item": "FLOWER_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "YELLOW_FLOWER": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 26,
+        "item": "FLOWER_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_DANDELION": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 25,
+        "item": "FLOWER_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_DANDELION": 24
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 24,
+        "item": "FLOWER_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_DANDELION": 64
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 23,
+        "item": "FLOWER_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_DANDELION": 128
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 22,
+        "item": "FLOWER_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_DANDELION": 256
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 20,
+        "item": "FLOWER_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_DANDELION": 512
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 18,
+        "item": "FLOWER_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_POPPY": 8
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 15,
+        "item": "FLOWER_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_POPPY": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "MELON",
+    "name": "Melon",
+    "collection": "FARMING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 24,
+        "item": "MELON_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_HOE": 1,
+            "MELON": 256
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 24,
+        "item": "MELON_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "MELON": 512
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 22.5,
+        "item": "MELON_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "MELON_BLOCK": 128
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 22.5,
+        "item": "MELON_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "MELON_BLOCK": 256
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 21,
+        "item": "MELON_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "MELON_BLOCK": 512
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 21,
+        "item": "MELON_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MELON": 64
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 18.5,
+        "item": "MELON_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MELON": 128
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 18.5,
+        "item": "MELON_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MELON": 256
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 16,
+        "item": "MELON_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MELON": 512
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 16,
+        "item": "MELON_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MELON_BLOCK": 8
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 13,
+        "item": "MELON_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MELON_BLOCK": 16
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 10,
+        "item": "MELON_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 0.0,
+            "PELTS": 75,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "ENCHANTED_MELON_BLOCK": 32
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "MUSHROOM",
+    "name": "Mushroom",
+    "collection": "FARMING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 30,
+        "item": "MUSHROOM_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_HOE": 1,
+            "RED_MUSHROOM": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 30,
+        "item": "MUSHROOM_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "RED_MUSHROOM": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 28,
+        "item": "MUSHROOM_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "RED_MUSHROOM": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 28,
+        "item": "MUSHROOM_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "RED_MUSHROOM": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 26,
+        "item": "MUSHROOM_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RED_MUSHROOM": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 26,
+        "item": "MUSHROOM_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RED_MUSHROOM": 16
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 23,
+        "item": "MUSHROOM_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RED_MUSHROOM": 32
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 23,
+        "item": "MUSHROOM_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RED_MUSHROOM": 64
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 20,
+        "item": "MUSHROOM_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RED_MUSHROOM": 128
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 20,
+        "item": "MUSHROOM_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RED_MUSHROOM": 256
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 16,
+        "item": "MUSHROOM_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RED_MUSHROOM": 512
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 12,
+        "item": "MUSHROOM_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 0.0,
+            "PELTS": 75,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "ENCHANTED_RED_MUSHROOM": 512
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "NETHER_WARTS",
+    "name": "Nether Wart",
+    "collection": "FARMING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 50,
+        "item": "NETHER_WARTS_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_HOE": 1,
+            "NETHER_STALK": 160
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 50,
+        "item": "NETHER_WARTS_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "NETHER_STALK": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 47,
+        "item": "NETHER_WARTS_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "NETHER_STALK": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 47,
+        "item": "NETHER_WARTS_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "NETHER_STALK": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 44,
+        "item": "NETHER_WARTS_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_NETHER_STALK": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 44,
+        "item": "NETHER_WARTS_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_NETHER_STALK": 16
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 41,
+        "item": "NETHER_WARTS_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_NETHER_STALK": 32
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 41,
+        "item": "NETHER_WARTS_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_NETHER_STALK": 64
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 38,
+        "item": "NETHER_WARTS_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_NETHER_STALK": 128
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 38,
+        "item": "NETHER_WARTS_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_NETHER_STALK": 256
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 32,
+        "item": "NETHER_WARTS_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_NETHER_STALK": 512
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 27,
+        "item": "NETHER_WARTS_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 0.0,
+            "PELTS": 75,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "ENCHANTED_NETHER_STALK": 1024
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "PIG",
+    "name": "Pig",
+    "collection": "FARMING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 26,
+        "item": "PIG_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_HOE": 1,
+            "PORK": 64
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 26,
+        "item": "PIG_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "PORK": 128
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 24,
+        "item": "PIG_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "PORK": 256
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 24,
+        "item": "PIG_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "PORK": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 22,
+        "item": "PIG_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_PORK": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 22,
+        "item": "PIG_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_PORK": 24
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 20,
+        "item": "PIG_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_PORK": 64
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 20,
+        "item": "PIG_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_PORK": 128
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 17,
+        "item": "PIG_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_PORK": 256
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 17,
+        "item": "PIG_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_PORK": 512
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 13,
+        "item": "PIG_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_GRILLED_PORK": 8
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 10,
+        "item": "PIG_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 0.0,
+            "PELTS": 75,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "ENCHANTED_GRILLED_PORK": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "POTATO",
+    "name": "Potato",
+    "collection": "FARMING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 20,
+        "item": "POTATO_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_HOE": 1,
+            "POTATO_ITEM": 128
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 20,
+        "item": "POTATO_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "POTATO_ITEM": 256
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 18,
+        "item": "POTATO_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "POTATO_ITEM": 512
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 18,
+        "item": "POTATO_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_POTATO": 8
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 16,
+        "item": "POTATO_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_POTATO": 24
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 16,
+        "item": "POTATO_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_POTATO": 64
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 14,
+        "item": "POTATO_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_POTATO": 128
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 14,
+        "item": "POTATO_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_POTATO": 256
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 12,
+        "item": "POTATO_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_POTATO": 512
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 12,
+        "item": "POTATO_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_BAKED_POTATO": 8
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 10,
+        "item": "POTATO_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_BAKED_POTATO": 16
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 8,
+        "item": "POTATO_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 0.0,
+            "PELTS": 75,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "ENCHANTED_BAKED_POTATO": 32
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "PUMPKIN",
+    "name": "Pumpkin",
+    "collection": "FARMING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 32,
+        "item": "PUMPKIN_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_HOE": 1,
+            "PUMPKIN": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 32,
+        "item": "PUMPKIN_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "PUMPKIN": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 30,
+        "item": "PUMPKIN_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "PUMPKIN": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 30,
+        "item": "PUMPKIN_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "PUMPKIN": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 27,
+        "item": "PUMPKIN_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_PUMPKIN": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 27,
+        "item": "PUMPKIN_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_PUMPKIN": 16
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 24,
+        "item": "PUMPKIN_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_PUMPKIN": 32
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 24,
+        "item": "PUMPKIN_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_PUMPKIN": 64
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 20,
+        "item": "PUMPKIN_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_PUMPKIN": 128
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 20,
+        "item": "PUMPKIN_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_PUMPKIN": 256
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 16,
+        "item": "PUMPKIN_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_PUMPKIN": 512
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 12,
+        "item": "PUMPKIN_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 0.0,
+            "PELTS": 75,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "ENCHANTED_PUMPKIN": 1024
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "RABBIT",
+    "name": "Rabbit",
+    "collection": "FARMING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 26,
+        "item": "RABBIT_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_SWORD": 1,
+            "RABBIT": 64
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 26,
+        "item": "RABBIT_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "RABBIT": 128
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 24,
+        "item": "RABBIT_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "RABBIT": 256
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 24,
+        "item": "RABBIT_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "RABBIT": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 22,
+        "item": "RABBIT_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RABBIT": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 22,
+        "item": "RABBIT_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RABBIT": 24
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 20,
+        "item": "RABBIT_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RABBIT": 64
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 20,
+        "item": "RABBIT_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RABBIT": 128
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 17,
+        "item": "RABBIT_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RABBIT": 256
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 17,
+        "item": "RABBIT_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RABBIT": 512
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 13,
+        "item": "RABBIT_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_COOKED_RABBIT": 8
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 10,
+        "item": "RABBIT_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 0.0,
+            "PELTS": 75,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "ENCHANTED_COOKED_RABBIT": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "SHEEP",
+    "name": "Sheep",
+    "collection": "FARMING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 26,
+        "item": "SHEEP_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_SWORD": 1,
+            "MUTTON": 64
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 26,
+        "item": "SHEEP_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "MUTTON": 128
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 24,
+        "item": "SHEEP_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "MUTTON": 256
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 24,
+        "item": "SHEEP_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "MUTTON": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 22,
+        "item": "SHEEP_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MUTTON": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 22,
+        "item": "SHEEP_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MUTTON": 24
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 20,
+        "item": "SHEEP_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MUTTON": 64
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 20,
+        "item": "SHEEP_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MUTTON": 128
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 17,
+        "item": "SHEEP_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MUTTON": 256
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 17,
+        "item": "SHEEP_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MUTTON": 512
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 13,
+        "item": "SHEEP_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_COOKED_MUTTON": 8
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 9,
+        "item": "SHEEP_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 0.0,
+            "PELTS": 75,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "ENCHANTED_COOKED_MUTTON": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "SUGAR_CANE",
+    "name": "Sugar Cane",
+    "collection": "FARMING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 22,
+        "item": "SUGAR_CANE_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_HOE": 1,
+            "SUGAR_CANE": 128
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 22,
+        "item": "SUGAR_CANE_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SUGAR_CANE": 256
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 20,
+        "item": "SUGAR_CANE_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SUGAR_CANE": 512
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 20,
+        "item": "SUGAR_CANE_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SUGAR": 8
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 18,
+        "item": "SUGAR_CANE_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SUGAR": 24
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 18,
+        "item": "SUGAR_CANE_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SUGAR": 64
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 16,
+        "item": "SUGAR_CANE_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SUGAR": 128
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 16,
+        "item": "SUGAR_CANE_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SUGAR": 256
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 15,
+        "item": "SUGAR_CANE_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SUGAR": 512
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 15,
+        "item": "SUGAR_CANE_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_COOKED_SUGAR_CANE": 8
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 12,
+        "item": "SUGAR_CANE_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_COOKED_SUGAR_CANE": 16
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 9,
+        "item": "SUGAR_CANE_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 0.0,
+            "PELTS": 75,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "ENCHANTED_COOKED_SUGAR_CANE": 32
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "WHEAT",
+    "name": "Wheat",
+    "collection": "FARMING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 15,
+        "item": "WHEAT_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_HOE": 1,
+            "WHEAT": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 15,
+        "item": "WHEAT_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WHEAT": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 13,
+        "item": "WHEAT_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WHEAT": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 13,
+        "item": "WHEAT_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WHEAT": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 11,
+        "item": "WHEAT_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_WHEAT": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 11,
+        "item": "WHEAT_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_WHEAT": 16
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 10,
+        "item": "WHEAT_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_WHEAT": 32
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 10,
+        "item": "WHEAT_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_WHEAT": 64
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 9,
+        "item": "WHEAT_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_WHEAT": 128
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 9,
+        "item": "WHEAT_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_WHEAT": 256
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 8,
+        "item": "WHEAT_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_WHEAT": 512
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 7,
+        "item": "WHEAT_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 0.0,
+            "PELTS": 75,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "ENCHANTED_WHEAT": 1024
+          }
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "CLAY",
+    "name": "Clay",
+    "collection": "FISHING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 32,
+        "item": "CLAY_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_SPADE": 1,
+            "CLAY_BALL": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 32,
+        "item": "CLAY_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "CLAY_BALL": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 30,
+        "item": "CLAY_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "CLAY_BALL": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 30,
+        "item": "CLAY_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "CLAY_BALL": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 27.5,
+        "item": "CLAY_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_CLAY_BALL": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 27.5,
+        "item": "CLAY_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_CLAY_BALL": 16
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 24,
+        "item": "CLAY_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_CLAY_BALL": 32
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 24,
+        "item": "CLAY_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_CLAY_BALL": 64
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 20,
+        "item": "CLAY_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_CLAY_BALL": 128
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 20,
+        "item": "CLAY_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_CLAY_BALL": 256
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 16,
+        "item": "CLAY_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_CLAY_BALL": 512
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 14,
+        "item": "CLAY_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 2000000,
+            "PELTS": 0,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "FISHY_TREAT": 256,
+            "ENCHANTED_CLAY_BLOCK": 8
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "FISHING",
+    "name": "Fishing",
+    "collection": "FISHING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 75,
+        "item": "FISHING_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "FISHING_ROD": 1,
+            "RAW_FISH": 64
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 75,
+        "item": "FISHING_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "RAW_FISH": 128
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 72,
+        "item": "FISHING_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "RAW_FISH": 256
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 72,
+        "item": "FISHING_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "RAW_FISH": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 68,
+        "item": "FISHING_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RAW_FISH": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 68,
+        "item": "FISHING_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RAW_FISH": 24
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 62.5,
+        "item": "FISHING_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RAW_FISH": 64
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 62.5,
+        "item": "FISHING_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RAW_FISH": 128
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 53,
+        "item": "FISHING_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RAW_FISH": 256
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 53,
+        "item": "FISHING_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RAW_FISH": 512
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 35,
+        "item": "FISHING_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_COOKED_FISH": 8
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 30,
+        "item": "FISHING_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 2000000,
+            "PELTS": 0,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "FISHY_TREAT": 256,
+            "ENCHANTED_COOKED_FISH": 16
+          }
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "COAL",
+    "name": "Coal",
+    "collection": "MINING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 15,
+        "item": "COAL_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_PICKAXE": 1,
+            "COAL": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 15,
+        "item": "COAL_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "COAL": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 13,
+        "item": "COAL_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "COAL": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 13,
+        "item": "COAL_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "COAL": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 12,
+        "item": "COAL_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_COAL": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 12,
+        "item": "COAL_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_COAL": 24
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 10,
+        "item": "COAL_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_COAL": 64
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 10,
+        "item": "COAL_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_COAL": 128
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 9,
+        "item": "COAL_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_COAL": 256
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 9,
+        "item": "COAL_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_COAL": 512
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 7,
+        "item": "COAL_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_COAL_BLOCK": 8
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 6,
+        "item": "COAL_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 2000000,
+            "PELTS": 0,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "ENCHANTED_COAL_BLOCK": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "COBBLESTONE",
+    "name": "Cobblestone",
+    "collection": "MINING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 15,
+        "item": "COBBLESTONE_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_PICKAXE": 1,
+            "COBBLESTONE": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 15,
+        "item": "COBBLESTONE_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "COBBLESTONE": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 12,
+        "item": "COBBLESTONE_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "COBBLESTONE": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 12,
+        "item": "COBBLESTONE_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "COBBLESTONE": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 10,
+        "item": "COBBLESTONE_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_COBBLESTONE": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 10,
+        "item": "COBBLESTONE_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_COBBLESTONE": 16
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 9,
+        "item": "COBBLESTONE_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_COBBLESTONE": 32
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 9,
+        "item": "COBBLESTONE_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_COBBLESTONE": 64
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 8,
+        "item": "COBBLESTONE_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_COBBLESTONE": 128
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 8,
+        "item": "COBBLESTONE_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_COBBLESTONE": 256
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 7,
+        "item": "COBBLESTONE_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_COBBLESTONE": 512
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 6,
+        "item": "COBBLESTONE_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 2000000,
+            "PELTS": 0,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "ENCHANTED_COBBLESTONE": 1024
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "DIAMOND",
+    "name": "Diamond",
+    "collection": "MINING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 29,
+        "item": "DIAMOND_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_PICKAXE": 1,
+            "DIAMOND": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 29,
+        "item": "DIAMOND_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "DIAMOND": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 27,
+        "item": "DIAMOND_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "DIAMOND": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 27,
+        "item": "DIAMOND_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "DIAMOND": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 25,
+        "item": "DIAMOND_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_DIAMOND": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 25,
+        "item": "DIAMOND_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_DIAMOND": 24
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 22,
+        "item": "DIAMOND_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_DIAMOND": 64
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 22,
+        "item": "DIAMOND_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_DIAMOND": 128
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 19,
+        "item": "DIAMOND_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_DIAMOND": 256
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 19,
+        "item": "DIAMOND_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_DIAMOND": 512
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 15,
+        "item": "DIAMOND_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_DIAMOND_BLOCK": 8
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 12,
+        "item": "DIAMOND_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 2000000,
+            "PELTS": 0,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "ENCHANTED_DIAMOND_BLOCK": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "EMERALD",
+    "name": "Emerald",
+    "collection": "MINING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 28,
+        "item": "EMERALD_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_PICKAXE": 1,
+            "EMERALD": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 28,
+        "item": "EMERALD_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "EMERALD": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 26,
+        "item": "EMERALD_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "EMERALD": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 26,
+        "item": "EMERALD_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "EMERALD": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 24,
+        "item": "EMERALD_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_EMERALD": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 24,
+        "item": "EMERALD_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_EMERALD": 24
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 21,
+        "item": "EMERALD_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_EMERALD": 64
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 21,
+        "item": "EMERALD_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_EMERALD": 128
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 18,
+        "item": "EMERALD_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_EMERALD": 256
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 18,
+        "item": "EMERALD_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_EMERALD": 512
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 14,
+        "item": "EMERALD_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_EMERALD_BLOCK": 8
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 12,
+        "item": "EMERALD_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 2000000,
+            "PELTS": 0,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "ENCHANTED_EMERALD_BLOCK": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ENDER_STONE",
+    "name": "Ender Stone",
+    "collection": "MINING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 26,
+        "item": "ENDER_STONE_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_PICKAXE": 1,
+            "ENDER_STONE": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 26,
+        "item": "ENDER_STONE_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENDER_STONE": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 24,
+        "item": "ENDER_STONE_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENDER_STONE": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 24,
+        "item": "ENDER_STONE_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENDER_STONE": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 22,
+        "item": "ENDER_STONE_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ENDSTONE": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 22,
+        "item": "ENDER_STONE_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ENDSTONE": 16
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 19,
+        "item": "ENDER_STONE_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ENDSTONE": 32
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 19,
+        "item": "ENDER_STONE_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ENDSTONE": 64
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 16,
+        "item": "ENDER_STONE_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ENDSTONE_BLOCK": 128
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 16,
+        "item": "ENDER_STONE_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ENDSTONE_BLOCK": 256
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 13,
+        "item": "ENDER_STONE_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ENDSTONE_BLOCK": 512
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "GLOWSTONE",
+    "name": "Glowstone",
+    "collection": "MINING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 25,
+        "item": "GLOWSTONE_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_PICKAXE": 1,
+            "GLOWSTONE_DUST": 128
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 25,
+        "item": "GLOWSTONE_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "GLOWSTONE_DUST": 256
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 23,
+        "item": "GLOWSTONE_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "GLOWSTONE_DUST": 512
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 23,
+        "item": "GLOWSTONE_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_GLOWSTONE_DUST": 8
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 21,
+        "item": "GLOWSTONE_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_GLOWSTONE_DUST": 24
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 21,
+        "item": "GLOWSTONE_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_GLOWSTONE_DUST": 64
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 19,
+        "item": "GLOWSTONE_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_GLOWSTONE_DUST": 128
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 19,
+        "item": "GLOWSTONE_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_GLOWSTONE_DUST": 256
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 16,
+        "item": "GLOWSTONE_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_GLOWSTONE_DUST": 512
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 16,
+        "item": "GLOWSTONE_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_GLOWSTONE": 8
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 13,
+        "item": "GLOWSTONE_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_GLOWSTONE": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "GOLD",
+    "name": "Gold",
+    "collection": "MINING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 22,
+        "item": "GOLD_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_PICKAXE": 1,
+            "GOLD_INGOT": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 22,
+        "item": "GOLD_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "GOLD_INGOT": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 20,
+        "item": "GOLD_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "GOLD_INGOT": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 20,
+        "item": "GOLD_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "GOLD_INGOT": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 18,
+        "item": "GOLD_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_GOLD": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 18,
+        "item": "GOLD_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_GOLD": 24
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 16,
+        "item": "GOLD_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_GOLD": 64
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 16,
+        "item": "GOLD_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_GOLD": 128
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 14,
+        "item": "GOLD_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_GOLD": 256
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 14,
+        "item": "GOLD_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_GOLD": 512
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 11,
+        "item": "GOLD_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_GOLD_BLOCK": 8
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 9,
+        "item": "GOLD_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 2000000,
+            "PELTS": 0,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "ENCHANTED_GOLD_BLOCK": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "GRAVEL",
+    "name": "Gravel",
+    "collection": "MINING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 26,
+        "item": "GRAVEL_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_SPADE": 1,
+            "GRAVEL": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 26,
+        "item": "GRAVEL_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "GRAVEL": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 24,
+        "item": "GRAVEL_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "GRAVEL": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 24,
+        "item": "GRAVEL_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "GRAVEL": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 22,
+        "item": "GRAVEL_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_FLINT": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 22,
+        "item": "GRAVEL_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_FLINT": 16
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 19,
+        "item": "GRAVEL_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_FLINT": 32
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 19,
+        "item": "GRAVEL_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_FLINT": 64
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 16,
+        "item": "GRAVEL_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_FLINT_BLOCK": 128
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 16,
+        "item": "GRAVEL_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_FLINT_BLOCK": 256
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 13,
+        "item": "GRAVEL_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_FLINT_BLOCK": 512
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "HARD_STONE",
+    "name": "Hard Stone",
+    "collection": "MINING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 14,
+        "item": "HARD_STONE_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_PICKAXE": 1,
+            "HARD_STONE": 256
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 14,
+        "item": "HARD_STONE_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "HARD_STONE": 512
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 12,
+        "item": "HARD_STONE_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_HARD_STONE": 8
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 12,
+        "item": "HARD_STONE_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_HARD_STONE": 16
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 10,
+        "item": "HARD_STONE_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_HARD_STONE": 32
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 10,
+        "item": "HARD_STONE_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_HARD_STONE": 64
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 9,
+        "item": "HARD_STONE_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_HARD_STONE": 128
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 9,
+        "item": "HARD_STONE_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_HARD_STONE": 256
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 8,
+        "item": "HARD_STONE_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_HARD_STONE": 512
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 8,
+        "item": "HARD_STONE_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "CONCENTRATED_STONE": 8
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 7,
+        "item": "HARD_STONE_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "CONCENTRATED_STONE": 16
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 6,
+        "item": "HARD_STONE_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 2000000,
+            "PELTS": 0,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "CONCENTRATED_STONE": 32
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ICE",
+    "name": "Ice",
+    "collection": "MINING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 14,
+        "item": "ICE_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_PICKAXE": 1,
+            "ICE": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 14,
+        "item": "ICE_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ICE": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 12,
+        "item": "ICE_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ICE": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 12,
+        "item": "ICE_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ICE": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 10,
+        "item": "ICE_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "PACKED_ICE": 128
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 10,
+        "item": "ICE_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "PACKED_ICE": 256
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 9,
+        "item": "ICE_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "PACKED_ICE": 512
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 9,
+        "item": "ICE_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ICE": 64
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 8,
+        "item": "ICE_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ICE": 128
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 8,
+        "item": "ICE_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ICE": 256
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 7,
+        "item": "ICE_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ICE": 512
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 6,
+        "item": "ICE_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 1000000,
+            "PELTS": 0,
+            "NORTH_STARS": 300
+          },
+          "items": {
+            "ENCHANTED_ICE": 1024
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "IRON",
+    "name": "Iron",
+    "collection": "MINING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 17,
+        "item": "IRON_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_PICKAXE": 1,
+            "IRON_INGOT": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 17,
+        "item": "IRON_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "IRON_INGOT": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 15,
+        "item": "IRON_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "IRON_INGOT": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 15,
+        "item": "IRON_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "IRON_INGOT": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 14,
+        "item": "IRON_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_IRON": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 14,
+        "item": "IRON_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_IRON": 24
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 12,
+        "item": "IRON_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_IRON": 64
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 12,
+        "item": "IRON_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_IRON": 128
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 10,
+        "item": "IRON_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_IRON": 256
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 10,
+        "item": "IRON_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_IRON": 512
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 8,
+        "item": "IRON_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_IRON_BLOCK": 8
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 7,
+        "item": "IRON_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 2000000,
+            "PELTS": 0,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "ENCHANTED_IRON_BLOCK": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "LAPIS",
+    "name": "Lapis",
+    "collection": "MINING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 29,
+        "item": "LAPIS_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_PICKAXE": 1,
+            "INK_SACK:4": 256
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 29,
+        "item": "LAPIS_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "INK_SACK:4": 512
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 27,
+        "item": "LAPIS_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_LAPIS_LAZULI": 8
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 27,
+        "item": "LAPIS_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_LAPIS_LAZULI": 24
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 25,
+        "item": "LAPIS_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_LAPIS_LAZULI": 64
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 25,
+        "item": "LAPIS_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_LAPIS_LAZULI": 128
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 23,
+        "item": "LAPIS_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_LAPIS_LAZULI": 256
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 23,
+        "item": "LAPIS_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_LAPIS_LAZULI": 512
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 21,
+        "item": "LAPIS_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_LAPIS_LAZULI_BLOCK": 8
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 21,
+        "item": "LAPIS_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_LAPIS_LAZULI_BLOCK": 16
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 18,
+        "item": "LAPIS_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_LAPIS_LAZULI_BLOCK": 32
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 16,
+        "item": "LAPIS_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 2000000,
+            "PELTS": 0,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "ENCHANTED_LAPIS_LAZULI_BLOCK": 64
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "MITHRIL",
+    "name": "Mithril",
+    "collection": "MINING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 80,
+        "item": "MITHRIL_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_PICKAXE": 1,
+            "MITHRIL_ORE": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 80,
+        "item": "MITHRIL_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "MITHRIL_ORE": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 75,
+        "item": "MITHRIL_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "MITHRIL_ORE": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 75,
+        "item": "MITHRIL_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "MITHRIL_ORE": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 70,
+        "item": "MITHRIL_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MITHRIL": 128
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 70,
+        "item": "MITHRIL_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MITHRIL": 256
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 65,
+        "item": "MITHRIL_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MITHRIL": 512
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 65,
+        "item": "MITHRIL_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MITHRIL": 64
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 60,
+        "item": "MITHRIL_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MITHRIL": 128
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 60,
+        "item": "MITHRIL_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MITHRIL": 256
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 55,
+        "item": "MITHRIL_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "REFINED_MITHRIL": 8
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 50,
+        "item": "MITHRIL_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 2000000,
+            "PELTS": 0,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "REFINED_MITHRIL": 16
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "MYCELIUM",
+    "name": "Mycelium",
+    "collection": "MINING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 26,
+        "item": "MYCELIUM_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_SPADE": 1,
+            "MYCEL": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 25,
+        "item": "MYCELIUM_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "MYCEL": 256
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 24,
+        "item": "MYCELIUM_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "MYCEL": 512
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 23,
+        "item": "MYCELIUM_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MYCELIUM": 16
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 22,
+        "item": "MYCELIUM_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MYCELIUM": 32
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 21,
+        "item": "MYCELIUM_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MYCELIUM": 64
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 20,
+        "item": "MYCELIUM_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MYCELIUM": 128
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 19,
+        "item": "MYCELIUM_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MYCELIUM": 256
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 18,
+        "item": "MYCELIUM_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MYCELIUM": 512
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 16,
+        "item": "MYCELIUM_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MYCELIUM_CUBE": 8
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 13,
+        "item": "MYCELIUM_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MYCELIUM_CUBE": 16
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 11,
+        "item": "MYCELIUM_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_MYCELIUM_CUBE": 32
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "OBSIDIAN",
+    "name": "Obsidian",
+    "collection": "MINING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 45,
+        "item": "OBSIDIAN_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_PICKAXE": 1,
+            "OBSIDIAN": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 45,
+        "item": "OBSIDIAN_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "OBSIDIAN": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 42,
+        "item": "OBSIDIAN_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "OBSIDIAN": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 42,
+        "item": "OBSIDIAN_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "OBSIDIAN": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 39,
+        "item": "OBSIDIAN_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_OBSIDIAN": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 39,
+        "item": "OBSIDIAN_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_OBSIDIAN": 16
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 35,
+        "item": "OBSIDIAN_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_OBSIDIAN": 32
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 35,
+        "item": "OBSIDIAN_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_OBSIDIAN": 64
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 30,
+        "item": "OBSIDIAN_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_OBSIDIAN": 128
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 30,
+        "item": "OBSIDIAN_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_OBSIDIAN": 256
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 24,
+        "item": "OBSIDIAN_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_OBSIDIAN": 512
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 21,
+        "item": "OBSIDIAN_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 2000000,
+            "PELTS": 0,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "ENCHANTED_OBSIDIAN": 1024
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "QUARTZ",
+    "name": "Quartz",
+    "collection": "MINING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 23,
+        "item": "QUARTZ_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_PICKAXE": 1,
+            "QUARTZ": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 23,
+        "item": "QUARTZ_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "QUARTZ": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 21,
+        "item": "QUARTZ_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "QUARTZ": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 21,
+        "item": "QUARTZ_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "QUARTZ": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 19,
+        "item": "QUARTZ_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_QUARTZ": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 19,
+        "item": "QUARTZ_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_QUARTZ": 24
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 17,
+        "item": "QUARTZ_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_QUARTZ": 64
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 17,
+        "item": "QUARTZ_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_QUARTZ": 128
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 15,
+        "item": "QUARTZ_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_QUARTZ": 256
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 15,
+        "item": "QUARTZ_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_QUARTZ": 512
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 12,
+        "item": "QUARTZ_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_QUARTZ_BLOCK": 8
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "REDSTONE",
+    "name": "Redstone",
+    "collection": "MINING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 29,
+        "item": "REDSTONE_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_PICKAXE": 1,
+            "REDSTONE": 128
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 29,
+        "item": "REDSTONE_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "REDSTONE": 256
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 27,
+        "item": "REDSTONE_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "REDSTONE": 512
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 27,
+        "item": "REDSTONE_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_REDSTONE": 8
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 25,
+        "item": "REDSTONE_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_REDSTONE": 24
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 25,
+        "item": "REDSTONE_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_REDSTONE": 64
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 23,
+        "item": "REDSTONE_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_REDSTONE": 128
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 23,
+        "item": "REDSTONE_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_REDSTONE": 256
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 21,
+        "item": "REDSTONE_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_REDSTONE": 512
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 21,
+        "item": "REDSTONE_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_REDSTONE_BLOCK": 8
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 18,
+        "item": "REDSTONE_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_REDSTONE_BLOCK": 16
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 16,
+        "item": "REDSTONE_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 2000000,
+            "PELTS": 0,
+            "NORTH_STARS": 0
+          },
+          "items": {
+            "ENCHANTED_REDSTONE_BLOCK": 32
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "RED_SAND",
+    "name": "Red Sand",
+    "collection": "MINING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 26,
+        "item": "RED_SAND_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_SPADE": 1,
+            "SAND:1": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 25,
+        "item": "RED_SAND_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SAND:1": 256
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 24,
+        "item": "RED_SAND_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SAND:1": 512
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 23,
+        "item": "RED_SAND_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RED_SAND": 16
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 22,
+        "item": "RED_SAND_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RED_SAND": 32
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 21,
+        "item": "RED_SAND_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RED_SAND": 64
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 20,
+        "item": "RED_SAND_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RED_SAND": 128
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 19,
+        "item": "RED_SAND_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RED_SAND": 256
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 18,
+        "item": "RED_SAND_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RED_SAND": 512
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 16,
+        "item": "RED_SAND_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RED_SAND_CUBE": 8
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 13,
+        "item": "RED_SAND_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RED_SAND_CUBE": 16
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 11,
+        "item": "RED_SAND_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_RED_SAND_CUBE": 32
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "SAND",
+    "name": "Sand",
+    "collection": "MINING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 26,
+        "item": "SAND_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_SPADE": 1,
+            "SAND": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 26,
+        "item": "SAND_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SAND": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 24,
+        "item": "SAND_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SAND": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 24,
+        "item": "SAND_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SAND": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 22,
+        "item": "SAND_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SAND": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 22,
+        "item": "SAND_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SAND": 16
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 19,
+        "item": "SAND_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SAND": 32
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 19,
+        "item": "SAND_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SAND": 64
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 16,
+        "item": "SAND_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SAND_BLOCK": 128
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 16,
+        "item": "SAND_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SAND_BLOCK": 256
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 13,
+        "item": "SAND_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SAND_BLOCK": 512
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "SNOW",
+    "name": "Snow",
+    "collection": "MINING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 13,
+        "item": "SNOW_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {}
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 13,
+        "item": "SNOW_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SNOW_BLOCK": 32
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 12,
+        "item": "SNOW_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SNOW_BLOCK": 64
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 12,
+        "item": "SNOW_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SNOW_BLOCK": 128
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 11,
+        "item": "SNOW_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SNOW_BLOCK": 256
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 11,
+        "item": "SNOW_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "SNOW_BLOCK": 512
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 9.5,
+        "item": "SNOW_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SNOW_BLOCK": 8
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 9.5,
+        "item": "SNOW_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SNOW_BLOCK": 16
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 8,
+        "item": "SNOW_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SNOW_BLOCK": 32
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 8,
+        "item": "SNOW_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SNOW_BLOCK": 64
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 6.5,
+        "item": "SNOW_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SNOW_BLOCK": 128
+          }
+        }
+      },
+      {
+        "tier": 12,
+        "speed": 5.8,
+        "item": "SNOW_GENERATOR_12",
+        "upgradeCost": {
+          "currencies": {
+            "COINS": 2000000,
+            "PELTS": 0,
+            "NORTH_STARS": 500
+          },
+          "items": {
+            "ENCHANTED_SNOW_BLOCK": 1024
+          }
+        }
+      }
+    ]
+  },
+
+  {
+    "id": "ACACIA",
+    "name": "Acacia",
+    "collection": "FORAGING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 48,
+        "item": "ACACIA_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_AXE": 1,
+            "LOG_2": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 48,
+        "item": "ACACIA_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "LOG_2": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 45,
+        "item": "ACACIA_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "LOG_2": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 45,
+        "item": "ACACIA_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "LOG_2": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 42,
+        "item": "ACACIA_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ACACIA_LOG": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 42,
+        "item": "ACACIA_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ACACIA_LOG": 16
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 38,
+        "item": "ACACIA_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ACACIA_LOG": 32
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 38,
+        "item": "ACACIA_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ACACIA_LOG": 64
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 33,
+        "item": "ACACIA_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ACACIA_LOG": 128
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 33,
+        "item": "ACACIA_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ACACIA_LOG": 256
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 27,
+        "item": "ACACIA_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_ACACIA_LOG": 512
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "BIRCH",
+    "name": "Birch",
+    "collection": "FORAGING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 48,
+        "item": "BIRCH_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_AXE": 1,
+            "LOG:2": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 48,
+        "item": "BIRCH_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "LOG:2": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 45,
+        "item": "BIRCH_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "LOG:2": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 45,
+        "item": "BIRCH_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "LOG:2": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 42,
+        "item": "BIRCH_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_BIRCH_LOG": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 42,
+        "item": "BIRCH_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_BIRCH_LOG": 16
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 38,
+        "item": "BIRCH_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_BIRCH_LOG": 32
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 38,
+        "item": "BIRCH_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_BIRCH_LOG": 64
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 33,
+        "item": "BIRCH_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_BIRCH_LOG": 128
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 33,
+        "item": "BIRCH_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_BIRCH_LOG": 256
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 27,
+        "item": "BIRCH_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_BIRCH_LOG": 512
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "DARK_OAK",
+    "name": "Dark Oak",
+    "collection": "FORAGING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 48,
+        "item": "DARK_OAK_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_AXE": 1,
+            "LOG_2:1": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 48,
+        "item": "DARK_OAK_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "LOG_2:1": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 45,
+        "item": "DARK_OAK_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "LOG_2:1": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 45,
+        "item": "DARK_OAK_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "LOG_2:1": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 42,
+        "item": "DARK_OAK_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_DARK_OAK_LOG": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 42,
+        "item": "DARK_OAK_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_DARK_OAK_LOG": 16
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 38,
+        "item": "DARK_OAK_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_DARK_OAK_LOG": 32
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 38,
+        "item": "DARK_OAK_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_DARK_OAK_LOG": 64
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 33,
+        "item": "DARK_OAK_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_DARK_OAK_LOG": 128
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 33,
+        "item": "DARK_OAK_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_DARK_OAK_LOG": 256
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 27,
+        "item": "DARK_OAK_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_DARK_OAK_LOG": 512
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "JUNGLE",
+    "name": "Jungle",
+    "collection": "FORAGING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 48,
+        "item": "JUNGLE_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_AXE": 1,
+            "LOG:3": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 48,
+        "item": "JUNGLE_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "LOG:3": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 45,
+        "item": "JUNGLE_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "LOG:3": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 45,
+        "item": "JUNGLE_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "LOG:3": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 42,
+        "item": "JUNGLE_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_JUNGLE_LOG": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 42,
+        "item": "JUNGLE_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_JUNGLE_LOG": 16
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 38,
+        "item": "JUNGLE_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_JUNGLE_LOG": 32
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 38,
+        "item": "JUNGLE_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_JUNGLE_LOG": 64
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 33,
+        "item": "JUNGLE_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_JUNGLE_LOG": 128
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 33,
+        "item": "JUNGLE_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_JUNGLE_LOG": 256
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 27,
+        "item": "JUNGLE_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_JUNGLE_LOG": 512
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "OAK",
+    "name": "Oak",
+    "collection": "FORAGING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 48,
+        "item": "OAK_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_AXE": 1,
+            "LOG": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 48,
+        "item": "OAK_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "LOG": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 45,
+        "item": "OAK_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "LOG": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 45,
+        "item": "OAK_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "LOG": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 42,
+        "item": "OAK_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_OAK_LOG": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 42,
+        "item": "OAK_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_OAK_LOG": 16
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 38,
+        "item": "OAK_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_OAK_LOG": 32
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 38,
+        "item": "OAK_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_OAK_LOG": 64
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 33,
+        "item": "OAK_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_OAK_LOG": 128
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 33,
+        "item": "OAK_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_OAK_LOG": 256
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 27,
+        "item": "OAK_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_OAK_LOG": 512
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "SPRUCE",
+    "name": "Spruce",
+    "collection": "FORAGING",
+    "tiers": [
+      {
+        "tier": 1,
+        "speed": 48,
+        "item": "SPRUCE_GENERATOR_1",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "WOOD_AXE": 1,
+            "LOG:1": 80
+          }
+        }
+      },
+      {
+        "tier": 2,
+        "speed": 48,
+        "item": "SPRUCE_GENERATOR_2",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "LOG:1": 160
+          }
+        }
+      },
+      {
+        "tier": 3,
+        "speed": 45,
+        "item": "SPRUCE_GENERATOR_3",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "LOG:1": 320
+          }
+        }
+      },
+      {
+        "tier": 4,
+        "speed": 45,
+        "item": "SPRUCE_GENERATOR_4",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "LOG:1": 512
+          }
+        }
+      },
+      {
+        "tier": 5,
+        "speed": 42,
+        "item": "SPRUCE_GENERATOR_5",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SPRUCE_LOG": 8
+          }
+        }
+      },
+      {
+        "tier": 6,
+        "speed": 42,
+        "item": "SPRUCE_GENERATOR_6",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SPRUCE_LOG": 16
+          }
+        }
+      },
+      {
+        "tier": 7,
+        "speed": 38,
+        "item": "SPRUCE_GENERATOR_7",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SPRUCE_LOG": 32
+          }
+        }
+      },
+      {
+        "tier": 8,
+        "speed": 38,
+        "item": "SPRUCE_GENERATOR_8",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SPRUCE_LOG": 64
+          }
+        }
+      },
+      {
+        "tier": 9,
+        "speed": 33,
+        "item": "SPRUCE_GENERATOR_9",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SPRUCE_LOG": 128
+          }
+        }
+      },
+      {
+        "tier": 10,
+        "speed": 33,
+        "item": "SPRUCE_GENERATOR_10",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SPRUCE_LOG": 256
+          }
+        }
+      },
+      {
+        "tier": 11,
+        "speed": 27,
+        "item": "SPRUCE_GENERATOR_11",
+        "upgradeCost": {
+          "currencies": {},
+          "items": {
+            "ENCHANTED_SPRUCE_LOG": 512
+          }
+        }
+      }
+    ]
+  }
+]

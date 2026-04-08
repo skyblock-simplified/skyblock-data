@@ -1,0 +1,246 @@
+[
+  {
+    "id": "BITTER_ICE_TEA",
+    "name": "Bitter Ice Tea",
+    "description": "Buffs the %{STAT:MANA} and %{FORMAT:AQUA}Experience %{FORMAT:GRAY}values of potions by %{VALUE:EXPERIENCE}.",
+    "amplified": false,
+    "rarity": "COMMON",
+    "cost": {
+      "currencies": {
+        "coins": 1200
+      }
+    },
+    "stats": [
+      {
+        "id": "EXPERIENCE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 20
+        }
+      },
+      {
+        "id": "MANA",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 20
+        }
+      }
+    ]
+  },
+  {
+    "id": "CAFFEINATED_CHEAP",
+    "name": "Cheap Coffee",
+    "description": "Adds %{VALUE:PLUS} %{STAT:SPEED} to potions with this stat.",
+    "amplified": false,
+    "rarity": "COMMON",
+    "cost": {
+      "currencies": {
+        "coins": 1000
+      }
+    },
+    "stats": [
+      {
+        "id": "SPEED",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "CAFFEINATED_DECENT",
+    "name": "Decent Coffee",
+    "description": "Adds %{VALUE:PLUS} %{STAT:SPEED} to potions with that stat.",
+    "amplified": true,
+    "rarity": "UNCOMMON",
+    "cost": {
+      "currencies": {
+        "coins": 5000
+      }
+    },
+    "stats": [
+      {
+        "id": "SPEED",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 8
+        }
+      }
+    ]
+  },
+  {
+    "id": "COLA",
+    "name": "KnockOff™ Cola",
+    "description": "Buffs the %{STAT:STRENGTH} value of potions by %{VALUE:PLUS:PERCENT}.",
+    "amplified": false,
+    "rarity": "COMMON",
+    "cost": {
+      "currencies": {
+        "coins": 1500
+      }
+    },
+    "stats": [
+      {
+        "id": "STRENGTH",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "DR_PAPER",
+    "name": "Dctr. Paper",
+    "description": "Adds %{VALUE:PLUS} %{STAT:ABSORPTION} to potions with that stat.",
+    "amplified": false,
+    "rarity": "UNCOMMON",
+    "cost": {
+      "currencies": {
+        "coins": 4000
+      }
+    },
+    "stats": [
+      {
+        "id": "ABSORPTION",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 75
+        }
+      }
+    ]
+  },
+  {
+    "id": "JUICE",
+    "name": "Pulpous Orange Juice",
+    "description": "Buffs the %{STAT:HEALTH} value of potions by %{VALUE:PLUS:PERCENT}.",
+    "amplified": false,
+    "rarity": "COMMON",
+    "cost": {
+      "currencies": {
+        "coins": 1000
+      }
+    },
+    "stats": [
+      {
+        "id": "HEALTH",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "RES",
+    "name": "Tepid Orange Juice",
+    "description": "Buffs the %{STAT:DEFENSE} value of potions by %{VALUE:PLUS:PERCENT}.",
+    "amplified": false,
+    "rarity": "COMMON",
+    "cost": {
+      "currencies": {
+        "coins": 1000
+      }
+    },
+    "stats": [
+      {
+        "id": "DEFENSE",
+        "precision": 0,
+        "type": "PERCENT",
+        "values": {
+          "1": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "SLAYER_ENERGY",
+    "name": "Slayer© Energy Drink",
+    "description": "Adds %{VALUE:MAGIC_FIND}%{STAT:MAGIC_FIND} to Critical potions.",
+    "amplified": false,
+    "rarity": "RARE",
+    "cost": {
+      "currencies": {
+        "coins": 10000
+      }
+    },
+    "stats": [
+      {
+        "id": "MAGIC_FIND",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "TEAR_FILLED",
+    "name": "Viking's Tear",
+    "description": "Experience potions:\n %{VALUE:EXPERIENCE_ORBS} experience orbs.\n %{VALUE:COMBAT_XP_BREW} Combat XP.\n %{VALUE:HEALTH_PER_SECOND_BREW}%{SYMBOL:HEALTH} per second.",
+    "amplified": false,
+    "rarity": "RARE",
+    "cost": {
+      "currencies": {
+        "coins": 15000
+      }
+    },
+    "stats": [
+      {
+        "id": "COMBAT_XP_BREW",
+        "precision": 0,
+        "type": "PLUS_PERCENT",
+        "values": {
+          "1": 10
+        }
+      },
+      {
+        "id": "EXPERIENCE_ORBS",
+        "precision": 0,
+        "type": "PLUS_PERCENT",
+        "values": {
+          "1": 20
+        }
+      },
+      {
+        "id": "HEALTH_PER_SECOND_BREW",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "TUTTI_FRUTTI",
+    "name": "Tutti-Frutti Flavored Poison",
+    "description": "Adds %{VALUE:PLUS:PERCENT} to the damage of Archery potions.",
+    "amplified": false,
+    "rarity": "COMMON",
+    "cost": {
+      "currencies": {
+        "coins": 1000
+      }
+    },
+    "stats": [
+      {
+        "id": "BOW_DAMAGE",
+        "precision": 0,
+        "type": "FLAT",
+        "values": {
+          "1": 5
+        }
+      }
+    ]
+  }
+]

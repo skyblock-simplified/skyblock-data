@@ -1,0 +1,10 @@
+# Force LF line endings for every text file across all platforms.
+# Without this rule, Windows contributors with core.autocrlf=true would
+# compute a different SHA-256 than Linux CI, breaking index.json checks.
+* text=auto eol=lf
+
+# Explicit binary exclusions (kept for clarity - none currently shipped).
+*.png binary
+*.jpg binary
+*.gif binary
+*.zip binary
