@@ -1,5 +1,5 @@
 {
-  "commit_sha": "81706c787d750101e17c4d56f199775f0d458dfb",
+  "commit_sha": "fbd7020bd84fa877b381441530ed5af7be2342f0",
   "count": 41,
   "files": [
     {
@@ -359,7 +359,7 @@
     {
       "bytes": 284,
       "category": "world",
-      "content_sha256": "74b60f4f0f42f09c0f6a9c4acca9e28cb250c73f3944eca661416a7aa2048a48",
+      "content_sha256": "bbb3676c8483ed1393d9f2810e3bbe4d622adf3b5aee04adff8b951285bdebef",
       "has_extra": false,
       "model_class": "dev.sbs.minecraftapi.persistence.model.ZodiacEvent",
       "path": "data/v1/world/zodiac_events.json",
@@ -375,6 +375,6 @@
       "table_name": "zones"
     }
   ],
-  "generated_at": "2026-04-09T06:28:04Z",
+  "generated_at": "2026-04-09T06:49:37Z",
   "version": 1
 }
